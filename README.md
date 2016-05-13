@@ -1,7 +1,14 @@
 # React starter kit
-Create a new Webpack/Redux/React/Express app!
-
-This starter kit comes out of the box with Babel support, Webpack hot reloading, server code autoreloading, production asset cache busting, react-router and redux setup, and reverse proxying of none JS requests to the backend express server.
+Create a new Webpack/Redux/React/Express app for Brand New Congress! This starter kit features:
+* React for frontend development
+* Redux for frontend data management
+* React-router for clientside routing
+* Express for the server
+* Webpack for development server + hot reloading clientside stuff
+* Nodemon for hot reloading backend code
+* Node-foreman for running both the Webpack server and Express server
+* Automatic asset versioning for cache busting in production
+* Works out of the box with Heroku
 
 # Usage
 1. Clone this starter kit
