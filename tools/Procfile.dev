@@ -1,0 +1,2 @@
+server: nodemon -e js,hbs -w ./src/backend --exec ./tools/babel-run -- ./src/backend/server.js
+webpack: ./tools/babel-run ./webpack/server.js
