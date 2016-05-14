@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var mustache = require('mustache');
+var fs = require('fs')
+var view = require('../src/frontend/index/' + process.env.NODE_ENV)
+
+const template = fs.readFileSync(process.argv[2], 'utf8')
+console.log(mustache.render(template, view))
