@@ -39,7 +39,7 @@
     "prod-build-backend": "babel --out-dir ./src/build/backend --source-maps ./src/backend",
     "prod-version-assets": "node ./version.js",
     "prod-build": "npm run clean && npm run prod-build-frontend && npm run prod-build-backend && npm run prod-version-assets && npm run build-index",
-    "postinstall": "[ \"$NODE_ENV\" = production ] && npm run build",
+    "postinstall": "[ \"$NODE_ENV\" = production ] && npm run prod-build",
     "build-index": "./tools/render-index ./src/frontend/index/index.mustache > ./build/frontend/index.html",
     "start": "node ./build/server.js",
     "predev-start": "npm run clean && npm run build-index",
