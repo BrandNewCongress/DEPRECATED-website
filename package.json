@@ -47,7 +47,7 @@
     "prod-build-index": "./tools/render-index ./src/frontend/index/index.mustache production > ./build/frontend/index.html",
     "prod-build": "npm run clean && npm run prod-build-frontend && npm run prod-build-backend && npm run prod-build-index && npm run prod-version-assets",
     "postinstall": "if [ \"$NODE_ENV\" = production ] ; then npm run prod-build ; fi",
-    "start": "node ./build/server.js",
+    "start": "node ./build/backend/server.js",
     "dev-build-index": "./tools/render-index ./src/frontend/index/index.mustache development > ./build/frontend/index.html",
     "predev-start": "npm run clean && npm run dev-build-index",
     "dev-start": "nodemon -e js,hbs -w ./src/backend --exec ./tools/babel-run -- ./src/backend/server.js",
