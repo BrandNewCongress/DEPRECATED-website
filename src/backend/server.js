@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 import express from 'express'
 import fallback from 'express-history-api-fallback'
 import path from 'path'

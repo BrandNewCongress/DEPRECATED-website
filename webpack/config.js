@@ -6,7 +6,7 @@ if (!DEBUG)
 
 var config = {
   entry: {
-    app: ['./src/frontend/app.js']
+    app: ['babel-polyfill', './src/frontend/app.js']
   },
   module: {
     noParse: [],
