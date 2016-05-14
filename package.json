@@ -49,7 +49,7 @@
     "postinstall": "if [ \"$NODE_ENV\" = production ] ; then npm run prod-build ; fi",
     "start": "node ./build/server.js",
     "dev-build-index": "./tools/render-index ./src/frontend/index/index.mustache development > ./build/frontend/index.html",
-    "predev-start": "npm run lint && npm run clean && npm run dev-build-index",
+    "predev-start": "npm run clean && npm run dev-build-index",
     "dev-start": "nodemon -e js,hbs -w ./src/backend --exec ./tools/babel-run -- ./src/backend/server.js",
     "dev": "nf start -w --procfile ./tools/Procfile.dev"
   },
