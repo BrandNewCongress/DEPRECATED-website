@@ -45,7 +45,7 @@
     "prod-build-backend": "babel ./src/backend -d ./build/backend --source-maps",
     "prod-version-assets": "node ./tools/version.js",
     "prod-build-index": "./tools/render-index ./src/frontend/index/index.mustache production > ./build/frontend/index.html",
-    "prod-build": "npm run clean && npm run prod-build-frontend && npm run prod-build-backend && npm run build-index && npm run prod-version-assets",
+    "prod-build": "npm run clean && npm run prod-build-frontend && npm run prod-build-backend && npm run prod-build-index && npm run prod-version-assets",
     "postinstall": "if [ \"$NODE_ENV\" = production ] ; then npm run prod-build ; fi",
     "start": "node ./build/server.js",
     "dev-build-index": "./tools/render-index ./src/frontend/index/index.mustache development > ./build/frontend/index.html",
