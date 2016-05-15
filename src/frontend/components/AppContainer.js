@@ -1,15 +1,19 @@
 import React from 'react'
+import Navigation from './Navigation'
+import OpenStreetMap from './OpenstreetMap'
+import WelcomeMessage from './WelcomeMessage'
 
-export default class AppContainer extends React.Component {
-  state = {
-    count: 0
-  }
+export default () => (
+  <div className='container'>
+    <div className='row' id='navigation-area'>
+      <Navigation />
+    </div>
+    <div className='row'>
+      <WelcomeMessage />
+    </div>
+    <div className='row' style={{ position: 'relative' }}>
+      <OpenStreetMap />
+    </div>
+  </div>
+)
 
-  render() {
-    return (
-      <div>
-        Hello World! Current count is {this.state.count}
-      </div>
-    )
-  }
-}
