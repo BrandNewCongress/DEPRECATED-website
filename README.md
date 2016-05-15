@@ -14,6 +14,7 @@ Create a new Webpack/Redux/React/Express app for Brand New Congress! This starte
 
 # Making a new Brand New Congress JS app
 1. Clone this starter kit
+1. Change the git remote to point to your new project's repo with `git remote set-url origin <new-url>`
 1. [Set up an ESLint plugin in your code editor so that you catch coding errors and follow code style guidelines more easily!](https://medium.com/planet-arkency/catch-mistakes-before-you-run-you-javascript-code-6e524c36f0c8#.oboqsse48)
 1. Run `npm install`
 1. Run `npm run dev`
