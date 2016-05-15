@@ -1,5 +1,5 @@
 {
-  "name": "bnc-js-starter-kit",
+  "name": "bnc-website",
   "version": "1.0.0",
   "description": "Brand New Congress Starter Kit",
   "main": "server.js",
@@ -66,7 +66,7 @@
     "StarterKit"
   ],
   "author": "Saikat Chakrabarti",
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/BrandNewCongress/starter-kit/issues"
   },
