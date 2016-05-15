@@ -4,15 +4,16 @@ import webpack from 'webpack';
 import express from 'express';
 import config from './config'
 
-const port = 3000
+const webpackPort = 3000
+const appPort = process.env.APP_PORT
 config['output'] = {
   filename: 'app.js',
   path: '/'
 }
-config.entry.app.unshift(`webpack-dev-server/client?http://localhost:${process.env.WEBPACK_PORT}/`);
+config.entry.app.unshift(`webpack-dev-server/client?http://localhost:${webpackPort}/`);
 let compiler = webpack(config);
 
-let connstring = `http://localhost:${process.env.PORT}`
+let connstring = `http://localhost:${appPort}`
 
 console.log('Proxying requests to:',connstring)
 
@@ -21,13 +22,13 @@ let app = new WebpackDevServer(compiler, {
   publicPath: '/assets/js/',
   headers: { 'Access-Control-Allow-Origin': '*' },
   proxy: {
-    '*': `http://localhost:${process.env.PORT}`
+    '*': `http://localhost:${appPort}`
   },
   stats: {colors: true},
 });
 
 const publicPath = path.resolve(__dirname, '../build/frontend');
 app.use(express.static(publicPath))
-app.listen(port, () => {
-  console.log(`Webpack dev server is now running on http://localhost:${port}`);
+app.listen(webpackPort, () => {
+  console.log(`Webpack dev server is now running on http://localhost:${webpackPort}`);
 });

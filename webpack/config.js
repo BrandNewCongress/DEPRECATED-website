@@ -1,6 +1,11 @@
 var webpack = require('webpack')
 var DEBUG = process.env.NODE_ENV !== 'production'
-var plugins = []
+var plugins = [
+  new webpack.DefinePlugin({
+    'process.env.NODE_ENV': '"' + process.env.NODE_ENV + '"'
+  }),
+]
+
 if (!DEBUG)
   plugins.push(new webpack.optimize.UglifyJsPlugin({minimize: true}))
 
