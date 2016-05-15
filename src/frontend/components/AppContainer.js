@@ -1,13 +1,15 @@
-import React from 'react';
-import { Component } from 'react';
+import React from 'react'
 
-export default class AppContainer extends Component {
+export default class AppContainer extends React.Component {
+  state = {
+    count: 0
+  }
 
   render() {
     return (
       <div>
-        Hello World!
+        Hello World! Current count is {this.state.count}
       </div>
-    );
+    )
   }
 }

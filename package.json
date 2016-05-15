@@ -27,6 +27,7 @@
     "webpack": "^1.13.0"
   },
   "devDependencies": {
+    "babel-eslint": "^6.0.4",
     "babel-register": "^6.8.0",
     "eslint": "^2.10.1",
     "eslint-config-airbnb": "^9.0.1",

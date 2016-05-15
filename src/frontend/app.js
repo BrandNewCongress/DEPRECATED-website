@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { createStore, combineReducers, applyMiddleware } from 'redux'
+import { createStore, combineReducers } from 'redux'
 import { Provider } from 'react-redux'
 import { Router, Route, browserHistory } from 'react-router'
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
@@ -17,11 +17,13 @@ window.onerror = (msg, file, line, col, error) => {
 
   log.error(error)
 
-  if (window.location.href.split('/')[2].split(':')[0] !== 'localhost')
+  if (window.location.href.split('/')[2].split(':')[0] !== 'localhost') {
     setTimeout(() => {
-      alert('Whoops! Something went wrong. We\'re looking into it, but in the meantime please refresh your browser.')
+      alert(`Whoops! Something went wrong. We\'re looking into it,
+        but in the meantime please refresh your browser.`)
       document.location.reload(true)
     }, 2000)
+  }
 }
 
 const store = createStore(

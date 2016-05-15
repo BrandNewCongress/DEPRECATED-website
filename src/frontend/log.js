@@ -1,10 +1,10 @@
-import Minilog from 'minilog';
-Minilog.enable()
+import minilog from 'minilog'
+minilog.enable()
 
-const log = Minilog('client')
-let existingErrorLogger = log.error
-log.error = function() {
-  Rollbar.error(...arguments)
+const log = minilog('client')
+const existingErrorLogger = log.error
+log.error = () => {
+  window.Rollbar.error(...arguments)
   existingErrorLogger(...arguments)
 }
-export default log;
+export default log
