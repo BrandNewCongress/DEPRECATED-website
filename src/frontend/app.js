@@ -6,7 +6,7 @@ import { Router, Route, browserHistory } from 'react-router'
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 import log from './log'
 import reducers from './reducers'
-import AppContainer from './components/AppContainer'
+import App from './components/App'
 
 window.log = log
 window.onerror = (msg, file, line, col, error) => {
@@ -38,7 +38,7 @@ const history = syncHistoryWithStore(browserHistory, store)
 ReactDOM.render(
   <Provider store={store}>
     <Router history={history}>
-      <Route path='/' component={AppContainer} />
+      <Route path='/' component={App} />
     </Router>
   </Provider>,
   document.getElementById('mount')
