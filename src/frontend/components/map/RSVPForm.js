@@ -9,7 +9,7 @@ class RSVPForm extends React.Component {
   static propTypes = {
     eventId: React.PropTypes.string,
     rsvpEventProxy: React.PropTypes.func,
-    eventDate: React.PropTypes.string,
+    eventDate: React.PropTypes.object,
     eventTitle: React.PropTypes.string
   }
 
