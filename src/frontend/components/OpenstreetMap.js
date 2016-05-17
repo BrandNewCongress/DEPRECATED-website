@@ -10,7 +10,7 @@ import log from '../log'
 const styles = StyleSheet.create({
   map: {
     width: '100%',
-    height: 600
+    height: '100%'
   }
 })
 
@@ -92,22 +92,20 @@ class OpenStreetMap extends React.Component {
     let [zoom, latLng] = this.getCentralPosition()
 
     return (
-      <div>
-        <Map
-          center={latLng}
-          zoom={zoom}
-          touchZoom={false}
-          scrollWheelZoom={false}
-          zoomControl={false}
-          doubleClickZoom={false}
-          className={styles.map}
-        >
-          <TileLayer
-            url='http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png?api_key=e2a2a420e246c1db322327db3d2542e3403b3bcd'
-            attribution='<a href="https://www.mapzen.com/rights">Attribution</a>. Data &copy;<a href="https://openstreetmap.org/copyright">OSM</a> contributors.'
-          />
-        </Map>
-      </div>
+      <Map
+        center={latLng}
+        zoom={zoom}
+        touchZoom={false}
+        scrollWheelZoom={false}
+        zoomControl={false}
+        doubleClickZoom={false}
+        className={styles.map}
+      >
+        <TileLayer
+          url='http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png?api_key=e2a2a420e246c1db322327db3d2542e3403b3bcd'
+          attribution='<a href="https://www.mapzen.com/rights">Attribution</a>. Data &copy;<a href="https://openstreetmap.org/copyright">OSM</a> contributors.'
+        />
+      </Map>
     )
   }
 }
