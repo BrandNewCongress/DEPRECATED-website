@@ -2062,6 +2062,28 @@
       "from": "http-proxy@>=1.11.1 <1.12.0",
       "resolved": "https://registry.npmjs.org/http-proxy/-/http-proxy-1.11.3.tgz"
     },
+    "http-proxy-middleware": {
+      "version": "0.15.0",
+      "from": "http-proxy-middleware@latest",
+      "resolved": "https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-0.15.0.tgz",
+      "dependencies": {
+        "http-proxy": {
+          "version": "1.13.3",
+          "from": "http-proxy@>=1.13.2 <2.0.0",
+          "resolved": "https://registry.npmjs.org/http-proxy/-/http-proxy-1.13.3.tgz"
+        },
+        "lodash": {
+          "version": "4.12.0",
+          "from": "lodash@>=4.11.2 <5.0.0",
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.12.0.tgz"
+        },
+        "requires-port": {
+          "version": "1.0.0",
+          "from": "requires-port@>=1.0.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
+        }
+      }
+    },
     "http-signature": {
       "version": "1.1.1",
       "from": "http-signature@>=1.1.0 <1.2.0",
