@@ -1,140 +1,152 @@
-import React from 'react'
-import moment from 'moment'
-import axios from 'axios'
+import React from 'react';
+import { Component } from 'react';
+import moment from 'moment';
+import { Provider } from 'react-redux';
+import { reduxForm } from 'redux-form';
 
-const RSVP_URL = 'http://reduxblog.herokuapp.com/api'
-const API_KEY = '?key=rapicastillo'
+import axios from 'axios';
 
-class RSVPForm extends React.Component {
-  static propTypes = {
-    eventId: React.PropTypes.string,
-    rsvpEventProxy: React.PropTypes.func,
-    eventDate: React.PropTypes.object,
-    eventTitle: React.PropTypes.string
-  }
+//import action
+import { submitRsvp, showForm } from '../../actions/index';
 
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
+const RSVP_URL = "http://reduxblog.herokuapp.com/api";
+const API_KEY = "?key=rapicastillo";
+
+class RSVPForm extends Component {
   constructor(props) {
-    super(props)
-    this.onSubmitRSVP = this.onSubmitRSVP.bind(this)
+    super(props);
 
+    this.event_id = 0;
     this.state = {
-      event_id: this.props.eventId,
+      event_id: this.props.EventId,
       firstname: '',
       lastname: '',
       email: '',
       phone_number: '',
-
       formSubmitted: false
     }
   }
 
-  async onSubmitRSVP(event) {
-    // console.log(event);
-
-    const { event_id, firstname, lastname, email, phone_number } = this.state
-    // console.log( { event_id, firstname, lastname, email, phone_number } )
-
-    const formAPI = {
-      title: 'Sample Title',
-      categories: 'Sample Categories',
-      content: 'Sample Content'
-    }
-
-    // axios.post(`${RSVP_URL}`,  { event_id, firstname, lastname, email, phone_number } )
-    await axios.post(`${RSVP_URL}/posts${API_KEY}`, formAPI)
-    this.setState({ formSubmitted: true })
-    event.preventDefault()
-    // console.log(this.props);
-
-    this.props.rsvpEventProxy(event_id, firstname, lastname, email, phone_number)
-
-    return false
+  componentDidMount() {
+    console.log("XXXX", this.props);
+    this.setState({ event_id: this.props.chosen_event.EventId });
+    this.props.fields.event_id.onChange(this.props.chosen_event.EventId)
   }
 
   buildThankYou() {
-    return (
+    return(
       <div className='row'>
         <h5>Thank you for signing up!</h5>
       </div>
-    )
+    );
   }
 
-  buildForm() {
-    let date = moment(this.props.eventDate).format('MMM DD [@ 7PM]')
-    return (
-      <div className='row'>
-        <h3>{this.props.eventTitle}</h3>
-        <h5>{date}</h5>
-        <form className='form' onSubmit={this.onSubmitRSVP}>
-          <div className='form-group'>
-            <input
-              type='text'
-              className='form-control'
-              placeholder='First Name'
-              name='firstname'
-              onChange={(event) => {
-                this.setState({ firstname: event.target.value })
-              }}
-            />
-          </div>
-          <div className='form-group'>
-            <input
-              type='text'
-              className='form-control'
-              placeholder='Last Name'
-              name='lastname'
-              onChange={(event) => {
-                this.setState({ lastname: event.target.value })
-              }}
-            />
-          </div>
-          <div className='form-group'>
-            <input
-              type='email'
-              className='form-control'
-              placeholder='Email'
-              name='email'
-              onChange={(event) => {
-                this.setState({ email: event.target.value })
-              }}
-            />
-          </div>
-          <div className='form-group'>
-            <input
-              type='text'
-              className='form-control'
-              placeholder='Phone Number'
-              name='phone_number'
-              onChange={(event) => {
-                this.setState({ phone_number: event.target.value })
-              }}
-            />
-          </div>
-          <div className='form-group'>
-            <button type='submit' className='btn btn-default'>RSVP</button>
-          </div>
-        </form>
-      </div>
-    )
+  componentDidUpdate(prevProps, prevState){
+    console.log(prevProps);
+    if ( prevProps.chosen_event.EventId !== this.props.chosen_event.EventId ) {
+      console.log("Event ID Updated");
+      this.setState({ event_id: this.props.chosen_event.EventId });
+      this.props.fields.event_id.onChange(this.props.chosen_event.EventId)
+    }
   }
+
   render() {
+
+    // let date = moment(this.props.eventDate).format("MMM DD [@ 7PM]"); // h:mm a
+    // let eventId = this.props.eventId || '';
+
+    const { fields: { event_id, firstname, lastname, email, phone_number }, handleSubmit } = this.props;
+
+    console.log(this.props);
+    if ( this.props.attending_events.indexOf(this.props.chosen_event.EventId) >= 0) {
+      return (
+        <div className='RSVPForm'>
+          <div className='RSVPForm-container'>
+            <a href="javascript: void(null)" onClick={(e)=> { this.props.showForm(false); }} className="close-button">x</a>
+            <h1>{this.props.chosen_event.City}, {this.props.chosen_event.State}</h1>
+            <h2>{this.props.chosen_event.EventDate}</h2>
+            <div>
+              <p>You are attending this event!</p>
+              <br/>
+            </div>
+            <a href='#' className="btn btn-primary">Donate</a>
+          </div>
+        </div>
+      );
+    }
+
     return (
-      <div className='container-fluid'>
-        {this.state.formSubmitted ? this.buildThankYou() : this.buildForm()}
+      <div className='RSVPForm'>
+        <div className='RSVPForm-container'>
+          <a href="javascript: void(null)" onClick={(e)=> { this.props.showForm(false) }} className="close-button">x</a>
+          <h1>{this.props.chosen_event.City ||  ''}, {this.props.chosen_event.State || ''}</h1>
+          <h2>{this.props.chosen_event.EventDate || ''}</h2>
+          <form className='form' onSubmit={handleSubmit(this.props.submitRsvp)}>
+            <div>
+              <input type="hidden" {...event_id} value={this.state.event_id}/>
+              <label>First Name</label>
+              <div className='form-group'>
+                <input type="text" className="form-control" placeholder="First Name" {...firstname} />
+              </div>
+            </div>
+            <div>
+              <label>Last Name</label>
+              <div className='form-group'>
+                <input type="text" className="form-control" placeholder="Last Name" { ...lastname }/>
+              </div>
+            </div>
+            <div>
+              <label>Email</label>
+              <div className='form-group'>
+                <input type="email" className="form-control" placeholder="Email" {...email} />
+              </div>
+            </div>
+            <div>
+              <label>Phone Number</label>
+              <div className='form-group'>
+                <input type="text" className="form-control" placeholder="Phone Number" {...phone_number} />
+              </div>
+            </div>
+            <div className='form-group'>
+              <button type="submit" className="btn btn-primary">RSVP</button>
+            </div>
+          </form>
+        </div>
       </div>
-    )
+    );
   }
+  // render() {
+  //   // const initialState = {key: 'value'};
+  //   // const store = createStore(initialState);
+  //
+  //   return (
+  //     <div className="RSVPForm">
+  //       <form onSubmit={handleSubmit}>
+  //       </form>
+  //     </div>
+  //   )
+  // }
 }
 
 // function mapDispatchToProps(dispatch) {
 //   return bindActionCreators({ submitRsvp: submitRsvp}, dispatch);
 // }
 
+function mapStateToProps(state) {
+
+  return  { attending_events: state.attending_events,
+            is_form_shown: state.is_form_shown,
+            chosen_event: state.chosen_event }
+}
+
 // export default connect(null, mapDispatchToProps)(RSVPForm);
+//
+// export default RSVPForm;
 
-export default RSVPForm
-
-// export default reduxForm({
-//   form: 'NewRSVPForm',
-//   fields: ['firstname', 'lastname', 'email', 'phone_number']
-// }, null, { submitRsvp })(RSVPForm);
+export default reduxForm({
+  form: 'NewRSVPForm',
+  fields: ['event_id', 'firstname', 'lastname', 'email', 'phone_number']
+}, mapStateToProps, { submitRsvp, showForm })(RSVPForm);

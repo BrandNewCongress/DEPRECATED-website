@@ -27,6 +27,17 @@ app.get('/hello-world', wrap((req, res) => {
   res.send('Hello World!')
 }))
 
+var allowCrossDomain = function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', "*");
+    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+}
+
+app
+  .use(allowCrossDomain)
+  .use('/static', express.static(__dirname + '/public'));
+
 app.listen(port, () => {
   log.info(`Node app is running on port ${port}`)
 })

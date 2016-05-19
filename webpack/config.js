@@ -16,7 +16,6 @@ var config = {
   module: {
     noParse: [],
     loaders: [
-      { test: /\.json$/, loader: 'json'},
       { test: /\.css$/, loader: "style!css" },
       {
         test: /\.jsx?$/,
