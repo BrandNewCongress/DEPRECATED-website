@@ -38,6 +38,7 @@ app.use('/go', proxy('brandnewcongress.nationbuilder.com', {
 
 // These are pages we want to move into this repo
 app.use([
+  '/home',
   '/teams',
   '/callteam',
   '/helpdesk',
@@ -62,7 +63,6 @@ app.use([
 )
 
 app.use([
-  '/home',
   '/assets',
   '/about',
   '/teams',
@@ -78,8 +78,9 @@ app.use([
   '/spreadsheetteam',
   '/textingteam',
   '/travelteam'],
-  proxy('brandnewcongress.github.io', (req) => url.parse(req.url).path
-  )
+  proxy('brandnewcongress.github.io', {
+    forwardPath: (req) => url.parse(req.url).path
+  })
 )
 
 app.use(fallback('index.html', {
