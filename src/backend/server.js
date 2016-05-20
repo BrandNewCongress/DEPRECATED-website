@@ -3,7 +3,8 @@ import express from 'express'
 import fallback from 'express-history-api-fallback'
 import path from 'path'
 import log from './log'
-import proxy from 'http-proxy-middleware'
+import proxy from 'express-http-proxy'
+import url from 'url'
 
 // Properly catch async exceptions, log them, and re-throw them
 // on the main process to crash the program
@@ -31,6 +32,11 @@ app.use(express.static(publicPath, {
   maxAge: '180 days'
 }))
 
+app.use('/go', proxy('brandnewcongress.nationbuilder.com', {
+  forwardPath: (req) => url.parse(req.url).path.replace(/^\/go/, '/')
+}))
+
+// These are pages we want to move into this repo
 app.use([
   '/teams',
   '/callteam',
@@ -50,10 +56,10 @@ app.use([
   '/social_media',
   '/email_team',
   '/pressteam'],
-  proxy({
-    target: 'http://brandnewcongress.nationbuilder.com/',
-    changeOrigin: true
-  }))
+  proxy('brandnewcongress.nationbuilder.com', {
+    forwardPath: (req) => url.parse(req.url).path
+  })
+)
 
 app.use([
   '/home',
@@ -72,10 +78,9 @@ app.use([
   '/spreadsheetteam',
   '/textingteam',
   '/travelteam'],
-  proxy({
-    target: 'http://brandnewcongress.github.io/',
-    changeOrigin: true
-  }))
+  proxy('http://brandnewcongress.github.io', (req) => url.parse(req.url).path
+  )
+)
 
 app.use(fallback('index.html', {
   root: publicPath,
