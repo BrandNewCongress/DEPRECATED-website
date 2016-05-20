@@ -32,7 +32,22 @@ app.use(express.static(publicPath, {
 }))
 
 app.use([
-  '/teams'],
+  '/teams',
+  '/callteam',
+  '/helpdesk',
+  '/talentteam',
+  '/eventsteam',
+  '/legal_team',
+  '/moneyteam',
+  '/travelteam',
+  '/crmteam',
+  '/analytics_team',
+  '/web_team',
+  '/platformteam',
+  '/creative_team',
+  '/social_media',
+  '/email_team',
+  '/pressteam'],
   proxy({
     target: 'http://brandnewcongress.nationbuilder.com/',
     changeOrigin: true
