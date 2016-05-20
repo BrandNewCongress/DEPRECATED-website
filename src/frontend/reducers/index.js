@@ -1,5 +1,5 @@
-import { combineReducers } from 'redux';
-import { reducer as formReducer } from 'redux-form';
+import { combineReducers } from 'redux'
+import { reducer as formReducer } from 'redux-form'
 
 import events from './events'
 import states from './states'
@@ -15,4 +15,4 @@ export default {
   attending_events,
   chosen_event,
   form: formReducer
-};
+}

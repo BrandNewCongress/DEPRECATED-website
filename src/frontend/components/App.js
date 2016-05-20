@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
 export default () => (
   <div className={styles.map}>
     <Navigation />
-    <div style={{clear: "both"}}></div>
+    <div style={{ clear: 'both' }}></div>
     <USMap />
   </div>
 )

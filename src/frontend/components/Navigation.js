@@ -25,14 +25,14 @@ const styles = StyleSheet.create({
     float: 'left'
   }
 })
-{/*<div>
+{ /* <div>
   <div>
     We're coming to a city near you
   </div>
   <div>
     RSVP below, and let's get together to elect a Brand New Congress that works for all. Can't make it? Get involved anyway.
   </div>
-</div>*/}
+</div>*/ }
 export default () => (
   <div className='Navigator container'>
     <div className={styles.logo}>

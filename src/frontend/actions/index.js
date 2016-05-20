@@ -1,8 +1,8 @@
-import axios from 'axios';
+import axios from 'axios'
 
 export const STATE_SELECTED = 'STATE_SELECTED',
-             SUBMIT_RSVP = 'SUBMIT_RSVP',
-             SHOW_FORM = 'SHOW_FORM';
+  SUBMIT_RSVP = 'SUBMIT_RSVP',
+  SHOW_FORM = 'SHOW_FORM'
 
 export function selectState(selectedState) {
 
@@ -14,7 +14,7 @@ export function selectState(selectedState) {
 }
 
 export function submitRsvp(props) {
-  console.log("Submit RSVP", props);
+  console.log('Submit RSVP', props)
 
   return {
     type: SUBMIT_RSVP,
@@ -22,14 +22,14 @@ export function submitRsvp(props) {
   }
 }
 
-//eventId, firstname, lastname, email, phone
+// eventId, firstname, lastname, email, phone
 export function showForm(show = false, event) {
-  console.log(show, event);
- return {
-   type: SHOW_FORM,
-   payload: {
-     showForm: show,
-     chosenEvent: event
-   }
- }
+  console.log(show, event)
+  return {
+    type: SHOW_FORM,
+    payload: {
+      showForm: show,
+      chosenEvent: event
+    }
+  }
 }
