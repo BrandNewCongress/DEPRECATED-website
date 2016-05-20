@@ -3,8 +3,7 @@ import express from 'express'
 import fallback from 'express-history-api-fallback'
 import path from 'path'
 import log from './log'
-import proxy from 'express-http-proxy'
-import url from 'url'
+import proxy from 'http-proxy-middleware'
 
 // Properly catch async exceptions, log them, and re-throw them
 // on the main process to crash the program
@@ -43,7 +42,6 @@ app.use('/go',
 )
 
 app.use([
-  '/home',
   '/teams',
   '/callteam',
   '/helpdesk',
@@ -68,6 +66,7 @@ app.use([
   }))
 
 app.use([
+  '/home',
   '/assets',
   '/about',
   '/teams',
