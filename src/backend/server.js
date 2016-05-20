@@ -31,8 +31,32 @@ app.use(express.static(publicPath, {
   maxAge: '180 days'
 }))
 
-app.use(['/home', '/teams', '/faq'],
-  proxy({ target: 'http://brandnewcongress.nationbuilder.com/', changeOrigin: true }))
+app.use([
+  '/home',
+  '/teams',
+  '/about'],
+  proxy({
+    target: 'http://brandnewcongress.nationbuilder.com/',
+    changeOrigin: true
+  }))
+
+app.use([
+  '/abteam',
+  '/adteam',
+  '/call',
+  '/conferencecallteam',
+  '/dataentryteam',
+  '/faq',
+  '/officeteam',
+  '/researchteam',
+  '/shareteam',
+  '/spreadsheetteam',
+  '/textingteam',
+  '/travelteam'],
+  proxy({
+    target: 'http://brandnewcongress.github.io/',
+    changeOrigin: true
+  }))
 
 app.use(fallback('index.html', {
   root: publicPath,
