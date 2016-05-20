@@ -19,10 +19,6 @@ const port = process.env.PORT
 const publicPath = path.resolve(__dirname, '../../build/frontend')
 app.enable('trust proxy')
 
-app.listen(port, () => {
-  log.info(`Node app is running on port ${port}`)
-})
-
 app.get('/', (req, res) => {
   res.redirect('/home')
 })
@@ -52,9 +48,6 @@ app
   .use(allowCrossDomain)
   .use('/static', express.static(__dirname + '/public'));
 
-app.listen(port, () => {
-  log.info(`Node app is running on port ${port}`)
-})
 
 app.use([
   '/teams',
@@ -106,3 +99,7 @@ app.use(fallback('index.html', {
   root: publicPath,
   maxAge: 0
 }))
+
+app.listen(port, () => {
+  log.info(`Node app is running on port ${port}`)
+})
