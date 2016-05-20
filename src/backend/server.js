@@ -24,7 +24,7 @@ app.listen(port, () => {
 })
 
 app.get('/', (req, res) => {
-  res.redirect('/index')
+  res.redirect('/home')
 })
 
 app.use(express.static(publicPath, {
@@ -32,6 +32,7 @@ app.use(express.static(publicPath, {
 }))
 
 app.use([
+  '/home',
   '/teams',
   '/about'],
   proxy({
