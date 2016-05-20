@@ -44,7 +44,7 @@ const AppContainer = () => (
 ReactDOM.render(
   <Provider store={store}>
     <Router history={history}>
-      <Route path='/' component={AppContainer} />
+      <Route path='/map' component={AppContainer} />
     </Router>
   </Provider>,
   document.getElementById('mount')
