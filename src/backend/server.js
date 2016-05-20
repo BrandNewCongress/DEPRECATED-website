@@ -23,9 +23,9 @@ app.listen(port, () => {
   log.info(`Node app is running on port ${port}`)
 })
 
-app.get('/', wrap((req, res) => {
+app.get('/', (req, res) => {
   res.redirect('/home')
-}))
+})
 
 app.use(express.static(publicPath, {
   maxAge: '180 days'
