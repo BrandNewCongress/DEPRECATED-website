@@ -32,7 +32,6 @@ app.use(express.static(publicPath, {
 }))
 
 app.use([
-  '/home',
   '/teams',
   '/about'],
   proxy({
@@ -41,7 +40,7 @@ app.use([
   }))
 
 app.use([
-  '/index',
+  '/home',
   '/abteam',
   '/adteam',
   '/call',
