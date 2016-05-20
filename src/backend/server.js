@@ -32,11 +32,16 @@ app.use(express.static(publicPath, {
   maxAge: '180 days'
 }))
 
-app.use('/go', proxy('brandnewcongress.nationbuilder.com', {
-  forwardPath: (req) => url.parse(req.url).path.replace(/^\/go/, '/')
-}))
+app.use('/go',
+  proxy({
+    target: 'http://brandnewcongress.nationbuilder.com',
+    changeOrigin: true,
+    pathRewrite: {
+      '^/go': '/'
+    }
+  })
+)
 
-// These are pages we want to move into this repo
 app.use([
   '/home',
   '/teams',
@@ -57,10 +62,10 @@ app.use([
   '/social_media',
   '/email_team',
   '/pressteam'],
-  proxy('brandnewcongress.nationbuilder.com', {
-    forwardPath: (req) => url.parse(req.url).path
-  })
-)
+  proxy({
+    target: 'http://brandnewcongress.nationbuilder.com',
+    changeOrigin: true
+  }))
 
 app.use([
   '/assets',
@@ -78,10 +83,10 @@ app.use([
   '/spreadsheetteam',
   '/textingteam',
   '/travelteam'],
-  proxy('brandnewcongress.github.io', {
-    forwardPath: (req) => url.parse(req.url).path
-  })
-)
+  proxy({
+    target: 'http://brandnewcongress.github.io',
+    changeOrigin: true
+  }))
 
 app.use(fallback('index.html', {
   root: publicPath,
