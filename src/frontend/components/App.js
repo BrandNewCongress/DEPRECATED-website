@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from './Navigation'
-import OpenStreetMap from './OpenstreetMap'
+import USMap from './map/USMap'
 import WelcomeMessage from './WelcomeMessage'
 import { StyleSheet } from 'react-look'
 
@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
 export default () => (
   <div className={styles.map}>
     <Navigation />
-    <OpenStreetMap />
+    <div style={{clear: "both"}}></div>
+    <USMap />
   </div>
 )

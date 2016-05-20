@@ -1,0 +1,90 @@
+EventId,EventDate,City,State,StateAbbrev,Latitude,Longitude,Type
+1,May 24,Memphis,Tennessee,TN,35.0035156,-89.9377309,R&D phase (AKA Cookout Phase)
+2,May 25,Nashville,Tennessee,TN,36.2722491,-86.7114545,R&D phase (AKA Cookout Phase)
+3,May 26,Chattanooga,Tennessee,TN,35.0457994,-85.3065281,R&D phase (AKA Cookout Phase)
+4,May 27,Knoxville,Tennessee,TN,35.9604682,-83.9194151,R&D phase (AKA Cookout Phase)
+5,May 28,Johnson City ,Tennessee,TN,36.3412594,-82.3234843,R&D phase (AKA Cookout Phase)
+6,May 31,Asheville,North Carolina,NC,35.5927461,-82.5564559,R&D phase (AKA Cookout Phase)
+7,Jun 1,Charlotte,North Carolina,NC,35.2294139,-80.9247346,R&D phase (AKA Cookout Phase)
+8,Jun 2,Durham,North Carolina,NC,35.9981205,-78.8920444,R&D phase (AKA Cookout Phase)
+9,Jun 3,Raleigh,North Carolina,NC,35.7744301,-78.6313624,R&D phase (AKA Cookout Phase)
+10,Jun 4,Atlanta,Georgia,GA,33.7600008,-84.3899963,R&D phase (AKA Cookout Phase)
+11,Jun 6,Athens,Georgia,GA,34.006845,-83.3468784,R&D phase (AKA Cookout Phase)
+12,Jun 7,Augusta,Georgia,GA,33.4577032,-81.9643913,R&D phase (AKA Cookout Phase)
+13,Jun 8,Charleston,South Carolina,SC,32.7791432,-79.9248669,R&D phase (AKA Cookout Phase)
+14,Jun 9,Savannah,Georgia,GA,32.081259,-81.0809848,R&D phase (AKA Cookout Phase)
+15,Jun 13,LA,California,CA,33.9697897,-118.2468148,R&D phase (AKA Cookout Phase)
+16,Jun 14,San Diego,California,CA,32.8843552,-117.2338066,R&D phase (AKA Cookout Phase)
+17,Jun 15,San Bernardino,California,CA,34.0971415,-117.2940637,R&D phase (AKA Cookout Phase)
+18,Jun 19,Chicago,Illinois,IL,41.85,-87.65,R&D phase (AKA Cookout Phase)
+19,Jun 22,Springfield,Missouri,MI,37.2154752,-93.294718,Practice Phase
+20,Jun 23,Kansas City,Missouri,MI,39.1041725,-94.5998517,Practice Phase
+21,Jun 24,Lawrence,Kansas,KS,39.0176677,-95.2057909,Practice Phase
+22,Jun 25,Overland Park,Kansas,KS,38.9930421,-94.6812086,Practice Phase
+23,Jun 21,Birmingham,Alabama,AL,33.52,-86.8,Practice Phase
+24,Jun 22,Montgomery,Alabama,AL,32.3737981,-86.3110071,Practice Phase
+25,Jun 23,Columbus ,Georgia,GA,32.5371089,-84.9297206,Practice Phase
+26,Jun 24,Macon,Georgia,GA,32.7918963,-83.6029116,Practice Phase
+27,Jun 20,Louisville,Kentucky,KY,38.24,-85.76,Practice Phase
+28,Jun 21,Indianapolis,Indiana,IN,39.7774501,-86.1090119,Practice Phase
+29,Jun 22,Cincinatti,Ohio,OH,39.1066354,-84.5363226,Practice Phase
+30,Jun 23,Lexington,Kentucky,KY,38.013412,-84.485507,Practice Phase
+31,Jun 20,Stamford,Connecticut,CT,41.0529585,-73.5387991,Practice Phase
+32,Jun 21,Bridgeport,Connecticut,CT,41.1800621,-73.1883898,Practice Phase
+33,Jun 22,New Haven,Connecticut,CT,41.31,-72.93,Practice Phase
+34,Jun 23,New London,Connecticut,CT,41.3631426,-72.106068,Practice Phase
+35,Jun 27,Tulsa,Oklahoma,OK,34.7499657,-92.2852014,Big City phase
+36,Jun 28,OKC,Oklahoma,OK,32.7863301,-96.7962528,Big City phase
+37,Jun 29,Dallas,Texas,TX,32.7465982,-97.3291991,Big City phase
+38,Jun 30,Austin,Texas,TX,29.77,-95.37,Big City phase
+39,Jul 5,Ft Worth,Texas,TX,32.7465982,-97.3291991,Big City phase
+40,Jul 6,Shrevport,Texas,TX,30.2228447,-97.7473572,Big City phase
+41,Jul 7,Las Vegas,Nevada,NV,35.0720392,-106.6466306,Big City phase
+42,Jul 8,Denver,Colorado,CO,33.45,-112.07,Big City phase
+43,Jul 9,Tulsa,Oklahoma,OK,36.1697096,-115.1236952,Big City phase
+44,Jul 10,OKC,Oklahoma,OK,39.6166037,-105.0674317,Big City phase
+45,Jul 11,Amarillo,Texas,TX,38.994425,-104.8571368,Big City phase
+46,Jul 13,ABQ,New Mexico,NM,40.0406506,-105.2077798,Big City phase
+47,Jul 15,Sante Fe,New Mexico,NM,40.7563925,-111.8985922,Big City phase
+48,Jun 27,Seattle,Washington,WA,47.6084921,-122.336407,Big City phase
+49,Jun 28,Tacoma,Washington,WA,47.28,-122.76,Big City phase
+50,Jun 28,Olympia,Washington,WA,46.9770179,-122.858419,Big City phase
+51,Jun 29,Portland,Oregon,OR,45.505603,-122.6882145,Big City phase
+52,Jul 1,Eugene,Oregon,OR,44.0637173,-123.0847061,Big City phase
+53,Jul 5,San Jose,California,CA,37.3904943,-121.8854337,Big City phase
+54,Jul 6,San Francisco,California,CA,37.7576792,-122.5078117,Big City phase
+55,Jul 7,Marin,California,CA,37.8444843,-122.5089856,Big City phase
+56,Jul 8,Sacramento,California,CA,38.58,-121.49,Big City phase
+57,Jul 9,San Diego,California,CA,32.8843552,-117.2338066,Big City phase
+58,Jul 10,Los Angeles,California,CA,33.9697897,-118.2468148,Big City phase
+59,Jul 11,Santa Barbara,California,CA,34.420334,-119.7107494,Big City phase
+60,Jun 27,Minneapolis,Minnesota ,MN,44.9836543,-93.2693572,Big City phase
+61,Jun 28,Madison,Wisconsin,WI,43.0716332,-89.4600369,Big City phase
+62,Jun 28,Milwaukee,Wisconsin,WI,43.0439776,-87.8991514,Big City phase
+63,Jun 29,Chicago,Illinois,IL,41.85,-87.65,Big City phase
+64,Jun 30,Grand Rapids,Michigan,MI,42.9713293,-85.6736663,Big City phase
+65,Jul 1,Ann Arbor,Michigan,MI,42.2475863,-83.8260884,Big City phase
+66,Jul 5,Detroit,Michigan,MI,42.348495,-83.0602998,Big City phase
+67,Jul 6,Columbus,Ohio,OH,40.103832,-83.0200245,Big City phase
+68,Jul 7,Pittsburgh,Pennsylvania,PA,40.4737114,-79.9612368,Big City phase
+69,Jun 27,Washington DC,DC,DC,38.912068,-77.0190228,Big City phase
+70,Jun 28,Baltimore,Maryland,MD,39.4205296,-76.7913558,Big City phase
+71,Jun 28,Philadelphia,Pennsylvania,PA,40.12,-75.01,Big City phase
+72,Jun 29,New York,New York,NY,40.7536854,-73.9991637,Big City phase
+73,Jun 30,Hartford,Connecticut,CT,41.7899681,-72.6622361,Big City phase
+74,Jul 1,Providence,Rhode Island,RI,41.83,-71.41,Big City phase
+75,Jul 5,Boston,Massachusettes,MA,42.3548561,-71.0661193,Big City phase
+76,Jul 6,Amherst,Massachusettes,MA,42.3403799,-72.4968189,Big City phase
+77,Jul 7,Albany,New York,NY,42.65,-73.76,Big City phase
+78,Jul 8,Syracuse,New York,NY,43.045851,-76.1523256,Big City phase
+79,Jul 9,Ithaca,New York,NY,42.4467049,-76.4830579,Big City phase
+80,Jul 10,Rochester,New York,NY,43.1614713,-77.6068673,Big City phase
+81,Jul 11,Buffalo,New York,NY,42.8962176,-78.9247419,Big City phase
+82,Jun 27,Maimi,Florida,FL,25.7783254,-80.1990136,Big City phase
+83,Jun 28,Tampa,Florida,FL,27.9401015,-82.4501944,Big City phase
+84,Jun 28,Orlando,Florida,FL,28.5416658,-81.3756862,Big City phase
+85,Jun 29,Jaxsonville,Florida,FL,30.3420008,-81.7691318,Big City phase
+86,Jun 30,Tallahassee,Florida,FL,30.4305062,-84.2542195,Big City phase
+87,Jul 1,Pensacola,Florida,FL,30.423724,-87.2269973,Big City phase
+88,Jul 5,Mobile,Alabama,AL,30.69595,-88.04373,Big City phase
+89,Jul 6,New Orleans,Louisiana,LA,29.9595769,-90.0770127,Big City phase
