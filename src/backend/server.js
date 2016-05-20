@@ -78,7 +78,7 @@ app.use([
   '/spreadsheetteam',
   '/textingteam',
   '/travelteam'],
-  proxy('http://brandnewcongress.github.io', (req) => url.parse(req.url).path
+  proxy('brandnewcongress.github.io', (req) => url.parse(req.url).path
   )
 )
 
