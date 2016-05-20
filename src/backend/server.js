@@ -43,6 +43,8 @@ app.use([
   '/crmteam',
   '/analytics_team',
   '/web_team',
+  '/techteam',
+  '/wikiteam',
   '/platformteam',
   '/creative_team',
   '/social_media',
