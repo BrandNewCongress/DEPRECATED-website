@@ -1,16 +1,12 @@
-import axios from 'axios'
-
-export const STATE_SELECTED = 'STATE_SELECTED',
-  SUBMIT_RSVP = 'SUBMIT_RSVP',
-  SHOW_FORM = 'SHOW_FORM'
+export const SELECT_STATE = 'SELECT_STATE'
+export const SUBMIT_RSVP = 'SUBMIT_RSVP'
+export const SHOW_FORM = 'SHOW_FORM'
 
 export function selectState(selectedState) {
-
   return {
-    type: STATE_SELECTED,
+    type: SELECT_STATE,
     payload: selectedState
   }
-
 }
 
 export function submitRsvp(props) {

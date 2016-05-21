@@ -17,6 +17,7 @@
     "express": "^4.13.4",
     "express-history-api-fallback": "^2.0.0",
     "http-proxy-middleware": "^0.15.0",
+    "json-loader": "^0.5.4",
     "leaflet": "^0.7.7",
     "minilog": "^3.0.0",
     "moment": "^2.13.0",

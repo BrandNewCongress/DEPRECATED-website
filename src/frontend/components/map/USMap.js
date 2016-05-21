@@ -4,62 +4,37 @@ import { connect } from 'react-redux'
 import { rsvpEvent, showForm } from '../../actions/index'
 import { bindActionCreators } from 'redux'
 import d3 from 'd3'
-import { queue } from 'd3-queue'
 import topojson from 'topojson'
 
-const STATES_JSON = 'http://localhost:8090/static/data/states.json'
-const EVENTS_CSV = 'http://localhost:8090/static/data/upcoming.csv'
-const [DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_SCALE] = [960, 600, 1280]
-const [US_LEVEL_ZOOM, STATE_LEVEL_ZOOM] = [0, 2]
+const rawStates = require('../../data/states.json')
+console.log(rawStates)
+const USStates = topojson.feature(rawStates, rawStates.objects.cb_2015_USState_20m).features
+const InitialScale = 1280
+const [USLevelZoom, StateLevelZoom] = [0, 2]
 
 class USMap extends React.Component {
   static propTypes = {
-    mapTranslate: React.propTypes.number.isRequired,
-    mapScale: React.propTypes.number.isRequired,
-    width: React.propTypes.number.isRequired,
-    height: React.propTypes.number.isRequired
+    events: React.PropTypes.array.isRequired,
+    width: React.PropTypes.number.isRequired,
+    height: React.PropTypes.number.isRequired
   }
 
   constructor(props) {
     super(props)
     this.state = {
-      USStates: [],
-      events: [],
-      mapTranslate: props.mapTranslate,
-      mapScale: props.mapScale,
-      zoomLevel: US_LEVEL_ZOOM,
+      mapTranslate: [props.width / 2, props.height / 2],
+      mapScale: InitialScale,
+      zoomLevel: USLevelZoom,
       activeNode: d3.select(null)
     }
-    // this.rsvpEventProxy = this.rsvpEventProxy.bind(this)
-    // this.dataLoaded = this.dataLoaded.bind(this)
-
-    // this.onMouseOverUSState = this.onMouseOverUSState.bind(this)
-    // this.onClickUSState = this.onClickUSState.bind(this)
   }
+
   componentWillMount = () => {
     this.projection = d3.geo.albersUsa()
-        .scale(this.props.mapScale)
-        .translate(this.props.mapTranslate)
+      .scale(this.state.mapScale)
+      .translate(this.state.mapTranslate)
 
     this.path = d3.geo.path().projection(this.projection)
-
-    queue()
-      .defer(d3.json, STATES_JSON)
-      .await((error, us) => {
-        this.setState({
-          //   // convert counties to individual features
-          USStates: topojson.feature(us, us.objects.cb_2015_USState_20m).features
-          //   // states don't need to be shaded, so can just be a mesh
-          //   states: topojson.mesh(us, us.objects.states, function(a, b) { return a !== b })
-        })
-      })
-
-    queue()
-      .defer(d3.csv, EVENTS_CSV)
-      .await((error, events) => {
-        this.setState({ events })
-      })
-    // d3.json(STATES_JSON,)
   }
 
   componentDidUpdate(prevObj, prevState) {
@@ -93,7 +68,7 @@ class USMap extends React.Component {
       this.setState({ mapScale: null,
                       mapTranslate: null,
                       activeNode: d3.select(null),
-                      zoomLevel: US_LEVEL_ZOOM })
+                      zoomLevel: USLevelZoom })
     } else {
       // New State has been clicked
       const bounds = this.path.bounds(state)
@@ -107,16 +82,18 @@ class USMap extends React.Component {
         this.props.height / 2 - mapScale * y
       ]
 
-      this.setState({ mapScale, mapTranslate,
-                      activeNode: d3.select(event.target),
-                      zoomLevel: STATE_LEVEL_ZOOM })
+      this.setState({
+        mapScale,
+        mapTranslate,
+        activeNode: d3.select(event.target),
+        zoomLevel: StateLevelZoom
+      })
     }
   }
 
   reset() {
     this.state.activeNode.classed('active', false)
     this.setState({ activeNode: d3.select(null) })
-    // transition
   }
 
   render() {
@@ -124,7 +101,7 @@ class USMap extends React.Component {
       <div className='USMap'>
         <svg ref='svg_map' width={this.props.width} height={this.props.height}>
           <g id='USMap-activityArea'>
-            {this.state.USStates.map((USState, id) => (
+            {USStates.map((USState, id) => (
               <path
                 key={id}
                 className={`us-state ${USState.properties.STUSPS}`}
@@ -134,7 +111,7 @@ class USMap extends React.Component {
               />
             ))}
 
-            {this.state.events.map((event, id) => {
+            {this.props.events.map((event, id) => {
               const coord = this.projection(
                 [parseFloat(event.Longitude),
                 parseFloat(event.Latitude)]
@@ -142,9 +119,9 @@ class USMap extends React.Component {
 
               return (
                 <EventItem
-                  r='5'
-                  cx={coord[0]}
-                  cy={coord[1]}
+                  radius='5'
+                  centerX={coord[0]}
+                  centerY={coord[1]}
                   key={`event-item-${id}`}
                   scale={(this.state.mapScale === DEFAULT_SCALE
                     || !this.state.mapScale) ? 1 : this.state.mapScale}
@@ -163,14 +140,11 @@ class USMap extends React.Component {
 }
 
 USMap.defaultProps = {
-  width: DEFAULT_WIDTH,
-  height: DEFAULT_HEIGHT,
-  mapScale: DEFAULT_SCALE,
-  mapTranslate: [DEFAULT_WIDTH / 2, DEFAULT_HEIGHT / 2]
+  width: 960,
+  height: 600
 }
 
 function mapStateToProps(state) {
-  // whatever is returned here will showup as props
   return {
     events: state.events
   }

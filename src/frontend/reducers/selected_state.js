@@ -1,8 +1,8 @@
-import { STATE_SELECTED } from '../actions/index'
+import { SELECT_STATE } from '../actions/index'
 
 export default function (state = null, action) {
   switch (action.type) {
-    case STATE_SELECTED :
+    case SELECT_STATE :
       return action.payload
   }
   return state

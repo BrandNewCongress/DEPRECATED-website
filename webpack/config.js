@@ -7,7 +7,7 @@ var plugins = [
 ]
 
 if (!DEBUG)
-  plugins.push(new webpack.optimize.UglifyJsPlugin({minimize: true}))
+  plugins.push(new webpack.optimize.UglifyJsPlugin({ minimize: true }))
 
 var config = {
   entry: {
@@ -16,13 +16,14 @@ var config = {
   module: {
     noParse: [],
     loaders: [
-      { test: /\.css$/, loader: "style!css" },
+      { test: /\.json$/, loader: 'json' },
+      { test: /\.css$/, loader: 'style!css' },
       {
         test: /\.jsx?$/,
         loader: 'babel-loader',
         exclude: /(node_modules|bower_components)/,
         query: {
-          cacheDirectory: DEBUG,
+          cacheDirectory: DEBUG
         }
       }
     ]
@@ -36,9 +37,9 @@ var config = {
 }
 
 if (process.env.NODE_ENV === 'development') {
-  config['devtool'] = "#inline-source-map";
+  config.devtool = '#inline-source-map'
 } else if (process.env.NODE_ENV === 'production') {
-  config['devtool'] = 'source-map';
+  config.devtool = 'source-map'
 }
 
 module.exports = config

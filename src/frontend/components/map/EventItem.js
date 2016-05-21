@@ -33,14 +33,14 @@ function EventItem({ centerX, centerY, radius, scale, city, state, eventDate, on
 }
 
 EventItem.propTypes = {
-  centerX: React.propTypes.number.isRequired,
-  centerY: React.propTypes.number.isRequired,
-  radius: React.propTypes.number.isRequired,
-  scale: React.propTypes.number.isRequired,
-  city: React.propTypes.string.isRequired,
-  state: React.propTypes.string.isRequired,
-  eventDate: React.propTypes.string.isRequired,
-  onClick: React.propTypes.func.isRequired
+  centerX: React.PropTypes.number.isRequired,
+  centerY: React.PropTypes.number.isRequired,
+  radius: React.PropTypes.number.isRequired,
+  scale: React.PropTypes.number.isRequired,
+  city: React.PropTypes.string.isRequired,
+  state: React.PropTypes.string.isRequired,
+  eventDate: React.PropTypes.string.isRequired,
+  onClick: React.PropTypes.func.isRequired
 }
 
 export default EventItem
