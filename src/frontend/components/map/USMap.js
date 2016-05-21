@@ -7,8 +7,7 @@ import d3 from 'd3'
 import topojson from 'topojson'
 
 const rawStates = require('../../data/states.json')
-console.log(rawStates)
-const USStates = topojson.feature(rawStates, rawStates.objects.cb_2015_USState_20m).features
+const USStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
 const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
 
@@ -123,7 +122,7 @@ class USMap extends React.Component {
                   centerX={coord[0]}
                   centerY={coord[1]}
                   key={`event-item-${id}`}
-                  scale={(this.state.mapScale === DEFAULT_SCALE
+                  scale={(this.state.mapScale === InitialScale
                     || !this.state.mapScale) ? 1 : this.state.mapScale}
                   onClick={() => {
                     console.log('CLICKED')
