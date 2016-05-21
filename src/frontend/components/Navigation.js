@@ -25,16 +25,9 @@ const styles = StyleSheet.create({
     float: 'left'
   }
 })
-{ /* <div>
-  <div>
-    We're coming to a city near you
-  </div>
-  <div>
-    RSVP below, and let's get together to elect a Brand New Congress that works for all. Can't make it? Get involved anyway.
-  </div>
-</div>*/ }
+
 export default () => (
-  <div className='Navigator container'>
+  <div>
     <div className={styles.logo}>
       <div className={styles.logoText}>
         Brand New Congress
@@ -42,7 +35,6 @@ export default () => (
     </div>
 
     <div className={styles.navBar}>
-
     </div>
   </div>
 )

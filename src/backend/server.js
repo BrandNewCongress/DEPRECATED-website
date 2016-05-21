@@ -62,7 +62,6 @@ app.use([
   '/analytics_team',
   '/web_team',
   '/techteam',
-  '/wikiteam',
   '/platformteam',
   '/creative_team',
   '/social_media',
@@ -89,6 +88,7 @@ app.use([
   '/shareteam',
   '/spreadsheetteam',
   '/textingteam',
+  '/wikiteam',
   '/travelteam'],
   proxy({
     target: 'http://brandnewcongress.github.io',

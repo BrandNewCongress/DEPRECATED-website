@@ -1,10 +1,8 @@
+/*************************/
+/* THIS FILE IS NOT USED */
+/*************************/
 import React from 'react'
-import { Component } from 'react'
-import moment from 'moment'
-import { Provider } from 'react-redux'
 import { reduxForm } from 'redux-form'
-
-import axios from 'axios'
 
 // import action
 import { submitRsvp, showForm } from '../../actions/index'
@@ -15,7 +13,7 @@ import { bindActionCreators } from 'redux'
 const RSVP_URL = 'http://reduxblog.herokuapp.com/api'
 const API_KEY = '?key=rapicastillo'
 
-class RSVPForm extends Component {
+class RSVPForm extends React.Component {
   constructor(props) {
     super(props)
 
