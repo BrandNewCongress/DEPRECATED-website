@@ -148,7 +148,8 @@ class USMap extends React.Component {
                   onClick={() => {
                     console.log('CLICKED')
                   }}
-                  {...event}
+                  city={event.City}
+                  state={event.State}
                 />
               )
             })}

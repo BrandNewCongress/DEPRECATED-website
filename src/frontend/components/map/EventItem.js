@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     cursor: 'pointer',
     fill: '#f26b3a',
     stroke: 'rgba(255,255,255, 0.5)'
-  },
+  }
 })
 
 export default class EventItem extends React.Component {
@@ -18,7 +18,6 @@ export default class EventItem extends React.Component {
     scale: React.PropTypes.number.isRequired,
     city: React.PropTypes.string.isRequired,
     state: React.PropTypes.string.isRequired,
-    eventDate: React.PropTypes.string.isRequired,
     onClick: React.PropTypes.func.isRequired
   }
 
@@ -27,7 +26,7 @@ export default class EventItem extends React.Component {
   }
 
   textBox() {
-    const { centerX, centerY, scale, city, state, eventDate } = this.props
+    const { centerX, centerY, scale, city, state } = this.props
     const fontSize = 12 / scale
     const transX = 10 / scale
     const transY = 5 / scale
@@ -35,7 +34,6 @@ export default class EventItem extends React.Component {
     if (this.state.showText) {
       return (
         <text
-          className={styles.text}
           x={centerX}
           y={centerY}
           fontSize={fontSize}
