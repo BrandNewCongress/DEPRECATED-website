@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { createStore, combineReducers } from 'redux'
+import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import { Router, Route, browserHistory } from 'react-router'
-import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
+import { syncHistoryWithStore } from 'react-router-redux'
 import { LookRoot } from 'react-look'
 import log from './log'
 import reducers from './reducers'
@@ -27,13 +27,7 @@ window.onerror = (msg, file, line, col, error) => {
   }
 }
 
-const store = createStore(
-  combineReducers({
-    ...reducers,
-    routing: routerReducer
-  })
-)
-
+const store = createStore(reducers)
 const history = syncHistoryWithStore(browserHistory, store)
 const AppContainer = () => (
   <LookRoot>
