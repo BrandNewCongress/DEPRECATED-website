@@ -1,8 +1,6 @@
 import React from 'react'
 import EventItem from './EventItem'
 import { connect } from 'react-redux'
-import { rsvpEvent, showForm } from '../../actions/index'
-import { bindActionCreators } from 'redux'
 import d3 from 'd3'
 import topojson from 'topojson'
 
@@ -149,8 +147,4 @@ function mapStateToProps(state) {
   }
 }
 
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ rsvpEvent, showForm }, dispatch)
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(USMap)
+export default connect(mapStateToProps)(USMap)
