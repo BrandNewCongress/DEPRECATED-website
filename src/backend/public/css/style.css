@@ -1,52 +1,3 @@
-
-
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
 .USMap {
   background-color: #E1E4E0; }
   .USMap #map1 {
@@ -103,66 +54,7 @@ table {
         .USMap .form-area .RSVPForm .RSVPForm-container label {
           font-size: 14px;
           margin-bottom: 2px; }
-  .USMap .EventItem > text {
-    display: none;
-    font-family: 'Open Sans', Arial, sans-serif; }
-  .USMap .EventItem circle {
-    -webkit-transition: r 0.6s, stroke-width 0.4s ;
-    -moz-transition: r 0.6s, stroke-width 0.4s ;
-    -o-transition: r 0.6s, stroke-width 0.4s ;
-    -ms-transition: r 0.6s, stroke-width 0.4s ;
-    transition: r 0.6s, stroke-width 0.4s ;
-    cursor: pointer;
-    fill: #f26b3a;
-    stroke: rgba(255,255,255, 0.5); }
-  .USMap .EventItem circle:hover + text {
-    display: block; }
-
-.App {
-  width: 100%;
-  height: 100vh; }
 
 
-  * {
-    font-family: 'Open Sans', Arial, sans-serif;
-  }
-  #navigation-area {
-    margin-bottom: 10px;
-  }
-  .navbar-nav {
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-  }
 
-  .navbar-nav>li {
-    float: left;
-    margin-right: 30px;
-    font-size: 20px;
-  }
 
-  #map1 {
-    height: 600px;
-  }
-
-  div#logo {
-    background-color: #f16432;
-    padding: 10px 5px 5px;
-  }
-  div#logo h3 {
-    color: white;
-    padding: 5px 5px 5px 10px;
-    margin-left: 10px;
-    border: solid white;
-    border-width: 0 0 0 4px;
-    margin-top: 5px;
-  }
-
-  div.state-picker {
-    position: absolute;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    width: calc(100% - 20px);
-    padding: 10px;
-  }

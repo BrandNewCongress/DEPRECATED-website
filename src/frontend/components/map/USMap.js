@@ -3,11 +3,30 @@ import EventItem from './EventItem'
 import { connect } from 'react-redux'
 import d3 from 'd3'
 import topojson from 'topojson'
+import { StyleSheet } from 'react-look'
 
 const rawStates = require('../../data/states.json')
 const USStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
 const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
+const styles = StyleSheet.create({
+  mapContainer: {
+    backgroundColor: '#E1E4E0'
+  },
+  map: {
+    marginLeft: '50%',
+    transform: 'translate(-50%, 0)'
+  },
+  state: {
+    fill: 'white',
+    stroke: '#E1E4E0',
+    strokeWidth: 1.5,
+    transition: 'fill .1s',
+    ':hover': {
+      fill: '#F5FFF7'
+    }
+  }
+})
 
 class USMap extends React.Component {
   static propTypes = {
@@ -95,15 +114,19 @@ class USMap extends React.Component {
 
   render() {
     return (
-      <div className='USMap'>
-        <svg ref='svg_map' width={this.props.width} height={this.props.height}>
+      <div className={styles.mapContainer}>
+        <svg
+          className={styles.map}
+          ref='svg_map'
+          width={this.props.width}
+          height={this.props.height}
+        >
           <g id='USMap-activityArea'>
             {USStates.map((USState, id) => (
               <path
                 key={id}
-                className={`us-state ${USState.properties.STUSPS}`}
+                className={styles.state}
                 d={this.path(USState)}
-                onMouseEnter={(e) => { this.onMouseOverUSState(USState, e) }}
                 onClick={(e) => this.onClickUSState(USState, e)}
               />
             ))}
