@@ -37,8 +37,6 @@ app.use('/go',
   })
 )
 
-app.use('/static', express.static(__dirname + '/public'))
-
 app.use([
   '/teams',
   '/callteam',
