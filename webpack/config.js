@@ -11,7 +11,7 @@ if (!DEBUG)
 
 var config = {
   entry: {
-    app: ['babel-polyfill', './src/client.jsx']
+    app: ['babel-polyfill', './src/client/index.jsx']
   },
   module: {
     noParse: [],

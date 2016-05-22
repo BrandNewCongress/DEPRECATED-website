@@ -1,9 +1,9 @@
 import 'babel-polyfill'
 import express from 'express'
 import path from 'path'
-import log from './server-lib/log'
-import index from './server-lib/index'
+import log from './log'
 import proxy from 'http-proxy-middleware'
+import clientRouteHandler from './client-route-handler'
 
 // Properly catch async exceptions, log them, and re-throw them
 // on the main process to crash the program
@@ -83,6 +83,7 @@ app.use([
     changeOrigin: true
   }))
 
+app.use(clientRouteHandler)
 app.listen(port, () => {
   log.info(`Node app is running on port ${port}`)
 })

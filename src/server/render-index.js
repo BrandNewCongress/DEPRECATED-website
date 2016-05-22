@@ -1,10 +1,12 @@
-const template = `
+export default function renderIndex(html, css, initialState) {
+  return `
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brand New Congress</title>
+    <style id="_look">${css}</style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
     <script>
       var _rollbarConfig = {
@@ -28,9 +30,12 @@ const template = `
     </script>
   </head>
   <body>
-    <div id="mount"></div>
+    <div id="mount">${html}</div>
+    <script>
+      window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
+    </script>
     <script src="/assets/js/bundle.js"></script>
   </body>
 </html>
 `
-export default template
+}

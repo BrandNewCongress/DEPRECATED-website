@@ -16,10 +16,14 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps)(() => (
-  <LookRoot>
-    <div className={styles.map}>
-      <USMap events={this.props.events} />
-    </div>
-  </LookRoot>
-))
+const App = ({ events }) => (
+  <div className={styles.map}>
+    <USMap events={events} />
+  </div>
+)
+
+App.propTypes = {
+  events: React.PropTypes.array
+}
+
+export default connect(mapStateToProps)(App)

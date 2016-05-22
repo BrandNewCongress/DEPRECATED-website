@@ -2,7 +2,7 @@
   "name": "bnc-website",
   "version": "1.0.0",
   "description": "Brand New Congress Starter Kit",
-  "main": "server.js",
+  "main": "src/server",
   "dependencies": {
     "babel-cli": "^6.8.0",
     "babel-core": "^6.8.0",
@@ -55,13 +55,13 @@
     "clean": "rm -rf build && mkdir -p ./build/assets/js",
     "lint": "eslint --fix src",
     "prod-build-client": "webpack --config ./webpack/config.js",
-    "prod-build-server": "babel ./src/server.js -d ./build --source-maps",
+    "prod-build-server": "babel ./src/server -d ./build --source-maps",
     "prod-version-assets": "node ./tools/version.js",
     "prod-build": "npm run clean && npm run prod-build-client && npm run prod-build-server && npm run prod-version-assets",
     "postinstall": "if [ \"$NODE_ENV\" = production ] ; then npm run prod-build ; fi",
-    "start": "node ./build/server.js",
+    "start": "node ./build/server",
     "predev-start": "npm run clean",
-    "dev-start": "nodemon -e js,hbs -w ./src --exec ./tools/babel-run -- ./src/server.js",
+    "dev-start": "nodemon -e js,hbs -w ./src --exec ./tools/babel-run -- ./src/server",
     "dev": "nf start -w --procfile ./tools/Procfile.dev"
   },
   "repository": {
