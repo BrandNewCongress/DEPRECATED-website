@@ -1,12 +1,11 @@
 import { renderToString } from 'react-dom/server'
-import { match, RouterContext } from 'react-router'
+import { createMemoryHistory, match, RouterContext } from 'react-router'
+import { syncHistoryWithStore } from 'react-router-redux'
 import routes from '../routes'
-import reducers from '../reducers'
-import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import React from 'react'
-import App from '../containers/App'
 import renderIndex from './render-index'
+import { configureStore } from '../store'
 import { LookRoot, Presets, StyleSheet } from 'react-look'
 
 const serverConfig = Presets['react-dom']
@@ -24,25 +23,35 @@ function clientRouteHandler(req, res) {
       Type: 'R&D phase (AKA Cookout Phase)'
     }]
   }
+  const memoryHistory = createMemoryHistory(req.url)
+  const store = configureStore(memoryHistory, initialState)
+  const history = syncHistoryWithStore(memoryHistory, store)
 
-  serverConfig.userAgent = req.headers['user-agent']
-  serverConfig.styleElementId = '_look'
-  // Create a new Redux store instance
-  const store = createStore(reducers, initialState)
-  const html = renderToString(
-    <Provider store={store}>
-      <LookRoot config={serverConfig}>
-        <App />
-      </LookRoot>
-    </Provider>
-  )
+  match({ history, routes, location: req.url }, (error, redirectLocation, renderProps) => {
+    if (error) {
+      res.status(500).send(error.message)
+    } else if (redirectLocation) {
+      res.redirect(302, redirectLocation.pathname + redirectLocation.search)
+    } else if (renderProps) {
+      serverConfig.userAgent = req.headers['user-agent']
+      serverConfig.styleElementId = '_look'
 
-  const css = StyleSheet.renderToString(serverConfig.prefixer)
+      const html = renderToString(
+        <Provider store={store}>
+          <LookRoot config={serverConfig}>
+            <RouterContext {...renderProps} />
+          </LookRoot>
+        </Provider>
+      )
 
-  // Grab the initial state from our Redux store
-  const finalState = store.getState()
+      const css = StyleSheet.renderToString(serverConfig.prefixer)
 
-  // Send the rendered page back to the client
-  res.send(renderIndex(html, css, finalState))
+      const finalState = store.getState()
+
+      res.send(renderIndex(html, css, finalState))
+    } else {
+      res.status(404).send('Not found')
+    }
+  })
 }
 export default clientRouteHandler

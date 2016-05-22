@@ -3543,6 +3543,11 @@
       "from": "redux-form@latest",
       "resolved": "https://registry.npmjs.org/redux-form/-/redux-form-5.2.3.tgz"
     },
+    "redux-thunk": {
+      "version": "2.1.0",
+      "from": "redux-thunk@latest",
+      "resolved": "https://registry.npmjs.org/redux-thunk/-/redux-thunk-2.1.0.tgz"
+    },
     "regenerate": {
       "version": "1.2.1",
       "from": "regenerate@>=1.2.1 <2.0.0",

@@ -142,7 +142,7 @@ export default class USMap extends React.Component {
 
               return (
                 <EventItem
-                  radius='5'
+                  radius={5}
                   centerX={coord[0]}
                   centerY={coord[1]}
                   key={`event-item-${id}`}

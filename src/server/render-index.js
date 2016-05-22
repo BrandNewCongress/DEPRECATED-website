@@ -32,7 +32,7 @@ export default function renderIndex(html, css, initialState) {
   <body>
     <div id="mount">${html}</div>
     <script>
-      window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
+      window.INITIAL_STATE = ${JSON.stringify(initialState)}
     </script>
     <script src="/assets/js/bundle.js"></script>
   </body>

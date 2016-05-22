@@ -1,6 +1,6 @@
 import React from 'react'
 import USMap from '../components/USMap'
-import { StyleSheet, LookRoot } from 'react-look'
+import { StyleSheet } from 'react-look'
 import { connect } from 'react-redux'
 
 const styles = StyleSheet.create({
