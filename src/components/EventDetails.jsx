@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
   popupContainer: {
     zIndex: 1000,
     position: 'absolute',
-    width: 400,
+    width: '70vmin',
     padding: '20px 20px 10px',
     backgroundColor: '#d9f0f9',
     left: '50%',
