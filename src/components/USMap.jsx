@@ -28,7 +28,13 @@ const styles = StyleSheet.create({
 
 export default class USMap extends React.Component {
   static propTypes = {
-    events: React.PropTypes.array.isRequired,
+    events: React.PropTypes.arrayOf(React.PropTypes.shape({
+      city: React.PropTypes.string,
+      state: React.PropTypes.string,
+      date: React.PropTypes.string,
+      latitude: React.PropTypes.string,
+      longitude: React.PropTypes.string
+    })).isRequired,
     width: React.PropTypes.number.isRequired,
     height: React.PropTypes.number.isRequired
   }
@@ -136,9 +142,12 @@ export default class USMap extends React.Component {
 
             {this.props.events.map((event, id) => {
               const coord = this.projection(
-                [parseFloat(event.Longitude),
-                parseFloat(event.Latitude)]
+                [parseFloat(event.longitude),
+                parseFloat(event.latitude)]
               )
+              if (coord === null) {
+                return ''
+              }
 
               return (
                 <EventItem
@@ -151,8 +160,8 @@ export default class USMap extends React.Component {
                   onClick={() => {
                     console.log('CLICKED')
                   }}
-                  city={event.City}
-                  state={event.State}
+                  city={event.city}
+                  state={event.state}
                 />
               )
             })}

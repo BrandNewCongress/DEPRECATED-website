@@ -7,23 +7,34 @@ import React from 'react'
 import renderIndex from './render-index'
 import { configureStore } from '../store'
 import { LookRoot, Presets, StyleSheet } from 'react-look'
+import axios from 'axios'
+import Baby from 'babyparse'
+import wrap from './wrap'
 
-function clientRouteHandler(req, res) {
-  const initialState = {
-    events: [{
-      Date: 'Jun 15',
-      City: 'San Bernardino',
-      State: 'California',
-      StateAbbrev: 'CA',
-      Zip: 92401,
-      Latitude: 34.0971415,
-      Longitude: -117.2940637,
-      Type: 'R&D phase (AKA Cookout Phase)'
-    }]
-  }
+const Zips = Baby.parseFiles(`${__dirname}/data/zip-codes.csv`, { header: true }).data
+const ZipCodeDB = {}
+Zips.forEach((row) => {
+  ZipCodeDB[row.zip] = row
+})
+export default wrap(async (req, res) => {
+  const dataRequest = await axios.get('https://docs.google.com/spreadsheets/d/1KgT7FWC-ow-yLbVSe1jriImGFE_SGRiVdq9t9khuH_4/pub?gid=0&single=true&output=csv')
+  const events = Baby.parse(dataRequest.data, { header: true })
+  .data
+  .map((event) => {
+    const zipInfo = ZipCodeDB[event.Zip]
+    return {
+      city: event.City,
+      state: event.State,
+      zip: event.Zip,
+      date: event.Date,
+      latitude: zipInfo.latitude,
+      longitude: zipInfo.longitude
+    }
+  })
+
   const serverConfig = Presets['react-dom']
   const memoryHistory = createMemoryHistory(req.url)
-  const store = configureStore(memoryHistory, initialState)
+  const store = configureStore(memoryHistory, { events })
   const history = syncHistoryWithStore(memoryHistory, store)
 
   match({ history, routes, location: req.url }, (error, redirectLocation, renderProps) => {
@@ -42,10 +53,10 @@ function clientRouteHandler(req, res) {
         </Provider>
       )
       const css = StyleSheet.renderToString(serverConfig.prefixer)
+
       res.send(renderIndex(html, css, store))
     } else {
       res.status(404).send('Not found')
     }
   })
-}
-export default clientRouteHandler
+})

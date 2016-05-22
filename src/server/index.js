@@ -5,15 +5,6 @@ import log from './log'
 import proxy from 'http-proxy-middleware'
 import clientRouteHandler from './client-route-handler'
 
-// Properly catch async exceptions, log them, and re-throw them
-// on the main process to crash the program
-const wrap = (fn) =>
-  (...args) =>
-    fn(...args)
-      .catch((ex) => {
-        log.error(ex)
-        process.nextTick(() => { throw ex })
-      })
 const app = express()
 const port = process.env.PORT
 const publicPath = path.resolve(__dirname, '../../build/frontend')
