@@ -3,8 +3,9 @@ import EventItem from './EventItem'
 import d3 from 'd3'
 import topojson from 'topojson'
 import { StyleSheet } from 'react-look'
+import EventDetails from './EventDetails'
 const rawStates = require('./data/states.json')
-const USStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
+const usStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
 const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
 const styles = StyleSheet.create({
@@ -32,6 +33,7 @@ export default class USMap extends React.Component {
       city: React.PropTypes.string,
       state: React.PropTypes.string,
       date: React.PropTypes.string,
+      rsvpUrl: React.PropTypes.string,
       latitude: React.PropTypes.string,
       longitude: React.PropTypes.string
     })).isRequired,
@@ -47,6 +49,7 @@ export default class USMap extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      selectedEvent: null,
       mapTranslate: [props.width / 2, props.height / 2],
       mapScale: InitialScale,
       zoomLevel: USLevelZoom,
@@ -87,13 +90,16 @@ export default class USMap extends React.Component {
     }
   }
 
-  onClickUSState(state, event) {
+  onClickUsState(state, event) {
     if (this.state.activeNode.node() === event.target) {
       // State has been clicked again
-      this.setState({ mapScale: null,
-                      mapTranslate: null,
-                      activeNode: d3.select(null),
-                      zoomLevel: USLevelZoom })
+      this.setState({
+        mapScale: null,
+        mapTranslate: null,
+        activeNode: d3.select(null),
+        selectedEvent: null,
+        zoomLevel: USLevelZoom
+      })
     } else {
       // New State has been clicked
       const bounds = this.path.bounds(state)
@@ -111,6 +117,7 @@ export default class USMap extends React.Component {
         mapScale,
         mapTranslate,
         activeNode: d3.select(event.target),
+        selectedEvent: null,
         zoomLevel: StateLevelZoom
       })
     }
@@ -121,9 +128,19 @@ export default class USMap extends React.Component {
     this.setState({ activeNode: d3.select(null) })
   }
 
+  showEventDetails() {
+    return (
+      <EventDetails
+        event={this.state.selectedEvent}
+        onClose={() => this.setState({ selectedEvent: null })}
+      />
+    )
+  }
+
   render() {
     return (
       <div className={styles.mapContainer}>
+        {this.state.selectedEvent ? this.showEventDetails() : ''}
         <svg
           className={styles.map}
           ref='svg_map'
@@ -131,12 +148,12 @@ export default class USMap extends React.Component {
           height={this.props.height}
         >
           <g id='USMap-activityArea'>
-            {USStates.map((USState, id) => (
+            {usStates.map((usState, id) => (
               <path
                 key={id}
                 className={styles.state}
-                d={this.path(USState)}
-                onClick={(e) => this.onClickUSState(USState, e)}
+                d={this.path(usState)}
+                onClick={(e) => this.onClickUsState(usState, e)}
               />
             ))}
 
@@ -158,7 +175,7 @@ export default class USMap extends React.Component {
                   scale={(this.state.mapScale === InitialScale
                     || !this.state.mapScale) ? 1 : this.state.mapScale}
                   onClick={() => {
-                    console.log('CLICKED')
+                    this.setState({ selectedEvent: event })
                   }}
                   city={event.city}
                   state={event.state}

@@ -27,6 +27,7 @@ export default wrap(async (req, res) => {
       state: event.State,
       zip: event.Zip,
       date: event.Date,
+      rsvpUrl: event['NB Event Link'],
       latitude: zipInfo.latitude,
       longitude: zipInfo.longitude
     }
