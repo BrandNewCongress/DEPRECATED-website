@@ -11,13 +11,14 @@ const [USLevelZoom, StateLevelZoom] = [0, 2]
 const styles = StyleSheet.create({
   mapContainer: {
     backgroundColor: '#E1E4E0',
-    width: '100%'
+    height: '100%'
   },
   map: {
     marginLeft: '50%',
     transform: 'translate(-50%, 0)',
     width: '100%',
-    height: 'auto'
+    height: 'auto',
+    maxHeight: '100%'
   },
   state: {
     fill: 'white',

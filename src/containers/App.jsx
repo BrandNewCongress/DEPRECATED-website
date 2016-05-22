@@ -5,8 +5,8 @@ import { connect } from 'react-redux'
 
 const styles = StyleSheet.create({
   map: {
-    width: '100%',
-    height: '80vh'
+    height: '80vh',
+    width: 'auto'
   }
 })
 
