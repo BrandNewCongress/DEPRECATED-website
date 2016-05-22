@@ -7,16 +7,14 @@ import theme from '../theme'
 
 const styles = StyleSheet.create({
   map: {
-    height: '80vmin',
-    opacity: (props, state) => state.introMode ? 0.3 : 1
+    height: '80vmin'
   },
   welcomeMessage: {
     width: '100vw',
     height: '80vmin',
     position: 'absolute',
     zIndex: 1000,
-    cursor: 'pointer',
-    display: (props, state) => state.introMode ? 'block' : 'none'
+    cursor: 'pointer'
   },
 /*  hero: {
     position: (props, state) => 'absolute',
@@ -42,7 +40,32 @@ class App extends React.Component {
   }
 
   state = {
-    introMode: false
+    introMode: true
+  }
+
+  showWelcomeMessage() {
+    if (this.state.introMode) {
+      return (
+        <div
+          className={styles.welcomeMessage}
+          onClick={() => {
+            console.log('here')
+            this.setState({ introMode: false })
+          }}
+        >
+          <div>
+            We're coming to a city near you to start planning the next step of the political revolution.
+          </div>
+          <div>
+            Let's get together to elect a Brand New Congress that works for all. RSVP NOW.
+          </div>
+          <div>
+            Can't make it to an event? Sign up anyway to see how you can help.
+          </div>
+        </div>
+      )
+    }
+    return ''
   }
 
   render() {
@@ -52,24 +75,13 @@ class App extends React.Component {
           <Navigation />
         </div>
         <div>
+          {this.showWelcomeMessage()}
           <div
-            className={styles.welcomeMessage}
-            onClick={() => {
-              console.log('here')
-              this.setState({ introMode: false })
-            }}
+            className={styles.map}
+            style={this.state.introMode ? {
+              opacity: 0.3
+            } : {}}
           >
-            <div>
-              We're coming to a city near you to start planning the next step of the political revolution.
-            </div>
-            <div>
-              Let's get together to elect a Brand New Congress that works for all. RSVP NOW.
-            </div>
-            <div>
-              Can't make it to an event? Sign up anyway to see how you can help.
-            </div>
-          </div>
-          <div className={styles.map}>
             <USMap events={this.props.events} />
           </div>
         </div>
@@ -78,4 +90,4 @@ class App extends React.Component {
   }
 }
 
-export default connect(mapStateToProps)(look(App))
+export default connect(mapStateToProps)(App)
