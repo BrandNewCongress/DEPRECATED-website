@@ -10,11 +10,14 @@ const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
 const styles = StyleSheet.create({
   mapContainer: {
-    backgroundColor: '#E1E4E0'
+    backgroundColor: '#E1E4E0',
+    width: '100%'
   },
   map: {
     marginLeft: '50%',
-    transform: 'translate(-50%, 0)'
+    transform: 'translate(-50%, 0)',
+    width: '100%',
+    height: 'auto'
   },
   state: {
     fill: 'white',
@@ -143,9 +146,7 @@ export default class USMap extends React.Component {
         {this.state.selectedEvent ? this.showEventDetails() : ''}
         <svg
           className={styles.map}
-          ref='svg_map'
-          width={this.props.width}
-          height={this.props.height}
+          viewBox={`0 0 ${this.props.width} ${this.props.height}`}
         >
           <g id='USMap-activityArea'>
             {usStates.map((usState, id) => (
