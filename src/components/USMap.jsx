@@ -11,7 +11,7 @@ const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
 const styles = StyleSheet.create({
   mapContainer: {
-    backgroundColor: theme.colors.lightGray,
+    backgroundColor: 'white',
     height: '100%'
   },
   map: {
@@ -23,11 +23,11 @@ const styles = StyleSheet.create({
   },
   state: {
     fill: 'white',
-    stroke: '#E1E4E0',
+    stroke: theme.colors.gray,
     strokeWidth: 1.5,
     transition: 'fill .1s',
     ':hover': {
-      fill: '#F5FFF7'
+      fill: theme.colors.lightGreen
     }
   }
 })

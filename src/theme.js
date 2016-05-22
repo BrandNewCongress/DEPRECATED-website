@@ -2,6 +2,7 @@ export default {
   fontFamily: 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;',
   colors: {
     orange: 'rgb(241, 100, 50)',
+    lightGreen: 'rgb(245, 255, 247)',
     blue: 'rgb(20, 127, 215)',
     lightBlue: 'rgb(196, 223, 245)',
     darkBlue: 'rgb(13, 81, 139)',
