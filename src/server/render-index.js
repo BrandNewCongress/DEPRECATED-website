@@ -1,4 +1,4 @@
-export default function renderIndex(html, css, initialState) {
+export default function renderIndex(html, css, store) {
   return `
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +32,7 @@ export default function renderIndex(html, css, initialState) {
   <body>
     <div id="mount">${html}</div>
     <script>
-      window.INITIAL_STATE = ${JSON.stringify(initialState)}
+      window.INITIAL_STATE = ${JSON.stringify(store.getState())}
     </script>
     <script src="/assets/js/bundle.js"></script>
   </body>

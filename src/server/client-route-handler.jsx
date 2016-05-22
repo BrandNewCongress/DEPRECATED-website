@@ -8,8 +8,6 @@ import renderIndex from './render-index'
 import { configureStore } from '../store'
 import { LookRoot, Presets, StyleSheet } from 'react-look'
 
-const serverConfig = Presets['react-dom']
-
 function clientRouteHandler(req, res) {
   const initialState = {
     events: [{
@@ -23,6 +21,7 @@ function clientRouteHandler(req, res) {
       Type: 'R&D phase (AKA Cookout Phase)'
     }]
   }
+  const serverConfig = Presets['react-dom']
   const memoryHistory = createMemoryHistory(req.url)
   const store = configureStore(memoryHistory, initialState)
   const history = syncHistoryWithStore(memoryHistory, store)
@@ -35,7 +34,6 @@ function clientRouteHandler(req, res) {
     } else if (renderProps) {
       serverConfig.userAgent = req.headers['user-agent']
       serverConfig.styleElementId = '_look'
-
       const html = renderToString(
         <Provider store={store}>
           <LookRoot config={serverConfig}>
@@ -43,12 +41,8 @@ function clientRouteHandler(req, res) {
           </LookRoot>
         </Provider>
       )
-
       const css = StyleSheet.renderToString(serverConfig.prefixer)
-
-      const finalState = store.getState()
-
-      res.send(renderIndex(html, css, finalState))
+      res.send(renderIndex(html, css, store))
     } else {
       res.status(404).send('Not found')
     }
