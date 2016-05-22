@@ -60,8 +60,9 @@ const styles = StyleSheet.create({
     fontWeight: 400,
     fontSize: 15,
     color: theme.colors.orange,
-    paddingTop: 25,
-    marginLeft: 20
+    paddingTop: 30,
+    marginLeft: 20,
+    verticalAlign: 'top'
   },
   navItem: {
     display: 'inline-block',
