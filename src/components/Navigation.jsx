@@ -1,13 +1,13 @@
 import React from 'react'
 import { StyleSheet } from 'react-look'
+import theme from '../theme'
 
 const styles = StyleSheet.create({
   logo: {
+    display: 'inline-block',
     backgroundColor: '#f16432',
     padding: '10px 5px 5px',
-    width: 110,
-    marginTop: 5,
-    float: 'left'
+    width: 100
   },
   logoText: {
     color: 'white',
@@ -18,23 +18,37 @@ const styles = StyleSheet.create({
     marginTop: 5,
     marginBottom: 5,
     fontSize: 15,
-    fontFamily: 'Open Sans'
-
+    fontFamily: theme.fontFamily
+  },
+  nav: {
+    display: 'inline-block',
+    fontWeight: 800,
+    fontSize: 25,
+    color: theme.lightGray,
+    verticalAlign: 'middle',
+    width: '100%'
+  },
+  navItem: {
+    display: 'inline-block'
   },
   navBar: {
-    float: 'left'
+    display: 'block',
+    width: '100%'
   }
 })
 
 export default () => (
-  <div>
+  <div className={styles.navBar}>
     <div className={styles.logo}>
       <div className={styles.logoText}>
         Brand New Congress
       </div>
     </div>
 
-    <div className={styles.navBar}>
+    <div className={styles.nav}>
+      <div className={styles.navItem}>
+        Hello
+      </div>
     </div>
   </div>
 )

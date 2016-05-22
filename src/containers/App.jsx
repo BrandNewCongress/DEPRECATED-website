@@ -1,11 +1,15 @@
 import React from 'react'
 import USMap from '../components/USMap'
+import Navigation from '../components/Navigation'
 import { StyleSheet } from 'react-look'
 import { connect } from 'react-redux'
 
 const styles = StyleSheet.create({
   map: {
-    height: '70vmin'
+    height: '80vmin'
+  },
+  nav: {
+    width: '100vw'
   }
 })
 
@@ -16,8 +20,13 @@ function mapStateToProps(state) {
 }
 
 const App = ({ events }) => (
-  <div className={styles.map}>
-    <USMap events={events} />
+  <div>
+    <div className={styles.nav}>
+      <Navigation />
+    </div>
+    <div className={styles.map}>
+      <USMap events={events} />
+    </div>
   </div>
 )
 
