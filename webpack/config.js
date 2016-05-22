@@ -9,7 +9,7 @@ var plugins = [
 ]
 
 var outputFile = '[name].js'
-var assetDir = process.env.ASSETS_DIR
+var assetsDir = process.env.ASSETS_DIR
 var assetMapFile = process.env.ASSETS_MAP_FILE
 if (!DEBUG) {
   plugins.push(new AssetsWebpackPlugin({ filename: assetMapFile }))
@@ -42,12 +42,12 @@ var config = {
   plugins: plugins,
   output: {
     filename: outputFile,
-    path: assetDir,
+    path: DEBUG ? '/' : assetsDir,
     publicPath: '/assets/'
   }
 }
 
-if (process.env.NODE_ENV === 'development') {
+if (DEBUG) {
   config.devtool = '#inline-source-map'
 } else if (process.env.NODE_ENV === 'production') {
   config.devtool = 'source-map'
