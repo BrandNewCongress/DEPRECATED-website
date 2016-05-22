@@ -1,4 +1,7 @@
 var webpack = require('webpack')
+var AssetsWebpackPlugin = require('assets-webpack-plugin');
+var path = require('path')
+
 var DEBUG = process.env.NODE_ENV !== 'production'
 var plugins = [
   new webpack.DefinePlugin({
@@ -6,12 +9,16 @@ var plugins = [
   }),
 ]
 
-if (!DEBUG)
+var outputFile = '[name].js'
+if (!DEBUG) {
+  plugins.push(new AssetsWebpackPlugin({filename: './build/assets/assets.json'}))
   plugins.push(new webpack.optimize.UglifyJsPlugin({ minimize: true }))
+  outputFile = '[name].[chunkhash].js'
+}
 
 var config = {
   entry: {
-    app: ['babel-polyfill', './src/client/index.jsx']
+    bundle: ['babel-polyfill', './src/client/index.jsx']
   },
   module: {
     noParse: [],
@@ -26,15 +33,15 @@ var config = {
           cacheDirectory: DEBUG
         }
       }
-    ],
+    ]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
   plugins: plugins,
   output: {
-    filename: 'bundle.js',
-    path: './build/assets/js/',
+    filename: outputFile,
+    path: path.join(__dirname, '../build/assets/'),
     publicPath: '/assets/'
   }
 }

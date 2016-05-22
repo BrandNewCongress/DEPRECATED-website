@@ -1,9 +1,8 @@
 import React from 'react'
 import USMap from '../components/USMap'
 import Navigation from '../components/Navigation'
-import look, { StyleSheet } from 'react-look'
+import { StyleSheet } from 'react-look'
 import { connect } from 'react-redux'
-import theme from '../theme'
 
 const styles = StyleSheet.create({
   map: {
@@ -16,13 +15,6 @@ const styles = StyleSheet.create({
     zIndex: 1000,
     cursor: 'pointer'
   },
-/*  hero: {
-    position: (props, state) => 'absolute',
-    width: '100vw',
-    height: '80vmin',
-    zIndex: -1
-  },
-  */
   nav: {
     width: '100vw'
   }

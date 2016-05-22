@@ -10,12 +10,20 @@ import { LookRoot, Presets, StyleSheet } from 'react-look'
 import axios from 'axios'
 import Baby from 'babyparse'
 import wrap from './wrap'
+import fs from 'fs'
 
-const Zips = Baby.parseFiles(`${__dirname}/data/zip-codes.csv`, { header: true }).data
+const Zips = Baby.parseFiles(`${__dirname}/../data/zip-codes.csv`, { header: true }).data
 const ZipCodeDB = {}
 Zips.forEach((row) => {
   ZipCodeDB[row.zip] = row
 })
+let assetMap = {
+  bundle: { js: '/assets/bundle.js' }
+}
+if (process.env.NODE_ENV === 'production') {
+  assetMap = JSON.parse(fs.readFileSync('./build/assets/assets.json'))
+}
+
 export default wrap(async (req, res) => {
   const dataRequest = await axios.get('https://docs.google.com/spreadsheets/d/1KgT7FWC-ow-yLbVSe1jriImGFE_SGRiVdq9t9khuH_4/pub?gid=0&single=true&output=csv')
   const events = Baby.parse(dataRequest.data, { header: true })
@@ -55,7 +63,7 @@ export default wrap(async (req, res) => {
       )
       const css = StyleSheet.renderToString(serverConfig.prefixer)
 
-      res.send(renderIndex(html, css, store))
+      res.send(renderIndex(html, css, assetMap, store))
     } else {
       res.status(404).send('Not found')
     }

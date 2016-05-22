@@ -17,8 +17,8 @@ const connstring = `http://localhost:${appPort}`
 console.log('Proxying requests to:', connstring)
 
 const app = new WebpackDevServer(compiler, {
-  contentBase: '/assets/js/',
-  publicPath: '/assets/js/',
+  contentBase: '/assets/',
+  publicPath: '/assets/',
   headers: { 'Access-Control-Allow-Origin': '*' },
   proxy: {
     '*': `http://localhost:${appPort}`

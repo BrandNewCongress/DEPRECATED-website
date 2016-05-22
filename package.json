@@ -4,7 +4,6 @@
   "description": "Brand New Congress Starter Kit",
   "main": "src/server",
   "dependencies": {
-    "axios": "^0.11.1",
     "babel-cli": "^6.8.0",
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
@@ -13,7 +12,6 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "babel-preset-stage-1": "^6.5.0",
-    "babyparse": "^0.4.6",
     "d3": "^3.5.17",
     "d3-queue": "^2.0.3",
     "express": "^4.13.4",
@@ -54,14 +52,13 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "clean": "rm -rf build && mkdir -p ./build/assets/js",
+    "clean": "rm -rf build",
     "lint": "eslint --fix src",
     "prod-build-client": "webpack --config ./webpack/config.js",
-    "prod-build-server": "babel ./src/server -d ./build --source-maps",
-    "prod-version-assets": "node ./tools/version.js",
-    "prod-build": "npm run clean && npm run prod-build-client && npm run prod-build-server && npm run prod-version-assets",
+    "prod-build-server": "babel ./src -d ./build/app --source-maps && mkdir -p ./build/app/data && cp -R ./src/data/* ./build/app/data",
+    "prod-build": "npm run clean && npm run prod-build-client && npm run prod-build-server",
     "postinstall": "if [ \"$NODE_ENV\" = production ] ; then npm run prod-build ; fi",
-    "start": "node ./build/server",
+    "start": "node ./build/app/server",
     "predev-start": "npm run clean",
     "dev-start": "nodemon -e js,jsx -w ./src --exec ./tools/babel-run -- ./src/server",
     "dev": "nf start -w --procfile ./tools/Procfile.dev"
