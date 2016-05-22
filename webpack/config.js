@@ -11,7 +11,7 @@ if (!DEBUG)
 
 var config = {
   entry: {
-    app: ['babel-polyfill', './src/frontend/app.js']
+    app: ['babel-polyfill', './src/client.jsx']
   },
   module: {
     noParse: [],
@@ -26,12 +26,15 @@ var config = {
           cacheDirectory: DEBUG
         }
       }
-    ]
+    ],
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   },
   plugins: plugins,
   output: {
-    filename: 'app.js',
-    path: './build/frontend/assets/js/',
+    filename: 'bundle.js',
+    path: './build/assets/js/',
     publicPath: '/assets/'
   }
 }

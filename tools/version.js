@@ -2,26 +2,24 @@
 var fs = require('fs')
 var Version = require("node-version-assets");
 var mapReplacer = new Version({
-    assets: ['build/frontend/assets/js/app.js.map'],
-    grepFiles: ['build/frontend/assets/js/app.js']
+  assets: ['build/assets/js/bundle.js.map'],
+  grepFiles: ['build/assets/js/bundle.js']
 })
 
 mapReplacer.run(function() {
   // For some reason the map replacer doesn't work
   var newAppJsMapFile = null;
-  var assets = fs.readdirSync('build/frontend/assets/js')
+  var assets = fs.readdirSync('build/assets/js')
   assets.forEach(function(assetName) {
-    if (assetName.match(/^app\.js\..*\.map$/))
+    if (assetName.match(/^bundle\.js\..*\.map$/))
       newAppJsMapFile = assetName
   })
-  var appJsContents = fs.readFileSync('build/frontend/assets/js/app.js', 'utf8')
+  var appJsContents = fs.readFileSync('build/assets/js/bundle.js', 'utf8')
 
-  var results = appJsContents.replace('app.js.map', newAppJsMapFile)
-  fs.writeFileSync('build/frontend/assets/js/app.js', results, 'utf8')
+  var results = appJsContents.replace('bundle.js.map', newAppJsMapFile)
+  fs.writeFileSync('build/assets/js/bundle.js', results, 'utf8')
 
   var assetReplacer = new Version({
-    assets: ['build/frontend/assets/js/app.js'],
-    grepFiles: ['build/frontend/index.html']
-  });
+    assets: ['build/assets/js/bundle.js']  });
   assetReplacer.run()
 })

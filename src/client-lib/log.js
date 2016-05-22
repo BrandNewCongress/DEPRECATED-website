@@ -1,6 +1,4 @@
-import minilog from 'minilog'
 minilog.enable()
-
 const log = minilog('client')
 const existingErrorLogger = log.error
 log.error = () => {

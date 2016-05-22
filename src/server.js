@@ -1,8 +1,8 @@
 import 'babel-polyfill'
 import express from 'express'
-import fallback from 'express-history-api-fallback'
 import path from 'path'
-import log from './log'
+import log from './server-lib/log'
+import index from './server-lib/index'
 import proxy from 'http-proxy-middleware'
 
 // Properly catch async exceptions, log them, and re-throw them
@@ -82,11 +82,6 @@ app.use([
     target: 'http://brandnewcongress.github.io',
     changeOrigin: true
   }))
-
-app.use(fallback('index.html', {
-  root: publicPath,
-  maxAge: 0
-}))
 
 app.listen(port, () => {
   log.info(`Node app is running on port ${port}`)

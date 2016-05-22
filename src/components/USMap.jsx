@@ -1,11 +1,9 @@
 import React from 'react'
 import EventItem from './EventItem'
-import { connect } from 'react-redux'
 import d3 from 'd3'
 import topojson from 'topojson'
 import { StyleSheet } from 'react-look'
-
-const rawStates = require('../../data/states.json')
+const rawStates = require('./data/states.json')
 const USStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
 const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
@@ -28,11 +26,16 @@ const styles = StyleSheet.create({
   }
 })
 
-class USMap extends React.Component {
+export default class USMap extends React.Component {
   static propTypes = {
     events: React.PropTypes.array.isRequired,
     width: React.PropTypes.number.isRequired,
     height: React.PropTypes.number.isRequired
+  }
+
+  static defaultProps = {
+    width: 960,
+    height: 600
   }
 
   constructor(props) {
@@ -159,16 +162,3 @@ class USMap extends React.Component {
     )
   }
 }
-
-USMap.defaultProps = {
-  width: 960,
-  height: 600
-}
-
-function mapStateToProps(state) {
-  return {
-    events: state.events
-  }
-}
-
-export default connect(mapStateToProps)(USMap)
