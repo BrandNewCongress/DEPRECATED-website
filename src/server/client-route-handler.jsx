@@ -21,7 +21,7 @@ let assetMap = {
   bundle: { js: '/assets/bundle.js' }
 }
 if (process.env.NODE_ENV === 'production') {
-  assetMap = JSON.parse(fs.readFileSync('./build/assets/assets.json'))
+  assetMap = JSON.parse(fs.readFileSync(process.env.ASSETS_MAP_FILE))
 }
 
 export default wrap(async (req, res) => {

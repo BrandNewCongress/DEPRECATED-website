@@ -1,20 +1,20 @@
 import WebpackDevServer from 'webpack-dev-server'
-import path from 'path'
 import webpack from 'webpack'
-import express from 'express'
 import config from './config'
+import log from '../src/server/log'
 
 const webpackPort = 3000
 const appPort = process.env.APP_PORT
-config.output = {
-  filename: 'bundle.js',
-  path: '/'
-}
-config.entry.app.unshift(`webpack-dev-server/client?http://localhost:${webpackPort}/`)
+
+Object.keys(config.entry)
+.forEach((key) => {
+  config.entry[key].unshift(`webpack-dev-server/client?http://localhost:${webpackPort}/`)
+})
+
 const compiler = webpack(config)
 const connstring = `http://localhost:${appPort}`
 
-console.log('Proxying requests to:', connstring)
+log.info(`Proxying requests to:${connstring}`)
 
 const app = new WebpackDevServer(compiler, {
   contentBase: '/assets/',
@@ -26,8 +26,6 @@ const app = new WebpackDevServer(compiler, {
   stats: { colors: true }
 })
 
-const publicPath = path.resolve(__dirname, '../build/frontend')
-app.use(express.static(publicPath))
 app.listen(webpackPort, () => {
-  console.log(`Webpack dev server is now running on http://localhost:${webpackPort}`);
-});
+  log.info(`Webpack dev server is now running on http://localhost:${webpackPort}`)
+})

@@ -1,7 +1,6 @@
 var webpack = require('webpack')
 var AssetsWebpackPlugin = require('assets-webpack-plugin');
 var path = require('path')
-
 var DEBUG = process.env.NODE_ENV !== 'production'
 var plugins = [
   new webpack.DefinePlugin({
@@ -10,8 +9,10 @@ var plugins = [
 ]
 
 var outputFile = '[name].js'
+var assetDir = process.env.ASSETS_DIR
+var assetMapFile = process.env.ASSETS_MAP_FILE
 if (!DEBUG) {
-  plugins.push(new AssetsWebpackPlugin({filename: './build/assets/assets.json'}))
+  plugins.push(new AssetsWebpackPlugin({ filename: assetMapFile }))
   plugins.push(new webpack.optimize.UglifyJsPlugin({ minimize: true }))
   outputFile = '[name].[chunkhash].js'
 }
@@ -41,7 +42,7 @@ var config = {
   plugins: plugins,
   output: {
     filename: outputFile,
-    path: path.join(__dirname, '../build/assets/'),
+    path: assetDir,
     publicPath: '/assets/'
   }
 }

@@ -4,8 +4,6 @@
   "description": "Brand New Congress Starter Kit",
   "main": "src/server",
   "dependencies": {
-    "assets-webpack-plugin": "^3.4.0",
-    "axios": "^0.11.1",
     "babel-cli": "^6.8.0",
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
@@ -14,7 +12,6 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "babel-preset-stage-1": "^6.5.0",
-    "babyparse": "^0.4.6",
     "d3": "^3.5.17",
     "d3-queue": "^2.0.3",
     "express": "^4.13.4",
@@ -26,6 +23,7 @@
     "moment": "^2.13.0",
     "mustache": "^2.2.1",
     "node-sass": "^3.7.0",
+    "node-version-assets": "^1.1.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "react-look": "^1.0.0-beta9",
@@ -34,7 +32,6 @@
     "react-router-redux": "^4.0.4",
     "redux": "^3.5.2",
     "redux-form": "^5.2.3",
-    "redux-thunk": "^2.1.0",
     "rollbar": "^0.6.0",
     "topojson": "^1.6.26",
     "webpack": "^1.13.0"
@@ -55,13 +52,13 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "clean": "rm -rf build",
+    "clean": "rm -rf $BUILD_DIR",
     "lint": "eslint --fix src",
     "prod-build-client": "webpack --config ./webpack/config.js",
-    "prod-build-server": "babel ./src -d ./build/app --source-maps && mkdir -p ./build/app/data && cp -R ./src/data/* ./build/app/data",
+    "prod-build-server": "babel ./src -d $BUILD_DIR/server --source-maps && mkdir -p $BUILD_DIR/server/data && cp -R ./src/data/* $BUILD_DIR/server/data",
     "prod-build": "npm run clean && npm run prod-build-client && npm run prod-build-server",
     "postinstall": "if [ \"$NODE_ENV\" = production ] ; then npm run prod-build ; fi",
-    "start": "node ./build/app/server",
+    "start": "node $BUILD_DIR/server/server",
     "predev-start": "npm run clean",
     "dev-start": "nodemon -e js,jsx -w ./src --exec ./tools/babel-run -- ./src/server",
     "dev": "nf start -w --procfile ./tools/Procfile.dev"
