@@ -1,4 +1,4 @@
-export default function renderIndex(html, css, store) {
+export default function renderIndex(html, css, assetMap, store) {
   return `
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +34,7 @@ export default function renderIndex(html, css, store) {
     <script>
       window.INITIAL_STATE = ${JSON.stringify(store.getState())}
     </script>
-    <script src="/assets/js/bundle.js"></script>
+    <script src="${assetMap.bundle.js}"></script>
   </body>
 </html>
 `

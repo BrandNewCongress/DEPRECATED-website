@@ -7,16 +7,18 @@ import clientRouteHandler from './client-route-handler'
 
 const app = express()
 const port = process.env.PORT
-const publicPath = path.resolve(__dirname, '../../build/frontend')
 app.enable('trust proxy')
 
 app.get('/', (req, res) => {
   res.redirect('/home')
 })
 
-app.use(express.static(publicPath, {
-  maxAge: '180 days'
-}))
+// In development, we use webpack server
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(process.env.PUBLIC_DIR, {
+    maxAge: '180 days'
+  }))
+}
 
 app.use('/go',
   proxy({

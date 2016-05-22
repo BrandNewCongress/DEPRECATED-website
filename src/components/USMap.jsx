@@ -5,7 +5,7 @@ import topojson from 'topojson'
 import { StyleSheet } from 'react-look'
 import EventDetails from './EventDetails'
 import theme from '../theme'
-const rawStates = require('./data/states.json')
+const rawStates = require('../data/states.json')
 const usStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
 const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
