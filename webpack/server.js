@@ -7,7 +7,7 @@ import config from './config'
 const webpackPort = 3000
 const appPort = process.env.APP_PORT
 config.output = {
-  filename: 'app.js',
+  filename: 'bundle.js',
   path: '/'
 }
 config.entry.app.unshift(`webpack-dev-server/client?http://localhost:${webpackPort}/`)
