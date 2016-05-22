@@ -4,13 +4,14 @@ import d3 from 'd3'
 import topojson from 'topojson'
 import { StyleSheet } from 'react-look'
 import EventDetails from './EventDetails'
+import theme from '../theme'
 const rawStates = require('./data/states.json')
 const usStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
 const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
 const styles = StyleSheet.create({
   mapContainer: {
-    backgroundColor: '#E1E4E0',
+    backgroundColor: theme.colors.lightGray,
     height: '100%'
   },
   map: {

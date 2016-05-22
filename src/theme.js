@@ -1,6 +1,7 @@
 export default {
   fontFamily: 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;',
   colors: {
+    orange: 'rgb(241, 100, 50)',
     blue: 'rgb(20, 127, 215)',
     lightBlue: 'rgb(196, 223, 245)',
     darkBlue: 'rgb(13, 81, 139)',
@@ -11,6 +12,6 @@ export default {
     darkGreen: 'rgb(24, 154, 52)',
     darkGray: 'rgb(54, 67, 80)',
     gray: 'rgb(153, 155, 158)',
-    lightGray: 'rgb(239, 243, 247)'
+    lightGray: 'rgb(225, 228, 224)'
   }
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 import { StyleSheet } from 'react-look'
+import theme from '../theme'
 
 const styles = StyleSheet.create({
   circle: {
     transition: 'r 0.6s, stroke-width 0.4s',
     cursor: 'pointer',
-    fill: '#f26b3a',
+    fill: theme.colors.orange,
     stroke: 'rgba(255,255,255, 0.5)'
   }
 })

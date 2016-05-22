@@ -5,9 +5,9 @@ import theme from '../theme'
 const styles = StyleSheet.create({
   logo: {
     display: 'inline-block',
-    backgroundColor: '#f16432',
+    backgroundColor: theme.colors.orange,
     padding: '10px 5px 5px',
-    width: 100
+    width: 75
   },
   logoText: {
     color: 'white',
@@ -17,37 +17,62 @@ const styles = StyleSheet.create({
     borderWidth: '0 0 0 4px',
     marginTop: 5,
     marginBottom: 5,
-    fontSize: 15,
+    fontSize: 10,
     fontFamily: theme.fontFamily
   },
+  mobileNav: {
+    '@media (min-width: 575px)': {
+      display: 'none'
+    },
+    backgroundColor: theme.colors.orange,
+    display: 'flex',
+    flex: 1,
+    marginLeft: 1
+  },
   nav: {
-    display: 'inline-block',
-    fontWeight: 800,
-    fontSize: 25,
-    color: theme.lightGray,
-    verticalAlign: 'middle',
-    width: '100%'
+    '@media (max-width: 575px)': {
+      display: 'none'
+    },
+    display: 'flex',
+    flex: 1,
+    fontWeight: 400,
+    fontSize: 15,
+    color: theme.colors.orange,
+    paddingTop: 25,
+    marginLeft: 20
   },
   navItem: {
-    display: 'inline-block'
+    display: 'inline-block',
+    paddingRight: 25
   },
-  navBar: {
-    display: 'block',
+  container: {
+    display: 'flex',
     width: '100%'
   }
 })
 
 export default () => (
-  <div className={styles.navBar}>
+  <div className={styles.container}>
     <div className={styles.logo}>
       <div className={styles.logoText}>
         Brand New Congress
       </div>
     </div>
-
+    <div className={styles.mobileNav}>
+      PUT MOBILE NAV HERE
+    </div>
     <div className={styles.nav}>
       <div className={styles.navItem}>
-        Hello
+      The Plan
+      </div>
+      <div className={styles.navItem}>
+      Who's Involved
+      </div>
+      <div className={styles.navItem}>
+      Join A Team
+      </div>
+      <div className={styles.navItem}>
+      Contribute
       </div>
     </div>
   </div>
