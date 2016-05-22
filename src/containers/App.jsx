@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     width: '100%',
     position: 'absolute',
     zIndex: -1,
-    margin: '-1em',
+    margin: '-1em'
   },
   welcomeLine1: {
     fontSize: '2vw',
@@ -123,10 +123,6 @@ class App extends React.Component {
         >
           <div
             className={styles.welcomeMessage}
-            onClick={() => {
-              console.log('here')
-              this.setState({ introMode: false })
-            }}
           >
             <div className={styles.welcomeBackground}>
             </div>
@@ -136,7 +132,12 @@ class App extends React.Component {
             <div className={styles.welcomeLine2}>
               Let's get together to elect a <span className={styles.highlight}>Brand New Congress</span> that works for all.
             </div>
-            <div className={styles.rsvpButton}>
+            <div
+              className={styles.rsvpButton}
+              onClick={() => {
+                this.setState({ introMode: false })
+              }}
+            >
             RSVP Now
             </div>
             <div className={styles.welcomeLine3}>
