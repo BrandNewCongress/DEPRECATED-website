@@ -63,6 +63,9 @@ export default () => (
     </div>
     <div className={styles.nav}>
       <div className={styles.navItem}>
+      The Tour
+      </div>
+      <div className={styles.navItem}>
       The Plan
       </div>
       <div className={styles.navItem}>
