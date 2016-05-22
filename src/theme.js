@@ -9,7 +9,7 @@ export default {
     red: 'rgb(245, 91, 91)',
     lightRed: 'rgb(255, 141, 141)',
     darkRed: 'rgb(237, 60, 57)',
-    green: 'rgb(74, 204, 102)',
+    green: 'rgb(83, 180, 119)',
     darkGreen: 'rgb(24, 154, 52)',
     darkGray: 'rgb(54, 67, 80)',
     gray: 'rgb(153, 155, 158)',

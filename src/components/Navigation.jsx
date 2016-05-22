@@ -72,6 +72,9 @@ export default () => (
       Join A Team
       </div>
       <div className={styles.navItem}>
+      Issues
+      </div>
+      <div className={styles.navItem}>
       Contribute
       </div>
     </div>
