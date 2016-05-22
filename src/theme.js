@@ -24,6 +24,11 @@ export default {
     ':hover': {
       borderBottom: 0,
       color: colors.orange
+    },
+    'a:visited': {
+      fontWeight: 400,
+      color: colors.darkGray,
+      textDecoration: 'none'
     }
   }
 }

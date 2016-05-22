@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
     height: '100vh',
     width: '100vw'
   },
+  link: { ...theme.link },
   hero: {
     position: 'relative',
     height: 'calc(100vh - 77px)',
@@ -91,7 +92,6 @@ const styles = StyleSheet.create({
     paddingBottom: '1em'
   },
   highlight: {
-    color: theme.colors.orange,
     fontWeight: 600
   },
   welcomeMessageContainer: {
@@ -147,7 +147,7 @@ class App extends React.Component {
             RSVP Now
             </div>
             <div className={styles.welcomeLine3}>
-              Can't make it to an event? <span className={styles.highlight}>Sign up to see how you can help.</span>
+              Can't make it to an event? <span className={styles.highlight}><a href='#' className={styles.link}>Sign up to see how you can help.</a></span>
             </div>
           </div>
         </div>
@@ -157,6 +157,7 @@ class App extends React.Component {
   }
 
   render() {
+
     return (
       <div>
         <div className={styles.container}>

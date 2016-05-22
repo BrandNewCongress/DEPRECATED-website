@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     fontFamily: theme.fontFamily,
     fontWeight: 300
   },
-  link: theme.link,
+  link: { ...theme.link },
   shareIcon: {
     border:'none',
     fontSize: '3em',
