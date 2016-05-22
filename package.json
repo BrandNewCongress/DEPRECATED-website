@@ -52,13 +52,13 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "clean": "rm -rf $BUILD_DIR",
+    "clean": "rm -rf $OUTPUT_DIR",
     "lint": "eslint --fix src",
     "prod-build-client": "webpack --config ./webpack/config.js",
-    "prod-build-server": "babel ./src -d $BUILD_DIR/server --source-maps && mkdir -p $BUILD_DIR/server/data && cp -R ./src/data/* $BUILD_DIR/server/data",
+    "prod-build-server": "babel ./src -d $OUTPUT_DIR/server --source-maps && mkdir -p $OUTPUT_DIR/server/data && cp -R ./src/data/* $OUTPUT_DIR/server/data",
     "prod-build": "npm run clean && npm run prod-build-client && npm run prod-build-server",
     "postinstall": "if [ \"$NODE_ENV\" = production ] ; then npm run prod-build ; fi",
-    "start": "node $BUILD_DIR/server/server",
+    "start": "node $OUTPUT_DIR/server/server",
     "predev-start": "npm run clean",
     "dev-start": "nodemon -e js,jsx -w ./src --exec ./tools/babel-run -- ./src/server",
     "dev": "nf start -w --procfile ./tools/Procfile.dev"
