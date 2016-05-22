@@ -8,6 +8,8 @@ export default function renderIndex(html, css, assetMap, store) {
     <title>Brand New Congress</title>
     <style id="_look">${css}</style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic" rel="stylesheet" type="text/css">
     <script>
       var _rollbarConfig = {
           accessToken: "${process.env.ROLLBAR_ACCESS_TOKEN}",

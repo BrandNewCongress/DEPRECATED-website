@@ -1,6 +1,7 @@
 import React from 'react'
 import USMap from '../components/USMap'
 import Navigation from '../components/Navigation'
+import Footer from '../components/Footer'
 import { StyleSheet } from 'react-look'
 import { connect } from 'react-redux'
 import theme from '../theme'
@@ -15,7 +16,7 @@ const styles = StyleSheet.create({
   },
   hero: {
     position: 'relative',
-    height: 'calc(100vh - 70px)',
+    height: 'calc(100vh - 77px)',
     width: '100vw'
   },
   welcomeMessage: {
@@ -54,6 +55,11 @@ const styles = StyleSheet.create({
     fontSize: '3vw',
     '@media (max-width:750px)': {
       fontSize: '24px'
+    },
+    '@media (max-width: 750px)': {
+      fontSize: 16,
+      width: 350,
+      margin: 'auto'
     },
     color: theme.colors.darkGray
   },
@@ -96,7 +102,7 @@ const styles = StyleSheet.create({
   },
   nav: {
     width: '100vw',
-    height: 70
+    height: 77
   }
 })
 
@@ -168,6 +174,7 @@ class App extends React.Component {
               <USMap events={this.props.events} />
             </div>
           </div>
+          <Footer />
         </div>
       </div>
     )
