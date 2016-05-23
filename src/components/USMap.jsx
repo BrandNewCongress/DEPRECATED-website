@@ -7,6 +7,8 @@ import EventDetails from './EventDetails'
 import theme from '../theme'
 const rawStates = require('../data/states.json')
 const usStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
+const rawRegions = require('../data/regions.json')
+const usRegions = topojson.feature(rawRegions, rawRegions.objects.regions).features
 const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
 const styles = StyleSheet.create({
@@ -21,7 +23,21 @@ const styles = StyleSheet.create({
     height: 'auto',
     maxHeight: '100%'
   },
+  region: {
+    fill: 'transparent',
+    stroke: 'transparent',
+    strokeWidth: 1.5,
+    transition: 'fill .1s',
+    cursor: 'pointer',
+    ':hover': {
+      fill: theme.colors.lightGreen
+    },
+    ':click': {
+      fill: 'transparent'
+    }
+  },
   state: {
+    cursor: 'pointer',
     fill: 'white',
     stroke: theme.colors.gray,
     strokeWidth: 1.5,
@@ -58,7 +74,8 @@ export default class USMap extends React.Component {
       mapTranslate: [props.width / 2, props.height / 2],
       mapScale: InitialScale,
       zoomLevel: USLevelZoom,
-      activeNode: d3.select(null)
+      activeNode: d3.select(null),
+      showRegions: true
     }
   }
 
@@ -95,7 +112,7 @@ export default class USMap extends React.Component {
     }
   }
 
-  onClickUsState(state, event) {
+  onClickUsRegion(region, event) {
     if (this.state.activeNode.node() === event.target) {
       // State has been clicked again
       this.setState({
@@ -107,17 +124,32 @@ export default class USMap extends React.Component {
       })
     } else {
       // New State has been clicked
-      const bounds = this.path.bounds(state)
-      const dx = bounds[1][0] - bounds[0][0]
-      const dy = bounds[1][1] - bounds[0][1]
-      const x = (bounds[0][0] + bounds[1][0]) / 2
-      const y = (bounds[0][1] + bounds[1][1]) / 2
-      const mapScale = 0.7 / Math.max(dx / this.props.width, dy / this.props.height)
-      const mapTranslate = [
-        this.props.width / 2 - mapScale * x,
-        this.props.height / 2 - mapScale * y
-      ]
+      const [mapScale, mapTranslate] = this.getBounds(region)
+      this.setState({
+        mapScale,
+        mapTranslate,
+        activeNode: d3.select(event.target),
+        selectedEvent: null,
+        zoomLevel: StateLevelZoom,
+        showRegions: false
+      })
+    }
+  }
 
+  onClickUsState(state, event) {
+    if (this.state.activeNode.node() === event.target) {
+      // State has been clicked again
+      this.setState({
+        mapScale: null,
+        mapTranslate: null,
+        activeNode: d3.select(null),
+        selectedEvent: null,
+        zoomLevel: USLevelZoom,
+        showRegions: true
+      })
+    } else {
+      // New State has been clicked
+      const [mapScale, mapTranslate] = this.getBounds(state)
       this.setState({
         mapScale,
         mapTranslate,
@@ -126,6 +158,21 @@ export default class USMap extends React.Component {
         zoomLevel: StateLevelZoom
       })
     }
+  }
+
+  getBounds(pathArea) {
+    const bounds = this.path.bounds(pathArea)
+    const dx = bounds[1][0] - bounds[0][0]
+    const dy = bounds[1][1] - bounds[0][1]
+    const x = (bounds[0][0] + bounds[1][0]) / 2
+    const y = (bounds[0][1] + bounds[1][1]) / 2
+    const mapScale = 0.7 / Math.max(dx / this.props.width, dy / this.props.height)
+    const mapTranslate = [
+      this.props.width / 2 - mapScale * x,
+      this.props.height / 2 - mapScale * y
+    ]
+
+    return [mapScale, mapTranslate]
   }
 
   reset() {
@@ -140,6 +187,20 @@ export default class USMap extends React.Component {
         onClose={() => this.setState({ selectedEvent: null })}
       />
     )
+  }
+  renderRegions() {
+    return usRegions.map((usRegion, id) => {
+      if (usRegion.properties.NAME !== 'Northeast') return null
+      return (
+        <path
+          key={id}
+          ref={usRegion.properties.NAME}
+          className={styles.region}
+          d={this.path(usRegion)}
+          onClick={(e) => this.onClickUsRegion(usRegion, e)}
+        />
+      )
+    })
   }
 
   render() {
@@ -159,6 +220,10 @@ export default class USMap extends React.Component {
                 onClick={(e) => this.onClickUsState(usState, e)}
               />
             ))}
+
+
+            {this.state.showRegions ? this.renderRegions() : ''}
+
 
             {this.props.events.map((event, id) => {
               const coord = this.projection(
