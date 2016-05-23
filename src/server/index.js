@@ -33,7 +33,6 @@ app.use('/go',
 app.use([
   '/teams',
   '/forms',
-  '/callteam',
   '/helpdesk',
   '/talentteam',
   '/eventsteam',
@@ -56,6 +55,7 @@ app.use([
 
 app.use([
   '/home',
+  '/callteam',
   '/assets',
   '/about',
   '/teams',
