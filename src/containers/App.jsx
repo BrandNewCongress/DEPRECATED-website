@@ -161,7 +161,7 @@ class App extends React.Component {
                 this.setState({ introMode: false })
               }}
             >
-            RSVP NOW
+            FIND YOUR CITY
             </div>
           </div>
         </div>
