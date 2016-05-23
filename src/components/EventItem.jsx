@@ -7,7 +7,10 @@ const styles = StyleSheet.create({
     transition: 'r 0.6s, stroke-width 0.4s',
     cursor: 'pointer',
     fill: theme.colors.orange,
-    stroke: 'rgba(255,255,255, 0.5)'
+    stroke: 'rgba(255,255,255, 0.5)',
+    '@media (max-width: 775px)': {
+      r: '6px !important'
+    }
   }
 })
 
@@ -19,32 +22,13 @@ export default class EventItem extends React.Component {
     scale: React.PropTypes.number.isRequired,
     city: React.PropTypes.string.isRequired,
     state: React.PropTypes.string.isRequired,
-    onClick: React.PropTypes.func.isRequired
+    onClick: React.PropTypes.func.isRequired,
+    onMouseOver: React.PropTypes.func,
+    onMouseOut: React.PropTypes.func
   }
 
   state = {
     showText: false
-  }
-
-  textBox() {
-    const { centerX, centerY, scale, city, state } = this.props
-    const fontSize = 12 / scale
-    const transX = 10 / scale
-    const transY = 5 / scale
-    const translate = `translate(${transX},${transY})`
-    if (this.state.showText) {
-      return (
-        <text
-          x={centerX}
-          y={centerY}
-          fontSize={fontSize}
-          transform={translate}
-        >
-          {`${city}, ${state}`}
-        </text>
-      )
-    }
-    return ''
   }
 
   render() {
@@ -61,10 +45,9 @@ export default class EventItem extends React.Component {
           r={scaledRadius}
           strokeWidth={strokeWidth}
           onClick={() => onClick()}
-          onMouseOver={() => this.setState({ showText: true })}
-          onMouseOut={() => this.setState({ showText: false })}
+          onMouseOver={() => this.props.onMouseOver()}
+          onMouseOut={() => this.props.onMouseOut()}
         />
-        {this.textBox()}
       </g>
     )
   }

@@ -5,14 +5,21 @@ import topojson from 'topojson'
 import { StyleSheet } from 'react-look'
 import EventDetails from './EventDetails'
 import theme from '../theme'
+import MapZoomOut from './MapZoomOut'
+import { connect } from 'react-redux'
+import { selectState } from '../actions'
+
 const rawStates = require('../data/states.json')
 const usStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
 const InitialScale = 1280
 const [USLevelZoom, StateLevelZoom] = [0, 2]
 const styles = StyleSheet.create({
   mapContainer: {
+    position: 'relative',
     backgroundColor: 'white',
-    height: '100%'
+    '@media (min-width: 775px)': {
+      height: '100%'
+    }
   },
   map: {
     marginLeft: '50%',
@@ -32,7 +39,7 @@ const styles = StyleSheet.create({
   }
 })
 
-export default class USMap extends React.Component {
+class USMap extends React.Component {
   static propTypes = {
     events: React.PropTypes.arrayOf(React.PropTypes.shape({
       city: React.PropTypes.string,
@@ -58,7 +65,8 @@ export default class USMap extends React.Component {
       mapTranslate: [props.width / 2, props.height / 2],
       mapScale: InitialScale,
       zoomLevel: USLevelZoom,
-      activeNode: d3.select(null)
+      activeNode: d3.select(null),
+      hoveredEvent: null
     }
   }
 
@@ -97,6 +105,9 @@ export default class USMap extends React.Component {
 
   onClickUsState(state, event) {
     if (this.state.activeNode.node() === event.target) {
+      //Select for Application State
+      this.props.selectState(null)
+
       // State has been clicked again
       this.setState({
         mapScale: null,
@@ -118,6 +129,10 @@ export default class USMap extends React.Component {
         this.props.height / 2 - mapScale * y
       ]
 
+      //Select for Application State
+      this.props.selectState(state)
+
+      //Select for Component State
       this.setState({
         mapScale,
         mapTranslate,
@@ -140,6 +155,13 @@ export default class USMap extends React.Component {
         onClose={() => this.setState({ selectedEvent: null })}
       />
     )
+  }
+
+  renderHoveredEvent() {
+    if (this.state.hoveredEvent) {
+      // const { }
+      // return
+    }
   }
 
   render() {
@@ -171,7 +193,7 @@ export default class USMap extends React.Component {
 
               return (
                 <EventItem
-                  radius={5}
+                  radius={this.state.hoveredEvent == event ? 8 : 5}
                   centerX={coord[0]}
                   centerY={coord[1]}
                   key={`event-item-${id}`}
@@ -182,12 +204,31 @@ export default class USMap extends React.Component {
                   }}
                   city={event.city}
                   state={event.state}
+                  onMouseOver={() => {
+                    this.setState({ hoveredEvent: event })
+                  }}
+                  onMouseOut={() => {
+                    this.setState({ hoveredEvent: null })
+                  }}
                 />
               )
             })}
+            {this.renderHoveredEvent()}
           </g>
         </svg>
+
+        {(this.state.mapScale !== InitialScale && this.state.mapScale) ?
+            (<MapZoomOut
+              onClick={() => {
+                this.setState({ mapScale: null, mapTranslate: null })
+                this.props.selectState(null)
+              }}
+            />)
+            : ''}
       </div>
     )
   }
 }
+
+
+export default connect(null, { selectState })(USMap)
