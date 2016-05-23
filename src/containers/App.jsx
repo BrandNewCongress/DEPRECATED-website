@@ -7,6 +7,11 @@ import { StyleSheet } from 'react-look'
 import { connect } from 'react-redux'
 import theme from '../theme'
 
+StyleSheet.addCSS({
+  'html, body, #mount': {
+    overflowX: 'hidden'
+  }
+})
 
 const styles = StyleSheet.create({
   eventsList: {
