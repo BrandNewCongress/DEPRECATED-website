@@ -169,6 +169,7 @@ class USMap extends React.Component {
         zoomLevel: StateLevelZoom
       })
     }
+    this.props.selectState(state)
   }
 
   getBounds(pathArea) {

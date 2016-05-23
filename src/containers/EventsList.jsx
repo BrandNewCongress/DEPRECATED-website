@@ -71,30 +71,16 @@ class EventsList extends Component {
     selectedState: React.PropTypes.object
   }
 
-  constructor(props) {
-    super(props)
-  }
-
   filterEvents() {
     return this.props.selectedState && this.props.selectedState.properties ? this.props.events.filter(
       (event) => this.props.selectedState.properties.STUSPS === event.state
-    ) : []
+    ) : this.props.events
   }
   render() {
-    if (!this.props.events
-      || !this.props.selectedState
-      || !this.props.selectedState.properties) return (
-        <div className={styles.container}>
-          <h1 className={styles.stateName}>
-            Choose State
-          </h1>
-        </div>
-    )
-
     return (
       <div className={styles.container}>
         <h1 className={styles.stateName}>
-          {this.props.selectedState.properties.NAME}
+          {this.props.selectedState && this.props.selectedState.properties ? this.props.selectedState.properties.NAME : 'Upcoming Events'}
         </h1>
         {this.filterEvents().map((event, item) => (
           <div className={styles.eventItem} key={item}>

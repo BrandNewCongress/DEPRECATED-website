@@ -13,14 +13,16 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   container: {
+    paddingTop: 20,
     height: '100vh',
     width: '100vw'
   },
-  link: { ...theme.link },
+  link: {
+    ...theme.link
+  },
   hero: {
     position: 'relative',
-//    height: 'calc(100vh - 77px)',
-    height: '100vh',
+    height: 'calc(100vh - 100px)',
     width: '100vw',
     backgroundColor: 'white'
   },
@@ -91,11 +93,16 @@ const styles = StyleSheet.create({
   },
   cantMakeIt: {
     fontSize: '1.2vw',
+    padding: '1em 1em 1em 1em',
     '@media (max-width:750px)': {
-      fontSize: '12px'
+      fontSize: '10px'
     },
-    color: theme.colors.gray,
-    paddingBottom: '1em'
+    position: 'absolute',
+    textAlign: 'right',
+    zIndex: 1000,
+    top: 0,
+    right: 0,
+    color: theme.colors.gray
   },
   highlight: {
     color: theme.colors.orange,
@@ -154,9 +161,6 @@ class App extends React.Component {
             >
             RSVP NOW
             </div>
-            <div className={styles.cantMakeIt}>
-              Can't make it to an event? <span className={styles.highlight}><a href='#' className={styles.link}>Sign up to see how you can help.</a></span>
-            </div>
           </div>
         </div>
       )
@@ -164,9 +168,18 @@ class App extends React.Component {
     return ''
   }
 
+  showTopMessage() {
+    return (
+      <div className={styles.cantMakeIt}>
+        Can't make it to an event? <span className={styles.highlight}><a href='/home' className={styles.link}>Sign up anyway to see how you can help!</a></span>
+      </div>
+    )
+  }
+
   render() {
     return (
-      <div>
+      <div style={{position: 'relative'}}>
+       {this.state.introMode ? '' : this.showTopMessage()}
         <div className={styles.container}>
           <div className={styles.hero}>
             {this.showWelcomeMessage()}
@@ -177,7 +190,7 @@ class App extends React.Component {
               } : {}}
             >
               <USMap events={this.props.events} />
-              <EventsList events={this.props.events} selectedState={this.props.selectedState} />
+              {!this.state.introMode ? <EventsList events={this.props.events} selectedState={this.props.selectedState} /> : ''}
             </div>
           </div>
         </div>
