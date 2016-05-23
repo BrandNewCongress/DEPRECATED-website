@@ -14,11 +14,6 @@ const styles = StyleSheet.create({
       width: 'auto'
     }
   },
-  link: {
-    ...theme.link,
-    color: theme.colors.orange,
-    border: 'none'
-  },
   hamburger: {
     fill: 'white',
     cursor: 'pointer'
@@ -58,7 +53,7 @@ const styles = StyleSheet.create({
     width: '100%'
   },
   showNav: {
-    height: 132
+    height: 170
   },
   hideNav: {
     height: 0
@@ -75,21 +70,30 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     verticalAlign: 'top'
   },
-  navItem: {
-    display: 'inline-block',
-    paddingRight: 25,
+  link: {
+    ...theme.link,
+    border: 'none',
     fontSize: 15,
     fontWeight: 400,
     color: theme.colors.orange,
     '@media (max-width: 775px)': {
+      color: 'white',
+      fontSize: 14,
+      ':hover': {
+        color: theme.colors.orange
+      }
+    }
+  },
+  navItem: {
+    display: 'inline-block',
+    paddingRight: 25,
+    '@media (max-width: 775px)': {
       display: 'block',
       paddingLeft: 9,
-      color: 'white',
       paddingTop: 2,
       paddingBottom: 4,
       borderLeft: '4px white solid',
       marginLeft: 15,
-      fontSize: 14,
       marginTop: 4
     }
   },
