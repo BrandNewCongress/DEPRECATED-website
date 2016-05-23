@@ -32,7 +32,7 @@ export default class MapZoomOut extends Component {
         className={styles.buttonContainer}
         onClick={() => this.props.onClick()}
       >
-        <svg width='24' height='24' viewBox='0 0 24 24'>
+        <svg className={styles.icon} viewBox='0 0 24 24'>
           <path d='M6.426 10.668l-3.547-3.547-2.879 2.879v-10h10l-2.879 2.879 3.547 3.547-4.242 4.242zm11.148 2.664l3.547 3.547 2.879-2.879v10h-10l2.879-2.879-3.547-3.547 4.242-4.242zm-6.906 4.242l-3.547 3.547 2.879 2.879h-10v-10l2.879 2.879 3.547-3.547 4.242 4.242zm2.664-11.148l3.547-3.547-2.879-2.879h10v10l-2.879-2.879-3.547 3.547-4.242-4.242z'/>
         </svg>
       </div>
