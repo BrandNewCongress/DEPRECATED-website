@@ -4,7 +4,6 @@ import theme from '../theme'
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'white',
     display: 'block',
     width: '100%',
     textAlign: 'center',
@@ -12,7 +11,7 @@ const styles = StyleSheet.create({
     fontFamily: theme.fontFamily,
     fontWeight: 300
   },
-  link: theme.link,
+  link: { ...theme.link },
   shareIcon: {
     border:'none',
     fontSize: '3em',

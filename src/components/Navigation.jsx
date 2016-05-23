@@ -8,7 +8,12 @@ const styles = StyleSheet.create({
     display: 'inline-block',
     backgroundColor: theme.colors.orange,
     padding: '10px 5px 5px',
-    width: 75
+    width: 75,
+    fontWeight: 600,
+    '@media (max-width: 775px)': {
+      width: 'auto'
+    }
+
   },
   logoText: {
     color: 'white',
@@ -19,10 +24,13 @@ const styles = StyleSheet.create({
     marginTop: 5,
     marginBottom: 5,
     fontSize: 10,
-    fontFamily: theme.fontFamily
+    fontFamily: theme.fontFamily,
+    '@media (max-width: 775px)': {
+      fontSize: 20
+    }
   },
   mobileNav: {
-    '@media (min-width: 575px)': {
+    '@media (min-width: 775px)': {
       display: 'none'
     },
     display: 'inline-block',
@@ -33,7 +41,7 @@ const styles = StyleSheet.create({
     paddingTop: 18
   },
   mobileNavList: {
-    '@media (min-width: 575px)': {
+    '@media (min-width: 775px)': {
       display: 'none'
     },
     height: 0,
@@ -42,7 +50,7 @@ const styles = StyleSheet.create({
     width: '100%'
   },
   showNav: {
-    height: 115
+    height: 135
   },
   hideNav: {
     height: 0
@@ -51,15 +59,10 @@ const styles = StyleSheet.create({
     display: 'block'
   },
   nav: {
-    '@media (max-width: 575px)': {
+    '@media (max-width: 775px)': {
       display: 'none'
     },
     display: 'inline-block',
-    // display: 'flex',
-    // flex: 1,
-    fontWeight: 400,
-    fontSize: 15,
-    color: theme.colors.orange,
     paddingTop: 30,
     marginLeft: 20,
     verticalAlign: 'top'
@@ -67,7 +70,10 @@ const styles = StyleSheet.create({
   navItem: {
     display: 'inline-block',
     paddingRight: 25,
-    '@media (max-width: 575px)': {
+    fontSize: 15,
+    fontWeight: 400,
+    color: theme.colors.orange,
+    '@media (max-width: 775px)': {
       display: 'block',
       paddingLeft: 9,
       color: 'white',
@@ -82,7 +88,7 @@ const styles = StyleSheet.create({
   container: {
     display: 'flex',
     width: '100%',
-    '@media (max-width: 575px)': {
+    '@media (max-width: 775px)': {
       backgroundColor: theme.colors.orange,
       flexDirection: 'column'
     }
@@ -97,39 +103,41 @@ const styles = StyleSheet.create({
 const navigationLinks = (
   <div className={styles.navArea}>
     <div className={styles.navItem}>
-    The Plan
+      The Tour
     </div>
     <div className={styles.navItem}>
-    Who's Involved
+      The Plan
     </div>
     <div className={styles.navItem}>
-    Join A Team
+      Who's Involved
     </div>
     <div className={styles.navItem}>
-    Contribute
+      Join A Team
+    </div>
+    <div className={styles.navItem}>
+      Contribute
+    </div>
+    <div className={styles.navItem}>
+      Issues
+    </div>
+    <div className={styles.navItem}>
+      Contribute
     </div>
   </div>
 )
 
 export default class Navigation extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      showNav: false
-    }
-
-    this.showMobileNav = this.showMobileNav.bind(this)
+  state = {
+    showNav: false
   }
 
-  showMobileNav() {
+  showMobileNav = () => {
     const showMobile = !this.state.showNav
     this.setState({ showNav: showMobile })
   }
 
   render() {
-
-    return(
+    return (
       <div className={styles.container}>
         <div className={styles.viewport}>
           <div className={styles.logo}>
@@ -148,10 +156,14 @@ export default class Navigation extends Component {
             {navigationLinks}
           </div>
         </div>
-        <div style={ {clear: 'both'} }></div>
+        <div style={{ clear: 'both' }}></div>
         <div
-          className={ this.state.showNav ? c(styles.mobileNavList, styles.showNav) : styles.mobileNavList }>
-          { navigationLinks }
+          className={
+          this.state.showNav ?
+          c(styles.mobileNavList, styles.showNav) :
+          styles.mobileNavList}
+        >
+          {navigationLinks}
         </div>
       </div>
     )

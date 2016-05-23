@@ -14,10 +14,12 @@ const styles = StyleSheet.create({
     height: '100vh',
     width: '100vw'
   },
+  link: { ...theme.link },
   hero: {
     position: 'relative',
     height: 'calc(100vh - 77px)',
-    width: '100vw'
+    width: '100vw',
+    backgroundColor: 'white'
   },
   welcomeMessage: {
     textAlign: 'center',
@@ -29,7 +31,7 @@ const styles = StyleSheet.create({
     padding: '1em'
   },
   welcomeBackground: {
-    backgroundColor: 'rgb(225, 228, 224)',
+    backgroundColor: theme.colors.lightGray,
     opacity: 0.5,
     height: '100%',
     width: '100%',
@@ -39,7 +41,7 @@ const styles = StyleSheet.create({
   },
   welcomeLine1: {
     fontSize: '2vw',
-    color: 'rgb(83, 180, 119)',
+    color: theme.colors.blue,
     paddingTop: '1em',
     paddingBottom: '0.5em',
     '@media (max-width: 750px)': {
@@ -66,23 +68,22 @@ const styles = StyleSheet.create({
   rsvpButton: {
     marginTop: '1em',
     marginBottom: '1em',
-    backgroundColor: theme.colors.green,
-    color: theme.colors.darkGray,
-    padding: '10px 10px 10px 10px',
+    backgroundColor: theme.colors.blue,
+    color: 'white',
+    padding: '0.2em 1em',
     display: 'inline-block',
-    fontWeight: 800,
+    fontWeight: 600,
     fontSize: '3vw',
     cursor: 'pointer',
+    borderRadius: 5,
     ':hover': {
       backgroundImage: 'linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))'
     },
     '@media (max-width:750px)': {
       fontSize: '24px'
-    },
-    borderRadius: 4,
-    textShadow: '0 1px 1px rgba(0, 0, 0, 0.2)'
+    }
   },
-  welcomeLine3: {
+  cantMakeIt: {
     fontSize: '1.2vw',
     '@media (max-width:750px)': {
       fontSize: '12px'
@@ -144,10 +145,10 @@ class App extends React.Component {
                 this.setState({ introMode: false })
               }}
             >
-            RSVP Now
+            RSVP NOW
             </div>
-            <div className={styles.welcomeLine3}>
-              Can't make it to an event? <span className={styles.highlight}>Sign up to see how you can help.</span>
+            <div className={styles.cantMakeIt}>
+              Can't make it to an event? <span className={styles.highlight}><a href='#' className={styles.link}>Sign up to see how you can help.</a></span>
             </div>
           </div>
         </div>
