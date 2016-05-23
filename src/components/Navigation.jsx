@@ -14,6 +14,11 @@ const styles = StyleSheet.create({
       width: 'auto'
     }
   },
+  link: {
+    ...theme.link,
+    color: theme.colors.orange,
+    border: 'none'
+  },
   hamburger: {
     fill: 'white',
     cursor: 'pointer'
@@ -106,25 +111,24 @@ const styles = StyleSheet.create({
 const navigationLinks = (
   <div className={styles.navArea}>
     <div className={styles.navItem}>
-      The Tour
+      <a className={styles.link} href='/tour'>The Tour</a>
     </div>
     <div className={styles.navItem}>
-      The Plan
+      <a className={styles.link} href='/home'>The Plan</a>
     </div>
     <div className={styles.navItem}>
-      Who's Involved
+      <a className={styles.link} href='/about'>Who's Involved</a>
     </div>
     <div className={styles.navItem}>
-      Join A Team
+      <a className={styles.link} href='/teams'>Join A Team</a>
     </div>
     <div className={styles.navItem}>
-      Contribute
-    </div>
-    <div className={styles.navItem}>
+      <a className={styles.link} target='_blank' href='http://berniesanders.com/issues'>
       Issues
+      </a>
     </div>
     <div className={styles.navItem}>
-      Contribute
+      <a className={styles.link} href='https://secure.actblue.com/contribute/page/brandnewcongress' target='_blank'>Contribute</a>
     </div>
   </div>
 )

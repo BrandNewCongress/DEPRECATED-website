@@ -13,16 +13,17 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   container: {
-    paddingTop: 20,
     height: '100vh',
-    width: '100vw'
+    width: '100vw',
+    position: 'relative'
   },
   link: {
     ...theme.link
   },
   hero: {
+    paddingTop: 10,
     position: 'relative',
-    height: 'calc(100vh - 100px)',
+    height: 'calc(100vh - 170px)',
     width: '100vw',
     backgroundColor: 'white'
   },
@@ -101,7 +102,7 @@ const styles = StyleSheet.create({
     textAlign: 'right',
     zIndex: 1000,
     top: 0,
-    right: 0,
+    right: 30,
     color: theme.colors.gray
   },
   highlight: {
@@ -178,9 +179,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div style={{position: 'relative'}}>
-       {this.state.introMode ? '' : this.showTopMessage()}
+      <div style={{ position: 'relative' }}>
+        <Navigation />
         <div className={styles.container}>
+          {this.state.introMode ? '' : this.showTopMessage()}
           <div className={styles.hero}>
             {this.showWelcomeMessage()}
             <div

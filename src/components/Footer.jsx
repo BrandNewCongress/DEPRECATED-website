@@ -41,17 +41,17 @@ const styles = StyleSheet.create({
 
 export default () => (
   <div className={styles.container}>
-    <a href="http://twitter.com/intent/tweet?status=Sign+up+to+help+create+a Brand+New+Congress: http://brandnewcongress.org" title="Share on Twitter" target="_blank" className={styles.shareIcon}>
-      <span className="fa fa-twitter" />
+    <a href='http://twitter.com/intent/tweet?status=Sign+up+to+help+create+a Brand+New+Congress: http://brandnewcongress.org' title='Share on Twitter' target='_blank' className={styles.shareIcon}>
+      <span className='fa fa-twitter' />
     </a>
-    <a href="http://www.facebook.com/sharer/sharer.php?u=http://brandnewcongress.org&title=Brand+New+Congress" title="Share on Facebook" className={styles.shareIcon}>
-      <span className="fa fa-facebook"></span>
+    <a href='http://www.facebook.com/sharer/sharer.php?u=http://brandnewcongress.org&title=Brand+New+Congress' title='Share on Facebook' className={styles.shareIcon}>
+      <span className='fa fa-facebook'></span>
     </a>
-    <a href="http://www.reddit.com/submit?url=http://brandnewcongress.org&title=Brand+New+Congress" title="Share on Reddit" target="_blank" className={styles.shareIcon}>
-      <span className="fa fa-reddit-alien"></span>
+    <a href='http://www.reddit.com/submit?url=http://brandnewcongress.org&title=Brand+New+Congress' title='Share on Reddit' target='_blank' className={styles.shareIcon}>
+      <span className='fa fa-reddit-alien'></span>
     </a>
-    <a href="https://secure.actblue.com/contribute/page/brandnewcongress" target="_blank" className={styles.shareIcon}>
-      <span className="fa fa-usd" aria-hidden="true"></span>
+    <a href='https://secure.actblue.com/contribute/page/brandnewcongress' target='_blank' className={styles.shareIcon}>
+      <span className='fa fa-usd' aria-hidden='true'></span>
     </a>
     <div className={styles.highlight}>Brand New Congress
     </div>
