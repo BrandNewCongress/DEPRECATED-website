@@ -55,6 +55,7 @@ app.use([
 
 app.use([
   '/home',
+  '/home2',
   '/callteam',
   '/assets',
   '/about',
