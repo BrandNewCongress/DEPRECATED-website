@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
   },
   hero: {
     paddingTop: 10,
+    paddingBottom: 10,
     position: 'relative',
     height: 'calc(100vh - 170px)',
     width: '100vw',
@@ -134,7 +135,7 @@ class App extends React.Component {
   }
 
   state = {
-    introMode: true
+    introMode: false
   }
 
   showWelcomeMessage() {
