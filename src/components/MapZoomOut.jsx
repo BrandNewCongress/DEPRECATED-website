@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     cursor: 'pointer',
-    backgroundColor: theme.colors.orange
+    backgroundColor: theme.colors.blue
   },
   icon: {
     display: 'inline-block',
