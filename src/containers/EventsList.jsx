@@ -56,6 +56,8 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     textAlign: 'center',
     marginTop: 4,
+    fontWeight: 600,
+    fontFamily: theme.fontFamily,
     ':hover': {
       backgroundColor: theme.colors.darkBlue
     }

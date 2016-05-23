@@ -65,6 +65,7 @@ class USMap extends React.Component {
       latitude: React.PropTypes.string,
       longitude: React.PropTypes.string
     })).isRequired,
+    selectState: React.PropTypes.func.isRequired,
     width: React.PropTypes.number.isRequired,
     height: React.PropTypes.number.isRequired
   }
@@ -82,8 +83,7 @@ class USMap extends React.Component {
       mapScale: InitialScale,
       zoomLevel: USLevelZoom,
       activeNode: d3.select(null),
-      hoveredEvent: null
-      activeNode: d3.select(null),
+      hoveredEvent: null,
       showRegions: true
     }
   }
@@ -122,6 +122,8 @@ class USMap extends React.Component {
   }
 
   onClickUsRegion(region, event) {
+    this.props.selectState(null)
+
     if (this.state.activeNode.node() === event.target) {
       // State has been clicked again
       this.setState({
@@ -197,6 +199,10 @@ class USMap extends React.Component {
       />
     )
   }
+
+  renderHoveredEvent() {
+  }
+
   renderRegions() {
     return usRegions.map((usRegion, id) => {
       if (usRegion.properties.NAME !== 'Northeast') return null
@@ -226,7 +232,10 @@ class USMap extends React.Component {
                 key={id}
                 className={styles.state}
                 d={this.path(usState)}
-                onClick={(e) => this.onClickUsState(usState, e)}
+                onClick={(e) => {
+                  this.onClickUsState(usState, e)
+                  this.props.selectState(usState)
+                }}
               />
             ))}
 
