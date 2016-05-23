@@ -4,6 +4,19 @@ import { StyleSheet } from 'react-look'
 import moment from 'moment'
 import theme from '../theme'
 
+const regionStates = {
+  Northeast: [
+    'PA',
+    'NJ',
+    'NY',
+    'CT',
+    'MA',
+    'VT',
+    'NH',
+    'ME',
+    'RI'
+  ]
+}
 const fontFamily = theme.fontFamily
 const styles = StyleSheet.create({
   container: {
@@ -65,15 +78,17 @@ const styles = StyleSheet.create({
 })
 
 class EventsList extends Component {
-
   static propTypes = {
     events: React.PropTypes.array,
     selectedState: React.PropTypes.object
   }
 
   filterEvents() {
+    console.log(this.props.selectedState && this.props.selectedState.properties ? this.props.selectedState.properties.STUSPS : 'none')
     return this.props.selectedState && this.props.selectedState.properties ? this.props.events.filter(
       (event) => this.props.selectedState.properties.STUSPS === event.state
+        || regionStates[this.props.selectedState.properties.NAME]
+        && regionStates[this.props.selectedState.properties.NAME].indexOf(event.state) !== -1
     ) : this.props.events
   }
   render() {

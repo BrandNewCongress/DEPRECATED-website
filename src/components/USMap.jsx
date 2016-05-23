@@ -83,8 +83,7 @@ class USMap extends React.Component {
       mapScale: InitialScale,
       zoomLevel: USLevelZoom,
       activeNode: d3.select(null),
-      hoveredEvent: null,
-      showRegions: true
+      hoveredEvent: null
     }
   }
 
@@ -107,12 +106,12 @@ class USMap extends React.Component {
       if (!this.state.mapScale && !this.state.mapTranslate) {
         target
           .transition()
-          .duration(750)
+          .duration(600)
           .attr('transform', '')
       } else {
         target
           .transition()
-          .duration(750)
+          .duration(600)
           .attr(
             'transform',
             `translate(${this.state.mapTranslate})scale(${this.state.mapScale})`
@@ -123,52 +122,27 @@ class USMap extends React.Component {
 
   onClickUsRegion(region, event) {
     this.props.selectState(null)
-
-    if (this.state.activeNode.node() === event.target) {
-      // State has been clicked again
-      this.setState({
-        mapScale: null,
-        mapTranslate: null,
-        activeNode: d3.select(null),
-        selectedEvent: null,
-        zoomLevel: USLevelZoom
-      })
-    } else {
-      // New State has been clicked
-      const [mapScale, mapTranslate] = this.getBounds(region)
-      this.setState({
-        mapScale,
-        mapTranslate,
-        activeNode: d3.select(event.target),
-        selectedEvent: null,
-        zoomLevel: StateLevelZoom,
-        showRegions: false
-      })
-    }
+    // New State has been clicked
+    const [mapScale, mapTranslate] = this.getBounds(region)
+    this.setState({
+      mapScale,
+      mapTranslate,
+      activeNode: d3.select(event.target),
+      selectedEvent: null,
+      zoomLevel: StateLevelZoom
+    })
+    this.props.selectState(region)
   }
 
   onClickUsState(state, event) {
-    if (this.state.activeNode.node() === event.target) {
-      // State has been clicked again
-      this.setState({
-        mapScale: null,
-        mapTranslate: null,
-        activeNode: d3.select(null),
-        selectedEvent: null,
-        zoomLevel: USLevelZoom,
-        showRegions: true
-      })
-    } else {
-      // New State has been clicked
-      const [mapScale, mapTranslate] = this.getBounds(state)
-      this.setState({
-        mapScale,
-        mapTranslate,
-        activeNode: d3.select(event.target),
-        selectedEvent: null,
-        zoomLevel: StateLevelZoom
-      })
-    }
+    const [mapScale, mapTranslate] = this.getBounds(state)
+    this.setState({
+      mapScale,
+      mapTranslate,
+      activeNode: d3.select(event.target),
+      selectedEvent: null,
+      zoomLevel: StateLevelZoom
+    })
     this.props.selectState(state)
   }
 
@@ -239,11 +213,7 @@ class USMap extends React.Component {
                 }}
               />
             ))}
-
-
-            {this.state.showRegions ? this.renderRegions() : ''}
-
-
+            {this.renderRegions()}
             {this.props.events.map((event, id) => {
               const coord = this.projection(
                 [parseFloat(event.longitude),
@@ -255,7 +225,7 @@ class USMap extends React.Component {
 
               return (
                 <EventItem
-                  radius={this.state.hoveredEvent == event ? 8 : 5}
+                  radius={this.state.hoveredEvent === event ? 9 : 5}
                   centerX={coord[0]}
                   centerY={coord[1]}
                   key={`event-item-${id}`}

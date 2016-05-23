@@ -4,12 +4,12 @@ import theme from '../theme'
 
 const styles = StyleSheet.create({
   circle: {
-    transition: 'r 0.6s, stroke-width 0.4s',
+    transition: 'r 0.3s, stroke-width 0.3s',
     cursor: 'pointer',
     fill: theme.colors.orange,
     stroke: 'rgba(255,255,255, 0.5)',
     '@media (max-width: 775px)': {
-      r: '6px !important'
+      r: '7px !important'
     }
   }
 })
@@ -33,7 +33,7 @@ export default class EventItem extends React.Component {
 
   render() {
     const { centerX, centerY, radius, scale, onClick } = this.props
-    const scaledRadius = radius / scale
+    const scaledRadius = radius
     let strokeWidth = 2 / scale
 
     return (
