@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === 'production') {
 
 app.use('/go',
   proxy({
-    target: 'http://brandnewcongress.nationbuilder.com',
+    target: 'http:/go.brandnewcongress.org',
     changeOrigin: true,
     pathRewrite: {
       '^/go': '/'
@@ -32,6 +32,7 @@ app.use('/go',
 
 app.use([
   '/teams',
+  '/forms',
   '/callteam',
   '/helpdesk',
   '/talentteam',
@@ -49,7 +50,7 @@ app.use([
   '/email_team',
   '/pressteam'],
   proxy({
-    target: 'http://brandnewcongress.nationbuilder.com',
+    target: 'http://go.brandnewcongress.org',
     changeOrigin: true
   }))
 
