@@ -21,10 +21,7 @@ const fontFamily = theme.fontFamily
 const styles = StyleSheet.create({
   container: {
     display: 'flex',
-    flexDirection: 'column',
-    '@media (min-height: 775px)': {
-      display: 'none !important'
-    }
+    flexDirection: 'column'
   },
   eventItem: {
     display: 'flex',
@@ -84,7 +81,6 @@ class EventsList extends Component {
   }
 
   filterEvents() {
-    console.log(this.props.selectedState && this.props.selectedState.properties ? this.props.selectedState.properties.STUSPS : 'none')
     return this.props.selectedState && this.props.selectedState.properties ? this.props.events.filter(
       (event) => this.props.selectedState.properties.STUSPS === event.state
         || regionStates[this.props.selectedState.properties.NAME]
