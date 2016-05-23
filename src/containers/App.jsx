@@ -4,6 +4,7 @@ import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import SignupForm from '../components/SignupForm'
 import { StyleSheet } from 'react-look'
+import EventsList from '../containers/EventsList'
 import { connect } from 'react-redux'
 import theme from '../theme'
 
@@ -18,7 +19,8 @@ const styles = StyleSheet.create({
   link: { ...theme.link },
   hero: {
     position: 'relative',
-    height: 'calc(100vh - 77px)',
+//    height: 'calc(100vh - 77px)',
+    height: '100vh',
     width: '100vw',
     backgroundColor: 'white'
   },
@@ -119,7 +121,8 @@ function mapStateToProps(state) {
 
 class App extends React.Component {
   static propTypes = {
-    events: React.PropTypes.array
+    events: React.PropTypes.array,
+    selectedState: React.PropTypes.string
   }
 
   state = {
@@ -165,9 +168,6 @@ class App extends React.Component {
     return (
       <div>
         <div className={styles.container}>
-          <div className={styles.nav}>
-            <Navigation />
-          </div>
           <div className={styles.hero}>
             {this.showWelcomeMessage()}
             <div
@@ -177,12 +177,9 @@ class App extends React.Component {
               } : {}}
             >
               <USMap events={this.props.events} />
+              <EventsList events={this.props.events} selectedState={this.props.selectedState} />
             </div>
           </div>
-          <div className={styles.signupForm}>
-            <SignupForm />
-          </div>
-          <Footer />
         </div>
       </div>
     )
