@@ -3,6 +3,6 @@ import App from './containers/App'
 import React from 'react'
 
 const routes = (
-  <Route path='/map' component={App} />
+  <Route path='/tour' component={App} />
 )
 export default routes
