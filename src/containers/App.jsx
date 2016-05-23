@@ -2,11 +2,23 @@ import React from 'react'
 import USMap from '../components/USMap'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
+import EventsList from './EventsList'
 import { StyleSheet } from 'react-look'
 import { connect } from 'react-redux'
 import theme from '../theme'
 
+StyleSheet.addCSS({
+  'html, body, #mount': {
+    overflowX: 'hidden'
+  }
+})
+
 const styles = StyleSheet.create({
+  eventsList: {
+    '@media (min-width: 750px)': {
+      display: 'none'
+    }
+  },
   map: {
     height: '100%'
   },
@@ -17,7 +29,7 @@ const styles = StyleSheet.create({
   link: { ...theme.link },
   hero: {
     position: 'relative',
-    height: 'calc(100vh - 77px)',
+    minHeight: 'calc(100vh - 77px)',
     width: '100vw',
     backgroundColor: 'white'
   },
@@ -103,7 +115,10 @@ const styles = StyleSheet.create({
   },
   nav: {
     width: '100vw',
-    minHeight: 77
+    minHeight: 77,
+    '@media (max-height: 775px)': {
+      minHeight: 62
+    }
   }
 })
 
@@ -173,6 +188,9 @@ class App extends React.Component {
               } : {}}
             >
               <USMap events={this.props.events} />
+              <div className={styles.eventsList}>
+                <EventsList />
+              </div>
             </div>
           </div>
           <Footer />
