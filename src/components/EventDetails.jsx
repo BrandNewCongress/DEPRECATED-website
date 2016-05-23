@@ -1,5 +1,7 @@
 import React from 'react'
 import { StyleSheet } from 'react-look'
+import theme from '../theme'
+import moment from 'moment'
 
 const styles = StyleSheet.create({
   popupContainer: {
@@ -12,17 +14,26 @@ const styles = StyleSheet.create({
     transform: 'translate(-50%, 0)',
     top: 60,
     borderRadius: 7,
-    border: '5px solid rgba(255, 255, 255, 0.6)'
+    border: '5px solid rgba(255, 255, 255, 0.6)',
+    '@media (max-width: 750px)': {
+      top: 10
+    }
   },
   eventDetails: {
     position: 'relative'
   },
   closeButton: {
     position: 'absolute',
-    right: -10,
-    top: -10,
+    right: -30,
+    top: -30,
     fontWeight: 700,
     color: 'white',
+    backgroundColor: theme.colors.darkBlue,
+    padding: '4px 8px',
+    borderRadius: 32,
+    border: '4px solid white',
+    boxShadow: '0 1px 1px rgba(0,0,0,0.2)',
+    textDecoration: 'none',
     ':hover': {
       color: '#40B4E5'
     }
@@ -59,7 +70,7 @@ const EventDetails = ({ event, onClose }) => (
         {`${event.city}, ${event.state}`}
       </div>
       <div className={styles.date}>
-        {event.date}
+        {moment(new Date(event.date)).format('MMM DD')}
       </div>
       <div className={styles.description}>
       {`Join us as we talk about the
