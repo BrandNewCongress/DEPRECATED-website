@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   },
   nav: {
     width: '100vw',
-    height: 77
+    minHeight: 77
   }
 })
 
