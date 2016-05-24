@@ -1,6 +1,5 @@
 import 'babel-polyfill'
 import express from 'express'
-import path from 'path'
 import log from './log'
 import proxy from 'http-proxy-middleware'
 import clientRouteHandler from './client-route-handler'
@@ -11,6 +10,10 @@ app.enable('trust proxy')
 
 app.get('/', (req, res) => {
   res.redirect('/home')
+})
+
+app.get('/techteam', (req, res) => {
+  res.redirect('https://github.com/BrandNewCongress/welcome/blob/master/README.md')
 })
 
 // In development, we use webpack server
@@ -42,7 +45,6 @@ app.use([
   '/crmteam',
   '/analytics_team',
   '/web_team',
-  '/techteam',
   '/platformteam',
   '/creative_team',
   '/social_media',
