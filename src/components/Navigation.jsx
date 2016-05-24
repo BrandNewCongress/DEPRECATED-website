@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     padding: '10px 5px 5px',
     width: 75,
     fontWeight: 600,
-    '@media (max-width: 775px)': {
+    '@media (max-width: 768px)': {
       width: 'auto'
     }
   },
@@ -28,12 +28,12 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     fontSize: 10,
     fontFamily: theme.fontFamily,
-    '@media (max-width: 775px)': {
+    '@media (max-width: 768px)': {
       fontSize: 20
     }
   },
   mobileNav: {
-    '@media (min-width: 775px)': {
+    '@media (min-width: 768px)': {
       display: 'none'
     },
     display: 'inline-block',
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     paddingTop: 18
   },
   mobileNavList: {
-    '@media (min-width: 775px)': {
+    '@media (min-width: 768px)': {
       display: 'none'
     },
     height: 0,
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     display: 'block'
   },
   nav: {
-    '@media (max-width: 775px)': {
+    '@media (max-width: 768px)': {
       display: 'none'
     },
     display: 'inline-block',
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: 400,
     color: theme.colors.orange,
-    '@media (max-width: 775px)': {
+    '@media (max-width: 768px)': {
       color: 'white',
       fontSize: 14,
       ':hover': {
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   navItem: {
     display: 'inline-block',
     paddingRight: 25,
-    '@media (max-width: 775px)': {
+    '@media (max-width: 768px)': {
       display: 'block',
       paddingLeft: 9,
       paddingTop: 2,
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   container: {
     display: 'flex',
     width: '100%',
-    '@media (max-width: 775px)': {
+    '@media (max-width: 768px)': {
       backgroundColor: theme.colors.orange,
       flexDirection: 'column'
     }

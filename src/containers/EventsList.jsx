@@ -91,7 +91,7 @@ class EventsList extends Component {
     return (
       <div className={styles.container}>
         <h1 className={styles.stateName}>
-          {this.props.selectedState && this.props.selectedState.properties ? this.props.selectedState.properties.NAME : 'Upcoming Events'}
+          {this.props.selectedState && this.props.selectedState.properties ? this.props.selectedState.properties.NAME : 'Upcoming Events (Select your state from the map)'}
         </h1>
         {this.filterEvents().map((event, item) => (
           <div className={styles.eventItem} key={item}>
