@@ -173,7 +173,7 @@ class App extends React.Component {
   showTopMessage() {
     return (
       <div className={styles.cantMakeIt}>
-        Can't make it to an event? <span className={styles.highlight}><a href='/home' className={styles.link}>Sign up anyway to see how you can help!</a></span>
+        Can't make it to an event? <span className={styles.highlight}><a href='/home' className={styles.link}>Sign up to join the movement her!</a></span>
       </div>
     )
   }
