@@ -9,6 +9,7 @@ import MapZoomOut from './MapZoomOut'
 import HoveredPopup from './HoveredPopup'
 import { connect } from 'react-redux'
 import { selectState } from '../actions'
+import moment from 'moment'
 
 const rawStates = require('../data/states.json')
 const usStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
@@ -178,14 +179,18 @@ class USMap extends React.Component {
   }
 
   renderHoveredEvent() {
-    const label = this.state.hoveredEvent ? this.state.hoveredEvent.city : ''
+    if (!this.state.hoveredEvent) return null
+
+    const city = this.state.hoveredEvent.city
+    const state = this.state.hoveredEvent.state
+    const dateText = moment(new Date(this.state.hoveredEvent.date)).format('MMM DD')
     //this.state.hoveredEvent ? this.state.hoveredEvent.city : ''
-    return this.state.hoveredEvent ? (
+    return  (
       <HoveredPopup
-        label={label}
+        label={`${city}, ${state} - ${dateText}`}
         coords={this.state.coords}
       />
-    ) : null;
+    )
   }
 
   renderRegions() {
