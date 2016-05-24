@@ -6,6 +6,7 @@ import { StyleSheet } from 'react-look'
 import EventDetails from './EventDetails'
 import theme from '../theme'
 import MapZoomOut from './MapZoomOut'
+import HoveredPopup from './HoveredPopup'
 import { connect } from 'react-redux'
 import { selectState } from '../actions'
 
@@ -83,7 +84,8 @@ class USMap extends React.Component {
       mapScale: InitialScale,
       zoomLevel: USLevelZoom,
       activeNode: d3.select(null),
-      hoveredEvent: null
+      hoveredEvent: null,
+      coords: null
     }
   }
 
@@ -176,6 +178,14 @@ class USMap extends React.Component {
   }
 
   renderHoveredEvent() {
+    const label = this.state.hoveredEvent ? this.state.hoveredEvent.city : ''
+    //this.state.hoveredEvent ? this.state.hoveredEvent.city : ''
+    return this.state.hoveredEvent ? (
+      <HoveredPopup
+        label={label}
+        coords={this.state.coords}
+      />
+    ) : null;
   }
 
   renderRegions() {
@@ -237,14 +247,15 @@ class USMap extends React.Component {
                   city={event.city}
                   state={event.state}
                   onMouseOver={() => {
-                    this.setState({ hoveredEvent: event })
+                    this.setState({ hoveredEvent: event, coords: coord })
                   }}
                   onMouseOut={() => {
-                    this.setState({ hoveredEvent: null })
+                    this.setState({ hoveredEvent: null, coords: null })
                   }}
                 />
               )
             })}
+
             {this.renderHoveredEvent()}
           </g>
         </svg>
