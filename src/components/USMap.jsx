@@ -211,7 +211,7 @@ class USMap extends React.Component {
   hoverCircle(event, circle) {
     const bounds = circle.target.getBoundingClientRect()
 
-    this.setState({ hoveredEvent: event, coords: [bounds.left - (bounds.width/4), bounds.top] })
+    this.setState({ hoveredEvent: event, coords: [bounds.left + (bounds.width/2), bounds.top] })
   }
 
   render() {
