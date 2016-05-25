@@ -83,7 +83,7 @@ class USMap extends React.Component {
       zoomLevel: USLevelZoom,
       activeNode: d3.select(null),
       hoveredEvent: null,
-      coords: null
+      coords: [0,0]
     }
   }
 
@@ -176,16 +176,19 @@ class USMap extends React.Component {
   }
 
   renderHoveredEvent() {
-    if (!this.state.hoveredEvent) return null
 
+    const offsetTop = this.refs.usmap_container ? this.refs.usmap_container.getBoundingClientRect().top : 0
+
+    if (!this.state.hoveredEvent) return null
+//
     const city = this.state.hoveredEvent.city
     const state = this.state.hoveredEvent.state
     const dateText = moment(new Date(this.state.hoveredEvent.date)).format('MMM DD')
-    //this.state.hoveredEvent ? this.state.hoveredEvent.city : ''
-    return  (
+
+    return (
       <HoveredPopup
         label={`${city}, ${state} - ${dateText}`}
-        coords={this.state.coords}
+        coords={[this.state.coords[0], this.state.coords[1] - offsetTop - 10]}
       />
     )
   }
@@ -205,9 +208,15 @@ class USMap extends React.Component {
     })
   }
 
+  hoverCircle(event, circle) {
+    const bounds = circle.target.getBoundingClientRect()
+
+    this.setState({ hoveredEvent: event, coords: [bounds.left - (bounds.width/4), bounds.top] })
+  }
+
   render() {
     return (
-      <div className={styles.mapContainer}>
+      <div ref='usmap_container' className={styles.mapContainer}>
         {this.state.selectedEvent ? this.showEventDetails() : ''}
         <svg
           className={styles.map}
@@ -237,6 +246,7 @@ class USMap extends React.Component {
 
               return (
                 <EventItem
+                  ref={`eventitem_${id}`}
                   radius={this.state.hoveredEvent === event ? 9 : 5}
                   centerX={coord[0]}
                   centerY={coord[1]}
@@ -248,20 +258,23 @@ class USMap extends React.Component {
                   }}
                   city={event.city}
                   state={event.state}
-                  onMouseOver={() => {
-                    this.setState({ hoveredEvent: event, coords: coord })
-                  }}
-                  onMouseOut={() => {
+                  onMouseOver={(e) => this.hoverCircle(event, e)
+                  //   {
+                  //
+                  //   console.log(this.refs[`eventitem_${id}`], this.refs[`eventitem_${id}`].getBoundingClientRect())
+                  //
+                  //
+                  // }
+                  }
+                  onMouseOut={(e) => {
                     this.setState({ hoveredEvent: null, coords: null })
                   }}
                 />
               )
             })}
-
-            {this.renderHoveredEvent()}
           </g>
         </svg>
-
+        {this.renderHoveredEvent()}
         {(this.state.mapScale !== InitialScale && this.state.mapScale) ?
             (<MapZoomOut
               onClick={() => {

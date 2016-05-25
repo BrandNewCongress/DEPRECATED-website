@@ -39,7 +39,7 @@ export default wrap(async (req, res) => {
       latitude: zipInfo.latitude,
       longitude: zipInfo.longitude
     }
-  })
+  }).sort((a, b) => new Date(a.date) - new Date(b.date))
 
   const serverConfig = Presets['react-dom']
   const memoryHistory = createMemoryHistory(req.url)

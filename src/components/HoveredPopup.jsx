@@ -4,15 +4,25 @@ import theme from '../theme'
 
 const styles = StyleSheet.create({
   container: {
-    // transform: 'translate(-50%, -20px)',
+    zIndex: 1000,
     overflow: 'visible',
-    opacity: 0,
-    transition: 'opacity .1s'
+    top: 0,
+    left: 0,
+    position: 'absolute',
+    transition: 'opacity .1s',
+    backgroundColor: theme.colors.blue,
+    padding: 10,
+    paddingTop: 5,
+    paddingBottom: 5,
+    borderRadius: 3,
+    whiteSpace: 'nowrap',
+    transform: 'translate(-50%, -110%)'
   },
   hoverText: {
-    fill: 'white',
+    color: 'white',
     fontFamily: theme.fontFamily,
-    fontSize: 14
+    fontSize: 14,
+    fontWeight: 600
   },
   hoverBox: {
     stroke: theme.colors.lightBlue,
@@ -34,45 +44,23 @@ class HoveredPopup extends Component {
     }
   }
   componentDidMount() {
-    const bbox = this.refs.textItem.getBBox()
-    this.updateBox(bbox)
-    this.refs.hoveredContainer.setAttribute("style", "opacity: 1")
-  }
-
-  updateBox(bbox) {
-    this.setState({
-      boxWidth: bbox.width,
-      boxHeight: bbox.height
-    })
+    // this.refs.hoveredContainer.setAttribute("style", "opacity: 1")
   }
 
   render() {
     return (
-      <svg
+      <div
         ref={'hoveredContainer'}
         className={styles.container}
-        x={!this.props.coords ? 0 : this.props.coords[0] - (this.state.boxWidth / 2)}
-        y={!this.props.coords ? 0 : this.props.coords[1] - (this.state.boxHeight * 2 + 3)}
-        width={this.state.boxWidth + 10}
-        height={this.state.boxHeight + 10}
+        style={{
+          left: this.props.coords[0],
+          top: this.props.coords[1]
+        }}
       >
-        <g>
-          <rect
-            className={styles.hoverBox}
-            fill={'blue'}
-            rx={4} ry={4}
-            width={this.state.boxWidth + 10}
-            height={this.state.boxHeight + 6}
-          />
-          <text
-            className={styles.hoverText}
-            x={5} y={20}
-            ref={'textItem'}
-          >
-            {this.props.label}
-          </text>
-        </g>
-      </svg>
+        <span className={styles.hoverText}>
+          {this.props.label}
+        </span>
+      </div>
     )
   }
 }
