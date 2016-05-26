@@ -14,12 +14,8 @@ const colors = {
   lightGray: 'rgb(225, 228, 224)'
 }
 
-const fontFamily = {
-  default: 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;'
-}
-
 export default {
-  fontFamily,
+  fontFamily: 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;',
   colors,
   link: {
     fontWeight: 400,
@@ -47,7 +43,6 @@ export default {
     textAlign: 'center',
     marginTop: 4,
     fontWeight: 600,
-    fontFamily: fontFamily.default,
     ':hover': {
       backgroundColor: colors.darkBlue
     }
