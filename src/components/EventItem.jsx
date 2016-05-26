@@ -44,9 +44,9 @@ export default class EventItem extends React.Component {
           className={styles.circle}
           r={scaledRadius}
           strokeWidth={strokeWidth}
-          onClick={() => onClick()}
-          onMouseOver={() => this.props.onMouseOver()}
-          onMouseOut={() => this.props.onMouseOut()}
+          onClick={(e) => onClick(e)}
+          onMouseOver={(e) => this.props.onMouseOver(e)}
+          onMouseOut={(e) => this.props.onMouseOut(e)}
         />
       </g>
     )

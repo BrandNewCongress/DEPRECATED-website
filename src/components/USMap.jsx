@@ -6,8 +6,10 @@ import { StyleSheet } from 'react-look'
 import EventDetails from './EventDetails'
 import theme from '../theme'
 import MapZoomOut from './MapZoomOut'
+import HoveredPopup from './HoveredPopup'
 import { connect } from 'react-redux'
 import { selectState } from '../actions'
+import moment from 'moment'
 
 const rawStates = require('../data/states.json')
 const usStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
@@ -80,7 +82,8 @@ class USMap extends React.Component {
       mapScale: InitialScale,
       zoomLevel: USLevelZoom,
       activeNode: d3.select(null),
-      hoveredEvent: null
+      hoveredEvent: null,
+      coords: [0,0]
     }
   }
 
@@ -173,6 +176,21 @@ class USMap extends React.Component {
   }
 
   renderHoveredEvent() {
+
+    const offsetTop = this.refs.usmap_container ? this.refs.usmap_container.getBoundingClientRect().top : 0
+
+    if (!this.state.hoveredEvent) return null
+//
+    const city = this.state.hoveredEvent.city
+    const state = this.state.hoveredEvent.state
+    const dateText = moment(new Date(this.state.hoveredEvent.date)).format('MMM DD')
+
+    return (
+      <HoveredPopup
+        label={`${city}, ${state} - ${dateText}`}
+        coords={[this.state.coords[0], this.state.coords[1] - offsetTop - 10]}
+      />
+    )
   }
 
   renderRegions() {
@@ -190,9 +208,15 @@ class USMap extends React.Component {
     })
   }
 
+  hoverCircle(event, circle) {
+    const bounds = circle.target.getBoundingClientRect()
+
+    this.setState({ hoveredEvent: event, coords: [bounds.left + (bounds.width/2), bounds.top] })
+  }
+
   render() {
     return (
-      <div className={styles.mapContainer}>
+      <div ref='usmap_container' className={styles.mapContainer}>
         {this.state.selectedEvent ? this.showEventDetails() : ''}
         <svg
           className={styles.map}
@@ -222,6 +246,7 @@ class USMap extends React.Component {
 
               return (
                 <EventItem
+                  ref={`eventitem_${id}`}
                   radius={this.state.hoveredEvent === event ? 9 : 5}
                   centerX={coord[0]}
                   centerY={coord[1]}
@@ -233,19 +258,23 @@ class USMap extends React.Component {
                   }}
                   city={event.city}
                   state={event.state}
-                  onMouseOver={() => {
-                    this.setState({ hoveredEvent: event })
-                  }}
-                  onMouseOut={() => {
-                    this.setState({ hoveredEvent: null })
+                  onMouseOver={(e) => this.hoverCircle(event, e)
+                  //   {
+                  //
+                  //   console.log(this.refs[`eventitem_${id}`], this.refs[`eventitem_${id}`].getBoundingClientRect())
+                  //
+                  //
+                  // }
+                  }
+                  onMouseOut={(e) => {
+                    this.setState({ hoveredEvent: null, coords: null })
                   }}
                 />
               )
             })}
-            {this.renderHoveredEvent()}
           </g>
         </svg>
-
+        {this.renderHoveredEvent()}
         {(this.state.mapScale !== InitialScale && this.state.mapScale) ?
             (<MapZoomOut
               onClick={() => {

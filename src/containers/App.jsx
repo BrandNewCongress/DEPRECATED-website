@@ -193,7 +193,15 @@ class App extends React.Component {
               } : {}}
             >
               <USMap events={this.props.events} />
-              {!this.state.introMode ? <EventsList events={this.props.events} selectedState={this.props.selectedState} /> : ''}
+              <div>
+                {!this.state.introMode ?
+                  <EventsList
+                    events={this.props.events}
+                    selectedState={this.props.selectedState}
+                  /> :
+                  ''
+                }
+              </div>
             </div>
           </div>
         </div>

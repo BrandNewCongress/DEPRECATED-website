@@ -16,7 +16,8 @@ const styles = StyleSheet.create({
     borderRadius: 7,
     border: '5px solid rgba(255, 255, 255, 0.6)',
     '@media (max-width: 750px)': {
-      top: 10
+      top: 10,
+      display: 'none !important'
     }
   },
   eventDetails: {
