@@ -13,8 +13,13 @@ const colors = {
   gray: 'rgb(153, 155, 158)',
   lightGray: 'rgb(225, 228, 224)'
 }
+
+const fontFamily = {
+  default: 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;'
+}
+
 export default {
-  fontFamily: 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;',
+  fontFamily,
   colors,
   link: {
     fontWeight: 400,
@@ -29,6 +34,22 @@ export default {
       fontWeight: 400,
       color: colors.darkGray,
       textDecoration: 'none'
+    }
+  },
+  rsvpLink: {
+    color: 'white',
+    backgroundColor: colors.blue,
+    textDecoration: 'none',
+    width: '90%',
+    display: 'inline-block',
+    padding: '10px 0 9px',
+    borderRadius: 4,
+    textAlign: 'center',
+    marginTop: 4,
+    fontWeight: 600,
+    fontFamily: fontFamily.default,
+    ':hover': {
+      backgroundColor: colors.darkBlue
     }
   }
 }
