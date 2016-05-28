@@ -81,17 +81,20 @@ class EventsList extends Component {
   }
 
   filterEvents() {
-    return this.props.selectedState && this.props.selectedState.properties ? this.props.events.filter(
-      (event) => this.props.selectedState.properties.STUSPS === event.state
+    return this.props.selectedState && this.props.selectedState.properties ?
+      this.props.events.filter((event) => this.props.selectedState.properties.STUSPS === event.state
         || regionStates[this.props.selectedState.properties.NAME]
         && regionStates[this.props.selectedState.properties.NAME].indexOf(event.state) !== -1
-    ) : this.props.events
+      ) :
+      this.props.events
   }
   render() {
     return (
       <div className={styles.container}>
         <h1 className={styles.stateName}>
-          {this.props.selectedState && this.props.selectedState.properties ? this.props.selectedState.properties.NAME : 'Upcoming Events (Select your state from the map)'}
+          {this.props.selectedState && this.props.selectedState.properties ?
+            this.props.selectedState.properties.NAME :
+            'Upcoming Events (Select your state from the map)'}
         </h1>
         {this.filterEvents().map((event, item) => (
           <div className={styles.eventItem} key={item}>
