@@ -12,6 +12,10 @@ const styles = StyleSheet.create({
     fontWeight: 600,
     '@media (max-width: 768px)': {
       width: 'auto'
+    },
+    '@media (min-width: 768px)': {
+      padding: '6px 5px 5px',
+      width: 105
     }
   },
   hamburger: {
@@ -30,6 +34,11 @@ const styles = StyleSheet.create({
     fontFamily: theme.fontFamily,
     '@media (max-width: 768px)': {
       fontSize: 20
+    },
+    '@media (min-width: 768px)': {
+      fontSize: 17,
+      lineHeight: '17px',
+      textAlign: 'left'
     }
   },
   mobileNav: {
@@ -75,12 +84,27 @@ const styles = StyleSheet.create({
     border: 'none',
     fontSize: 15,
     fontWeight: 400,
-    color: theme.colors.orange,
+    color: theme.colors.darkGray,
     '@media (max-width: 768px)': {
       color: 'white',
       fontSize: 14,
       ':hover': {
         color: theme.colors.orange
+      }
+    },
+    '@media (min-width: 768px)': {
+      display: 'inline-block',
+      borderBottom: '1px solid',
+      borderBottomColor: theme.colors.orange,
+      paddingBottom: 3,
+      transition: 'border-bottom-width .05s',
+      marginLeft: 11,
+      fontFamily: 'Open sans',
+      ':hover': {
+        color: theme.colors.darkGray,
+        borderBottomWidth: '3px',
+        borderBottom: '3px solid',
+        borderBottomColor: theme.colors.orange
       }
     }
   },
@@ -103,6 +127,10 @@ const styles = StyleSheet.create({
     '@media (max-width: 768px)': {
       backgroundColor: theme.colors.orange,
       flexDirection: 'column'
+    },
+
+    '@media (min-width: 768px)': {
+      textAlign: 'center'
     }
   },
   viewport: {
