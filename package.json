@@ -26,6 +26,7 @@
     "http-proxy-middleware": "^0.15.0",
     "json-loader": "^0.5.4",
     "leaflet": "^0.7.7",
+    "lodash": "^4.13.1",
     "minilog": "^3.0.0",
     "moment": "^2.13.0",
     "mustache": "^2.2.1",
