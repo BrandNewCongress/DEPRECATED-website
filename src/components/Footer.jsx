@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   },
   link: { ...theme.link },
   shareIcon: {
-    border:'none',
+    border: 'none',
     fontSize: '3em',
     color: theme.colors.darkGray,
     ':hover': {
@@ -56,7 +56,8 @@ export default () => (
     <div className={styles.highlight}>Brand New Congress
     </div>
     <div className={styles.questions}>
-      Questions, comments? Email: <a href='mailto:us@brandnewcongress.org' className={styles.link}>us@brandnewcongress.org</a>
+      Questions, comments? Email:
+      <a href='mailto:us@brandnewcongress.org' className={styles.link}>us@brandnewcongress.org</a>
     </div>
     <div className={styles.copyright}>
       Copyright ©2016 Brand New Congress.<br />
