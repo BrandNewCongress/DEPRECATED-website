@@ -1,8 +1,6 @@
 import React from 'react'
 import USMap from '../components/USMap'
 import Navigation from '../components/Navigation'
-import Footer from '../components/Footer'
-import SignupForm from '../components/SignupForm'
 import { StyleSheet } from 'react-look'
 import EventsList from '../containers/EventsList'
 import { connect } from 'react-redux'
@@ -14,7 +12,7 @@ const styles = StyleSheet.create({
   },
   container: {
     height: '100vh',
-    width: '100vw',
+    width: '100%',
     position: 'relative'
   },
   link: {
@@ -25,7 +23,7 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     position: 'relative',
     height: 'calc(100vh - 170px)',
-    width: '100vw',
+    width: '100%',
     backgroundColor: 'white'
   },
   welcomeMessage: {
@@ -117,7 +115,7 @@ const styles = StyleSheet.create({
     zIndex: 1000
   },
   nav: {
-    width: '100vw',
+    width: '100%',
     minHeight: 77
   }
 })
@@ -150,10 +148,12 @@ class App extends React.Component {
             <div className={styles.welcomeBackground}>
             </div>
             <div className={styles.welcomeLine1}>
-              We're coming to a city near you to start planning the next step of the political revolution.
+              We're coming to a city near you to start planning the next step of the political
+              revolution.
             </div>
             <div className={styles.welcomeLine2}>
-              Let's get together to elect a <span className={styles.highlight}>Brand New Congress</span> that works for all.
+              Let's get together to elect a
+              <span className={styles.highlight}>Brand New Congress</span> that works for all.
             </div>
             <div
               className={styles.rsvpButton}
@@ -173,7 +173,10 @@ class App extends React.Component {
   showTopMessage() {
     return (
       <div className={styles.cantMakeIt}>
-        Can't make it to an event? <span className={styles.highlight}><a href='/home' className={styles.link}>Sign up to join the movement!</a></span>
+        Can't make it to an event?&nbsp;
+        <span className={styles.highlight}>
+          <a href='/home' className={styles.link}>Sign up to join the movement!</a>
+        </span>
       </div>
     )
   }

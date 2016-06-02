@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import { StyleSheet } from 'react-look'
 import EventListItem from '../components/EventListItem'
 import EventColumn from '../components/EventColumn'
-import moment from 'moment'
 import theme from '../theme'
 import _ from 'lodash'
 
@@ -68,10 +67,11 @@ class EventsList extends Component {
   filterEvents() {
     return this.props.selectedState && this.props.selectedState.properties
           ? this.props.events.filter(
-      (event) => this.props.selectedState.properties.STUSPS === event.state
+            (event) => this.props.selectedState.properties.STUSPS === event.state
         || regionStates[this.props.selectedState.properties.NAME]
         && regionStates[this.props.selectedState.properties.NAME].indexOf(event.state) !== -1
-    ) : this.props.events
+      ) :
+      this.props.events
   }
 
   remeasure() {
@@ -107,7 +107,7 @@ class EventsList extends Component {
 
   renderFilteredEvents() {
     return (
-      this.filterEvents().map((event, item) => (
+      this.filterEvents().map((event) => (
         <EventListItem {...event} />
       ))
     )
@@ -118,8 +118,8 @@ class EventsList extends Component {
       <div ref={'root'} className={styles.container}>
         <h1 className={styles.stateName}>
           {this.props.selectedState && this.props.selectedState.properties ?
-              this.props.selectedState.properties.NAME :
-              'Upcoming Events (Select your state from the map)'}
+            this.props.selectedState.properties.NAME :
+            'Upcoming Events (Select your state from the map)'}
         </h1>
         {this.props.selectedState && this.props.selectedState.properties ?
               this.renderFilteredEvents() :

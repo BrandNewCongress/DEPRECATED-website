@@ -12,6 +12,10 @@ const styles = StyleSheet.create({
     fontWeight: 600,
     '@media (max-width: 768px)': {
       width: 'auto'
+    },
+    '@media (min-width: 768px)': {
+      padding: '6px 5px 5px',
+      width: 105
     }
   },
   hamburger: {
@@ -30,6 +34,11 @@ const styles = StyleSheet.create({
     fontFamily: theme.fontFamily,
     '@media (max-width: 768px)': {
       fontSize: 20
+    },
+    '@media (min-width: 768px)': {
+      fontSize: 17,
+      lineHeight: '17px',
+      textAlign: 'left'
     }
   },
   mobileNav: {
@@ -75,12 +84,27 @@ const styles = StyleSheet.create({
     border: 'none',
     fontSize: 15,
     fontWeight: 400,
-    color: theme.colors.orange,
+    color: theme.colors.darkGray,
     '@media (max-width: 768px)': {
       color: 'white',
       fontSize: 14,
       ':hover': {
         color: theme.colors.orange
+      }
+    },
+    '@media (min-width: 768px)': {
+      display: 'inline-block',
+      borderBottom: '1px solid',
+      borderBottomColor: theme.colors.orange,
+      paddingBottom: 3,
+      transition: 'border-bottom-width .05s',
+      marginLeft: 11,
+      fontFamily: 'Open sans',
+      ':hover': {
+        color: theme.colors.darkGray,
+        borderBottomWidth: '3px',
+        borderBottom: '3px solid',
+        borderBottomColor: theme.colors.orange
       }
     }
   },
@@ -103,6 +127,10 @@ const styles = StyleSheet.create({
     '@media (max-width: 768px)': {
       backgroundColor: theme.colors.orange,
       flexDirection: 'column'
+    },
+
+    '@media (min-width: 768px)': {
+      textAlign: 'center'
     }
   },
   viewport: {
@@ -148,10 +176,17 @@ export default class Navigation extends Component {
   }
 
   hamburgerIcon() {
+    const svgPath = [
+      'M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z',
+      'M28,14H4c-1.104,0-2,0.896-2,2', 's0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z',
+      'M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2', 'S29.104,22,28,22z'
+    ].join(' ')
+
     return (
-      <svg height='32px' id='Layer_1' className={styles.hamburger} version='1.1' viewBox='0 0 32 32' width='32px'>
-        <path d='M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z'/>
-      </svg>
+      <svg
+        height='32px' id='Layer_1' className={styles.hamburger} version='1.1'
+        viewBox='0 0 32 32' width='32px'
+      ><path d={svgPath} /></svg>
     )
   }
 

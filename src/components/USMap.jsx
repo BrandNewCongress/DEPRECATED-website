@@ -84,7 +84,7 @@ class USMap extends React.Component {
       zoomLevel: USLevelZoom,
       activeNode: d3.select(null),
       hoveredEvent: null,
-      coords: [0,0]
+      coords: [0, 0]
     }
   }
 
@@ -162,6 +162,12 @@ class USMap extends React.Component {
     return [mapScale, mapTranslate]
   }
 
+  hoverCircle(event, circle) {
+    const bounds = circle.target.getBoundingClientRect()
+
+    this.setState({ hoveredEvent: event, coords: [bounds.left + (bounds.width / 2), bounds.top] })
+  }
+
   reset() {
     this.state.activeNode.classed('active', false)
     this.setState({ activeNode: d3.select(null) })
@@ -177,11 +183,11 @@ class USMap extends React.Component {
   }
 
   renderHoveredEvent() {
-
-    const offsetTop = this.refs.usmap_container ? this.refs.usmap_container.getBoundingClientRect().top : 0
+    const offsetTop = this.refs.usmap_container ?
+      this.refs.usmap_container.getBoundingClientRect().top : 0
 
     if (!this.state.hoveredEvent) return null
-//
+
     const city = this.state.hoveredEvent.city
     const state = this.state.hoveredEvent.state
     const dateText = moment(new Date(this.state.hoveredEvent.date)).format('MMM DD')
@@ -207,12 +213,6 @@ class USMap extends React.Component {
         />
       )
     })
-  }
-
-  hoverCircle(event, circle) {
-    const bounds = circle.target.getBoundingClientRect()
-
-    this.setState({ hoveredEvent: event, coords: [bounds.left + (bounds.width/2), bounds.top] })
   }
 
   render() {
@@ -259,17 +259,8 @@ class USMap extends React.Component {
                   }}
                   city={event.city}
                   state={event.state}
-                  onMouseOver={(e) => this.hoverCircle(event, e)
-                  //   {
-                  //
-                  //   console.log(this.refs[`eventitem_${id}`], this.refs[`eventitem_${id}`].getBoundingClientRect())
-                  //
-                  //
-                  // }
-                  }
-                  onMouseOut={(e) => {
-                    this.setState({ hoveredEvent: null, coords: null })
-                  }}
+                  onMouseOver={(e) => this.hoverCircle(event, e)}
+                  onMouseOut={() => this.setState({ hoveredEvent: null, coords: null })}
                 />
               )
             })}
