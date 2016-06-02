@@ -54,6 +54,12 @@ const styles = StyleSheet.create({
     fontSize: 15,
     marginBottom: 10,
     fontWeight: 500
+  },
+  rsvpLink: {
+    ...theme.rsvpLink,
+    width: '100%',
+    border: 'none',
+    cursor: 'pointer'
   }
 })
 
@@ -79,7 +85,7 @@ const EventDetails = ({ event, onClose }) => (
         Exact location and time will be announced soon.`}
       </div>
       <button
-        className={styles.button}
+        className={styles.rsvpLink}
         onClick={() => {
           window.open(event.rsvpUrl, '_blank')
         }}
