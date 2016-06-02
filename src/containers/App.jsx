@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   },
   container: {
     height: '100vh',
-    width: '100vw',
+    width: '100%',
     position: 'relative'
   },
   link: {
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     position: 'relative',
     height: 'calc(100vh - 170px)',
-    width: '100vw',
+    width: '100%',
     backgroundColor: 'white'
   },
   welcomeMessage: {
@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     zIndex: 1000
   },
   nav: {
-    width: '100vw',
+    width: '100%',
     minHeight: 77
   }
 })
