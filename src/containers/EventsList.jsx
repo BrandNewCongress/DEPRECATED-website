@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { StyleSheet } from 'react-look'
-import moment from 'moment'
+import EventListItem from '../components/EventListItem'
+import EventColumn from '../components/EventColumn'
 import theme from '../theme'
+import _ from 'lodash'
 
+const MAX_COLUMN_LENGTH = 350
 const regionStates = {
   Northeast: [
     'PA',
@@ -19,21 +22,13 @@ const regionStates = {
 }
 const fontFamily = theme.fontFamily
 const styles = StyleSheet.create({
-  container: {
-    display: 'flex',
-    flexDirection: 'column'
-  },
-  eventItem: {
+  columnEventsContainer: {
     display: 'flex',
     flexDirection: 'row'
   },
-  eventTitle: {
-    padding: '3px 11px 18px',
-    margin: '0px 0 0 20px',
-    fontSize: 22,
-    fontFamily,
-    borderLeft: 'solid 4px',
-    borderColor: theme.colors.orange
+  container: {
+    display: 'flex',
+    flexDirection: 'column'
   },
   stateName: {
     padding: '10px 10px',
@@ -41,36 +36,6 @@ const styles = StyleSheet.create({
     margin: '0 0 10px',
     backgroundColor: theme.colors.lightGray,
     fontFamily
-  },
-  eventInfoContainer: {
-    flex: 7
-  },
-  eventDate: {
-    marginLeft: 35,
-    marginTop: -19,
-    fontSize: 14,
-    color: theme.colors.gray
-  },
-  rsvpContainer: {
-    flex: 3,
-    textAlign: 'left',
-    verticalAlign: 'middle'
-  },
-  rsvpLink: {
-    color: 'white',
-    backgroundColor: theme.colors.blue,
-    textDecoration: 'none',
-    width: '90%',
-    display: 'inline-block',
-    padding: '10px 0 9px',
-    borderRadius: 4,
-    textAlign: 'center',
-    marginTop: 4,
-    fontWeight: 600,
-    fontFamily: theme.fontFamily,
-    ':hover': {
-      backgroundColor: theme.colors.darkBlue
-    }
   }
 })
 
@@ -80,33 +45,85 @@ class EventsList extends Component {
     selectedState: React.PropTypes.object
   }
 
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      componentWidth: 0,
+      eventsColumn: 1,
+      columnedEvents: []
+    }
+  }
+
+  componentDidMount() {
+    this.remeasure()
+    window.addEventListener('resize', this.remeasure.bind(this))
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.remeasure.bind(this))
+  }
+
   filterEvents() {
-    return this.props.selectedState && this.props.selectedState.properties ?
-      this.props.events.filter((event) => this.props.selectedState.properties.STUSPS === event.state
+    return this.props.selectedState && this.props.selectedState.properties
+          ? this.props.events.filter(
+            (event) => this.props.selectedState.properties.STUSPS === event.state
         || regionStates[this.props.selectedState.properties.NAME]
         && regionStates[this.props.selectedState.properties.NAME].indexOf(event.state) !== -1
       ) :
       this.props.events
   }
+
+  remeasure() {
+    const componentWidth = this.refs.root.offsetWidth
+    const eventsColumn = Math.floor(componentWidth / MAX_COLUMN_LENGTH)
+    const groupedEvents = _.groupBy(this.props.events, 'state')
+    let columnedEvents = Array(eventsColumn)
+
+    // Initialize
+    _.forEach(columnedEvents, (val, ind) => {
+      columnedEvents[ind] = []
+    })
+
+    // Move data around to have equal column lengths
+    _.forEach(groupedEvents, (val, key) => {
+      const minIndex = _.indexOf(columnedEvents,_.minBy(columnedEvents, (item) => _.flatten(item).length ))
+      columnedEvents[minIndex].push(val)
+    })
+
+    this.setState({ columnedEvents, componentWidth, eventsColumn })
+
+  }
+
+  renderGroupedEvents() {
+    return (
+      <div className={styles.columnEventsContainer} >
+        {this.state.columnedEvents.map((item, id) =>
+          (<EventColumn datasource={item} key={id} columnCount={this.state.eventsColumn} />)
+        )}
+      </div>
+    )
+  }
+
+  renderFilteredEvents() {
+    return (
+      this.filterEvents().map((event) => (
+        <EventListItem {...event} />
+      ))
+    )
+  }
+
   render() {
     return (
-      <div className={styles.container}>
+      <div ref={'root'} className={styles.container}>
         <h1 className={styles.stateName}>
           {this.props.selectedState && this.props.selectedState.properties ?
             this.props.selectedState.properties.NAME :
             'Upcoming Events (Select your state from the map)'}
         </h1>
-        {this.filterEvents().map((event, item) => (
-          <div className={styles.eventItem} key={item}>
-            <div className={styles.eventInfoContainer}>
-              <h2 className={styles.eventTitle}>{`${event.city}`}</h2>
-              <h4 className={styles.eventDate}>{moment(new Date(event.date)).format('MMM DD')}</h4>
-            </div>
-            <div className={styles.rsvpContainer}>
-              <a className={styles.rsvpLink} target='_blank' href={event.rsvpUrl}>RSVP</a>
-            </div>
-          </div>
-        ))}
+        {this.props.selectedState && this.props.selectedState.properties ?
+              this.renderFilteredEvents() :
+              this.renderGroupedEvents()}
       </div>
     )
   }
