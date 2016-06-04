@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { StyleSheet } from 'react-look'
 import moment from 'moment'
 import theme from '../theme'
 
+const maxWidthWithFlex = (flexValue) => ({ maxWidth: flexValue * 100, flex: flexValue })
 const fontFamily = theme.fontFamily
-const styles=StyleSheet.create({
+const styles = StyleSheet.create({
   eventItem: {
     display: 'flex',
     flexDirection: 'row'
@@ -24,9 +25,7 @@ const styles=StyleSheet.create({
     backgroundColor: theme.colors.lightGray,
     fontFamily
   },
-  eventInfoContainer: {
-    flex: 7
-  },
+  eventInfoContainer: maxWidthWithFlex(7),
   eventDate: {
     marginLeft: 35,
     marginTop: -19,
@@ -34,9 +33,9 @@ const styles=StyleSheet.create({
     color: theme.colors.gray
   },
   rsvpContainer: {
-    flex: 3,
     textAlign: 'left',
-    verticalAlign: 'middle'
+    verticalAlign: 'middle',
+    ...maxWidthWithFlex(3)
   },
   rsvpLink: {
     color: 'white',
@@ -57,25 +56,22 @@ const styles=StyleSheet.create({
 })
 
 
-export default class EventListItem extends Component {
-  static propTypes = {
-    city: React.PropTypes.string.isRequired,
-    date: React.PropTypes.object.isRequired,
-    rsvpUrl: React.PropTypes.string.isRequired
-  }
-
-  render() {
-    const { city, date, rsvpUrl } = this.props
-    return (
-      <div className={styles.eventItem}>
-        <div className={styles.eventInfoContainer}>
-          <h2 className={styles.eventTitle}>{`${city}`}</h2>
-          <h4 className={styles.eventDate}>{moment(new Date(date)).format('MMM DD')}</h4>
-        </div>
-        <div className={styles.rsvpContainer}>
-          <a className={styles.rsvpLink} target='_blank' href={rsvpUrl}>RSVP</a>
-        </div>
+export default function EventListItem(props) {
+  const { city, date, rsvpUrl } = props
+  return (
+    <div className={styles.eventItem}>
+      <div className={styles.eventInfoContainer}>
+        <h2 className={styles.eventTitle}>{`${city}`}</h2>
+        <h4 className={styles.eventDate}>{moment(new Date(date)).format('MMM DD')}</h4>
       </div>
-    )
-  }
+      <div className={styles.rsvpContainer}>
+        <a className={styles.rsvpLink} target='_blank' href={rsvpUrl}>RSVP</a>
+      </div>
+    </div>
+  )
+}
+EventListItem.propTypes = {
+  city: React.PropTypes.string.isRequired,
+  date: React.PropTypes.string.isRequired,
+  rsvpUrl: React.PropTypes.string.isRequired
 }
