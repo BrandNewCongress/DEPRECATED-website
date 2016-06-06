@@ -241,6 +241,7 @@ class USMap extends React.Component {
                 [parseFloat(event.longitude),
                 parseFloat(event.latitude)]
               )
+
               if (coord === null) {
                 return ''
               }
