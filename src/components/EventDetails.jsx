@@ -54,6 +54,24 @@ const styles = StyleSheet.create({
     fontSize: 15,
     marginBottom: 10,
     fontWeight: 500
+  },
+  rsvpLink: {
+    color: 'white',
+    backgroundColor: theme.colors.blue,
+    textDecoration: 'none',
+    width: '100%',
+    display: 'inline-block',
+    padding: '10px 0 9px',
+    borderRadius: 4,
+    textAlign: 'center',
+    marginTop: 4,
+    fontWeight: 600,
+    fontFamily: theme.fontFamily.default,
+    ':hover': {
+      backgroundColor: theme.colors.darkBlue
+    },
+    border: 'none',
+    cursor: 'pointer'
   }
 })
 
@@ -79,7 +97,7 @@ const EventDetails = ({ event, onClose }) => (
         Exact location and time will be announced soon.`}
       </div>
       <button
-        className={styles.button}
+        className={styles.rsvpLink}
         onClick={() => {
           window.open(event.rsvpUrl, '_blank')
         }}
