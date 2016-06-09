@@ -78,7 +78,7 @@ class EventsList extends Component {
     const componentWidth = this.refs.root.offsetWidth
     const eventsColumn = Math.floor(componentWidth / MAX_COLUMN_LENGTH)
     const groupedEvents = _.groupBy(this.props.events, 'state')
-    let columnedEvents = Array(eventsColumn)
+    const columnedEvents = Array(eventsColumn)
 
     // Initialize
     _.forEach(columnedEvents, (val, ind) => {
@@ -86,13 +86,13 @@ class EventsList extends Component {
     })
 
     // Move data around to have equal column lengths
-    _.forEach(groupedEvents, (val, key) => {
-      const minIndex = _.indexOf(columnedEvents,_.minBy(columnedEvents, (item) => _.flatten(item).length ))
+    _.forEach(groupedEvents, (val) => {
+      const minIndex = _.indexOf(
+        columnedEvents, _.minBy(columnedEvents, (item) => _.flatten(item).length))
       columnedEvents[minIndex].push(val)
     })
 
     this.setState({ columnedEvents, componentWidth, eventsColumn })
-
   }
 
   renderGroupedEvents() {
@@ -107,8 +107,8 @@ class EventsList extends Component {
 
   renderFilteredEvents() {
     return (
-      this.filterEvents().map((event) => (
-        <EventListItem {...event} />
+      this.filterEvents().map((event, id) => (
+        <EventListItem key={id} {...event} />
       ))
     )
   }

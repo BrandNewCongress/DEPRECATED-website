@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { StyleSheet } from 'react-look'
-import moment from 'moment'
 import theme from '../theme'
 import EventListItem from './EventListItem'
 
 const fontFamily = theme.fontFamily
-const styles=StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1
   },
@@ -33,27 +32,19 @@ const styles=StyleSheet.create({
 })
 
 
-export default class EventColumn extends Component {
-  static propTypes = {
-    columnCount: React.PropTypes.number,
-    datasource: React.PropTypes.array
-  }
-
-  render() {
-    const { datasource, columnCount } = this.props
-    return (
-      <div className={styles.container} >
-        {datasource.map((stateEvent) => {
-          return (
-            <div className={styles.stateContainer}>
-              <h2 className={styles.stateName}>{stateEvent[0].state}</h2>
-              {
-                stateEvent.map((event, id) => (<EventListItem key={id} {...event} />))
-              }
-            </div>
-          )
-        })}
-      </div>
-    )
-  }
+export default function EventColumn(props) {
+  const { datasource } = props
+  return (
+    <div className={styles.container} >
+      {datasource.map((stateEvent, containerId) => (
+        <div key={containerId} className={styles.stateContainer}>
+          <h2 className={styles.stateName}>{stateEvent[0].state}</h2>
+          {stateEvent.map((event, id) => (<EventListItem key={id} {...event} />))}
+        </div>
+      ))}
+    </div>
+  )
+}
+EventColumn.propTypes = {
+  datasource: React.PropTypes.array
 }
