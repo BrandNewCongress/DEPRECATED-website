@@ -1,8 +1,11 @@
+import path from 'path'
+
 import 'babel-polyfill'
 import express from 'express'
 import log from './log'
 import proxy from 'http-proxy-middleware'
 import clientRouteHandler from './client-route-handler'
+import legacySite, { SITE_DIR as STATIC_SITE_DIR } from './middleware/legacy-site'
 
 const app = express()
 const port = process.env.PORT
@@ -55,12 +58,12 @@ app.use([
     changeOrigin: true
   }))
 
+app.use('/static-assets', express.static(path.resolve(STATIC_SITE_DIR, 'assets')))
+
 app.use([
   '/home',
   '/callteam',
-  '/assets',
   '/about',
-  '/teams',
   '/abteam',
   '/adteam',
   '/call',
@@ -73,11 +76,7 @@ app.use([
   '/spreadsheetteam',
   '/textingteam',
   '/wikiteam',
-  '/travelteam'],
-  proxy({
-    target: 'http://brandnewcongress.github.io',
-    changeOrigin: true
-  }))
+  '/travelteam'], legacySite)
 
 app.use(clientRouteHandler)
 app.listen(port, () => {
