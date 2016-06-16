@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     width: '100%'
   },
   showNav: {
-    height: 170
+    height: 181
   },
   hideNav: {
     height: 0
