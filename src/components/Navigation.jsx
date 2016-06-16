@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
       color: 'white',
       fontSize: 14,
       ':hover': {
-        color: theme.colors.orange
+        color: theme.colors.lightGray
       }
     },
     '@media (min-width: 768px)': {
