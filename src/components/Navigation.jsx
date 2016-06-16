@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
+import { onMobile, onDesktop } from '../media-queries'
 
 const c = StyleSheet.combineStyles
 const styles = StyleSheet.create({
@@ -10,10 +11,10 @@ const styles = StyleSheet.create({
     padding: '10px 5px 5px',
     width: 75,
     fontWeight: 600,
-    '@media (max-width: 768px)': {
+    [onMobile]: {
       width: 'auto'
     },
-    '@media (min-width: 768px)': {
+    [onDesktop]: {
       padding: '6px 5px 5px',
       width: 105
     }
@@ -32,17 +33,17 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     fontSize: 10,
     fontFamily: theme.fontFamily,
-    '@media (max-width: 768px)': {
+    [onMobile]: {
       fontSize: 20
     },
-    '@media (min-width: 768px)': {
+    [onDesktop]: {
       fontSize: 17,
       lineHeight: '17px',
       textAlign: 'left'
     }
   },
   mobileNav: {
-    '@media (min-width: 768px)': {
+    [onDesktop]: {
       display: 'none'
     },
     display: 'inline-block',
@@ -53,7 +54,7 @@ const styles = StyleSheet.create({
     paddingTop: 18
   },
   mobileNavList: {
-    '@media (min-width: 768px)': {
+    [onDesktop]: {
       display: 'none'
     },
     height: 0,
@@ -62,7 +63,7 @@ const styles = StyleSheet.create({
     width: '100%'
   },
   showNav: {
-    height: 170
+    height: 181
   },
   hideNav: {
     height: 0
@@ -71,7 +72,7 @@ const styles = StyleSheet.create({
     display: 'block'
   },
   nav: {
-    '@media (max-width: 768px)': {
+    [onMobile]: {
       display: 'none'
     },
     display: 'inline-block',
@@ -85,14 +86,14 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: 400,
     color: theme.colors.darkGray,
-    '@media (max-width: 768px)': {
+    [onMobile]: {
       color: 'white',
       fontSize: 14,
       ':hover': {
-        color: theme.colors.orange
+        color: theme.colors.lightGray
       }
     },
-    '@media (min-width: 768px)': {
+    [onDesktop]: {
       display: 'inline-block',
       borderBottom: '1px solid',
       borderBottomColor: theme.colors.orange,
@@ -111,7 +112,7 @@ const styles = StyleSheet.create({
   navItem: {
     display: 'inline-block',
     paddingRight: 25,
-    '@media (max-width: 768px)': {
+    [onMobile]: {
       display: 'block',
       paddingLeft: 9,
       paddingTop: 2,
@@ -124,12 +125,12 @@ const styles = StyleSheet.create({
   container: {
     display: 'flex',
     width: '100%',
-    '@media (max-width: 768px)': {
+    [onMobile]: {
       backgroundColor: theme.colors.orange,
       flexDirection: 'column'
     },
 
-    '@media (min-width: 768px)': {
+    [onDesktop]: {
       textAlign: 'center'
     }
   },

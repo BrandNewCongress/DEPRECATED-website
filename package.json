@@ -48,7 +48,7 @@
     "babel-eslint": "^6.0.4",
     "babel-register": "^6.8.0",
     "eslint": "^2.10.1",
-    "react-addons-test-utils": "^0.14.7",
+    "react-addons-test-utils": "^15.1.0",
     "sass-loader": "^3.2.0",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.8.0",
