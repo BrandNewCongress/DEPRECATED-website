@@ -26,6 +26,7 @@ if (process.env.NODE_ENV === 'production') {
 
 export default wrap(async (req, res) => {
   const dataRequest = await axios.get('https://docs.google.com/spreadsheets/d/1KgT7FWC-ow-yLbVSe1jriImGFE_SGRiVdq9t9khuH_4/pub?gid=0&single=true&output=csv')
+  const today = new Date()
   const events = Baby.parse(dataRequest.data, { header: true })
   .data
   .map((event) => {
@@ -39,7 +40,9 @@ export default wrap(async (req, res) => {
       latitude: zipInfo.latitude,
       longitude: zipInfo.longitude
     }
-  }).sort((a, b) => new Date(a.date) - new Date(b.date))
+  })
+  .filter((event) => new Date(event.date) >= today)
+  .sort((a, b) => new Date(a.date) - new Date(b.date))
 
   const serverConfig = Presets['react-dom']
   const memoryHistory = createMemoryHistory(req.url)
