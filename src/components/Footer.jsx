@@ -9,7 +9,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     paddingTop: 20,
     fontFamily: theme.fontFamily,
-    fontWeight: 300
+    fontWeight: 300,
+    backgroundColor: theme.colors.lightGray
   },
   link: { ...theme.link },
   shareIcon: {
@@ -24,7 +25,7 @@ const styles = StyleSheet.create({
   },
   copyright: {
     fontSize: '0.5em',
-    marginBottom: 20
+    paddingBottom: 20
   },
   questions: {
     marginBottom: 11,

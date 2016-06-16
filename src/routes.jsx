@@ -1,8 +1,11 @@
 import { Route } from 'react-router'
-import App from './containers/App'
+import Tour from './containers/Tour'
+import App from './components/App'
 import React from 'react'
 
 const routes = (
-  <Route path='/tour' component={App} />
+  <Route path='/' component={App}>
+    <Route path='tour' component={Tour} />
+  </Route>
 )
 export default routes
