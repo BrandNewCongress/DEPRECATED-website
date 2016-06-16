@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
+import { onMobile } from '../media-queries'
 
 const styles = StyleSheet.create({
   circle: {
@@ -8,8 +9,9 @@ const styles = StyleSheet.create({
     cursor: 'pointer',
     fill: theme.colors.orange,
     stroke: 'rgba(255,255,255, 0.5)',
-    '@media (max-width: 775px)': {
-      r: '7px !important'
+    [onMobile]: {
+      r: '7px !important',
+      pointerEvents: 'none'
     }
   }
 })
