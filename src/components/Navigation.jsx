@@ -129,10 +129,6 @@ const styles = StyleSheet.create({
       backgroundColor: theme.colors.orange,
       flexDirection: 'column'
     },
-
-    [onDesktop]: {
-      textAlign: 'center'
-    }
   },
   viewport: {
     clear: 'both',
@@ -195,11 +191,13 @@ export default class Navigation extends Component {
     return (
       <div className={styles.container}>
         <div className={styles.viewport}>
-          <div className={styles.logo}>
-            <div className={styles.logoText}>
-              Brand New Congress
+          <a href='/'>
+            <div className={styles.logo}>
+              <div className={styles.logoText}>
+                Brand New Congress
+              </div>
             </div>
-          </div>
+          </a>
           <div
             className={styles.mobileNav}
             onClick={() => this.showMobileNav()}

@@ -9,8 +9,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     paddingTop: 20,
     fontFamily: theme.fontFamily,
-    fontWeight: 300,
-    backgroundColor: theme.colors.lightGray
+    fontWeight: 300
   },
   link: { ...theme.link },
   shareIcon: {
