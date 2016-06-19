@@ -5,6 +5,7 @@ import { StyleSheet } from 'react-look'
 import EventsList from '../containers/EventsList'
 import { connect } from 'react-redux'
 import theme from '../theme'
+import { onMobile } from '../media-queries'
 
 const styles = StyleSheet.create({
   map: {
@@ -24,7 +25,11 @@ const styles = StyleSheet.create({
     position: 'relative',
     height: 'calc(100vh - 170px)',
     width: '100%',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    [onMobile]: {
+      paddingTop: 0,
+      paddingBottom: 0
+    }
   },
   welcomeMessage: {
     textAlign: 'center',
