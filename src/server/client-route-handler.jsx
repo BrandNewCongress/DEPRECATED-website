@@ -11,6 +11,7 @@ import axios from 'axios'
 import Baby from 'babyparse'
 import wrap from './wrap'
 import fs from 'fs'
+import moment from 'moment'
 
 const Zips = Baby.parseFiles(`${__dirname}/../data/zip-codes.csv`, { header: true }).data
 const ZipCodeDB = {}
@@ -26,7 +27,8 @@ if (process.env.NODE_ENV === 'production') {
 
 export default wrap(async (req, res) => {
   const dataRequest = await axios.get('https://docs.google.com/spreadsheets/d/1KgT7FWC-ow-yLbVSe1jriImGFE_SGRiVdq9t9khuH_4/pub?gid=0&single=true&output=csv')
-  const today = new Date()
+  const today = moment(new Date())
+  const momFromDateString = (dateString) => moment(dateString, 'MM/DD/YYYY')
   const events = Baby.parse(dataRequest.data, { header: true })
   .data
   .map((event) => {
@@ -41,8 +43,8 @@ export default wrap(async (req, res) => {
       longitude: zipInfo.longitude
     }
   })
-  .filter((event) => new Date(event.date) >= today)
-  .sort((a, b) => new Date(a.date) - new Date(b.date))
+  .filter((event) => momFromDateString(event.date) >= today)
+  .sort((a, b) => momFromDateString(a.date) - momFromDateString(b.date))
 
   const serverConfig = Presets['react-dom']
   const memoryHistory = createMemoryHistory(req.url)
