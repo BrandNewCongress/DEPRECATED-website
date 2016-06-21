@@ -29,7 +29,7 @@ function generateCallHtml(nameContains, maxSignups, callback) {
       },
       error: function(xhr, error, exception) {
           console.log(xhr);
-          callback("Error occurred. Please contact info@brandnewcongress.org if you were directed to this page.");
+          callback("Error occurred. Please contact us@brandnewcongress.org if you were directed to this page.");
       }
   });
 }
