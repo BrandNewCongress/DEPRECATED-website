@@ -1,0 +1,201 @@
+/*
+ * Minimal Application level overrides
+ * (things that dont make sense in a toolkit :)
+ */
+h1 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+h2 {
+    color: #000;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.6em;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+}
+
+li {
+    font-size: 16px;
+    text-align: left;
+}
+
+.embolden {
+    font-weight: 600;
+    color: #f16432;
+}
+
+span.heavy {
+    font-weight: 800;
+}
+
+.block-2-content {
+    background-color: #f2f2f2;
+}
+
+.greenbg.lead {
+    background-color: #eef9ef;
+}
+
+div.form-block {
+    background-color: #fff;
+}
+
+/*HEADER IMG*/
+.secondary-img img {
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.find-city-button {
+   margin-top: 1em;
+   margin-bottom: 1em;
+   background-color: rgb(20, 127, 215);
+   color: white;
+   padding: 0.2em 1em;
+   display: inline-block;
+   font-weight: 600;
+   font-size: 3vw;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.find-city-button a.find-city-link {
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+}
+
+.find-city-button:hover {
+    background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))
+}
+
+.hero-img img {
+    max-width: 100%;
+    max-height: 80vh;
+    opacity: 0.3;
+}
+
+.feature-img img {
+    max-width: 100%;
+    max-height: 316px;
+}
+
+/*colorize the form fields*/
+input[type="text"],textarea {
+    background-color: #eef9ef;
+}
+
+a,a:link,a:active,a:visited,a:hover {
+    color: #000;
+    border-bottom: 1px solid #f16432;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #f16432;
+}
+
+button.btn {
+    border-radius: 0;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.icon {
+    color: #22b573;
+}
+
+/*Resposnive resizing for smaller devices*/
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 768px) {
+    .responsive {
+        font-size: 70px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .responsive {
+        font-size: 50px !important;
+    }
+
+    h1 {
+        color: #000;
+        font-family: "Open Sans";
+        font-weight: 300;
+        font-size: 1.5em;
+        margin-top: 0 !important;
+    }
+
+    span.greenline {
+        text-decoration: none;
+        border-bottom: 1px solid #6fcea3;
+        padding-bottom: 1px;
+        display: inline;
+        line-height: 1.5em;
+    }
+
+    .block-1-content {
+        margin-top: -100px;
+    }
+
+    .block-1-content .lead {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 350px) {
+    .responsive {
+        font-size: 44px !important;
+    }
+}
+
+/*Font Awesome Icons*/
+a.icon{
+    border:none;
+    font-size: 3em;
+}
+
+
+
+hr{width:50%}
+
+/*email obfuscation*/
+/*the below css obfuscates the link text--the mailto is obfuscated by a jquery function in the html page*/
+.e-mail:before {
+    content: attr(data-website) "\0040" attr(data-user);
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.block-footer {
+    background-color: #fff;
+}
