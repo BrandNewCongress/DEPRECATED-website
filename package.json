@@ -60,12 +60,12 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "clean": "rm -rf $OUTPUT_DIR",
+    "clean": "node script.js clean",
     "lint": "eslint --fix --ext js --ext jsx src",
     "prod-build-client": "webpack --config ./webpack/config.js",
     "prod-build-server": "babel ./src -d $OUTPUT_DIR/server --source-maps && mkdir -p $OUTPUT_DIR/server/data && cp -R ./src/data/* $OUTPUT_DIR/server/data",
     "prod-build": "npm run clean && npm run prod-build-client && npm run prod-build-server",
-    "postinstall": "if [ \"$NODE_ENV\" = production ] ; then npm run prod-build ; fi",
+    "postinstall": "node script.js postinstall",
     "start": "node $OUTPUT_DIR/server/server",
     "predev-start": "npm run clean",
     "dev-start": "nodemon -e js,jsx -w ./src --exec node ./tools/babel-run -- ./src/server",
