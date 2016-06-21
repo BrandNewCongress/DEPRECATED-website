@@ -62,6 +62,7 @@ div.form-block {
 .secondary-img img {
     max-width: 100%;
     max-height: 150px;
+    margin-bottom: 30px;
 }
 
 .find-city-button {
