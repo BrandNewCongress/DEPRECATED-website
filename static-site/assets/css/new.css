@@ -1,0 +1,72 @@
+/* Put this in custom.css after verifying all the other css in that file is okay. */
+.basic_header {
+  margin: 0px auto;
+  max-width: 840px;
+  width: 100%;
+}
+.header_name_w {
+  background: rgb(241, 100, 50);
+  display: inline-block; vertical-align: top;
+  max-width: 120px;
+  padding: 10px;
+  width: 100%;
+}
+.header_name {
+  border-left: 4px solid #FFF;
+  color: #FFF;
+  display: inline-block;
+  font-size: 17px;
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 100%;
+}
+.basic_header a {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 20px 5px 3px 5px;
+}
+.basic_header a.dash {
+  display: none;
+}
+.basic_header a:hover {
+  border-bottom: 3px solid rgb(241, 100, 50);
+  padding: 20px 5px 0px 5px;
+}
+.header_nav {
+  display: inline-block; vertical-align: top;
+}
+@media (max-width: 800px) {
+  .header_nav {
+    display: none;
+  }
+  .header_name_w {
+    max-width: none;
+  }
+  .basic_header a.dash {
+    color: #FFF;
+    text-decoration: none;
+    content: '';
+    display: inline-block;
+    border-bottom: 0.125em solid #FFF;
+    border-top: 0.375em double #FFF;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.2);
+    height: 0.125em;
+    width: 1em;
+    margin: 10px;
+    padding: 2px;
+    font-size: 27px;
+    float: right;
+  }
+  .basic_header a {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+  }
+}
+/* END HEADER */
+.disclaimer {
+  border: 1px solid #999;
+  max-width: 300px;
+  margin: 10px auto;
+}

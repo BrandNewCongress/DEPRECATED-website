@@ -1,2 +1,2 @@
 server: npm run dev-start
-webpack: ./tools/babel-run ./webpack/server.js
+webpack: node ./tools/babel-run ./webpack/server.js
