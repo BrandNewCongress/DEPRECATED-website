@@ -14,8 +14,7 @@ export default function (req, res, next) {
   fs.stat(possibleStaticPath, err => {
     const fileExists = !err
     if (fileExists) {
-      // Make it more difficult for developers to create errors by putting the headers and footers in one place.
-
+      //Simplify design on the legacy pages by having a unified header and footer.
       var header_path = path.join(SITE_DIR, `header.html`)
       var footer_path = path.join(SITE_DIR, `footer.html`)
       var header = fs.readFileSync(header_path, 'utf8');
