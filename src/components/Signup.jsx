@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   explanation: {
     display: 'flex',
     flexDirection: 'column',
-    marginRight: 20,
+    marginRight: 30,
     marginLeft: 30,
     flex: 1
   },
