@@ -7,7 +7,7 @@
 import fs from 'fs'
 import path from 'path'
 
-export const SITE_DIR = path.resolve(__dirname, '..', '..', '..', 'static-site')
+export const SITE_DIR = path.resolve(__dirname, '..', '..', 'static-site')
 export default function (req, res, next) {
   const { name: pathname } = path.parse(req.originalUrl)
   const possibleStaticPath = path.join(SITE_DIR, `${pathname}.html`)
