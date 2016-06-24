@@ -13,23 +13,20 @@
     <meta content="website" property="og:type">
     <meta content="Brand New Congress" property="og:title">
     <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
-    <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
+    <meta content="http://brandnewcongress.org/static-assets/img/bnc-fb-share-img.png" property="og:image">
 
     <!-- font-awesome-icon-font-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <title>Brand New Congress</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
-    <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
-    <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/static-assets/css/custom.css">
+    <link href="static-assets/css/toolkit-minimal.css" rel="stylesheet">
+    <link href="static-assets/css/application-minimal.css" rel="stylesheet">
+    <link href="static-assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body>
-
-
     <!-- Block 1 -->
-
 
     <div class="block m-y-0 p-y-0 p-x-0 p-t-md text-center hero">
         <div style="width:100%;height:100%;position:absolute;z-index:1000">
@@ -47,7 +44,7 @@
         </div>
         </div>
         </div>
-        <div class="container-fluid hero-img"><img alt="Let's get together to elect a Brand New Congress that works for all." src="/static-assets/img/map-1577x965@2x.png">
+        <div class="container-fluid hero-img"><img alt="Let's get together to elect a Brand New Congress that works for all." src="static-assets/img/map-1577x965@2x.png">
         </div>
     </div>
     <!-- Block 2 -->
@@ -443,7 +440,7 @@
 
 
         <div class="container">
-            <p class="text-center">Questions, comments? Email: <a class="obf-email" href="#"><span class="e-mail" data-user="ofni" data-website="gro.ssergnocwendnarb"></span></a></p>
+            <p class="text-center">Questions, comments? Email: <a class="obf-email" href="#"><span class="e-mail" data-user="su" data-website="gro.ssergnocwendnarb"></span></a></p>
         </div>
 
 
@@ -452,20 +449,29 @@
             All rights reserved.</p>
         </div>
 
+        <div class="container">
+            <div class="disclaimer">Organized and paid for by Brand New Congress, a grassroots movement to elect a new congress in 2018.</div>
+        </div>
 
-
+        </div>
     </div>
+
+    <div class="basic_header">
+        <div class="header_name_w"><div class="header_name">Brand New Congress</div><a href="" onclick="$('.header_nav').toggle();return false;" class="dash"></a></div>
+        <div class="header_nav">
+            <a href="/tour">The Tour</a>
+            <a href="/">The Plan</a>
+            <a href="/about">Who's Involved</a>
+            <a href="/teams">Join A Team</a>
+            <a href="http://berniesanders.com/issues" target="_blank">Issues</a>
+            <a href="https://secure.actblue.com/contribute/page/brandnewcongress" target="_blank">Contribute</a>
+        </div>
     </div>
-
-
 
     <!-- Include jQuery (required) and the JS -->
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
     <!--    Form input script  -->
-
     <script>
     $('#input-form').one('submit',function(){
 
@@ -494,20 +500,10 @@
     });
     </script>
 
-    <!--  Email obf-->
-
-    <script>
-      $(document).ready(function() {
-        var x = "us";
-        var y = "brandnewcongress";
-        var z = ".org";
-        var r = '' + x + '@' + y + z;
-        $('.obf-email').attr('href', 'mailto:' +r);
-    });
-    </script>
+    <!-- Custom application JS. Currently just email obs. -->
+    <script src="/static-assets/js/new.js"></script>
 
     <!--  Website js-->
-
     <script src="/static-assets/js/toolkit.js"></script>
 
     <!-- Google Analytics -->

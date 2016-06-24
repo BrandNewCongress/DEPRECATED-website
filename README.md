@@ -13,7 +13,7 @@ This is the project hosting the [Brand New Congress](http://brandnewcongress.org
 
 ## Overview of the website
 
-The website is currently split up amongst three different places.  This repo (website) is the main point of entry that brandnewcongress.org hits.  From there, we reverse proxy to Github pages for for half of the static content on the site and to NationBuilder for the rest.  The reason for this is largely that we were trying out different methods, but we do plan to consolidate the site into this repository (see: [https://github.com/BrandNewCongress/website/issues/1](https://github.com/BrandNewCongress/website/issues/1)). 
+The website is currently split up amongst two different places.  This repo (website) is the main point of entry that brandnewcongress.org hits.  For some pages we reverse proxy to NationBuilder for the rest.  The reason for this is largely that we were trying out different methods, but we do plan to consolidate the site into this repository (see: [https://github.com/BrandNewCongress/website/issues/1](https://github.com/BrandNewCongress/website/issues/1)).
 
 ## How to contribute
 

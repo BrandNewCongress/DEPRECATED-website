@@ -13,11 +13,14 @@ export default function (req, res, next) {
   const possibleStaticPath = path.join(SITE_DIR, `${pathname}.html`)
   fs.stat(possibleStaticPath, err => {
     const fileExists = !err
-    if (fileExists) {
-      res.sendFile(possibleStaticPath)
-    } else {
-      // We simply continue and allow express's default 404 handler to kick in.
-      next()
+    if (fileExists) { //Simplify design on the legacy pages by having a unified header and footer.
+      var header_path = path.join(SITE_DIR, `header.html`)
+      var footer_path = path.join(SITE_DIR, `footer.html`)
+      var header = fs.readFileSync(header_path, 'utf8')
+      var footer = fs.readFileSync(footer_path, 'utf8')
+      var page = fs.readFileSync(possibleStaticPath, 'utf8');
+      if (pathname == "home") { var header = ""; var footer = "";} // No custom header or footer for the homepage
+      res.send(header + page + footer);
     }
   })
 }
