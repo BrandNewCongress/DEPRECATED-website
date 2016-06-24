@@ -1,4 +1,4 @@
-import fs from 'fs'
+//import fs from 'fs'
 import path from 'path'
 
 import React from 'react'
@@ -154,16 +154,16 @@ class MarkdownPage extends React.Component {
     var pathname = this.props.location.pathname //'/eventsteam'
     var SITE_DIR = path.resolve(process.cwd(), 'src/static-site')
     var markdownPagePath = path.join('./src/static-site', `${pathname}.markdown`)
-    if (fs.statSync(markdownPagePath).isFile()) {
+    /*if (fs.statSync(markdownPagePath).isFile()) {
       var page = fs.readFileSync(markdownPagePath, 'utf8');
       var markdown = require( "markdown" ).markdown;
       var content = ("<div class='markdown_content'>" + markdown.toHTML( page ) + "</div>");
       return (
           <div className={styles.markdown_content} dangerouslySetInnerHTML={{__html: content}} />
       );
-    }
-return ''
-}
+    }*/
+  return ''
+  }
 
 
 render() {
