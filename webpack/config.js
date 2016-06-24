@@ -18,6 +18,7 @@ if (!DEBUG) {
 }
 
 var config = {
+  target: 'node',
   entry: {
     bundle: ['babel-polyfill', './src/client/index.jsx']
   },

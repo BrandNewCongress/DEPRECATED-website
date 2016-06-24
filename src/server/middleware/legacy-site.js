@@ -21,24 +21,6 @@ export default function (req, res, next) {
       var page = fs.readFileSync(possibleStaticPath, 'utf8');
       if (pathname == "home") { var header = ""; var footer = "";} // No custom header or footer for the homepage
       res.send(header + page + footer);
-    } else {
-      const possibleStaticPath_M = path.join(SITE_DIR, `${pathname}.markdown`)
-      fs.stat(possibleStaticPath_M, err => {
-        const fileExists2 = !err
-        if (fileExists2) {
-          var header_path = path.join(SITE_DIR, `header.html`)
-          var footer_path = path.join(SITE_DIR, `footer.html`)
-          var header = fs.readFileSync(header_path, 'utf8')
-          var footer = fs.readFileSync(footer_path, 'utf8')
-          var page = fs.readFileSync(possibleStaticPath_M, 'utf8');
-          var markdown = require( "markdown" ).markdown;
-          if (pathname == "home") { var header = ""; var footer = "";} // No custom header or footer for the homepage
-          res.send(header + "<div class='markdown_content'>" + markdown.toHTML( page ) + "</div>" + footer);
-        } else {
-          // We simply continue and allow express's default 404 handler to kick in.
-          next()
-        }
-      })
     }
   })
 }
