@@ -93,7 +93,7 @@ export default class Signup extends React.Component {
           padding: '20px 20px 20px 20px'
         }}
       >
-        <div className={styles.formHeader}>
+        <div id="sign-up" className={styles.formHeader}>
           <span className={styles.bold}>Sign up</span> to receive updates and see how you can help
         </div>
         <BNCForm
