@@ -1,8 +1,8 @@
 import React from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
-import FlatButton from 'material-ui/FlatButton'
 import { Link } from 'react-router'
+import { onMobile, onDesktop } from '../media-queries'
 
 const styles = StyleSheet.create({
   map: {
@@ -32,10 +32,13 @@ const styles = StyleSheet.create({
     width: '50%',
     fontWeight: 300,
     textAlign: 'center',
-    top: '50%',
     marginRight: 'auto',
     marginLeft: 'auto',
-    transform: 'translateY(-50%)'
+    top: '50%',
+    transform: 'translateY(-50%)',
+    [onMobile]: {
+      width: '100%'
+    }
   },
   overlayBackground: {
     backgroundColor: theme.colors.lightBlue,
@@ -44,35 +47,38 @@ const styles = StyleSheet.create({
     opacity: 0.5,
     marginTop: '-1.5em',
     marginLeft: '-1.5em',
-    border: `1px solid ${theme.colors.blue}`,
     position: 'absolute',
-    zIndex: -1
+    zIndex: -1,
+    [onDesktop]: {
+      borderRadius: 5
+    }
   },
   overlayText: {
-    fontSize: '30px',
-    color: theme.colors.blue,
-  },
-  overlayBigText: {
-    fontSize: '30px',
-    color: theme.colors.darkGray
+    fontSize: 25,
+    color: theme.colors.darkGray,
+    [onMobile]: {
+      fontSize: 18
+    }
   },
   bold: {
     fontWeight: 600,
     color: theme.colors.orange
   },
   findCityButton: {
-    marginTop: '2em',
-    marginBottom: '2em',
+    marginTop: '1.5em',
     backgroundColor: theme.colors.orange,
     color: 'white',
     padding: '0.2em 1em',
     display: 'inline-block',
     fontWeight: 600,
-    fontSize: '40px',
+    fontSize: 30,
     cursor: 'pointer',
-    borderRadius: 5,
+    borderRadius: 8,
     ':hover': {
       backgroundImage: 'linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))'
+    },
+    [onMobile]: {
+      marginTop: '1em'
     }
   },
   findCityLink: {
@@ -92,9 +98,6 @@ const MapTeaser = () => (
         </div>
         <div className={styles.findCityButton}>
           <Link className={styles.findCityLink} to='/tour'>Find Your City</Link>
-        </div>
-        <div className={styles.overlayBigText}>
-          Let's get together to elect a <span className={styles.bold}>Brand New Congress</span> that works for all.
         </div>
       </div>
     </div>
