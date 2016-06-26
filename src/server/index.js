@@ -61,8 +61,8 @@ app.use([
 app.use('/static-assets', express.static(path.resolve(STATIC_SITE_DIR, 'assets')))
 
 app.use([
-  '/home',
   '/callteam',
+  '/home',
   '/about',
   '/abteam',
   '/adteam',

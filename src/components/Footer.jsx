@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   },
   copyright: {
     fontSize: '0.5em',
-    marginBottom: 20
+    paddingBottom: 20
   },
   questions: {
     marginBottom: 11,
