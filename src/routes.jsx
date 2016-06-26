@@ -7,7 +7,7 @@ import React from 'react'
 const routes = (
   <Route path='/' component={App}>
     <Route path='tour' component={Tour} />
-    <Route path='home' component={Home} />
+    <Route path='home2' component={Home} />
   </Route>
 )
 export default routes

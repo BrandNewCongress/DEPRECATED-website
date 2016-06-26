@@ -11,7 +11,7 @@ const headerStyle = {
   fontWeight: 600,
   display: 'block',
   paddingBottom: 10,
-  fontSize: '2.5vw',
+  fontSize: '30px',
   [onMobile]: {
     fontSize: '25px'
   }
@@ -19,8 +19,6 @@ const headerStyle = {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 30,
-    paddingBottom: 0,
     width: '100%'
   },
   link: { ...theme.link },
@@ -29,11 +27,13 @@ const styles = StyleSheet.create({
   },
   leadIn: {
     fontWeight: 800,
-    color: theme.colors.orange
+    color: theme.colors.purple
   },
   formHeader: {
-    fontSize: '1.5vw',
+    fontSize: '18px',
     fontWeight: 300,
+    padding: '5px 5px 5px 5px',
+    border: `1px solid ${theme.colors.lightGray}`,
     [onMobile]: {
       fontSize: '14px'
     }
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   body: {
     color: theme.colors.darkGray,
     fontWeight: 300,
-    fontSize: '1.5vw',
+    fontSize: '18px',
     display: 'block',
     paddingBottom: 30,
     lineHeight: '1.5em',
@@ -73,12 +73,12 @@ const styles = StyleSheet.create({
   explanation: {
     display: 'flex',
     flexDirection: 'column',
-    marginRight: 30,
+    marginRight: 50,
     marginLeft: 30,
     flex: 1
   },
   form: {
-    width: 400,
+    width: 350,
     marginRight: 30,
     [onMobile]: {
       width: '100%'
@@ -107,9 +107,8 @@ export default class Signup extends React.Component {
         }}
       >
         <div className={styles.formHeader}>
-        <span className={styles.bold}>Sign up</span> to receive updates and see how you can help
+          <span className={styles.bold}>Sign up</span> to receive updates and see how you can help
         </div>
-        <div className={styles.line} />
         <BNCForm
           schema={this.formSchema}
           onSubmit={(formValue) => {
@@ -139,6 +138,10 @@ export default class Signup extends React.Component {
           <Form.Button
             name='submit'
             label='Count Me In!'
+            style={{
+              marginTop: 15,
+              width: '100%'
+            }}
             fullWidth
           />
         </BNCForm>
@@ -154,13 +157,13 @@ export default class Signup extends React.Component {
             <div className={styles.header}>Congress is broken.
             </div>
             <div className={styles.body}>
-            <a className={styles.link} href='http://www.realclearpolitics.com/epolls/other/congressional_job_approval-903.html'>80% of Americans agree.</a> Its decisions are <a className={styles.link} href='http://www.bbc.com/news/blogs-echochambers-27074746'>driven by a handful of wealthy individuals</a>, it is incapable of  working together to enact real change, and <a className={styles.link} href='https://www.youtube.com/watch?v=Ylomy1Aw9Hk'>its members spend too much time dialing for dollars instead of working</a>.
+            <a className={styles.link} href='http://www.realclearpolitics.com/epolls/other/congressional_job_approval-903.html'>80% of Americans agree.</a> Its decisions are <a className={styles.link} href='http://www.bbc.com/news/blogs-echochambers-27074746'>driven by a handful of wealthy individuals</a>, it is incapable of working together to enact real change, and <a className={styles.link} href='https://www.youtube.com/watch?v=Ylomy1Aw9Hk'>its members spend too much time dialing for dollars</a>.
             </div>
             <div className={styles.secondaryHeader}>
             Let's fix it.
             </div>
             <div className={styles.body}>
-            We need <span className={styles.bold}>an honest, accountable Congress</span>, but trying to win each congressional seat one-by-one is impossible.  So let's replace Congress all at once. Our plan is to recruit and run 400+ candidates as a single, unified campaign with a single plan. By giving the people an option for big, palpable change, we plan to whip up the same enthusiasm, volunteerism, voter turnout, and grassroots donations as Bernie's presidential candidate. <span className={styles.leadIn}>Let's elect a Brand New Congress that works for the people because it was put in power by the people.</span>
+            We need <span className={styles.bold}>an honest, accountable Congress</span>, but trying to win each congressional seat one-by-one is impossible.  So let's replace Congress all at once. Our plan is to recruit and run 400+ candidates as a single, unified campaign with a single plan. By giving the people an option for big, tangible change, we plan to whip up the same enthusiasm, volunteerism, voter turnout, and grassroots donations as Bernie's presidential candidate. <span className={styles.leadIn}>Let's elect a Brand New Congress that works for the people.</span>
             </div>
           </div>
           <div className={styles.form}>

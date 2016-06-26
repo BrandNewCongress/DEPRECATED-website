@@ -14,10 +14,12 @@ Form.addInputTypes({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: theme.colors.veryLightGray
+    backgroundColor: theme.colors.veryLightGray,
+    position: 'relative'
   },
   body: {
-    paddingTop: 10
+    paddingTop: 10,
+    position: 'relative'
   }
 })
 

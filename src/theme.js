@@ -1,8 +1,8 @@
 const colors = {
-  orange: 'rgb(241, 100, 50)',
+  orange: 'rgb(255, 102, 0)',
   lightGreen: 'rgb(245, 255, 247)',
   blue: 'rgb(20, 127, 215)',
-  purple: 'rgb(134, 41, 140)',
+  purple: 'rgb(102, 0, 153)',
   lightBlue: 'rgb(196, 223, 245)',
   darkBlue: 'rgb(13, 81, 139)',
   red: 'rgb(245, 91, 91)',

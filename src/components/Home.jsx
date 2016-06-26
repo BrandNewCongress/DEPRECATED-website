@@ -4,15 +4,23 @@ import MapTeaser from './MapTeaser'
 import { StyleSheet } from 'react-look'
 
 const styles = StyleSheet.create({
-  mapTeaser: {
-    backgroundColor: 'white'
+  signupContainer: {
+    width: '100%',
+    height: '100%',
+    paddingTop: 30,
+    paddingBottom: 30
+  },
+  container: {
+    position: 'relative'
   }
 })
 
 const Home = () => (
-  <div>
-    <Signup />
-    <div className={styles.mapTeaser}>
+  <div className={styles.container}>
+    <div className={styles.signupContainer}>
+      <Signup />
+    </div>
+    <div>
       <MapTeaser />
     </div>
   </div>
