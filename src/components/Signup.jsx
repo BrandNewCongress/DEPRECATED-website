@@ -26,10 +26,12 @@ const styles = StyleSheet.create({
   },
   header: {
     ...theme.text.header,
+    paddingBottom: 20,
     color: theme.colors.orange
   },
   secondaryHeader: {
     ...theme.text.header,
+    paddingBottom: 20,
     color: theme.colors.purple
   },
 
