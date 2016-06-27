@@ -7,7 +7,7 @@ export default class BNCForm extends React.Component {
     value: React.PropTypes.object,
     defaultValue: React.PropTypes.object,
     onChange: React.PropTypes.func,
-    children: React.PropTypes.object
+    children: React.PropTypes.array
   }
 
   state = {
