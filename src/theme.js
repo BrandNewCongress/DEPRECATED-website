@@ -22,7 +22,6 @@ const colors = {
 const defaultFont = 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif'
 
 const text = {
-  defaultFont,
   link: {
     fontWeight: 400,
     color: colors.darkGray,
