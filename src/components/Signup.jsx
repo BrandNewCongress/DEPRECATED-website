@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
   },
 
   body: {
-    color: theme.colors.darkGray,
     display: 'block',
     paddingBottom: 30,
     lineHeight: '1.5em'

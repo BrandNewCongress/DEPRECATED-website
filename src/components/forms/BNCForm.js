@@ -3,7 +3,7 @@ import Form from 'react-formal'
 import BNCSubmitButton from './BNCSubmitButton'
 
 export default class BNCForm extends React.Component {
-  propTypes = {
+  static propTypes = {
     value: React.PropTypes.object,
     defaultValue: React.PropTypes.object,
     onChange: React.PropTypes.func,

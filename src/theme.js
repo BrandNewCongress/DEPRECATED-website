@@ -42,10 +42,11 @@ const text = {
     fontWeight: 300,
     color: colors.darkGray,
     fontSize: 18,
+    fontFamily: defaultFont,
+    lineHeight: '1.5em',
     [onMobile]: {
       fontSize: 14
-    },
-    fontFamily: defaultFont
+    }
   },
   header: {
     fontWeight: 600,
@@ -87,8 +88,10 @@ const layouts = {
   }
 }
 
-export default {
+const theme = {
   colors,
   text,
   layouts
 }
+
+export default theme

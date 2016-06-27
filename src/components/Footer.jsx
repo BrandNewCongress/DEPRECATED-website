@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     paddingTop: 20
   },
-  link: { ...theme.link },
+  link: { ...theme.text.link },
   shareIcon: {
     border: 'none',
     fontSize: '3em',
