@@ -6,22 +6,13 @@ import { StyleSheet } from 'react-look'
 import { onMobile, onDesktop } from '../media-queries'
 import Paper from 'material-ui/Paper'
 import theme from '../theme'
-
-const headerStyle = {
-  fontWeight: 600,
-  display: 'block',
-  paddingBottom: 10,
-  fontSize: '30px',
-  [onMobile]: {
-    fontSize: '25px'
-  }
-}
+import superagent from 'superagent'
 
 const styles = StyleSheet.create({
   container: {
     width: '100%'
   },
-  link: { ...theme.link },
+  link: { ...theme.text.link },
   bold: {
     fontWeight: 800
   },
@@ -30,52 +21,29 @@ const styles = StyleSheet.create({
     color: theme.colors.purple
   },
   formHeader: {
-    fontSize: '18px',
-    fontWeight: 300,
     padding: '5px 5px 5px 5px',
-    border: `1px solid ${theme.colors.lightGray}`,
-    [onMobile]: {
-      fontSize: '14px'
-    }
+    border: `1px solid ${theme.colors.lightGray}`
   },
   header: {
-    color: theme.colors.orange,
-    ...headerStyle
+    ...theme.text.header,
+    color: theme.colors.orange
   },
   secondaryHeader: {
-    color: theme.colors.purple,
-    ...headerStyle
+    ...theme.text.header,
+    color: theme.colors.purple
   },
 
   body: {
     color: theme.colors.darkGray,
-    fontWeight: 300,
-    fontSize: '18px',
     display: 'block',
     paddingBottom: 30,
-    lineHeight: '1.5em',
-    [onMobile]: {
-      fontSize: '14px'
-    }
+    lineHeight: '1.5em'
   },
-  contentContainer: {
-    display: 'flex',
-    maxWidth: 1024,
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    [onDesktop]: {
-      flexDirection: 'row'
-    },
-    [onMobile]: {
-      flexDirection: 'column'
-    }
-  },
+  contentContainer: theme.layouts.multiColumn.container,
   explanation: {
-    display: 'flex',
-    flexDirection: 'column',
+    ...theme.layouts.multiColumn.flexColumn,
     marginRight: 50,
-    marginLeft: 30,
-    flex: 1
+    marginLeft: 30
   },
   form: {
     width: 350,
@@ -113,9 +81,6 @@ export default class Signup extends React.Component {
         </div>
         <BNCForm
           schema={this.formSchema}
-          onSubmit={(formValue) => {
-            console.log(formValue)
-          }}
         >
           <Form.Field
             name='email'

@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
   },
   welcomeMessage: {
     textAlign: 'center',
-    fontFamily: 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif',
     fontWeight: 300,
     position: 'relative',
     top: '50%',

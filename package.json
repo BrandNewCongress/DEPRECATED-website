@@ -46,6 +46,7 @@
     "redux-form": "^5.2.3",
     "redux-thunk": "^2.1.0",
     "rollbar": "^0.6.0",
+    "superagent": "^2.0.0",
     "topojson": "^1.6.26",
     "webpack": "^1.13.0",
     "yup": "^0.18.3"

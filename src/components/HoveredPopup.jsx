@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
   },
   hoverText: {
     color: 'white',
-    fontFamily: theme.fontFamily,
     fontSize: 14,
     fontWeight: 600
   },

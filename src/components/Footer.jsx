@@ -7,9 +7,7 @@ const styles = StyleSheet.create({
     display: 'block',
     width: '100%',
     textAlign: 'center',
-    paddingTop: 20,
-    fontFamily: theme.fontFamily,
-    fontWeight: 300
+    paddingTop: 20
   },
   link: { ...theme.link },
   shareIcon: {

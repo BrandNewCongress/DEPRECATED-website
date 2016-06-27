@@ -14,6 +14,7 @@ Form.addInputTypes({
 
 const styles = StyleSheet.create({
   container: {
+    ...theme.text.body,
     backgroundColor: theme.colors.veryLightGray,
     position: 'relative'
   },

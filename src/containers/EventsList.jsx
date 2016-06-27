@@ -20,7 +20,7 @@ const regionStates = {
     'RI'
   ]
 }
-const fontFamily = theme.fontFamily
+
 const styles = StyleSheet.create({
   columnEventsContainer: {
     display: 'flex',
@@ -34,8 +34,7 @@ const styles = StyleSheet.create({
     padding: '10px 10px',
     fontSize: 25,
     margin: '0 0 10px',
-    backgroundColor: theme.colors.lightGray,
-    fontFamily
+    backgroundColor: theme.colors.lightGray
   }
 })
 

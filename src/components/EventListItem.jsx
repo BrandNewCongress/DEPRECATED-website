@@ -4,7 +4,7 @@ import moment from 'moment'
 import theme from '../theme'
 
 const maxWidthWithFlex = (flexValue) => ({ maxWidth: flexValue * 100, flex: flexValue })
-const fontFamily = theme.fontFamily
+
 const styles = StyleSheet.create({
   eventItem: {
     display: 'flex',
@@ -14,7 +14,6 @@ const styles = StyleSheet.create({
     padding: '3px 11px 18px',
     margin: '0px 0 0 20px',
     fontSize: 22,
-    fontFamily,
     borderLeft: 'solid 4px',
     borderColor: theme.colors.orange
   },
@@ -22,8 +21,7 @@ const styles = StyleSheet.create({
     padding: '10px 10px',
     fontSize: 25,
     margin: '0 0 10px',
-    backgroundColor: theme.colors.lightGray,
-    fontFamily
+    backgroundColor: theme.colors.lightGray
   },
   eventInfoContainer: maxWidthWithFlex(7),
   eventDate: {
@@ -48,7 +46,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 4,
     fontWeight: 600,
-    fontFamily: theme.fontFamily,
     ':hover': {
       backgroundColor: theme.colors.darkBlue
     }

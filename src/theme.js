@@ -1,3 +1,5 @@
+import { onMobile, onDesktop } from './media-queries'
+
 const colors = {
   orange: 'rgb(255, 102, 0)',
   lightGreen: 'rgb(245, 255, 247)',
@@ -17,9 +19,10 @@ const colors = {
   white: 'rgb(255,255,255)'
 }
 
-export default {
-  fontFamily: 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;',
-  colors,
+const defaultFont = 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif'
+
+const text = {
+  defaultFont,
   link: {
     fontWeight: 400,
     color: colors.darkGray,
@@ -33,6 +36,60 @@ export default {
       fontWeight: 400,
       color: colors.darkGray,
       textDecoration: 'none'
+    },
+    fontFamily: defaultFont
+  },
+  body: {
+    fontWeight: 300,
+    color: colors.darkGray,
+    fontSize: 18,
+    [onMobile]: {
+      fontSize: 14
+    },
+    fontFamily: defaultFont
+  },
+  header: {
+    fontWeight: 600,
+    display: 'block',
+    paddingBottom: 10,
+    fontSize: 30,
+    [onMobile]: {
+      fontSize: 25
+    },
+    fontFamily: defaultFont,
+    color: colors.darkGray
+  }
+}
+
+const singleColumnLayout = {
+  maxWidth: 1024,
+  marginLeft: 'auto',
+  marginRight: 'auto'
+}
+
+const layouts = {
+  singleColumn: singleColumnLayout,
+  multiColumn: {
+    container: {
+      ...singleColumnLayout,
+      display: 'flex',
+      [onDesktop]: {
+        flexDirection: 'row'
+      },
+      [onMobile]: {
+        flexDirection: 'column'
+      }
+    },
+    flexColumn: {
+      display: 'flex',
+      flex: 1,
+      flexDirection: 'column'
     }
   }
+}
+
+export default {
+  colors,
+  text,
+  layouts
 }

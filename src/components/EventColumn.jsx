@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-look'
 import theme from '../theme'
 import EventListItem from './EventListItem'
 
-const fontFamily = theme.fontFamily
 const styles = StyleSheet.create({
   container: {
     flex: 1
@@ -22,7 +21,6 @@ const styles = StyleSheet.create({
   stateName: {
     fontSize: 22,
     fontWeight: 600,
-    fontFamily,
     display: 'inline-block',
     padding: '0px 8px',
     color: theme.colors.darkGray,

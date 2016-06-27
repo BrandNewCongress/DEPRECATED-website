@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
     marginTop: 5,
     marginBottom: 5,
     fontSize: 10,
-    fontFamily: theme.fontFamily,
     [onMobile]: {
       fontSize: 20
     },
@@ -81,8 +80,7 @@ const styles = StyleSheet.create({
     verticalAlign: 'top'
   },
   link: {
-    ...theme.link,
-    border: 'none',
+    ...theme.text.link,
     fontSize: 15,
     fontWeight: 400,
     color: theme.colors.darkGray,
@@ -95,12 +93,9 @@ const styles = StyleSheet.create({
     },
     [onDesktop]: {
       display: 'inline-block',
-      borderBottom: '1px solid',
-      borderBottomColor: theme.colors.orange,
       paddingBottom: 3,
       transition: 'border-bottom-width .05s',
       marginLeft: 11,
-      fontFamily: 'Open sans',
       ':hover': {
         color: theme.colors.darkGray,
         borderBottomWidth: '3px',

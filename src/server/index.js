@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
   res.redirect('/home')
 })
 
+app.post('/signup', (req, res) => {
+  console.log(req)
+})
+
 app.get('/techteam', (req, res) => {
   res.redirect('https://github.com/BrandNewCongress/welcome/blob/master/README.md')
 })

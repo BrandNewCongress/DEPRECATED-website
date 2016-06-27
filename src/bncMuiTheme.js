@@ -4,7 +4,7 @@ import { grey400, grey500, darkBlack } from 'material-ui/styles/colors'
 import { fade } from 'material-ui/utils/colorManipulator'
 
 const bncTheme = getMuiTheme({
-  fontFamily: 'Open Sans',
+  fontFamily: theme.text.body.fontFamily,
   palette: {
     primary1Color: theme.colors.purple,
     primary2Color: theme.colors.blue,
