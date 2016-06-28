@@ -67,25 +67,22 @@ const styles = StyleSheet.create({
     ...button,
     color: theme.colors.gray,
     backgroundColor: theme.colors.lightGray,
-    ':hover': {
-      backgroundColor: theme.colors.lightGray
-    }
+    pointerEvents: 'none'
   }
 })
 
 
 export default function EventListItem(props) {
-  const { city, date, rsvpUrl } = props
-  const eventDate = moment(new Date(date))
-  const isPast = eventDate < moment(new Date())
+  const { city, date, rsvpUrl, isPast } = props
+
   return (
     <div className={styles.eventItem}>
       <div className={styles.eventInfoContainer}>
         <h2 className={isPast ? styles.disabledEventTitle : styles.eventTitle}>{`${city}`}</h2>
-        <h4 className={styles.eventDate}>{eventDate.format('MMM DD')}</h4>
+        <h4 className={styles.eventDate}>{moment(new Date(date)).format('MMM DD')}</h4>
       </div>
       <div className={styles.rsvpContainer}>
-        <a className={isPast ? styles.disabledRsvpLink : styles.rsvpLink} target={isPast ? '' : '_blank'} href={isPast ? '#' : rsvpUrl}>RSVP</a>
+        <a className={isPast ? styles.disabledRsvpLink : styles.rsvpLink} target='_blank' href={rsvpUrl}>RSVP</a>
       </div>
     </div>
   )
@@ -94,4 +91,5 @@ EventListItem.propTypes = {
   city: React.PropTypes.string.isRequired,
   date: React.PropTypes.string.isRequired,
   rsvpUrl: React.PropTypes.string.isRequired,
+  isPast: React.PropTypes.bool.isRequired
 }

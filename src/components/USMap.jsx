@@ -264,6 +264,7 @@ class USMap extends React.Component {
                   }}
                   city={event.city}
                   state={event.state}
+                  isPast={event.isPast}
                   onMouseOver={(e) => this.hoverCircle(event, e)}
                   onMouseOut={() => this.setState({ hoveredEvent: null, coords: null })}
                 />

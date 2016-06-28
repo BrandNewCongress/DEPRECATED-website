@@ -27,12 +27,13 @@ if (process.env.NODE_ENV === 'production') {
 
 export default wrap(async (req, res) => {
   const dataRequest = await axios.get('https://docs.google.com/spreadsheets/d/1KgT7FWC-ow-yLbVSe1jriImGFE_SGRiVdq9t9khuH_4/pub?gid=0&single=true&output=csv')
-
+  const today = moment(new Date())
   const momFromDateString = (dateString) => moment(dateString, 'MM/DD/YYYY')
   const events = Baby.parse(dataRequest.data, { header: true })
   .data
   .map((event) => {
     const zipInfo = ZipCodeDB[event.Zip]
+
     return {
       city: event.City,
       state: event.State,
@@ -41,6 +42,7 @@ export default wrap(async (req, res) => {
       rsvpUrl: event['NB Event Link'],
       latitude: zipInfo.latitude,
       longitude: zipInfo.longitude,
+      isPast: momFromDateString(event.Date) < today
     }
   })
   .sort((a, b) => momFromDateString(a.date) - momFromDateString(b.date))

@@ -3,16 +3,22 @@ import { StyleSheet } from 'react-look'
 import theme from '../theme'
 import { onMobile } from '../media-queries'
 
+const circleStyle = {
+  transition: 'r 0.3s, stroke-width 0.3s',
+  cursor: 'pointer',
+  fill: theme.colors.orange,
+  stroke: 'rgba(255,255,255, 0.5)',
+  [onMobile]: {
+    r: '7px !important',
+    pointerEvents: 'none'
+  }
+}
 const styles = StyleSheet.create({
-  circle: {
-    transition: 'r 0.3s, stroke-width 0.3s',
-    cursor: 'pointer',
-    fill: theme.colors.orange,
-    stroke: 'rgba(255,255,255, 0.5)',
-    [onMobile]: {
-      r: '7px !important',
-      pointerEvents: 'none'
-    }
+  circle: { ...circleStyle },
+  disabledCircle: {
+    ...circleStyle,
+    fill: theme.colors.gray,
+    pointerEvents: 'none'
   }
 })
 
@@ -25,6 +31,7 @@ export default class EventItem extends React.Component {
     city: React.PropTypes.string.isRequired,
     state: React.PropTypes.string.isRequired,
     onClick: React.PropTypes.func.isRequired,
+    isPast: React.PropTypes.bool.isRequired,
     onMouseOver: React.PropTypes.func,
     onMouseOut: React.PropTypes.func
   }
@@ -34,7 +41,7 @@ export default class EventItem extends React.Component {
   }
 
   render() {
-    const { centerX, centerY, radius, scale, onClick } = this.props
+    const { centerX, centerY, radius, scale, onClick, isPast } = this.props
     const scaledRadius = radius
     let strokeWidth = 2 / scale
 
@@ -43,7 +50,7 @@ export default class EventItem extends React.Component {
         <circle
           cx={centerX}
           cy={centerY}
-          className={styles.circle}
+          className={isPast ? styles.disabledCircle : styles.circle}
           r={scaledRadius}
           strokeWidth={strokeWidth}
           onClick={(e) => onClick(e)}
