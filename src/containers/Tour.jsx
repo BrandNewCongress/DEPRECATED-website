@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     position: 'relative'
   },
   link: {
-    ...theme.link
+    ...theme.text.link
   },
   hero: {
     paddingTop: 10,
