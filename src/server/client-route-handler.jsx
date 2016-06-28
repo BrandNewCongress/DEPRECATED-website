@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === 'production') {
 
 export default wrap(async (req, res) => {
   const dataRequest = await axios.get('https://docs.google.com/spreadsheets/d/1KgT7FWC-ow-yLbVSe1jriImGFE_SGRiVdq9t9khuH_4/pub?gid=0&single=true&output=csv')
-  const today = moment(new Date())
+
   const momFromDateString = (dateString) => moment(dateString, 'MM/DD/YYYY')
   const events = Baby.parse(dataRequest.data, { header: true })
   .data
@@ -40,10 +40,9 @@ export default wrap(async (req, res) => {
       date: event.Date,
       rsvpUrl: event['NB Event Link'],
       latitude: zipInfo.latitude,
-      longitude: zipInfo.longitude
+      longitude: zipInfo.longitude,
     }
   })
-  .filter((event) => momFromDateString(event.date) >= today)
   .sort((a, b) => momFromDateString(a.date) - momFromDateString(b.date))
 
   const serverConfig = Presets['react-dom']
