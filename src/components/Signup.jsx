@@ -3,10 +3,11 @@ import Form from 'react-formal'
 import yup from 'yup'
 import BNCForm from './forms/BNCForm'
 import { StyleSheet } from 'react-look'
-import { onMobile, onDesktop } from '../media-queries'
+import { onMobile } from '../media-queries'
 import Paper from 'material-ui/Paper'
 import theme from '../theme'
-import superagent from 'superagent'
+import axios from 'axios'
+import Snackbar from 'material-ui/Snackbar'
 
 const styles = StyleSheet.create({
   container: {
@@ -62,6 +63,10 @@ const styles = StyleSheet.create({
 })
 export default class Signup extends React.Component {
 
+  state = {
+    sending: false
+  }
+
   formSchema = yup.object({
     email: yup.string().required(),
     fullName: yup.string().required(),
@@ -82,6 +87,17 @@ export default class Signup extends React.Component {
         </div>
         <BNCForm
           schema={this.formSchema}
+          onSubmit={async (formValues) => {
+//            this.setState({ sending: true })
+            const response = await axios
+              .post('/signup', formValues)
+            console.log(response)
+            if (response.statusCode !== 200) {
+              this.setState({ error: true })
+            } else {
+              location.href = 'https://secure.actblue.com/contribute/page/brandnewcongress'
+            }
+          }}
         >
           <Form.Field
             name='email'
@@ -105,7 +121,9 @@ export default class Signup extends React.Component {
           />
           <Form.Button
             name='submit'
+            type='submit'
             label='Count Me In!'
+            disabled={this.state.sending}
             style={{
               marginTop: 15,
               width: '100%'
@@ -118,6 +136,31 @@ export default class Signup extends React.Component {
         </BNCForm>
       </Paper>
     )
+  }
+
+  handleRequestClose = () => {
+    this.setState({
+      error: false
+    })
+  };
+
+  renderErrorBar() {
+    if (this.state.error) {
+      return (
+        <Snackbar
+          open={this.state.open}
+          message={this.state.message}
+          bodyStyle={{
+            maxWidth: '100%',
+            backgroundColor: theme.colors.red
+          }}
+          action={null}
+          autoHideDuration={10000}
+          onRequestClose={this.handleRequestClose}
+        />
+      )
+    }
+    return ''
   }
 
   render() {
@@ -140,6 +183,7 @@ export default class Signup extends React.Component {
           <div className={styles.form}>
             {this.renderForm()}
           </div>
+          {this.renderErrorBar()}
         </div>
       </div>
     )

@@ -13,7 +13,11 @@ This is the project hosting the [Brand New Congress](http://brandnewcongress.org
 
 ## Overview of the website
 
-The website is currently split up amongst three different places.  This repo (website) is the main point of entry that brandnewcongress.org hits.  From there, we reverse proxy to Github pages for for half of the static content on the site and to NationBuilder for the rest.  The reason for this is largely that we were trying out different methods, but we do plan to consolidate the site into this repository (see: [https://github.com/BrandNewCongress/website/issues/1](https://github.com/BrandNewCongress/website/issues/1)). 
+The website is currently split up amongst three different places.  This repo (website) is the main point of entry that brandnewcongress.org hits.  From there, we reverse proxy to Github pages for for half of the static content on the site and to NationBuilder for the rest.  The reason for this is largely that we were trying out different methods, but we do plan to consolidate the site into this repository (see: [https://github.com/BrandNewCongress/website/issues/1](https://github.com/BrandNewCongress/website/issues/1)).
+
+## Testing Nationbuilder
+
+The website uses Nationbuilder as its backing CRM.  This is where it posts signups to and event data to. To test out code that hits Nationbuilder, you are free to use our development sandbox (the API token for which is in the .env file).  You can log in to the [admin interface](https://evanowski.nationbuilder.com/admin) with username `eowski@gmail.com` and password `abc123456`.
 
 ## How to contribute
 

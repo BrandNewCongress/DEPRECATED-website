@@ -1,27 +1,19 @@
 import path from 'path'
-
+import axios from 'axios'
+import bodyParser from 'body-parser'
 import 'babel-polyfill'
 import express from 'express'
 import log from './log'
 import proxy from 'http-proxy-middleware'
 import clientRouteHandler from './client-route-handler'
 import legacySite, { SITE_DIR as STATIC_SITE_DIR } from './middleware/legacy-site'
+import wrap from './wrap'
 
 const app = express()
 const port = process.env.PORT
 app.enable('trust proxy')
-
-app.get('/', (req, res) => {
-  res.redirect('/home')
-})
-
-app.post('/signup', (req, res) => {
-  console.log(req)
-})
-
-app.get('/techteam', (req, res) => {
-  res.redirect('https://github.com/BrandNewCongress/welcome/blob/master/README.md')
-})
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }))
 
 // In development, we use webpack server
 if (process.env.NODE_ENV === 'production') {
@@ -81,6 +73,42 @@ app.use([
   '/textingteam',
   '/wikiteam',
   '/travelteam'], legacySite)
+
+app.get('/', wrap(async (req, res) => {
+  res.redirect('/home')
+}))
+
+app.post('/signup', wrap(async (req, res) => {
+  const body = req.body
+  const nameParts = body.fullName.split(/\s+/)
+  const firstName = nameParts.shift()
+  const lastName = nameParts.join(' ')
+  const requestBody = {
+    person: {
+      email1: body.email,
+      phone: body.phone,
+      first_name: firstName,
+      last_name: lastName,
+      primary_address: {
+        zip: body.zip
+      }
+    }
+  }
+
+  let response = null
+  response = await axios
+    .post(`https://${process.env.NATIONBUILDER_SLUG}.nationbuilder.com/api/v1/people?access_token=${process.env.NATIONBUILDER_TOKEN}`, requestBody, { headers: { Accept: 'application/json', 'Content-Type': 'application/json' }, validateStatus: () => true })
+
+  if (response && (response.statusCode === 201 || response.statusCode === 409)) {
+    res.sendStatus(200)
+  } else {
+    res.sendStatus(400)
+  }
+}))
+
+app.get('/techteam', (req, res) => {
+  res.redirect('https://github.com/BrandNewCongress/welcome/blob/master/README.md')
+})
 
 app.use(clientRouteHandler)
 app.listen(port, () => {

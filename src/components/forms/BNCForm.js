@@ -51,22 +51,13 @@ export default class BNCForm extends React.Component {
       <Form
         value={this.props.value || this.state.model || this.props.defaultValue}
         onChange={model => {
-          console.log('OASNETHU')
           this.setState({ model })
           if (this.props.onChange) {
             this.props.onChange(model)
           }
         }}
         onError={(errors) => {
-          console.log('error', errors)
           this.setState({ formErrors: errors })
-        }}
-        onInvalidSubmit={(formValue) => {
-          console.log('HERE 2')
-        }}
-
-        onSubmit={(formValue) => {
-          console.log('HERE')
         }}
         {...this.props}
       >
