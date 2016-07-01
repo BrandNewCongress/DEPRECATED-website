@@ -20,11 +20,11 @@ const styles = StyleSheet.create({
   },
   hero: {
     paddingTop: 10,
+    backgroundColor: 'white',
     paddingBottom: 10,
     position: 'relative',
     height: 'calc(100vh - 170px)',
     width: '100%',
-    backgroundColor: 'white',
     [onMobile]: {
       paddingTop: 0,
       paddingBottom: 0

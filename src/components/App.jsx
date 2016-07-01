@@ -21,7 +21,6 @@ const styles = StyleSheet.create({
     position: 'relative'
   },
   body: {
-    paddingTop: 10,
     position: 'relative'
   }
 })
