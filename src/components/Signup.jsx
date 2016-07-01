@@ -68,11 +68,17 @@ export default class Signup extends React.Component {
   }
 
   formSchema = yup.object({
-    email: yup.string().required(),
+    email: yup.string().required().email(),
     fullName: yup.string().required(),
-    phone: yup.string().required(),
+    phone: yup.string().required().min(10),
     zip: yup.string().required()
   })
+
+  handleRequestClose = () => {
+    this.setState({
+      error: false
+    })
+  };
 
   renderForm() {
     return (
@@ -88,11 +94,11 @@ export default class Signup extends React.Component {
         <BNCForm
           schema={this.formSchema}
           onSubmit={async (formValues) => {
-//            this.setState({ sending: true })
-            const response = await axios
-              .post('/signup', formValues)
+            this.setState({ sending: true })
+            const response = await axios.post('/signup', formValues)
+            this.setState({ sending: false })
             console.log(response)
-            if (response.statusCode !== 200) {
+            if (response.status !== 200) {
               this.setState({ error: true })
             } else {
               location.href = 'https://secure.actblue.com/contribute/page/brandnewcongress'
@@ -111,6 +117,7 @@ export default class Signup extends React.Component {
           /><br />
           <Form.Field
             name='phone'
+            type='phone'
             label='Cell Phone'
             fullWidth
           /><br />
@@ -138,31 +145,6 @@ export default class Signup extends React.Component {
     )
   }
 
-  handleRequestClose = () => {
-    this.setState({
-      error: false
-    })
-  };
-
-  renderErrorBar() {
-    if (this.state.error) {
-      return (
-        <Snackbar
-          open={this.state.open}
-          message={this.state.message}
-          bodyStyle={{
-            maxWidth: '100%',
-            backgroundColor: theme.colors.red
-          }}
-          action={null}
-          autoHideDuration={10000}
-          onRequestClose={this.handleRequestClose}
-        />
-      )
-    }
-    return ''
-  }
-
   render() {
     return (
       <div className={styles.container}>
@@ -183,7 +165,17 @@ export default class Signup extends React.Component {
           <div className={styles.form}>
             {this.renderForm()}
           </div>
-          {this.renderErrorBar()}
+          <Snackbar
+            open={this.state.error}
+            message='There was an error with your sign up.  Try again!'
+            bodyStyle={{
+              maxWidth: '100%',
+              backgroundColor: theme.colors.red
+            }}
+            action={null}
+            autoHideDuration={10000}
+            onRequestClose={this.handleRequestClose}
+          />
         </div>
       </div>
     )

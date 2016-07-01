@@ -7,9 +7,11 @@ import BNCTextField from '../components/forms/BNCTextField'
 import Form from 'react-formal'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
+import BNCPhoneField from '../components/forms/BNCPhoneField'
 
 Form.addInputTypes({
-  string: BNCTextField
+  string: BNCTextField,
+  phone: BNCPhoneField
 })
 
 const styles = StyleSheet.create({
