@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
 import { Link } from 'react-router'
-import { onTablet, onDesktop } from '../media-queries'
+import { onTablet } from '../media-queries'
 
 const styles = StyleSheet.create({
   map: {
@@ -49,8 +49,9 @@ const styles = StyleSheet.create({
     marginLeft: '-1.5em',
     position: 'absolute',
     zIndex: -1,
-    [onDesktop]: {
-      borderRadius: 5
+    borderRadius: 5,
+    [onTablet]: {
+      borderRadius: 0
     }
   },
   overlayText: {
@@ -65,18 +66,8 @@ const styles = StyleSheet.create({
     color: theme.colors.orange
   },
   findCityButton: {
+    ...theme.text.button,
     marginTop: '1.5em',
-    backgroundColor: theme.colors.orange,
-    color: 'white',
-    padding: '0.2em 1em',
-    display: 'inline-block',
-    fontWeight: 600,
-    fontSize: 30,
-    cursor: 'pointer',
-    borderRadius: 8,
-    ':hover': {
-      backgroundImage: 'linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))'
-    },
     [onTablet]: {
       marginTop: '1em'
     }

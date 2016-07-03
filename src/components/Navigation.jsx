@@ -1,32 +1,34 @@
 import React, { Component } from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
-import { onTablet, onDesktop, onMobile } from '../media-queries'
+import { onTablet, onMobile } from '../media-queries'
 import RaisedButton from 'material-ui/RaisedButton'
+import FloatingActionButton from 'material-ui/FloatingActionButton';
 
 const c = StyleSheet.combineStyles
 const styles = StyleSheet.create({
   logo: {
     display: 'inline-block',
-    marginRight: '1.5vw',
+    marginLeft: 25,
+    float: 'left',
     [onTablet]: {
       display: 'none'
     }
   },
   tabletLogo: {
     ...theme.text.header,
-    [onDesktop]: {
-      display: 'none'
+    display: 'none',
+    [onTablet]: {
+      display: 'inline-block',
+      fontWeight: 400,
+      fontSize: 20,
+      color: 'white',
+      marginLeft: 10,
+      verticalAlign: 'text-top',
+      lineHeight: 0
     },
-    fontWeight: 400,
-    fontSize: 20,
-    color: 'white',
-    marginLeft: 10,
-    display: 'inline-block',
-    verticalAlign: 'text-top',
-    lineHeight: 0,
     [onMobile]: {
-      fontSize: 16
+      fontSize: 14
     }
   },
   hamburger: {
@@ -37,22 +39,22 @@ const styles = StyleSheet.create({
     lineHeight: 0
   },
   tabletNav: {
-    [onDesktop]: {
-      display: 'none'
+    [onTablet]: {
+      display: 'inline-block',
+      lineHeight: 0,
+      backgroundColor: theme.colors.purple,
+      marginLeft: 25
     },
-    display: 'inline-block',
-    lineHeight: 0,
-    backgroundColor: theme.colors.purple,
-    marginLeft: 25
+    display: 'none'
   },
   tabletNavList: {
-    [onDesktop]: {
-      display: 'none'
+    [onTablet]: {
+      height: 0,
+      transition: 'height 0.2s',
+      overflow: 'hidden',
+      width: '100%'
     },
-    height: 0,
-    transition: 'height 0.2s',
-    overflow: 'hidden',
-    width: '100%'
+    display: 'none'
   },
   showNav: {
     height: 181
@@ -77,29 +79,28 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: 400,
     color: theme.colors.darkGray,
+    display: 'inline-block',
+    paddingBottom: 3,
+    transition: 'border-bottom-width .05s',
+    ':hover': {
+      color: theme.colors.darkGray,
+      borderBottomWidth: '3px',
+      borderBottom: '3px solid',
+      borderBottomColor: theme.colors.orange
+    },
     [onTablet]: {
       color: 'white',
       fontSize: 14,
       ':hover': {
         color: theme.colors.lightGray
-      }
-    },
-    [onDesktop]: {
-      display: 'inline-block',
-      paddingBottom: 3,
-      transition: 'border-bottom-width .05s',
-      marginLeft: 11,
-      ':hover': {
-        color: theme.colors.darkGray,
-        borderBottomWidth: '3px',
-        borderBottom: '3px solid',
-        borderBottomColor: theme.colors.orange
-      }
+      },
+      paddingBottom: 0,
+      transition: 'none'
     }
   },
   navItem: {
     display: 'inline-block',
-    paddingLeft: '0.7vw',
+    paddingLeft: 25,
     [onTablet]: {
       display: 'block',
       paddingLeft: 9,
@@ -120,6 +121,9 @@ const styles = StyleSheet.create({
       paddingTop: 0
     }
   },
+  fullNav: {
+    float: 'right'
+  },
   contributeButton: {
     verticalAlign: 'top',
     marginTop: 30,
@@ -128,11 +132,24 @@ const styles = StyleSheet.create({
     paddingLeft: 25,
     [onTablet]: {
       marginTop: 0,
-      float: 'right'
+      fontSize: 14
     },
     [onMobile]: {
+      display: 'none'
+    }
+  },
+  mobileContributeButton: {
+    display: 'none',
+    [onMobile]: {
+      ...theme.text.button,
       fontSize: 14,
-      float: 'right'
+      borderRadius: 5,
+      fontWeight: 400,
+      verticalAlign: 'top',
+      marginTop: 5,
+      marginRight: 15,
+      marginLeft: 25,
+      display: 'inline-block'
     }
   },
   viewport: {
@@ -140,8 +157,8 @@ const styles = StyleSheet.create({
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
+    width: '100%',
     [onTablet]: {
-      width: '100%',
       paddingTop: 8,
       paddingBottom: 8
     }
@@ -151,21 +168,16 @@ const styles = StyleSheet.create({
 const navigationLinks = (
   <div className={styles.navArea}>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/tour'>The Tour</a>
+      <a className={styles.link} href='/tour'>100-City Tour</a>
     </div>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/home'>The Plan</a>
+      <a className={styles.link} href='/plan'>Our Plan</a>
     </div>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/about'>Who's Involved</a>
+      <a className={styles.link} href='/plan'>Who We Are</a>
     </div>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/teams'>Join A Team</a>
-    </div>
-    <div className={styles.navItem}>
-      <a className={styles.link} target='_blank' href='http://berniesanders.com/issues'>
-      Issues
-      </a>
+      <a className={styles.link} href='/teams'>Get To Work</a>
     </div>
   </div>
 )
@@ -218,17 +230,20 @@ export default class Navigation extends Component {
           <div className={styles.tabletLogo}>
             Brand New Congress
           </div>
-          <div className={styles.nav}>
-            {navigationLinks}
-          </div>
-          <div className={styles.contributeButton}>
-            <RaisedButton
-              secondary
-              label='Contribute'
-              onTouchStart={() => {
-                window.open('https://secure.actblue.com/contribute/page/brandnewcongress')
-              }}
-            />
+          <div className={styles.fullNav}>
+            <div className={styles.nav}>
+              {navigationLinks}
+            </div>
+            <div className={styles.contributeButton}>
+              <RaisedButton
+                secondary
+                label='Contribute'
+                href='https://secure.actblue.com/contribute/page/brandnewcongress'
+              />
+            </div>
+            <div className={styles.mobileContributeButton}>
+              Donate
+            </div>
           </div>
         </div>
         <div

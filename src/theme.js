@@ -1,4 +1,4 @@
-import { onTablet, onDesktop } from './media-queries'
+import { onTablet } from './media-queries'
 
 const colors = {
   orange: 'rgb(255, 102, 0)',
@@ -48,6 +48,19 @@ const text = {
       fontSize: 14
     }
   },
+  button: {
+    backgroundColor: colors.orange,
+    color: 'white',
+    padding: '0.2em 1em',
+    display: 'inline-block',
+    fontWeight: 600,
+    fontSize: 30,
+    cursor: 'pointer',
+    borderRadius: 8,
+    ':hover': {
+      backgroundImage: 'linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))'
+    }
+  },
   header: {
     fontWeight: 600,
     display: 'block',
@@ -73,9 +86,7 @@ const layouts = {
     container: {
       ...singleColumnLayout,
       display: 'flex',
-      [onDesktop]: {
-        flexDirection: 'row'
-      },
+      flexDirection: 'row',
       [onTablet]: {
         flexDirection: 'column'
       }

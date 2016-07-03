@@ -10,7 +10,6 @@ import HoveredPopup from './HoveredPopup'
 import { connect } from 'react-redux'
 import { selectState } from '../actions'
 import moment from 'moment'
-import { onTablet, onDesktop } from '../media-queries'
 
 const rawStates = require('../data/states.json')
 const usStates = topojson.feature(rawStates, rawStates.objects.cb_2015_us_state_20m).features
@@ -23,9 +22,7 @@ const styles = StyleSheet.create({
     position: 'relative',
     backgroundColor: 'white',
     height: '100%',
-    [onDesktop]: {
-      overflow: 'hidden'
-    }
+    overflow: 'hidden'
   },
   map: {
     height: 'auto',
