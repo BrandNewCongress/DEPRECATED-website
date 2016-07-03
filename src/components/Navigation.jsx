@@ -113,9 +113,11 @@ const styles = StyleSheet.create({
   container: {
     display: 'flex',
     width: '100%',
+    paddingTop: 10,
     [onTablet]: {
       backgroundColor: theme.colors.purple,
-      flexDirection: 'column'
+      flexDirection: 'column',
+      marginTop: 0
     }
   },
   contributeButton: {
