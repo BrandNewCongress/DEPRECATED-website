@@ -1,14 +1,14 @@
 import React from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
-import { onMobile } from '../media-queries'
+import { onTablet } from '../media-queries'
 
 const circleStyle = {
   transition: 'r 0.3s, stroke-width 0.3s',
   cursor: 'pointer',
   fill: theme.colors.orange,
   stroke: 'rgba(255,255,255, 0.5)',
-  [onMobile]: {
+  [onTablet]: {
     r: '7px !important',
     pointerEvents: 'none'
   }

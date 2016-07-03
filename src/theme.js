@@ -1,4 +1,4 @@
-import { onMobile, onDesktop } from './media-queries'
+import { onTablet, onDesktop } from './media-queries'
 
 const colors = {
   orange: 'rgb(255, 102, 0)',
@@ -26,7 +26,7 @@ const text = {
     fontWeight: 400,
     color: colors.darkGray,
     textDecoration: 'none',
-    borderBottom: `1px solid ${colors.orange}`,
+    borderBottom: `1px solid ${colors.purple}`,
     ':hover': {
       borderBottom: 0,
       color: colors.orange
@@ -44,7 +44,7 @@ const text = {
     fontSize: 18,
     fontFamily: defaultFont,
     lineHeight: '1.5em',
-    [onMobile]: {
+    [onTablet]: {
       fontSize: 14
     }
   },
@@ -53,7 +53,7 @@ const text = {
     display: 'block',
     paddingBottom: 10,
     fontSize: 30,
-    [onMobile]: {
+    [onTablet]: {
       fontSize: 25
     },
     fontFamily: defaultFont,
@@ -76,7 +76,7 @@ const layouts = {
       [onDesktop]: {
         flexDirection: 'row'
       },
-      [onMobile]: {
+      [onTablet]: {
         flexDirection: 'column'
       }
     },

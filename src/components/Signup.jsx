@@ -3,7 +3,7 @@ import Form from 'react-formal'
 import yup from 'yup'
 import BNCForm from './forms/BNCForm'
 import { StyleSheet } from 'react-look'
-import { onMobile } from '../media-queries'
+import { onTablet } from '../media-queries'
 import Paper from 'material-ui/Paper'
 import theme from '../theme'
 import axios from 'axios'
@@ -45,12 +45,16 @@ const styles = StyleSheet.create({
   explanation: {
     ...theme.layouts.multiColumn.flexColumn,
     marginRight: 50,
-    marginLeft: 30
+    marginLeft: 30,
+    [onTablet]: {
+      marginLeft: 25,
+      marginRight: 25
+    }
   },
   form: {
     width: 350,
     marginRight: 30,
-    [onMobile]: {
+    [onTablet]: {
       width: '80%',
       marginRight: 'auto',
       marginLeft: 'auto'

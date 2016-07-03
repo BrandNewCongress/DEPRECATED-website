@@ -4,7 +4,7 @@ import EventsList from '../containers/EventsList'
 import { StyleSheet } from 'react-look'
 import { connect } from 'react-redux'
 import theme from '../theme'
-import { onMobile } from '../media-queries'
+import { onTablet } from '../media-queries'
 
 const styles = StyleSheet.create({
   map: {
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     position: 'relative',
     height: 'calc(100vh - 170px)',
     width: '100%',
-    [onMobile]: {
+    [onTablet]: {
       paddingTop: 0,
       paddingBottom: 0
     }

@@ -1,58 +1,51 @@
 import React, { Component } from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
-import { onMobile, onDesktop } from '../media-queries'
+import { onTablet, onDesktop, onMobile } from '../media-queries'
+import RaisedButton from 'material-ui/RaisedButton'
 
 const c = StyleSheet.combineStyles
 const styles = StyleSheet.create({
   logo: {
     display: 'inline-block',
-    backgroundColor: theme.colors.orange,
-    padding: '10px 5px 5px',
-    width: 75,
-    fontWeight: 600,
-    [onMobile]: {
-      width: 'auto'
-    },
+    marginRight: '1.5vw',
+    [onTablet]: {
+      display: 'none'
+    }
+  },
+  tabletLogo: {
+    ...theme.text.header,
     [onDesktop]: {
-      padding: '6px 5px 5px',
-      width: 105
+      display: 'none'
+    },
+    fontWeight: 400,
+    fontSize: 20,
+    color: 'white',
+    marginLeft: 10,
+    display: 'inline-block',
+    verticalAlign: 'text-top',
+    lineHeight: 0,
+    [onMobile]: {
+      fontSize: 16
     }
   },
   hamburger: {
     fill: 'white',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    margin: 0,
+    padding: 0,
+    lineHeight: 0
   },
-  logoText: {
-    color: 'white',
-    padding: '5px 5px 5px 10px',
-    marginLeft: 10,
-    border: 'solid white',
-    borderWidth: '0 0 0 4px',
-    marginTop: 5,
-    marginBottom: 5,
-    fontSize: 10,
-    [onMobile]: {
-      fontSize: 20
-    },
-    [onDesktop]: {
-      fontSize: 17,
-      lineHeight: '17px',
-      textAlign: 'left'
-    }
-  },
-  mobileNav: {
+  tabletNav: {
     [onDesktop]: {
       display: 'none'
     },
     display: 'inline-block',
-    backgroundColor: theme.colors.orange,
-    marginLeft: 1,
-    float: 'right',
-    paddingRight: 18,
-    paddingTop: 18
+    lineHeight: 0,
+    backgroundColor: theme.colors.purple,
+    marginLeft: 25
   },
-  mobileNavList: {
+  tabletNavList: {
     [onDesktop]: {
       display: 'none'
     },
@@ -71,7 +64,7 @@ const styles = StyleSheet.create({
     display: 'block'
   },
   nav: {
-    [onMobile]: {
+    [onTablet]: {
       display: 'none'
     },
     display: 'inline-block',
@@ -84,7 +77,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: 400,
     color: theme.colors.darkGray,
-    [onMobile]: {
+    [onTablet]: {
       color: 'white',
       fontSize: 14,
       ':hover': {
@@ -106,8 +99,8 @@ const styles = StyleSheet.create({
   },
   navItem: {
     display: 'inline-block',
-    paddingRight: 25,
-    [onMobile]: {
+    paddingLeft: '0.7vw',
+    [onTablet]: {
       display: 'block',
       paddingLeft: 9,
       paddingTop: 2,
@@ -120,15 +113,36 @@ const styles = StyleSheet.create({
   container: {
     display: 'flex',
     width: '100%',
-    [onMobile]: {
-      backgroundColor: theme.colors.orange,
+    [onTablet]: {
+      backgroundColor: theme.colors.purple,
       flexDirection: 'column'
+    }
+  },
+  contributeButton: {
+    verticalAlign: 'top',
+    marginTop: 30,
+    marginRight: 25,
+    display: 'inline-block',
+    paddingLeft: 25,
+    [onTablet]: {
+      marginTop: 0,
+      float: 'right'
     },
+    [onMobile]: {
+      fontSize: 14,
+      float: 'right'
+    }
   },
   viewport: {
     clear: 'both',
-    width: '100%',
-    display: 'block'
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    [onTablet]: {
+      width: '100%',
+      paddingTop: 8,
+      paddingBottom: 8
+    }
   }
 })
 
@@ -151,9 +165,6 @@ const navigationLinks = (
       Issues
       </a>
     </div>
-    <div className={styles.navItem}>
-      <a className={styles.link} href='https://secure.actblue.com/contribute/page/brandnewcongress' target='_blank'>Contribute</a>
-    </div>
   </div>
 )
 
@@ -162,9 +173,9 @@ export default class Navigation extends Component {
     showNav: false
   }
 
-  showMobileNav = () => {
-    const showMobile = !this.state.showNav
-    this.setState({ showNav: showMobile })
+  showTabletNav = () => {
+    const showTablet = !this.state.showNav
+    this.setState({ showNav: showTablet })
   }
 
   hamburgerIcon() {
@@ -186,33 +197,47 @@ export default class Navigation extends Component {
     return (
       <div className={styles.container}>
         <div className={styles.viewport}>
-          <a href='/'>
-            <div className={styles.logo}>
-              <div className={styles.logoText}>
-                Brand New Congress
-              </div>
-            </div>
-          </a>
           <div
-            className={styles.mobileNav}
-            onClick={() => this.showMobileNav()}
-            onTouch={() => this.showMobileNav()}
+            className={styles.tabletNav}
+            onClick={() => this.showTabletNav()}
+            onTouch={() => this.showTabletNav()}
           >
             {this.hamburgerIcon()}
+          </div>
+          <a href='/'>
+            <div className={styles.logo}>
+              <img
+                height='75'
+                src='/images/logo-horizontal.png'
+                alt='Brand New Congress'
+              />
+            </div>
+          </a>
+          <div className={styles.tabletLogo}>
+            Brand New Congress
           </div>
           <div className={styles.nav}>
             {navigationLinks}
           </div>
+          <div className={styles.contributeButton}>
+            <RaisedButton
+              secondary
+              label='Contribute'
+              onTouchStart={() => {
+                window.open('https://secure.actblue.com/contribute/page/brandnewcongress')
+              }}
+            />
+          </div>
         </div>
-        <div style={{ clear: 'both' }}></div>
         <div
           className={
           this.state.showNav ?
-          c(styles.mobileNavList, styles.showNav) :
-          styles.mobileNavList}
+          c(styles.tabletNavList, styles.showNav) :
+          styles.tabletNavList}
         >
           {navigationLinks}
         </div>
+        <div style={{ clear: 'both' }}></div>
       </div>
     )
   }

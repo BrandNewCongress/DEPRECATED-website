@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
 import { Link } from 'react-router'
-import { onMobile, onDesktop } from '../media-queries'
+import { onTablet, onDesktop } from '../media-queries'
 
 const styles = StyleSheet.create({
   map: {
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     marginLeft: 'auto',
     top: '50%',
     transform: 'translateY(-50%)',
-    [onMobile]: {
+    [onTablet]: {
       width: '100%'
     }
   },
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   overlayText: {
     fontSize: 25,
     color: theme.colors.darkGray,
-    [onMobile]: {
+    [onTablet]: {
       fontSize: 18
     }
   },
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     ':hover': {
       backgroundImage: 'linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))'
     },
-    [onMobile]: {
+    [onTablet]: {
       marginTop: '1em'
     }
   },
@@ -101,7 +101,11 @@ const MapTeaser = () => (
         </div>
       </div>
     </div>
-    <img className={styles.map} alt="Let's get together to elect a Brand New Congress that works for all." src='/static-assets/img/map-1577x965@2x.png' />
+    <img
+      className={styles.map}
+      alt="Let's get together to elect a Brand New Congress that works for all"
+      src='/images/map-1577x965@2x.png'
+    />
   </div>
 )
 

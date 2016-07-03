@@ -7,7 +7,7 @@ const bncTheme = getMuiTheme({
   fontFamily: theme.text.body.fontFamily,
   palette: {
     primary1Color: theme.colors.purple,
-    primary2Color: theme.colors.blue,
+    primary2Color: theme.colors.orange,
     primary3Color: grey400,
     accent1Color: theme.colors.orange,
     accent2Color: theme.colors.lightGray,
