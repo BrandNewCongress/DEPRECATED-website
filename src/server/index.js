@@ -5,7 +5,7 @@ import 'babel-polyfill'
 import express from 'express'
 import log from './log'
 import proxy from 'http-proxy-middleware'
-import clientRouteHandler from './client-route-handler'
+import clientRouteHandler from './middleware/client-route-handler'
 import legacySite, { SITE_DIR as STATIC_SITE_DIR } from './middleware/legacy-site'
 import wrap from './wrap'
 

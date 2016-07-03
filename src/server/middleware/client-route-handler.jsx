@@ -13,7 +13,7 @@ import wrap from '../wrap'
 import fs from 'fs'
 import moment from 'moment'
 
-const Zips = Baby.parseFiles(`${__dirname}/../data/zip-codes.csv`, { header: true }).data
+const Zips = Baby.parseFiles(`${__dirname}/../../data/zip-codes.csv`, { header: true }).data
 const ZipCodeDB = {}
 Zips.forEach((row) => {
   ZipCodeDB[row.zip] = row
