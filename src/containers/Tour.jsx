@@ -19,14 +19,13 @@ const styles = StyleSheet.create({
     ...theme.text.link
   },
   hero: {
-    paddingTop: 10,
+    paddingTop: 30,
     backgroundColor: 'white',
     paddingBottom: 10,
     position: 'relative',
     height: 'calc(100vh - 170px)',
     width: '100%',
     [onTablet]: {
-      paddingTop: 0,
       paddingBottom: 0
     }
   },

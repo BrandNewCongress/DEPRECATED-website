@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     [onTablet]: {
       backgroundColor: theme.colors.purple,
       flexDirection: 'column',
-      marginTop: 0
+      paddingTop: 0
     }
   },
   contributeButton: {

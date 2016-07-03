@@ -25,9 +25,6 @@ const styles = StyleSheet.create({
     height: '100%',
     [onDesktop]: {
       overflow: 'hidden'
-    },
-    [onTablet]: {
-      maxHeight: 250
     }
   },
   map: {
