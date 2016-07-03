@@ -1,15 +1,15 @@
 import { renderToString } from 'react-dom/server'
 import { createMemoryHistory, match, RouterContext } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
-import routes from '../routes'
+import routes from '../../routes'
 import { Provider } from 'react-redux'
 import React from 'react'
 import renderIndex from './render-index'
-import { configureStore } from '../store'
+import { configureStore } from '../../store'
 import { LookRoot, Presets, StyleSheet } from 'react-look'
 import axios from 'axios'
 import Baby from 'babyparse'
-import wrap from './wrap'
+import wrap from '../wrap'
 import fs from 'fs'
 import moment from 'moment'
 
@@ -26,6 +26,9 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default wrap(async (req, res) => {
+  if (process.env.NODE_ENV === 'development') {
+    webpackIsomorphicTools.refresh()
+  }
   const dataRequest = await axios.get('https://docs.google.com/spreadsheets/d/1KgT7FWC-ow-yLbVSe1jriImGFE_SGRiVdq9t9khuH_4/pub?gid=0&single=true&output=csv')
   const today = moment(new Date())
   const momFromDateString = (dateString) => moment(dateString, 'MM/DD/YYYY')
