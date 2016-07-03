@@ -26,9 +26,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default wrap(async (req, res) => {
-  if (process.env.NODE_ENV === 'development') {
-    webpackIsomorphicTools.refresh()
-  }
   const dataRequest = await axios.get('https://docs.google.com/spreadsheets/d/1KgT7FWC-ow-yLbVSe1jriImGFE_SGRiVdq9t9khuH_4/pub?gid=0&single=true&output=csv')
   const today = moment(new Date())
   const momFromDateString = (dateString) => moment(dateString, 'MM/DD/YYYY')

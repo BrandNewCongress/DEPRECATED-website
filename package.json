@@ -4,7 +4,7 @@
   "description": "Brand New Congress Website",
   "main": "src/server",
   "engines": {
-    "node": "5.11.1",
+    "node": "6.2.2",
     "npm": "3.7.3"
   },
   "dependencies": {
@@ -48,7 +48,9 @@
     "redux-thunk": "^2.1.0",
     "rollbar": "^0.6.0",
     "topojson": "^1.6.26",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.0",
+    "webpack-manifest-plugin": "^1.0.1",
     "yup": "^0.18.3"
   },
   "devDependencies": {
