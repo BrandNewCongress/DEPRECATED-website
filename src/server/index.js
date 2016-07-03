@@ -8,6 +8,7 @@ import proxy from 'http-proxy-middleware'
 import clientRouteHandler from './middleware/client-route-handler'
 import legacySite, { SITE_DIR as STATIC_SITE_DIR } from './middleware/legacy-site'
 import wrap from './wrap'
+import mail from './mail'
 
 const app = express()
 const port = process.env.PORT
@@ -90,6 +91,7 @@ app.post('/signup', wrap(async (req, res) => {
     .post(`https://${process.env.NATIONBUILDER_SLUG}.nationbuilder.com/api/v1/people?access_token=${process.env.NATIONBUILDER_TOKEN}`, requestBody, { headers: { Accept: 'application/json', 'Content-Type': 'application/json' }, validateStatus: () => true })
 
   if (response && (response.status === 201 || response.status === 409)) {
+    await mail.sendEmailTemplate(body.email, 'Thanks for signing up. This is what you can do now.', 'signup', {name: firstName })
     res.sendStatus(200)
   } else {
     res.sendStatus(400)
