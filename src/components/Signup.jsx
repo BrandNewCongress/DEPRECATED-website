@@ -64,7 +64,8 @@ const styles = StyleSheet.create({
 export default class Signup extends React.Component {
 
   state = {
-    sending: false
+    sending: false,
+    error: false
   }
 
   formSchema = yup.object({
