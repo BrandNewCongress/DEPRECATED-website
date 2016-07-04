@@ -1,6 +1,11 @@
 # The Goal
 
-We want to end the poverty and suffering of tens of millions of Americans, reverse the effects of climate change so the world does not end by 2100, end our policies that keep destabilizing other countries, ruining the lives of millions abroad, and restore our democracy to go back to representing all of the people instead of just monied interests so we don't end up in the same situation again. We believe these are dire issues and decades of undirected, small changes won't be enough. Our goal is to create a plan to fix the issues above and implement that plan by replacing Congress all at once with a brand new congress in 2018 that agrees to the plan, represents and reflects the people, and is not beholden to a handful of wealthy individuals.
+We want to end the poverty and suffering of tens of millions of Americans, reverse the effects of climate change so the world does not end by 2100, end our policies that keep destabilizing other countries, ruining the lives of millions abroad, and restore our democracy to go back to representing all of the people instead of just monied interests so we don't end up in the same situation again. We believe these are dire issues and decades of undirected, incremental changes won't be enough.
+
+Our goal is to create a plan to fix the issues above and implement that plan by replacing Congress all at once with a Brand New Congress in 2018 that agrees to the plan. We want to create a Congress that represents and reflects the American people, is not beholden to a handful of wealthy individuals, and is full of honest people with a track record of service.
+
+Replacing the majority of Congress all at once might seem crazy, but it is achievable by running all of these candidates as a single, unified campaign.
+// I AM HERE list why we want to run the campaign this way
 
 We are working on fleshing out the full plan we wish to enact, but we know it will include the following:
 

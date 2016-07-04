@@ -1,7 +1,6 @@
 import { Route } from 'react-router'
 import Tour from './containers/Tour'
 import Home from './components/Home'
-import Plan from './components/Plan'
 import App from './components/App'
 import React from 'react'
 import StaticSiteRenderer from './containers/StaticSiteRenderer'
@@ -9,7 +8,6 @@ import StaticSiteRenderer from './containers/StaticSiteRenderer'
 export default (staticSite) => {
   let childRoutes = [
     <Route path='tour' component={Tour} />,
-    <Route path='plan' component={Plan} />,
     <Route path='home' component={Home} />
   ]
 

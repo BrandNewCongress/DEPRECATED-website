@@ -171,7 +171,7 @@ const navigationLinks = (
       <Link className={styles.link} to='/goal'>The Goal</Link>
     </div>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/plan'>The Plan</a>
+      <Link className={styles.link} to='/plan'>The Plan</Link>
     </div>
     <div className={styles.navItem}>
       <a className={styles.link} href='/faq'>FAQ</a>
