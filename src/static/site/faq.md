@@ -18,12 +18,12 @@ A. We’re looking for people from all walks of life and all fields of our econo
 
 * Be good at what they do
 * Be proven servant-leaders to their communities, families, friends
-* Have consistently passed on opportunities to sell out, choosing instead to keep serving their people.
-have, in general, never held or sought public office
+* Have consistently passed on opportunities to sell out, choosing instead to keep serving their people
+* Have, in general, never held or sought public office
 * Agree on the whole platform
 * Have the skills, story and cultural alignment to win their districts
 
-Though every candidate will be different, the above are non-negotiabes. People who do not fit the above cannot run with us, no matter how nice, committed, well-connected or skilled they are.
+Though every candidate will be different, the above are non-negotiables. People who do not fit the above cannot run with us, no matter how nice, committed, well-connected or skilled they are.
 
 ### Q. How much say in the campaign will candidates have?
 
@@ -61,7 +61,7 @@ A. To comply with campaign finance law, we created the Brand New Congress politi
 
 ### Q. Does Brand New Congress have staff? Are you hiring?
 
-Nearly all of the work on this campaign is done by volunteers, just like it was on the Bernie campaign. It’s a revolution, not a paid-staff organization. When grassroots funds start rolling in, we'll be hiring the best organizers in the movement who need to be paid. In the Brand New Congress movement, most of the team leaders who hold responsibility and authority are volunteers—people with day jobs they don't want to give up, retired people, people with small businesses, etc... Some organizers are paid. Paid staffers are people with a unique contribution to make to the movement who want work a demanding full time job for the movement. Being a paid staffer is a huge responsibility because one is taking up one of a small number of paid positions available, therefore standards for paid staff are very high. Funds are very limited, therefore Brand New Congress is not able to hire everyone we would like to hire.
+Nearly all of the work on this campaign is done by volunteers, just like it was on the Bernie campaign. It’s a revolution, not a paid-staff organization. When grassroots funds start rolling in, we'll be hiring the best organizers in the movement who need to be paid. In the Brand New Congress movement, most of the team leaders who hold responsibility and authority are volunteers—people with day jobs they don't want to give up, retired people, people with small businesses, etc... Some organizers are paid. Paid staffers are people with a unique contribution to make to the movement who want to work a demanding full time job for the movement. Being a paid staffer is a huge responsibility because one is taking up one of a small number of paid positions available, therefore standards for paid staff are very high. Funds are very limited, therefore Brand New Congress is not able to hire everyone we would like to hire.
 
 ### Q. How is Brand New Congress funded?
 
@@ -73,11 +73,11 @@ A. The money will go for travel costs for our launch tour of 100 cities, and to 
 
 ### Q. What about good candidates already in Congress? Are you going to run against them?
 
-A. We won’t run against candidates that fully support the Brand New Congress platform. Plenty of members of Congress already do—for example, the members who endorsed Bernie Sanders. And we expect that as the campaign becomes stronger, more and more members of Congress will endorse our platform. In those cases, our candidates may drop out. We’ll have to decided on a case by case basis.
+A. We won’t run against candidates that fully support the Brand New Congress platform. Plenty of members of Congress already do—for example, the members who endorsed Bernie Sanders. And we expect that as the campaign becomes stronger, more and more members of Congress will endorse our platform. In those cases, our candidates may drop out. We’ll have to decide on a case by case basis.
 
 ### Q. Who makes the decisions for Brand New Congress? For example, who chooses the candidates?
 
-A. As soon as we get our first batch of candidates, then they will be the ones ultimately in charge, and a leadership structure will have to come together among them. Right now, team-level decisions are made by team leaders and organizational direction is set by a core team of five people in conjunction with the team leaders.
+A. Team-level decisions are made by team leaders and organizational direction is set by a core team in conjunction with the team leaders.
 
 ### Q. Are you forming a third party?
 
