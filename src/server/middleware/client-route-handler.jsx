@@ -13,6 +13,7 @@ import wrap from '../wrap'
 import fs from 'fs'
 import moment from 'moment'
 import staticSite from '../../static/site'
+import path from 'path'
 
 const Zips = Baby.parseFiles(`${__dirname}/../../data/zip-codes.csv`, { header: true }).data
 const ZipCodeDB = {}
@@ -23,7 +24,7 @@ let assetMap = {
   bundle: { js: '/assets/bundle.js' }
 }
 if (process.env.NODE_ENV === 'production') {
-  assetMap = JSON.parse(fs.readFileSync(process.env.ASSETS_MAP_FILE))
+  assetMap = JSON.parse(fs.readFileSync(path.join(process.env.ASSETS_DIR, process.env.ASSETS_MAP_FILE)))
 }
 
 export default wrap(async (req, res) => {
