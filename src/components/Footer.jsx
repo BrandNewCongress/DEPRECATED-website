@@ -57,6 +57,9 @@ export default () => (
       Questions, comments? Email:
       <a href='mailto:us@brandnewcongress.org' className={styles.link}>us@brandnewcongress.org</a>
     </div>
+    <div className={styles.questions}>
+        Want to suggest a change to this site? <a className={styles.link} href='https://github.com/BrandNewCongress/website'>Open an issue or create a pull request on our Github repository</a>
+    </div>
     <div className={styles.copyright}>
       Copyright ©2016 Brand New Congress.<br />
       All rights reserved.

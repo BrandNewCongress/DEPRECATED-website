@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-look'
 import theme from '../theme'
 import { onTablet, onMobile } from '../media-queries'
 import RaisedButton from 'material-ui/RaisedButton'
-import FloatingActionButton from 'material-ui/FloatingActionButton';
 
 const c = StyleSheet.combineStyles
 const styles = StyleSheet.create({
@@ -168,16 +167,19 @@ const styles = StyleSheet.create({
 const navigationLinks = (
   <div className={styles.navArea}>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/tour'>100-City Tour</a>
+      <a className={styles.link} href='/goal'>The Goal</a>
     </div>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/plan'>Our Plan</a>
+      <a className={styles.link} href='/plan'>The Plan</a>
     </div>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/plan'>Who We Are</a>
+      <a className={styles.link} href='/plan'>FAQ</a>
     </div>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/teams'>Get To Work</a>
+      <a className={styles.link} href='/plan'>About</a>
+    </div>
+    <div className={styles.navItem}>
+      <a className={styles.link} href='/teams'>Work With Us</a>
     </div>
   </div>
 )

@@ -12,6 +12,7 @@ import Baby from 'babyparse'
 import wrap from '../wrap'
 import fs from 'fs'
 import moment from 'moment'
+import staticSite from '../../static/site'
 
 const Zips = Baby.parseFiles(`${__dirname}/../../data/zip-codes.csv`, { header: true }).data
 const ZipCodeDB = {}
@@ -49,10 +50,14 @@ export default wrap(async (req, res) => {
 
   const serverConfig = Presets['react-dom']
   const memoryHistory = createMemoryHistory(req.url)
-  const store = configureStore(memoryHistory, { events })
+  const store = configureStore(memoryHistory, { events, staticSite })
   const history = syncHistoryWithStore(memoryHistory, store)
 
-  match({ history, routes, location: req.url }, (error, redirectLocation, renderProps) => {
+  match({
+    history,
+    routes: routes(staticSite),
+    location: req.url
+  }, (error, redirectLocation, renderProps) => {
     if (error) {
       res.status(500).send(error.message)
     } else if (redirectLocation) {

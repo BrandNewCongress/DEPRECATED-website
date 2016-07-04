@@ -1,5 +1,5 @@
 import mailgunConstructor from 'mailgun-js'
-import templates from '../templates/email'
+import staticFiles from '../static/email'
 import mustache from 'mustache'
 import log from './log'
 import marked from 'marked'
@@ -18,7 +18,7 @@ class Mail {
   }
 
   async sendEmailTemplate(to, subject, template, bindings = {}) {
-    const data = templates[template]
+    const data = staticFiles[template]
     if (!data) {
       log.error(`Tried to send email with missing template data: ${template}`)
       return null
