@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
 import { onTablet, onMobile } from '../media-queries'
+import { Link } from 'react-router'
 import RaisedButton from 'material-ui/RaisedButton'
 
 const c = StyleSheet.combineStyles
@@ -167,16 +168,16 @@ const styles = StyleSheet.create({
 const navigationLinks = (
   <div className={styles.navArea}>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/goal'>The Goal</a>
+      <Link className={styles.link} to='/goal'>The Goal</Link>
     </div>
     <div className={styles.navItem}>
       <a className={styles.link} href='/plan'>The Plan</a>
     </div>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/plan'>FAQ</a>
+      <a className={styles.link} href='/faq'>FAQ</a>
     </div>
     <div className={styles.navItem}>
-      <a className={styles.link} href='/plan'>About</a>
+      <a className={styles.link} href='/about'>About</a>
     </div>
     <div className={styles.navItem}>
       <a className={styles.link} href='/teams'>Work With Us</a>
@@ -220,7 +221,7 @@ export default class Navigation extends Component {
           >
             {this.hamburgerIcon()}
           </div>
-          <a href='/'>
+          <Link to='/home'>
             <div className={styles.logo}>
               <img
                 height='75'
@@ -228,7 +229,7 @@ export default class Navigation extends Component {
                 alt='Brand New Congress'
               />
             </div>
-          </a>
+          </Link>
           <div className={styles.tabletLogo}>
             Brand New Congress
           </div>

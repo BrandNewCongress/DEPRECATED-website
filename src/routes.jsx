@@ -4,7 +4,7 @@ import Home from './components/Home'
 import Plan from './components/Plan'
 import App from './components/App'
 import React from 'react'
-import MarkdownPage from './components/MarkdownPage'
+import StaticSiteRenderer from './containers/StaticSiteRenderer'
 
 export default (staticSite) => {
   let childRoutes = [
@@ -14,7 +14,11 @@ export default (staticSite) => {
   ]
 
   Object.keys(staticSite).forEach((route) => {
-    childRoutes.push(<Route key={route} path={route} component={MarkdownPage} />)
+    childRoutes.push(<Route
+      key={route}
+      path={route}
+      component={StaticSiteRenderer}
+    />)
   })
 
   return (

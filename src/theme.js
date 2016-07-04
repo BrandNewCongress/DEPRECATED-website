@@ -76,6 +76,7 @@ const text = {
 
 const singleColumnLayout = {
   maxWidth: 1024,
+  width: '80%',
   marginLeft: 'auto',
   marginRight: 'auto'
 }
