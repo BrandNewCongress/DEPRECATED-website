@@ -49,11 +49,12 @@ const styles = StyleSheet.create({
   },
   tabletNavList: {
     [onTablet]: {
-      height: 0,
-      transition: 'height 0.2s',
-      overflow: 'hidden',
-      width: '100%'
+      display: 'block'
     },
+    height: 0,
+    transition: 'height 0.2s',
+    overflow: 'hidden',
+    width: '100%',
     display: 'none'
   },
   showNav: {
@@ -92,7 +93,8 @@ const styles = StyleSheet.create({
       color: 'white',
       fontSize: 14,
       ':hover': {
-        color: theme.colors.lightGray
+        color: theme.colors.lightGray,
+        border: 'none'
       },
       paddingBottom: 0,
       transition: 'none'
