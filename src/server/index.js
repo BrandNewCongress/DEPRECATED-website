@@ -59,7 +59,6 @@ app.use([
   '/call',
   '/conferencecallteam',
   '/dataentryteam',
-  '/faq',
   '/officeteam',
   '/researchteam',
   '/shareteam',
