@@ -1,6 +1,6 @@
 # Brand New Congress Static Pages
 
-All the files listed here are [Markdown](https://daringfireball.net/projects/markdown/syntax) documents that exist at http://brandnewcongress.org/\<filename\>. You can add new files here and they will automatically exist at a new URL on brandnewcongress.org, or you can edit existing files.
+All the files listed here are [Markdown](https://daringfireball.net/projects/markdown/syntax) documents. Each file creates its own URL.  So, e.g., a file here called 'faq.md' will exist on http://brandnewcongress.org/faq. You can add new files here and they will automatically exist at a new URL on brandnewcongress.org, or you can edit existing files.
 
 ## Creating and modifying content
 
