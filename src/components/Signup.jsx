@@ -164,7 +164,7 @@ export default class Signup extends React.Component {
             Let's fix it.
             </div>
             <div className={styles.body}>
-            We need <span className={styles.bold}>an honest, accountable Congress</span>, but trying to win each congressional seat one-by-one is impossible.  So let's replace Congress all at once. Our plan is to recruit and run 400+ candidates as a single, unified campaign with a single plan. By giving the people an option for big, tangible change, we plan to whip up the same enthusiasm, volunteerism, voter turnout, and grassroots donations as Bernie's presidential candidate. <span className={styles.leadIn}>Let's elect a Brand New Congress that works for the people.</span>
+            We need <span className={styles.bold}>an honest, accountable Congress</span>, but trying to win each congressional seat one-by-one is impossible.  So let's replace Congress all at once. Our plan is to recruit and run 400+ candidates as a single, unified campaign with a single plan. By giving the people an option for big, tangible change, we plan to whip up the same enthusiasm, volunteerism, voter turnout, and grassroots donations as Bernie's presidential campaign. <span className={styles.leadIn}>Let's elect a Brand New Congress that works for the people.</span>
             </div>
           </div>
           <div className={styles.form}>
