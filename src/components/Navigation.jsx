@@ -248,7 +248,10 @@ export default class Navigation extends Component {
                 }}
               />
             </div>
-            <div className={styles.mobileContributeButton}>
+            <div
+              onClick={() => window.open('https://secure.actblue.com/contribute/page/brandnewcongress', '_blank')}
+              className={styles.mobileContributeButton}
+            >
               Donate
             </div>
           </div>
