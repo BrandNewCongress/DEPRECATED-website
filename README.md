@@ -2,7 +2,7 @@
 
 This is the project hosting the [Brand New Congress](http://brandnewcongress.org)
 
-## Getting Started
+## Getting Started for Developers
 
 1. Install [Node](https://nodejs.org/en/)
 2. Clone this repository
@@ -10,6 +10,10 @@ This is the project hosting the [Brand New Congress](http://brandnewcongress.org
 3. Run `npm run dev`
 4. Go to `http://localhost:3000`
 5. Run `npm run lint` to make sure your coding style is compliant.
+
+## Getting Started for Non Developers
+
+The website has some fancy, javascript filled pages (like [the tour](http://brandnewcongress.org/tour)), but a lot of the content on the site is just static content.  Instead of using a content management system (like Nationbuilder) or a wiki, these static pages are simple markdown templates that exist right here within this very Github repository. [Read more about how you can suggest edits and create new pages in the website](https://github.com/BrandNewCongress/website/tree/master/src/static/site).
 
 ## Caveat
 
