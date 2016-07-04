@@ -1,6 +1,6 @@
 # The Plan
 
-We know [our goals](/goals) are incredibly ambitious and replacing all of Congress sounds nearly impossible. But we believe that the Bernie Sanders campaign proved a model of in which grassroots money and effort can be greater than that of billionaire backed opponents if it is properly focused and utilized. So we think this massive change is possible if we take the same model and apply it to  congressional races.
+We know [our goals](/goals) are incredibly ambitious and replacing all of Congress sounds nearly impossible. But we believe that the Bernie Sanders campaign proved that grassroots money and effort can be greater than that of billionaire backed opponents if it is properly focused and utilized. So we think this massive change is possible if we take the same model and apply it to  congressional races.
 
 Our plan is to recruit and run 400+ candidates as a single, unified, presidential-style campaign. This allows us to:
 

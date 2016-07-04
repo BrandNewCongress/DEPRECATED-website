@@ -1,6 +1,6 @@
 # The Goal
 
-We want to end the poverty and suffering of tens of millions of Americans, reverse the effects of climate change so the world does not end by 2100, end our policies that keep ruin the lives of millions abroad by destabilizing their countries, and restore our democracy to go back to representing all of the people instead of just monied interests. We believe these are dire issues and decades of undirected, incremental changes won't be enough.
+We want to end the poverty and suffering of tens of millions of Americans, reverse the effects of climate change so the world does not end by 2100, end our policies that keep ruining the lives of millions abroad by destabilizing their countries, and restore our democracy to go back to representing all of the people instead of just monied interests. We believe these are dire issues and decades of undirected, incremental changes won't be enough.
 
 Our goal is to create a plan to fix the issues above and implement that plan by replacing Congress all at once with a Brand New Congress in 2018 that agrees to the plan. We want to create a Congress that represents and reflects the American people, is not beholden to a handful of wealthy individuals, and is full of honest people with a track record of service.
 
