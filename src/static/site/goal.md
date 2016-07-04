@@ -4,7 +4,7 @@ We want to end the poverty and suffering of tens of millions of Americans, rever
 
 Our goal is to create a plan to fix the issues above and implement that plan by replacing Congress all at once with a Brand New Congress in 2018 that agrees to the plan. We want to create a Congress that represents and reflects the American people, is not beholden to a handful of wealthy individuals, and is full of honest people with a track record of service.
 
-# <a name="the-plan"></a>The plan our candidates will enact once elected
+# The plan our candidates will enact once elected
 
 We are working on fleshing out the full plan we wish to enact, but we know it will include the following:
 
