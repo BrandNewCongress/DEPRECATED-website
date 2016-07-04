@@ -1,14 +1,14 @@
 # FAQ
 
-### <a name="what-is-brand-new-congress"></a>Q. What is Brand New Congress?
+### Q. What is Brand New Congress?
 
 A. It’s a plan to [accomplish sweeping change](/goal)! We’re recruiting working people with track records of integrity and service in their communities, workplaces and families to run for Congress—and we’re going to run them in one unified, national campaign to replace almost all of Congress in one fell swoop.
 
-### <a name="isnt-it-impossible-to-defeat-400-incumbents-in-congress-in-one-cycle"></a>Q. Isn’t it impossible to defeat 400 incumbents in Congress in one cycle?
+### Q. Isn’t it impossible to defeat 400 incumbents in Congress in one cycle?
 
-A. [We believe it isn't if we run this as a massive, unified, grassroots-driven campaign](/goal#how-can-we-actually-replace-congress). Skeptical? Try walking your block and asking people who their Congress person is. Ask them if they'd like a Brand New Congress made up of non-politicians. Send your results to us@brandnewcongress.org
+A. [We believe it isn't if we run this as a massive, unified, grassroots-driven campaign](/plan). Skeptical? Try walking your block and asking people who their Congress person is. Ask them if they'd like a Brand New Congress made up of non-politicians. Send your results to us@brandnewcongress.org
 
-### <a name="who-will-the-candidates-be"></a>Q. Who will the candidates be?
+### Q. Who will the candidates be?
 
 A. We’re looking for people from all walks of life and all fields of our economy and society, representing every community, who have a few special things about them. All the candidates must:
 
@@ -24,6 +24,12 @@ Though every candidate will be different, the above are non-negotiabes. People w
 ### Q. Why don’t you want candidates who’ve served in office before?
 
 A. We’re not banning them, we’re just saying that “in general” we want people who’ve never held or sought office before. There are a lot of great people in office and seeking office. But we mainly want those people who would never think of running for office. We want people who live for others. Those people do not usually seek out the limelight of political office. We are going to need to drag them kicking and screaming into public office. The longer our list of awesome potential candidates gets, the more they will inspire each other to run. When they see that this is not a vanity project but a real chance to change everything, we'll get their hats in the ring. It'll take a lot of work, but that's how it should be.
+
+### Q. How much say in the campaign will candidates have?
+
+A. BNC candidates will make remarkably few unilateral decisions about how to staff or run their campaign. In fact, they will make almost no decisions about their campaign. The one exception is their own personal stump speech and the way that they communicate the BNC platform to their district, which they will work on personally with BNC staff.
+
+To be a BNC candidate, they have to believe that being a team player is their best chance of winning, and that their team is the BNC, not their own collection of friends, family and other advisors. This model of campaigning is a complete departure from the way American party politics has worked for a century and is much more similar to European parliamentary party politics. The key to making this work is to find candidates who are enthusiastic about this model, rather than finding activists who are opposed to it and trying to convince them. Running the campaign this way is important in light of the practical experience of challengers tending to be terrible at running their own campaigns. We want candidates who will be great leaders of their people, not great Congressional campaign managers.
 
 ### Q. Don’t people need experience as legislators to work in Congress?
 

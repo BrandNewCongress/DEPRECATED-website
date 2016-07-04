@@ -1,6 +1,22 @@
 # The Plan
 
-To achieve [our goals](/goals), we plan to:
+We know [our goals](/goals) are incredibly ambitious and replacing all of Congress sounds nearly impossible. But we believe that the Bernie Sanders campaign proved a model of in which grassroots money and effort can be greater than that of billionaire backed opponents if it is properly focused and utilized. So we think this massive change is possible if we take the same model and apply it to  congressional races.
+
+Our plan is to recruit and run 400+ candidates as a single, unified, presidential-style campaign. This allows us to:
+
+* Actually turn out millions more to vote in their midterm elections, which usually have extremely low turnout. One big campaign for a Brand New Congress will attract enough media attention, volunteers and grassroots donations to overwhelm those no-name, sold-out, unpopular incumbents.
+
+* Focus the grassroots energy and funding into one, big goal. It is possible to defeat incumbents backed by a few wealthy individuals if we have millions of people working together, but only if those millions are concentrated.
+
+* Gain huge economies of scale in advertising, direct mail, and staffing.
+
+* Use one constantly-improving campaign infrastructure as we move from election to election.
+
+* Have candidates without a lot of wealth and with no campaign experience run a sophisticated campaign by simply plugging into our well-oiled campaign machine.
+
+## How do we get there
+
+At a high level, we know we need to:
 
 * Develop a fully fleshed out platform.
 * Recruit [400+ candidates that are qualified to run](/faq#who-will-the-candidates-be).

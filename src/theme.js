@@ -27,6 +27,7 @@ const text = {
     color: colors.darkGray,
     textDecoration: 'none',
     borderBottom: `1px solid ${colors.purple}`,
+    cursor: 'pointer',
     ':hover': {
       borderBottom: 0,
       color: colors.orange

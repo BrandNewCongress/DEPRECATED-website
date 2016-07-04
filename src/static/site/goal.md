@@ -4,21 +4,6 @@ We want to end the poverty and suffering of tens of millions of Americans, rever
 
 Our goal is to create a plan to fix the issues above and implement that plan by replacing Congress all at once with a Brand New Congress in 2018 that agrees to the plan. We want to create a Congress that represents and reflects the American people, is not beholden to a handful of wealthy individuals, and is full of honest people with a track record of service.
 
-
-# <a name="how-can-we-actually-replace-congress"></a>How can we actually replace Congress?
-
-Replacing the majority of Congress all at once might seem crazy, but it is achievable by running all of these candidates as a single, unified, presidential-style campaign. This allows us to:
-
-* Actually turn out millions more to vote in their midterm elections, which usually have extremely low turnout. One big campaign for a Brand New Congress will attract enough media attention, volunteers and grassroots donations to overwhelm those no-name, sold-out, unpopular incumbents.
-
-* Focus the grassroots energy and funding into one, big goal. It is possible to defeat incumbents backed by a few wealthy individuals if we have millions of people working together, but only if those millions are concentrated.
-
-* Gain huge economies of scale in advertising, direct mail, and staffing.
-
-* Use one constantly-improving campaign infrastructure as we move from election to election.
-
-* Have candidates without a lot of wealth and with no campaign experience run a sophisticated campaign by simply plugging into our well-oiled campaign machine.
-
 # <a name="the-plan"></a>The plan our candidates will enact once elected
 
 We are working on fleshing out the full plan we wish to enact, but we know it will include the following:
