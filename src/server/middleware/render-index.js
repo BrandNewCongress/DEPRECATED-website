@@ -49,7 +49,7 @@ export default function renderIndex(html, css, assetMap, store) {
     <script>
       window.INITIAL_STATE = ${JSON.stringify(store.getState())}
     </script>
-    <script src="${assetMap['bundle.js']}"></script>
+    <script src="/assets/${assetMap['bundle.js']}"></script>
   </body>
 </html>
 `

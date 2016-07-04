@@ -21,7 +21,7 @@ Zips.forEach((row) => {
   ZipCodeDB[row.zip] = row
 })
 let assetMap = {
-  bundle: { js: '/assets/bundle.js' }
+  'bundle.js': 'bundle.js'
 }
 if (process.env.NODE_ENV === 'production') {
   assetMap = JSON.parse(fs.readFileSync(path.join(process.env.ASSETS_DIR, process.env.ASSETS_MAP_FILE)))
