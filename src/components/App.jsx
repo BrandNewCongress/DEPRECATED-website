@@ -8,6 +8,9 @@ import Form from 'react-formal'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
 import BNCPhoneField from '../components/forms/BNCPhoneField'
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+injectTapEventPlugin();
 
 Form.addInputTypes({
   string: BNCTextField,

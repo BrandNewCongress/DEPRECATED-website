@@ -241,7 +241,9 @@ export default class Navigation extends Component {
               <RaisedButton
                 secondary
                 label='Contribute'
-                href='https://secure.actblue.com/contribute/page/brandnewcongress'
+                onTouchTap={() => {
+                  window.open('https://secure.actblue.com/contribute/page/brandnewcongress', '_blank')
+                }}
               />
             </div>
             <div className={styles.mobileContributeButton}>
