@@ -24,7 +24,7 @@ At a high level, we know we need to:
 * Identify 100,000 supporters in each congressional district.
 * Get our supporters out to vote during congressional primaries.
 
-To get there, we plan to run an open-source, transparent campaign -- [you can read more about how, exactly, the campaign is structured here](/work). Local grassroots groups will actually be our field program, and our actual plans and goals will be available for everyone to see ([and make suggestions to](https://github.com/BrandNewCongress/website/tree/master/src/static/site)) on this site. This is a living document, so this plan is going to be constantly fleshed out further.
+To get there, we plan to run an open-source, transparent campaign -- [you can read more about how, exactly, the campaign is structured here](/teams). Local grassroots groups will actually be our field program, and our actual plans and goals will be available for everyone to see ([and make suggestions to](https://github.com/BrandNewCongress/website/tree/master/src/static/site)) on this site. This is a living document, so this plan is going to be constantly fleshed out further.
 
 # Timeline
 
@@ -74,7 +74,7 @@ To get there, we plan to run an open-source, transparent campaign -- [you can re
     * Create a video explaining BNC to show at these house parties
     * Create a total of 40 local teams in 40 congressional districts.
 * Identify and vet a total of 8 candidates
-* Launch texting tool for voter contact and start getting local groups access to voterfiles.
+* Launch texting tool for voter contact and start getting local groups access to voter files.
 
 ## October 2016
 * Local teams in 80 districts
@@ -85,7 +85,7 @@ To get there, we plan to run an open-source, transparent campaign -- [you can re
 * Local teams in 100 districts
 * 300,000 supporters
 * 32 candidates.
-* National teams each have 5 potential leaders each so volunteers can jump in and out without the whole organization relying too much on any single individual.
+* National teams have 5 potential leaders each so volunteers can jump in and out without the whole organization relying too much on any single individual.
 * Identify which candidates we are not going to challenge
 
 ## December 2016
