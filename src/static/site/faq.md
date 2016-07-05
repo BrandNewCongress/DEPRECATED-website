@@ -53,7 +53,7 @@ A. While BNC was inspired by Bernie's campaign and most of the original organize
 
 ### Q. Is there a formal organization behind this?
 
-Right now, a political action committee called Brand New Congress, is accepting contributions to support travel costs and to pay stipends for a handful of organizers. Zack Exley, a former Bernie staffer, is the treasurer of the PAC and works on Brand New Congress as a volunteer. Once we have our candidates, formal decisionmaking and fundraising will flow through them, with the PAC probably being dissolved. We are required to have a PAC to accept funds and spend money toward electing federal candidates.
+Right now, a political action committee called Brand New Congress is accepting contributions to support travel costs and to pay stipends for a handful of organizers. Zack Exley, a former Bernie staffer, is the treasurer of the PAC and works on Brand New Congress as a volunteer. Once we have our candidates, formal decisionmaking and fundraising will flow through them, with the PAC probably being dissolved. We are required to have a PAC to accept funds and spend money toward electing federal candidates.
 
 ### Q. What is a PAC?
 
