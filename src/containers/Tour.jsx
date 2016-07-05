@@ -178,7 +178,7 @@ class Tour extends React.Component {
       <div className={styles.cantMakeIt}>
         Can't make it to an event?&nbsp;
         <span className={styles.highlight}>
-          <a href='/home' className={styles.link}>Sign up to join the movement!</a>
+          <a href='/home#sign-up' className={styles.link}>Sign up to join the movement!</a>
         </span>
       </div>
     )
