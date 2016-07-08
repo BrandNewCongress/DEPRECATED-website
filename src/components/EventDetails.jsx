@@ -92,8 +92,7 @@ const EventDetails = ({ event, onClose }) => (
       </div>
       <div className={styles.description}>
       {`Join us as we talk about the
-        plan to create a Brand New Congress.
-        Exact location and time will be announced soon.`}
+        plan to create a Brand New Congress.`}
       </div>
       <button
         className={styles.rsvpLink}
@@ -101,7 +100,7 @@ const EventDetails = ({ event, onClose }) => (
           window.open(event.rsvpUrl, '_blank')
         }}
       >
-      RSVP
+      More Details
       </button>
     </div>
   </div>
