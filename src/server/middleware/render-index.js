@@ -31,7 +31,6 @@ export default function renderIndex(html, css, assetMap, store) {
       // End Rollbar Snippet
     </script>
     <script>
-      // Google Analytics Snippet
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -39,9 +38,8 @@ export default function renderIndex(html, css, assetMap, store) {
 
       ga('create', 'UA-75845088-1', 'auto', {'allowLinker': true});
       ga('require', 'linker');
-      ga('linker:autoLink', ['https://secure.actblue.com'] );
+      ga('linker:autoLink', ['actblue.com'] );
       ga('send', 'pageview');
-      // End Google Analytics Snippet
     </script>
   </head>
   <body>
