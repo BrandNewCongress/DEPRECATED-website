@@ -25,17 +25,32 @@ const styles = StyleSheet.create({
     padding: '5px 5px 5px 5px',
     border: `1px solid ${theme.colors.lightGray}`
   },
-  header: {
+  explanationCongress: {
+  [onTablet]: {
+    order: 1
+    }
+  },
+  congressHeader: {
     ...theme.text.header,
     paddingBottom: 20,
-    color: theme.colors.orange
+    color: theme.colors.orange,
   },
   secondaryHeader: {
     ...theme.text.header,
     paddingBottom: 20,
-    color: theme.colors.purple
+    color: theme.colors.purple,
+    [onTablet]: {
+      order: 2
+      }
   },
-
+  congressBody: {
+    display: 'block',
+    paddingBottom: 30,
+    lineHeight: '1.5em',
+    [onTablet]: {
+      order: 4
+    }
+  },
   body: {
     display: 'block',
     paddingBottom: 30,
@@ -51,13 +66,15 @@ const styles = StyleSheet.create({
       marginRight: 25
     }
   },
-  form: {
+  explanationForm: {
     width: 350,
     marginRight: 30,
     [onTablet]: {
       width: '80%',
       marginRight: 'auto',
-      marginLeft: 'auto'
+      marginLeft: 'auto',
+      marginBottom: 20,
+      order: 3
     }
   },
   line: {
@@ -155,20 +172,22 @@ export default class Signup extends React.Component {
       <div className={styles.container}>
         <div className={styles.contentContainer}>
           <div className={styles.explanation}>
-            <div className={styles.header}>Congress is broken.
-            </div>
-            <div className={styles.body}>
-            <a target='_blank' className={styles.link} href='http://www.realclearpolitics.com/epolls/other/congressional_job_approval-903.html'>80% of Americans agree.</a> Its decisions are <a target='_blank' className={styles.link} href='http://www.bbc.com/news/blogs-echochambers-27074746'>driven by a handful of wealthy individuals</a>, it is incapable of working together to enact real change, and <a target='_blank' className={styles.link} href='https://www.youtube.com/watch?v=Ylomy1Aw9Hk'>its members spend too much time dialing for dollars</a>.
+            <div className={styles.explanationCongress}>
+              <div className={styles.congressHeader}>Congress is broken.
+              </div>
+              <div className={styles.body}>
+              <a target='_blank' className={styles.link} href='http://www.realclearpolitics.com/epolls/other/congressional_job_approval-903.html'>80% of Americans agree.</a> Its decisions are <a target='_blank' className={styles.link} href='http://www.bbc.com/news/blogs-echochambers-27074746'>driven by a handful of wealthy individuals</a>, it is incapable of working together to enact real change, and <a target='_blank' className={styles.link} href='https://www.youtube.com/watch?v=Ylomy1Aw9Hk'>its members spend too much time dialing for dollars</a>.
+              </div>
             </div>
             <div className={styles.secondaryHeader}>
             Let's fix it.
             </div>
-            <div className={styles.body}>
+            <div className={styles.congressBody}>
             We need <span className={styles.bold}>an honest, accountable Congress</span>, but trying to win each congressional seat one-by-one is impossible.  So let's replace Congress all at once. Our plan is to recruit and run 400+ candidates as a single, unified campaign with a single plan. By giving the people an option for big, tangible change, we plan to whip up the same enthusiasm, volunteerism, voter turnout, and grassroots donations as Bernie's presidential campaign. <span className={styles.leadIn}>Let's elect a Brand New Congress that works for the people.</span>
             </div>
-          </div>
-          <div className={styles.form}>
-            {this.renderForm()}
+            <div className={styles.explanationForm}>
+              {this.renderForm()}
+            </div>
           </div>
           <Snackbar
             open={this.state.error}
