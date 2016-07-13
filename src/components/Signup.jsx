@@ -158,7 +158,7 @@ export default class Signup extends React.Component {
             <div className={styles.header}>Congress is broken.
             </div>
             <div className={styles.body}>
-            <a target='_blank' className={styles.link} href='http://www.realclearpolitics.com/epolls/other/congressional_job_approval-903.html'>80% of Americans agree.</a> Its decisions are <a target='_blank' className={styles.link} href='http://www.bbc.com/news/blogs-echochambers-27074746'>driven by a handful of wealthy individuals</a>, it is incapable of working together to enact real change, and <a target='_blank' className={styles.link} href='https://www.youtube.com/watch?v=Ylomy1Aw9Hk'>its members spend too much time dialing for dollars</a>.
+            80% of Americans agree. Its decisions are driven by a handful of wealthy individuals, it is incapable of working together to enact real change, and its members spend too much time dialing for dollars.
             </div>
             <div className={styles.secondaryHeader}>
             Let's fix it.
