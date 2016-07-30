@@ -1,3 +1,8 @@
+.circles-map {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+}
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
