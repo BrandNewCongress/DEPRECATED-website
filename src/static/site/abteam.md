@@ -48,76 +48,72 @@ We're building on the tools, tactics and networks that we developed together on 
 ---
 
 <a name="timeline"></a>
-<div class="block-2-content p-x">
-	<div class="container">
-    	<h2>What's the timeline? And how is this actually going to work?</h2>
-    	<p class="lead">Trying to replace virtually everyone in Congress in one fell swoop may sound like a daunting project, but we believe there's now a way to do this by running a single unified campaign that all of America can get excited about and participate in.</p>
-    	<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-				<h3 class="text-right">&#10003; April 2016</h3>
-			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-primary">
-				<h4>Propose this idea to the Bernie movement and to America</h4>
-				<p>We're pitching this idea to volunteers in the Bernie movement, and getting to work with people who like it.</p>
-			</div>
-      		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
-      		</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-				<h3 class="text-right">May 2016 to <br />February 2017</h3>
-			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-warning">
-				<h4>Recruit candidates and organizers</h4>
-				<p>We are asking supporters to organize events for a Barnstorm tour to hit a whole bunch of cities in the country. We'll spread the idea, recruit organizers and scout candidates. Local organizers will continue the Barnstorms themselves to every Congressional District in their area.</p>
-			</div>
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-				<h3 class="text-right">March 2017</h3>
-			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-success">
-				<h4>Announce all 400+ candidates</h4>
-				<p>We will make announcements prior to this when we reach 10 and 100 candidates, fueling our volunteer base and donations each time.
-				<p>Our candidates will be working people from many backgrounds and fields who:</p>
-				<ul>
-					<li>Are good at what they do. </li>
-					<li>Are proven servants to their communities, families, friends.</li>
-					<li>Have consistently passed on opportunities to sell out.</li>
-					<li>In general, have never held or sought public office.</li>
-					<li>Agree completely on a unified economic, social justice, and climate change platform.</li>
-				</ul>
-			</div>
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-				<h3 class="text-right">January 2017 to<br />November 2018</h3>
-			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-primary">
-				<h4>Campaign, campaign, campaign</h4>
-				<p>We're going to challenge incumbents in their primaries&mdash;both Republicans and Democrats&mdash;with a unified campaign that America can believe in and will actually pay attention to. By running a unified campaign, we'll be able to: </p>
-				<ul>
-					<li>Create enough excitement nationally that new voters will register and vote in congressional primaries, all of which historically have very low turnout</li>
-					<li>Massively scale voter contact: our national volunteer force will overwhelm incumbents tiny paid local staff.</li>
-					<li>Gain huge economies of scale in advertising, direct mail, and staffing.</li>
-					<li>Use one constantly-improving campaign infrastructure as we move from election to election.</li>
-					<li>Let candidates focus on the issues instead of the logistics of running a campaign.</li>
-				</ul>
-			</div>
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-				<h3 class="text-right">January 2019 to<br />Who Knows When</h3>
-			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-success">
-				<h4>Govern!</h4>
-				<p>Hopefully, we'll win a super majority in the House and take a big bite out of the Senate. In that case, we'll pass our program in the House and rally the American people to convince their Senators to support it.</p>
-				<p>But if we don't get a majority, this is what we'll do:</p>
-				<ul>
-					<li>Stake out high profile battles over things that really matter to America: jobs, criminal justice reform, the environment and more. </li>
-					<li>Use our presence in Congress and our national grassroots movement to shine a light on entrenched corruption every single day, as the remnants of the establishment fight to protect their special interest patrons.</li>
-					<li>Never stop campaigning as a national movement for more seats until we get the super majority we need to make real change!</li>
-				</ul>
-			</div>
+<h2>What's the timeline? And how is this actually going to work?</h2>
+<p class="lead">Trying to replace virtually everyone in Congress in one fell swoop may sound like a daunting project, but we believe there's now a way to do this by running a single unified campaign that all of America can get excited about and participate in.</p>
+<div class="row">
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+		<h3 class="text-right">&#10003; April 2016</h3>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-primary">
+		<h4>Propose this idea to the Bernie movement and to America</h4>
+		<p>We're pitching this idea to volunteers in the Bernie movement, and getting to work with people who like it.</p>
+	</div>
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
 		</div>
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+		<h3 class="text-right">May 2016 to <br />February 2017</h3>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-warning">
+		<h4>Recruit candidates and organizers</h4>
+		<p>We are asking supporters to organize events for a Barnstorm tour to hit a whole bunch of cities in the country. We'll spread the idea, recruit organizers and scout candidates. Local organizers will continue the Barnstorms themselves to every Congressional District in their area.</p>
+	</div>
+	<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+		<h3 class="text-right">March 2017</h3>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-success">
+		<h4>Announce all 400+ candidates</h4>
+		<p>We will make announcements prior to this when we reach 10 and 100 candidates, fueling our volunteer base and donations each time.
+		<p>Our candidates will be working people from many backgrounds and fields who:</p>
+		<ul>
+			<li>Are good at what they do. </li>
+			<li>Are proven servants to their communities, families, friends.</li>
+			<li>Have consistently passed on opportunities to sell out.</li>
+			<li>In general, have never held or sought public office.</li>
+			<li>Agree completely on a unified economic, social justice, and climate change platform.</li>
+		</ul>
+	</div>
+	<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+		<h3 class="text-right">January 2017 to<br />November 2018</h3>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-primary">
+		<h4>Campaign, campaign, campaign</h4>
+		<p>We're going to challenge incumbents in their primaries&mdash;both Republicans and Democrats&mdash;with a unified campaign that America can believe in and will actually pay attention to. By running a unified campaign, we'll be able to: </p>
+		<ul>
+			<li>Create enough excitement nationally that new voters will register and vote in congressional primaries, all of which historically have very low turnout</li>
+			<li>Massively scale voter contact: our national volunteer force will overwhelm incumbents tiny paid local staff.</li>
+			<li>Gain huge economies of scale in advertising, direct mail, and staffing.</li>
+			<li>Use one constantly-improving campaign infrastructure as we move from election to election.</li>
+			<li>Let candidates focus on the issues instead of the logistics of running a campaign.</li>
+		</ul>
+	</div>
+	<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+		<h3 class="text-right">January 2019 to<br />Who Knows When</h3>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 bs-callout bs-callout-success">
+		<h4>Govern!</h4>
+		<p>Hopefully, we'll win a super majority in the House and take a big bite out of the Senate. In that case, we'll pass our program in the House and rally the American people to convince their Senators to support it.</p>
+		<p>But if we don't get a majority, this is what we'll do:</p>
+		<ul>
+			<li>Stake out high profile battles over things that really matter to America: jobs, criminal justice reform, the environment and more. </li>
+			<li>Use our presence in Congress and our national grassroots movement to shine a light on entrenched corruption every single day, as the remnants of the establishment fight to protect their special interest patrons.</li>
+			<li>Never stop campaigning as a national movement for more seats until we get the super majority we need to make real change!</li>
+		</ul>
 	</div>
 </div>
 
