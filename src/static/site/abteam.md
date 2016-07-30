@@ -25,19 +25,19 @@
 
 <body>
 
-# A/B Testing Team
-
 ## Welcome to the A/B Testing Team page!
+
+### The A/B Testing Team is constantly conducting A/B tests of content on BrandNewCongress.org, in online ad campaigns and in mass emails to make it easier for new people interested in Brand New Congress to sign up and donate. We need a few different kinds of talents to combine on this team: people with a good design eye plus html/css abilities; good copywriters who don't need to be told exactly what to write; people with experience analyzing A/B tests who understand how the stats work (or who want to learn). You are: Someone with any of the skills just listed, who really gets a thrill out of making things grow.
+
+### If you haven't joined a general orientation call yet, please do! [Click here to join one.](http://BrandNewCongress.org/call)
+
+### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+
+## How to join the A/B Testing Team:
 
 BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
 
 This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then ****email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)**** and tell them you'd like to help the Office Team get started.
-
-The A/B Testing Team is constantly conducting A/B tests of content on BrandNewCongress.org, in online ad campaigns and in mass emails to make it easier for new people interested in Brand New Congress to sign up and donate. We need a few different kinds of talents to combine on this team: people with a good design eye plus html/css abilities; good copywriters who don't need to be told exactly what to write; people with experience analyzing A/B tests who understand how the stats work (or who want to learn). You are: Someone with any of the skills just listed, who really gets a thrill out of making things grow.
-
-If you haven't joined a general orientation call yet, please do! [Click here to join one.](http://BrandNewCongress.org/call)
-
-We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 
@@ -49,7 +49,7 @@ We're building on the tools, tactics and networks that we developed together on 
 
 <a name="timeline"></a>
 <h2>What's the timeline? And how is this actually going to work?</h2>
-<p class="lead">Trying to replace virtually everyone in Congress in one fell swoop may sound like a daunting project, but we believe there's now a way to do this by running a single unified campaign that all of America can get excited about and participate in.</p>
+<p>Trying to replace virtually everyone in Congress in one fell swoop may sound like a daunting project, but we believe there's now a way to do this by running a single unified campaign that all of America can get excited about and participate in.</p>
 <div class="row">
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 		<h3 class="text-right">&#10003; April 2016</h3>

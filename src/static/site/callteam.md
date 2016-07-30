@@ -25,13 +25,23 @@
 
 <body>
 
-# Call Team
+## Welcome to the Call Team page!
+
+### Brand New Congress needs ****an army of callers**** to have one-on-one conversation with organizers, volunteers and activists to esure they have a path to becoming involved in electing a Brand New Congress.
+
+### If you haven't attended an orientation call you can <a href="http://brandnewcongress.org/call" target="_blank">sign up here</a> or read more below.    
 
 ## How to join the Call Team:
 
-Brand New Congress needs ****an army of callers**** to have one-on-one conversation with organizers, volunteers and activists to esure they have a path to becoming involved in electing a Brand New Congress.
+****Click below to get your unique call-in number and pin**** to join any of the following calls:
 
-If you haven't attended an orientation call you can [sign up here](http://brandnewcongress.org/call) or read more below.
+<blockquote>
+	<div id="upcomingConferences">
+		<p><b>Loading calls...</b></p>
+	</div>
+</blockquote>
+
+Please look over the timeline and basic strategy below before the call!
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 
@@ -43,7 +53,7 @@ We're building on the tools, tactics and networks that we developed together on 
 
 <a name="timeline"></a>
 <h2>What's the timeline? And how is this actually going to work?</h2>
-<p class="lead">Trying to replace virtually everyone in Congress in one fell swoop may sound like a daunting project, but we believe there's now a way to do this by running a single unified campaign that all of America can get excited about and participate in.</p>
+<p>Trying to replace virtually everyone in Congress in one fell swoop may sound like a daunting project, but we believe there's now a way to do this by running a single unified campaign that all of America can get excited about and participate in.</p>
 <div class="row">
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 		<h3 class="text-right">&#10003; April 2016</h3>
