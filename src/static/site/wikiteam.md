@@ -6,14 +6,14 @@
     <meta content="brand, new, congress, bernie, sanders, political, revolution, elect, progressive, 2016, democrat" name="keywords">
     <meta content="Brand New Congress" name="author">
     <!--     Meta tags for Facebook   -->
-    <meta content="http://brandnewcongress.org/researchteam" property="og:url">
+    <meta content="http://brandnewcongress.org/wikiteam" property="og:url">
     <meta content="website" property="og:type">
     <meta content="Brand New Congress" property="og:title">
     <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
     <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
     <!-- font-awesome-icon-font-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Brand New Congress | Research Team</title>
+    <title>Brand New Congress | Wiki Team</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
     <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
     <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
@@ -22,19 +22,21 @@
 
 <body>
 
-## Welcome to the Research Team page!
+## Welcome to the Wiki Team page!
 
-### The Research Team is going to be central to building Brand New Congress. It will grow into many subteams that are taking on all sorts of research tasks including opposition research, ballot access, platform development, and more. The current task for the team is to gather outstanding facts positive and negative about every current memeber of Congress who will be running for office in 2018. You are: Someone who enjoys looking stuff up online and getting to the bottom of complex questions. You know how to write concisely and clearly.
+### The Wiki Team watches over the Brand New Congress wiki, constantly cleaning it up and reorganizing it. **You are:** Someone with experience editing Wiki's or who is excited to learn about them. (If you're curious, check out: [meatballwiki.org](http://meatballwiki.org/wiki/))
+
+### We're a volunteer organization that is stretched thin right now, so we apologize in advance if we are not able to get back to you. Please do be persistent and keep emailing in if you are someone who: Works well with others, has good web design/development skills and definitely has some regular time to commit to this project every week.
 
 ### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
 ### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
-## How to join the Research Team:
+## How to join the Wiki Team:
 
 BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
 
-If you'd like to join the Research Team, [apply here](https://docs.google.com/forms/d/13gY_rLb485SAAlyYGSAWyxVsXOQuc32qBY4ClKqQogc/viewform). Questions? Email [us@brandnewcongress.org](mailto:us@brandnewcongress.org) and we'll get you plugged in!
+This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then **email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)** and tell them you'd like to help the Wiki Team get started.
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 

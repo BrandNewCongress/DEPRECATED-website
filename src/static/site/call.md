@@ -6,14 +6,14 @@
     <meta content="brand, new, congress, bernie, sanders, political, revolution, elect, progressive, 2016, democrat" name="keywords">
     <meta content="Brand New Congress" name="author">
     <!--     Meta tags for Facebook   -->
-    <meta content="http://brandnewcongress.org/researchteam" property="og:url">
+    <meta content="http://brandnewcongress.org/call" property="og:url">
     <meta content="website" property="og:type">
     <meta content="Brand New Congress" property="og:title">
     <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
     <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
     <!-- font-awesome-icon-font-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Brand New Congress | Research Team</title>
+    <title>Brand New Congress | Call</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
     <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
     <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
@@ -22,19 +22,19 @@
 
 <body>
 
-## Welcome to the Research Team page!
+<h1 class="p-y m-x">Let's elect a <span class="embolden">Brand New Congress</span> that works for all.</h1>
 
-### The Research Team is going to be central to building Brand New Congress. It will grow into many subteams that are taking on all sorts of research tasks including opposition research, ballot access, platform development, and more. The current task for the team is to gather outstanding facts positive and negative about every current memeber of Congress who will be running for office in 2018. You are: Someone who enjoys looking stuff up online and getting to the bottom of complex questions. You know how to write concisely and clearly.
+## Here's how to join a Brand New Congress orientation call:
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+**Click below to get your unique call-in number and pin** to join any of the following calls:
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+<blockquote>
+	<div id="upcomingConferences">
+		<p><b>Loading calls...</b></p>
+	</div>
+</blockquote>
 
-## How to join the Research Team:
-
-BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
-
-If you'd like to join the Research Team, [apply here](https://docs.google.com/forms/d/13gY_rLb485SAAlyYGSAWyxVsXOQuc32qBY4ClKqQogc/viewform). Questions? Email [us@brandnewcongress.org](mailto:us@brandnewcongress.org) and we'll get you plugged in!
+Please look over the timeline and basic strategy below before the call!
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 
