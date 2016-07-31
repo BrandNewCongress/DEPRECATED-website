@@ -34,7 +34,7 @@
 
 BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
 
-This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then **email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)** and tell them you'd like to help the Office Team get started.
+This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then **email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)** and tell them you'd like to help the A/B Testing Team get started.
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 
