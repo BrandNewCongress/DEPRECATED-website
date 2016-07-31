@@ -6,14 +6,14 @@
     <meta content="brand, new, congress, bernie, sanders, political, revolution, elect, progressive, 2016, democrat" name="keywords">
     <meta content="Brand New Congress" name="author">
     <!--     Meta tags for Facebook   -->
-    <meta content="http://brandnewcongress.org/callteam" property="og:url">
+    <meta content="http://brandnewcongress.org/adteam" property="og:url">
     <meta content="website" property="og:type">
     <meta content="Brand New Congress" property="og:title">
     <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
     <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
     <!-- font-awesome-icon-font-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Brand New Congress | Call Team</title>
+    <title>Brand New Congress | Ad Team</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
     <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
     <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
@@ -22,23 +22,19 @@
 
 <body>
 
-## Welcome to the Call Team page!
+## Welcome to the Online Advertizing Team page!
 
-### Brand New Congress needs ****an army of callers**** to have one-on-one conversation with organizers, volunteers and activists to esure they have a path to becoming involved in electing a Brand New Congress.
+### The Online Advertizing Team experiments with online ads on various platforms as a way of reaching new Brand New Congress supporters. ****You are:**** someone with experience buying and monitoring online ads and a fanatical drive to get the most out of every dollar spent. You have no desire to run ads just for the sake of it, and believe that the best approach is always to be authentic and direct about about an organization's mission.
 
-### If you haven't attended an orientation call you can [sign up here](/call) or read more below.    
+### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-## How to join the Call Team:
+### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
-****Click below to get your unique call-in number and pin**** to join any of the following calls:
+## How to join the A/B Testing Team:
 
-<blockquote>
-	<div id="upcomingConferences">
-		<p><b>Loading calls...</b></p>
-	</div>
-</blockquote>
+BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
 
-Please look over the timeline and basic strategy below before the call!
+This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then ****email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)**** and tell them you'd like to help the Office Team get started.
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 

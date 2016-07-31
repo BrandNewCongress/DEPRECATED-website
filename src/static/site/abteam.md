@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-
-<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -29,7 +26,7 @@
 
 ### The A/B Testing Team is constantly conducting A/B tests of content on BrandNewCongress.org, in online ad campaigns and in mass emails to make it easier for new people interested in Brand New Congress to sign up and donate. We need a few different kinds of talents to combine on this team: people with a good design eye plus html/css abilities; good copywriters who don't need to be told exactly what to write; people with experience analyzing A/B tests who understand how the stats work (or who want to learn). You are: Someone with any of the skills just listed, who really gets a thrill out of making things grow.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](http://BrandNewCongress.org/call)
+### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
 ### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
@@ -116,5 +113,22 @@ We're building on the tools, tactics and networks that we developed together on 
 		</ul>
 	</div>
 </div>
+
+<!-- Include jQuery (required) and the JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<!--  Website js-->
+<script src="/static-assets/js/toolkit.js"></script>
+
+<!-- Google Analytics -->
+<script>  
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-75845088-1', 'auto');
+	ga('send', 'pageview');
+</script>
 
 </body>
