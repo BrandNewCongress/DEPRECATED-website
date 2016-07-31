@@ -24,13 +24,13 @@
 
 ## Welcome to the Call Team page!
 
-### Brand New Congress needs ****an army of callers**** to have one-on-one conversation with organizers, volunteers and activists to esure they have a path to becoming involved in electing a Brand New Congress.
+### Brand New Congress needs **an army of callers** to have one-on-one conversation with organizers, volunteers and activists to esure they have a path to becoming involved in electing a Brand New Congress.
 
 ### If you haven't attended an orientation call you can [sign up here](/call) or read more below.    
 
 ## How to join the Call Team:
 
-****Click below to get your unique call-in number and pin**** to join any of the following calls:
+**Click below to get your unique call-in number and pin** to join any of the following calls:
 
 <blockquote>
 	<div id="upcomingConferences">
@@ -42,9 +42,9 @@ Please look over the timeline and basic strategy below before the call!
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 
-America needs an ****honest, accountable Congress**** to enact [Bernie's program](https://berniesanders.com/issues/). But trying to win each Congressional seat one-by-one is impossible. So let's run one campaign to replace Congress all at once (except those already on board) that whips up the same enthusiasm, volunteerism and money as Bernie's presidential campaign.
+America needs an **honest, accountable Congress** to enact [Bernie's program](https://berniesanders.com/issues/). But trying to win each Congressional seat one-by-one is impossible. So let's run one campaign to replace Congress all at once (except those already on board) that whips up the same enthusiasm, volunteerism and money as Bernie's presidential campaign.
 
-We're building on the tools, tactics and networks that we developed together on Bernie's campaign. But to pull this off, the volunteer movement will have to wield more power and resources than on any campaign before. This means volunteers on the ground will run their own offices and voter contact operations, and will have access to all necessary tools and materials from the start. Get ready for ****the most beautiful campaign**** ever.
+We're building on the tools, tactics and networks that we developed together on Bernie's campaign. But to pull this off, the volunteer movement will have to wield more power and resources than on any campaign before. This means volunteers on the ground will run their own offices and voter contact operations, and will have access to all necessary tools and materials from the start. Get ready for **the most beautiful campaign** ever.
 
 ---
 

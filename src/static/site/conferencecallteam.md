@@ -6,14 +6,14 @@
     <meta content="brand, new, congress, bernie, sanders, political, revolution, elect, progressive, 2016, democrat" name="keywords">
     <meta content="Brand New Congress" name="author">
     <!--     Meta tags for Facebook   -->
-    <meta content="http://brandnewcongress.org/adteam" property="og:url">
+    <meta content="http://brandnewcongress.org/conferencecallteam" property="og:url">
     <meta content="website" property="og:type">
     <meta content="Brand New Congress" property="og:title">
     <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
     <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
     <!-- font-awesome-icon-font-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Brand New Congress | Ad Team</title>
+    <title>Brand New Congress | Conference Call Team</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
     <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
     <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
@@ -22,19 +22,24 @@
 
 <body>
 
-## Welcome to the Online Advertizing Team page!
+## Welcome to the Conference Call Team page!
 
-### The Online Advertizing Team experiments with online ads on various platforms as a way of reaching new Brand New Congress supporters. **You are:** someone with experience buying and monitoring online ads and a fanatical drive to get the most out of every dollar spent. You have no desire to run ads just for the sake of it, and believe that the best approach is always to be authentic and direct about about an organization's mission.
+### This team moderates and hosts conference calls for various team leaders & other speakers. Currently, we use the Maestro conference call system, (though we may experiment with other tools - including video chat!) to facilitate smooth group conversations among new volunteers and existing teams. Part of our team's role will be to host conference calls, but we will also be responsible for some administrative and technical tasks, so we can still use people who don't want to lead the calls.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+### The conference call team is just now forming, and we need you!
+### Ideal team members have great attention to detail, are fairly web savvy, and above all, reliable! If you say you'll be somewhere, you'll be there&mdash;10 minutes early!
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
-
-## How to join the Online Advertizing Team:
+## How to join the Conference Call Team:
 
 BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
 
-This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then **email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)** and tell them you'd like to help the Office Team get started.
+### Ready to join us?
+
+1) If you haven't joined a general orientation call yet, please do [here](/call).
+_(We tell this to people who want to join **any** volunteer team, but at the CC team, we **really** mean it: you may be leading this type of call before you know it!)_
+2) Fill out [this form](http://goo.gl/forms/aBEYdfhFnyXfZDj52) to let us know you're interested.
+3) We will contact you about joining. If you don’t hear back in a few days, [email us](mailto:us@brandnewcongress.org.
+**Bonus:** If you want to learn more about the call system we use, check out Maestro's [quick start guide](http://maestroconference.com/support/quick-start).
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 
