@@ -184,6 +184,9 @@ const navigationLinks = (
     <div className={styles.navItem}>
       <a className={styles.link} href='/teams'>Work With Us</a>
     </div>
+    <div className={styles.navItem}>
+      <a className={styles.link} href='/nominate'>Nominate a Candidate</a>
+    </div>
   </div>
 )
 
