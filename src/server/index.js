@@ -71,6 +71,14 @@ app.get('/', wrap(async (req, res) => {
   res.redirect('/home')
 }))
 
+app.get('/nominate', wrap(async (req, res) => {
+  res.redirect('https://docs.google.com/forms/d/e/1FAIpQLScinehRufM2tKVqUne8XaCrRHhJ8c0bSuMeRW9pG8gNiBnDZQ/viewform')
+}))
+
+app.get('/work', wrap(async (req, res) => {
+  res.redirect('https://docs.google.com/document/d/1Op0OaZNuykCJckSCn4vABDEr4VEdTrMeTsPCZFNSJo4')
+}))
+
 app.post('/signup', wrap(async (req, res) => {
   const body = req.body
   const nameParts = body.fullName.split(/\s+/)
