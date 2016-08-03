@@ -6,9 +6,10 @@ import express from 'express'
 import log from './log'
 import proxy from 'http-proxy-middleware'
 import clientRouteHandler from './middleware/client-route-handler'
-import legacySite, { SITE_DIR as STATIC_SITE_DIR } from './middleware/legacy-site'
 import wrap from './wrap'
 import mail from './mail'
+
+const STATIC_SITE_DIR = path.resolve(process.cwd(), 'src/static')
 
 const app = express()
 const port = process.env.PORT
@@ -49,22 +50,6 @@ app.use('/images', express.static(
   path.resolve(process.cwd(), 'src/images')))
 
 app.use('/static-assets', express.static(path.resolve(STATIC_SITE_DIR, 'assets')))
-
-app.use([
-  '/callteam',
-  '/about',
-  '/abteam',
-  '/adteam',
-  '/call',
-  '/conferencecallteam',
-  '/dataentryteam',
-  '/officeteam',
-  '/researchteam',
-  '/shareteam',
-  '/spreadsheetteam',
-  '/textingteam',
-  '/wikiteam',
-  '/travelteam'], legacySite)
 
 app.get('/', wrap(async (req, res) => {
   res.redirect('/home')
