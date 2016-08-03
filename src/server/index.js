@@ -9,7 +9,7 @@ import clientRouteHandler from './middleware/client-route-handler'
 import wrap from './wrap'
 import mail from './mail'
 
-const STATIC_SITE_DIR = path.resolve(process.cwd(), 'src/static-assets')
+const STATIC_SITE_DIR = path.resolve(process.cwd(), 'src/static')
 
 const app = express()
 const port = process.env.PORT
