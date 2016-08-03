@@ -51,9 +51,6 @@ app.use('/images', express.static(
 
 app.use('/static-assets', express.static(path.resolve(STATIC_SITE_DIR, 'assets')))
 
-app.use([
-  '/about'], legacySite)
-
 app.get('/', wrap(async (req, res) => {
   res.redirect('/home')
 }))
