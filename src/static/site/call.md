@@ -22,7 +22,7 @@
 
 <body>
 
-<h1 class="p-y m-x">Let's elect a <span class="embolden">Brand New Congress</span> that works for all.</h1>
+<h1>Let's elect a <span class="embolden">Brand New Congress</span> that works for all.</h1>
 
 ## Here's how to join a Brand New Congress orientation call:
 
