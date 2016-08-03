@@ -27,7 +27,6 @@ app.use([
   '/teams',
   '/forms',
   '/helpdesk',
-  '/talentteam',
   '/eventsteam',
   '/legal_team',
   '/moneyteam',
