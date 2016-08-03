@@ -6,9 +6,10 @@ import express from 'express'
 import log from './log'
 import proxy from 'http-proxy-middleware'
 import clientRouteHandler from './middleware/client-route-handler'
-import legacySite, { SITE_DIR as STATIC_SITE_DIR } from './middleware/legacy-site'
 import wrap from './wrap'
 import mail from './mail'
+
+const STATIC_SITE_DIR = path.resolve(process.cwd(), 'src/static-assets')
 
 const app = express()
 const port = process.env.PORT
