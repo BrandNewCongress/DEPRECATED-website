@@ -30,8 +30,6 @@ app.use([
   '/helpdesk',
   '/eventsteam',
   '/legal_team',
-  '/moneyteam',
-  '/travelteam',
   '/crmteam',
   '/analytics_team',
   '/web_team',
