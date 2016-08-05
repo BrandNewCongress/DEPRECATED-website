@@ -25,14 +25,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.use([
-  '/forms',
-  '/helpdesk',
-  '/legal_team',
-  '/analytics_team',
-  '/web_team',
-  '/creative_team',
-  '/social_media',
-  '/email_team'],
+  '/forms'],
   proxy({
     target: 'http://go.brandnewcongress.org',
     changeOrigin: true

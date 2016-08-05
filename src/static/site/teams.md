@@ -38,7 +38,7 @@ Conduct one-on-one conversations with organizers, volunteers, and activists to i
 ### [Events Team](/eventsteam)
 Work with volunteer leaders around the country to plan events, starting with our 100-city tour.
 
-### [Help Desk Team](/helpdesk)
+### [Helpdesk Team](/helpdeskteam)
 Answer questions and solving problems for supporters and volunteers who email us.
 
 ### [Talent Scout Team](/talentteam)
@@ -66,7 +66,7 @@ Make BNC organizers 10X more powerful by doing their data entry.
 ### [CRM Team](/crmteam)
 Manage our member database. Keep our data organized and help us get the most out of our tools for organizing.
 
-### [Metrics Team](/analytics_team)
+### [Metrics Team](/metricsteam)
 Track our progress on a set of metrics using analytics tools and plain old human reporting processes.
 
 ## Tech Teams
@@ -87,10 +87,10 @@ The research team gathers and processes all types of information from ballot acc
 
 ## Communications Teams
 
-### [Creative Team](/creative_team)
+### [Creative Team](/creativeteam)
 Spreading the word through graphics and video. 
 
-### [Social Media Team](/social_media)
+### [Social Media Team](/socialmediateam)
 Spreading the word across social media about Brand New Congress. 
 
 ### [Press Team](/pressteam)
@@ -106,10 +106,10 @@ Organize from your phone!
 ### [Wiki Team](/wikiteam)
 Keep our wiki organized and looking nice!
 
-### [Email Team](/email_team)
+### [Email Team](/emailteam)
 Write, prepare, A/B test, send and monitor emails to our full email list.
 
-### [Legal Team](/legal_team)
+### [Legal Team](/legalteam)
 Are you a lawyer who wants to learn some election law for the revolution?
 
 <img src="/static-assets/img/teamgraphic.png" class="team-graphic">
