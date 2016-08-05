@@ -24,11 +24,11 @@
 
 ## Welcome to the A/B Testing Team page!
 
-### The A/B Testing Team is constantly conducting A/B tests of content on BrandNewCongress.org, in online ad campaigns and in mass emails to make it easier for new people interested in Brand New Congress to sign up and donate. We need a few different kinds of talents to combine on this team: people with a good design eye plus html/css abilities; good copywriters who don't need to be told exactly what to write; people with experience analyzing A/B tests who understand how the stats work (or who want to learn). You are: Someone with any of the skills just listed, who really gets a thrill out of making things grow.
+The A/B Testing Team is constantly conducting A/B tests of content on BrandNewCongress.org, in online ad campaigns and in mass emails to make it easier for new people interested in Brand New Congress to sign up and donate. We need a few different kinds of talents to combine on this team: people with a good design eye plus html/css abilities; good copywriters who don't need to be told exactly what to write; people with experience analyzing A/B tests who understand how the stats work (or who want to learn). You are: Someone with any of the skills just listed, who really gets a thrill out of making things grow.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the A/B Testing Team:
 

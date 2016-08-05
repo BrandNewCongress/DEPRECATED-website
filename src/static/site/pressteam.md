@@ -24,11 +24,11 @@
 
 ## Welcome to the Press Team page!
 
-### Our team's mission is to share the Brand New Congress idea with the American People through the mass media. We do this by fielding incoming press requests and reaching out and pitching stories to reporters and producers. Our team also conducts media trainings for other BNC volunteers to equip them for interviews.
+Our team's mission is to share the Brand New Congress idea with the American People through the mass media. We do this by fielding incoming press requests and reaching out and pitching stories to reporters and producers. Our team also conducts media trainings for other BNC volunteers to equip them for interviews.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Press Team:
 

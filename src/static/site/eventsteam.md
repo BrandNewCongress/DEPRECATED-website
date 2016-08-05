@@ -24,13 +24,13 @@
 
 ## Welcome to the Events Team page!
 
-### Members of the Events Team take responsibility for arranging tour stops for the BNC summer tour in one or more cities. You will reach out to grassroots leaders from the BNC list and local Facebook pages and groups of the Bernie and other movements to find hosts and venues for our tour stops. You will manage event listings on Facebook and our website, monitor and communicate with RSVPs, work with hosts to prepare them for their event. The team may develop specialized roles that only do one of these various functions, so don't hesitate to join if all that sounds a little intimidating.
+Members of the Events Team take responsibility for arranging tour stops for the BNC summer tour in one or more cities. You will reach out to grassroots leaders from the BNC list and local Facebook pages and groups of the Bernie and other movements to find hosts and venues for our tour stops. You will manage event listings on Facebook and our website, monitor and communicate with RSVPs, work with hosts to prepare them for their event. The team may develop specialized roles that only do one of these various functions, so don't hesitate to join if all that sounds a little intimidating.
 
-### Our team is working with local volunteers around the country to organize our 100-city tour, by connecting with local Bernie grassroots leaders to find locations (usually just homes) and do publicity.
+Our team is working with local volunteers around the country to organize our 100-city tour, by connecting with local Bernie grassroots leaders to find locations (usually just homes) and do publicity.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Events Team:
 

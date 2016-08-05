@@ -24,13 +24,13 @@
 
 ## Welcome to the CRM Team page!
 
-### Brand New Congress already has thousands of supporters across the country — and soon, thousands will become millions. We need to keep track of every single one of those individuals — whether they’re supporters, donors or volunteers. The CRM Team will manage our database of supporters by updating individual profiles, overseeing our member database and making sure our organizing tools are being used effectively.
+Brand New Congress already has thousands of supporters across the country — and soon, thousands will become millions. We need to keep track of every single one of those individuals — whether they’re supporters, donors or volunteers. The CRM Team will manage our database of supporters by updating individual profiles, overseeing our member database and making sure our organizing tools are being used effectively.
 
-### This team is already up and running, but we’re still looking for hardworking, task-oriented, accountable volunteers who are both supremely organized and passionate about the revolution. Bonus points if you have experience with CRM software already!
+This team is already up and running, but we’re still looking for hardworking, task-oriented, accountable volunteers who are both supremely organized and passionate about the revolution. Bonus points if you have experience with CRM software already!
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the CRM Team:
 

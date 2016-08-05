@@ -24,13 +24,13 @@
 
 ## Welcome to the Talent Scout Team page!
 
-### The Talent Scout Team spots future talent by listening in on volunteer orientation calls and other means.
+The Talent Scout Team spots future talent by listening in on volunteer orientation calls and other means.
 
-### As a member of the Talent Scout team, you will be working to make sure that no one slips through the cracks or is left behind in our volunteer-powered organization. For example, you will listen in on, or listen to recordings of volunteer orientation calls and enter notes into our volunteer database about what individuals want to do, and what experience and skills may be.
+As a member of the Talent Scout team, you will be working to make sure that no one slips through the cracks or is left behind in our volunteer-powered organization. For example, you will listen in on, or listen to recordings of volunteer orientation calls and enter notes into our volunteer database about what individuals want to do, and what experience and skills may be.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Talent Scout Team:
 

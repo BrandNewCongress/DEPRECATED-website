@@ -24,11 +24,11 @@
 
 ## Welcome to the Spreadsheet Team page!
 
-### The Spreadsheet Team is like the Navy Seals of Google Sheet wrangling. You can set up a zip code VLOOKUP() that fills in city and state in your sleep! Pivot tables are no problem. We'll be sending the team big and small challenges on an ad hoc basis. Are you ready?! **You are:** A spreadsheet superhero and you don't mind doing the tedious stuff when automation can't take care of the problem.
+The Spreadsheet Team is like the Navy Seals of Google Sheet wrangling. You can set up a zip code VLOOKUP() that fills in city and state in your sleep! Pivot tables are no problem. We'll be sending the team big and small challenges on an ad hoc basis. Are you ready?! **You are:** A spreadsheet superhero and you don't mind doing the tedious stuff when automation can't take care of the problem.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Spreadsheet Team:
 

@@ -24,11 +24,11 @@
 
 ## Welcome to the Share Team page!
 
-### The Share Team is a sub-team of the social media team that does one simple thing, does it well, and does it consistently: You share what our social media team posts on Facebook, Twitter and elsewhere! You are: Someone who wants to help Brand New Congress in a big way, but only has a few miniutes to give a day. This is a really big and important contribution to make, as it reaches new people and gets them involved.
+The Share Team is a sub-team of the social media team that does one simple thing, does it well, and does it consistently: You share what our social media team posts on Facebook, Twitter and elsewhere! You are: Someone who wants to help Brand New Congress in a big way, but only has a few miniutes to give a day. This is a really big and important contribution to make, as it reaches new people and gets them involved.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Share Team:
 

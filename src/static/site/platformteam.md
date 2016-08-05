@@ -24,13 +24,13 @@
 
 ## Welcome to the Platform Team page!
 
-### The Platform Team will play a critical role in our campaign by translating Bernie’s platform into concrete legislation that the Brand New Congress, when elected, will pass. Over time, this team will grow into many different teams, each of them covering a specific issue or piece of legislation.
+The Platform Team will play a critical role in our campaign by translating Bernie’s platform into concrete legislation that the Brand New Congress, when elected, will pass. Over time, this team will grow into many different teams, each of them covering a specific issue or piece of legislation.
 
-### This team hasn’t started yet, but we’re looking to bring together professors, policy experts, legislative wonks, authors, students and thinkers from all fields. So whether your field of expertise is economic inequality, social justice, politics, history, law, education, healthcare, criminal justice reform or climate change, we need your help. (Bonus points if you wrote a book or did a TED Talk on your topic!)
+This team hasn’t started yet, but we’re looking to bring together professors, policy experts, legislative wonks, authors, students and thinkers from all fields. So whether your field of expertise is economic inequality, social justice, politics, history, law, education, healthcare, criminal justice reform or climate change, we need your help. (Bonus points if you wrote a book or did a TED Talk on your topic!)
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Platform Team:
 

@@ -24,13 +24,13 @@
 
 ## Welcome to the Money Team page!
 
-### The Money Team will play a critical role in every stage of our movement — whether it's through bookkeeping, managing our budget, or just making sure we do everything exactly right.
+The Money Team will play a critical role in every stage of our movement — whether it's through bookkeeping, managing our budget, or just making sure we do everything exactly right.
 
-### This team hasn’t started yet, but we’re looking for business owners, accountants, non-profit treasurers, students studying finance or anyone else who possesses both a financial mind and a fervor for the revolution.
+This team hasn’t started yet, but we’re looking for business owners, accountants, non-profit treasurers, students studying finance or anyone else who possesses both a financial mind and a fervor for the revolution.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Money Team:
 
