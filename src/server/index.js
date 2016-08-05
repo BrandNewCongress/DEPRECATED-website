@@ -28,7 +28,6 @@ app.use([
   '/teams',
   '/forms',
   '/helpdesk',
-  '/eventsteam',
   '/legal_team',
   '/crmteam',
   '/analytics_team',
@@ -36,8 +35,7 @@ app.use([
   '/platformteam',
   '/creative_team',
   '/social_media',
-  '/email_team',
-  '/pressteam'],
+  '/email_team'],
   proxy({
     target: 'http://go.brandnewcongress.org',
     changeOrigin: true
