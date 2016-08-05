@@ -25,7 +25,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.use([
-  '/teams',
   '/forms',
   '/helpdesk',
   '/legal_team',
