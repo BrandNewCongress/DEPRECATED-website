@@ -24,13 +24,6 @@ if (process.env.NODE_ENV === 'production') {
   }))
 }
 
-app.use([
-  '/forms'],
-  proxy({
-    target: 'http://go.brandnewcongress.org',
-    changeOrigin: true
-  }))
-
 // This is temporary until we figure out how to just use webpack to build our image assets
 app.use('/images', express.static(
   path.resolve(process.cwd(), 'src/images')))
