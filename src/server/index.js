@@ -72,7 +72,7 @@ app.get('/', wrap(async (req, res) => {
 }))
 
 app.get('/nominate', wrap(async (req, res) => {
-  res.redirect('https://docs.google.com/forms/d/e/1FAIpQLScinehRufM2tKVqUne8XaCrRHhJ8c0bSuMeRW9pG8gNiBnDZQ/viewform')
+  res.redirect('https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform')
 }))
 
 app.get('/work', wrap(async (req, res) => {
