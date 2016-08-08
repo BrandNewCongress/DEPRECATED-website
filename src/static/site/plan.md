@@ -46,7 +46,7 @@ To get there, we plan to run an open-source, transparent campaign -- [you can re
 * (done) Make sure every team has at least one team leader
 * (done) Create one-month goals and an onboarding/application process for every team that tie into the organization's overall goals.
 
-## July 2016: Begin creating local organizing infrastructure
+## (done) July 2016: Begin creating local organizing infrastructure
 
 * (done) Focus the tour on making sure that each event creates one or more local groups who can get to work immediately.
 * (done) Identify and onboard 50 new people into our national campaign
@@ -59,7 +59,7 @@ To get there, we plan to run an open-source, transparent campaign -- [you can re
 * (done) Begin a speaker team of people able to speak on behalf of BNC
 
 
-## August 2016
+## August 2016: Begin scaling across the organization
 * 40,000 total supporters
 * 10,000 total individual donors
 * Activate local teams in 20 districts
