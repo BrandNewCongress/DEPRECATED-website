@@ -48,26 +48,30 @@ To get there, we plan to run an open-source, transparent campaign -- [you can re
 
 ## July 2016: Begin creating local organizing infrastructure
 
-* 60,000 total supporters
-* 10,000 total individual donors
-* Focus the tour on making sure that each event creates one or more local groups who can get to work immediately.
-* Identify and onboard 50 new people into our national campaign
-* Create at least one local team in 5 districts. These local teams need to be  responsive and able to start gathering and submitting lists of local supporters, creating the fundamental of our local field program.  The idea is for these teams to be creating our local base of support while being supported by the national team to actually do the work.
-    * (done) Create a toolkit for local organizers to use to start identifying local supporters of Brand New Congress
-    * (done) Create a national team responsible for providing resources to and interfacing with local teams.
-    * Create a volunteer portal at brandnewcongress.org/work that provides all information necessary for anyone to get involved either locally or on a national team.
-    * Create a system for tracking work done by local groups and showing exactly how well we are doing in every congressional district and what exactly every local team's goals are.
-* Identify and vet 2 candidates.
-    * Create a candidate search team
-* Create first draft of a more detailed platform.
-* (done) Begin a speaker team of people able to speak on behalf of BNC.
+* (done) Focus the tour on making sure that each event creates one or more local groups who can get to work immediately.
+* (done) Identify and onboard 50 new people into our national campaign
+* (done) Create at least one local team in 5 districts. These local teams need to be  responsive and able to start gathering and submitting lists of local supporters, creating the fundamental of our local field program.  The idea is for these teams to be creating our local base of support while being supported by the national team to actually do the work.
+* (done) Create a toolkit for local organizers to use to start identifying local supporters of Brand New Congress
+* (done) Create a national team responsible for providing resources to and interfacing with local teams
+* Create a volunteer portal at brandnewcongress.org/work that provides all information necessary for anyone to get involved either locally or on a national team
+* (done) Identify and vet 2 candidates
+* (done)Create a candidate search team
+* (done) Begin a speaker team of people able to speak on behalf of BNC
+
 
 ## August 2016
-* 100,000 total supporters
-* Local teams in 20 districts
+* 40,000 total supporters
+* 10,000 total individual donors
+* Activate local teams in 20 districts
+* Create first draft of a more detailed platform
+* Create a system for tracking work done by local groups and showing exactly how well we are doing in every congressional district and what exactly every local team's goals are
 * Identify which congressional districts we need to focus efforts on to start building more support
-* Create a press team
+* Get press coverage through two significant outlets
+* Develop and execute strategies for significantly expanding our reach
+* Solidify all remaining organizational Groups and Teams
 * Identify and vet a total of 4 candidates
+* (done) Hire our first handful of full-time organizers
+* (done) Recruit a Lead Organizer to plan and execute a nation-wide day of simultaneous house parties in September to jumpstart multiple local organizing efforts
 
 ## September 2016
 * Do a day of simultaneous house parties to jumpstart multiple local organizing efforts
