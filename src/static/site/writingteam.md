@@ -4,4 +4,4 @@ The writing team is responsible for crafting our medium and long form messages t
 
 ## How to join the Writing Recruitment Team
 
-This team is just starting up and is not yet recruiting. If you are interested in joining this team when we are ready to take on more people, send an [e-mail us](mailto:us@brandnewcongress.org)
+This team is just starting up and is not yet recruiting. If you are interested in joining this team when we are ready to take on more people, send us an [e-mail](mailto:us@brandnewcongress.org)
