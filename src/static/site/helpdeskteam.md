@@ -15,5 +15,5 @@ BNC Teams are joined by applying. We're looking for team players who work really
 If you'd like to join the Helpdesk Team, please follow the steps below:
 1. Participate in the initial BNC Orientation Call, if you haven't already. The schedule is [here](/call).
 2. Complete the Helpdesk Team Signup Form. [Click here to fill out the form.](https://docs.google.com/forms/d/1Oic-ZRqMiupozlVn3hOGiyMt-dOzbgE1A2zIanRefto/viewform#responses)
-3. After the team leader has reviewed your form, you will receive an email inviting you to book a one-on-one training call with them. To book a time, please [click here](https://calendly.com/kariedwards).
+3. After the team leader has reviewed your form, you will receive an email inviting you to book a one-on-one training call with them. To book a time, please [click here](https://calendly.com/adorsen00).
 4. Once your training is complete, you'll receive an invitation to join the Helpdesk Slack channel.
