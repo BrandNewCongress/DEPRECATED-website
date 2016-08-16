@@ -19,6 +19,17 @@ Right now, this is just an idea that some of us Bernie volunteers and former sta
     <p>Right now we have hundreds and thousands of people mobilized ready to participate and work together to change the system. I think this is an exciting moment for the people of America. We now know it's possible to take on the establishment with just grassroots power. We can work together to elect leaders outside of the the political apparatus who we know won't give in to the pressures of money and lobbying. We can elect our own people from this movement we have all built together. We can keep going because we have already built the foundation we need to organize a massive effort to elect a new congress. Alone, we can only do so much to fight for justice and inequality. But, if we stand together and spark a fire, we will discover that we are more powerful than we ever imagined. <b>Moumita Ahmed</b></p>
 </div>
 <div class="clearfix"></div>
+<a name="isra_allison"></a>
+<div class="col-lg-3 col-sm-12 col-xs-12">
+    <img src="/static-assets/img/endorsers/isra_allison.png" width=200 height=200 class="thumbnail img-responsive">
+</div>
+<div class="col-lg-8 col-sm-12 col-xs-12">
+    <p>I have been a grassroots volunteer in the Bernie movement since October 2015, organizing in my home city and canvassing for the Senator in many states across this great nation. We never thought in a million years that we would get this involved, making such enormous strides to fight for his candidacy. Feel the Bern is a fitting slogan because it has ignited a fire in us, a fire in which we did not know existed.</p>
+    <p>Our oppressors tell us it’s over, and ask why we keep going and we respond, this is just the beginning.</p>
+    <p>Which is why I am so delighted to work with the Brand New Congress as it is the natural progression as we continue the path to victory.</p>
+    <p>Political parties are calling for unification. We cannot be unified until we have representation of all of our voices. We are calling for diversity, we are calling for progressive and honest elected officials who stand together and represent the needs and rights of the people rather than of corporate interest. We are calling for bravery. I want to see a congress full of people like Bernie Sanders who are not afraid to shake up the establishment.<b>Isra Allison</b></p>
+</div>
+<div class="clearfix"></div>
 
 <a name="patricia_bazemore"></a>
 <div class="col-lg-3 col-sm-12 col-xs-12">
