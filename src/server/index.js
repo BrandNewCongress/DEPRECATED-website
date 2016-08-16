@@ -24,28 +24,6 @@ if (process.env.NODE_ENV === 'production') {
   }))
 }
 
-app.use([
-  '/teams',
-  '/forms',
-  '/helpdesk',
-  '/talentteam',
-  '/eventsteam',
-  '/legal_team',
-  '/moneyteam',
-  '/travelteam',
-  '/crmteam',
-  '/analytics_team',
-  '/web_team',
-  '/platformteam',
-  '/creative_team',
-  '/social_media',
-  '/email_team',
-  '/pressteam'],
-  proxy({
-    target: 'http://go.brandnewcongress.org',
-    changeOrigin: true
-  }))
-
 // This is temporary until we figure out how to just use webpack to build our image assets
 app.use('/images', express.static(
   path.resolve(process.cwd(), 'src/images')))

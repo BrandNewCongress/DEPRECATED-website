@@ -6,14 +6,14 @@
     <meta content="brand, new, congress, bernie, sanders, political, revolution, elect, progressive, 2016, democrat" name="keywords">
     <meta content="Brand New Congress" name="author">
     <!--     Meta tags for Facebook   -->
-    <meta content="http://brandnewcongress.org/abteam" property="og:url">
+    <meta content="http://brandnewcongress.org/helpdeskteam" property="og:url">
     <meta content="website" property="og:type">
     <meta content="Brand New Congress" property="og:title">
     <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
     <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
     <!-- font-awesome-icon-font-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Brand New Congress | A/B Testing Team</title>
+    <title>Brand New Congress | Helpdesk Team</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
     <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
     <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
@@ -22,19 +22,25 @@
 
 <body>
 
-## Welcome to the A/B Testing Team page!
+## Welcome to the Helpdesk Team page!
 
-The A/B Testing Team is constantly conducting A/B tests of content on BrandNewCongress.org, in online ad campaigns and in mass emails to make it easier for new people interested in Brand New Congress to sign up and donate. We need a few different kinds of talents to combine on this team: people with a good design eye plus html/css abilities; good copywriters who don't need to be told exactly what to write; people with experience analyzing A/B tests who understand how the stats work (or who want to learn). You are: Someone with any of the skills just listed, who really gets a thrill out of making things grow.
+You will be responding to emails received by the campaign. Our goal for the helpdesk is to have a team that is the virtual nerve center of the whole campaign. The helpdesk knows what's going on all throughout the campaign, and connects people with the right team or team leader when necessary. It also sometimes processes interesting and complex data coming into the campaign, which allows us to launch new processes without having to first set up a carved-in-stone set of forms or tools to deal with the incoming data.
+
+We've got pre-written responses to frequently asked questions to make the work easier. However, it's your responsibility to personalize and customize each email. And it's our team's responsibility to make sure every email gets a reply within 24 hours! We are looking for task-oriented, high-energy, low-ego volunteers who are ready to take on a lot of responsibility and accountability right away.
 
 If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
 We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
-## How to join the A/B Testing Team:
+## How to join the Helpdesk Team:
 
 BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
 
-This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then **email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)** and tell them you'd like to help the A/B Testing Team get started.
+If you'd like to join the Helpdesk Team, please follow the steps below:
+1. Participate in the initial BNC Orientation Call, if you haven't already. The schedule is [here](/call).
+2. Complete the Helpdesk Team Signup Form. [Click here to fill out the form.](https://docs.google.com/forms/d/1Oic-ZRqMiupozlVn3hOGiyMt-dOzbgE1A2zIanRefto/viewform#responses)
+3. After the team leader has reviewed your form, you will receive an email inviting you to book a one-on-one training call with them. To book a time, please [click here](https://calendly.com/kariedwards).
+4. Once your training is complete, you'll receive an invitation to join the Helpdesk Slack channel.
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 

@@ -24,11 +24,11 @@
 
 ## Welcome to the Texting Team page!
 
-### The Peer-to-Peer Texting Team will communcate with Brand New Congress volunteers via text message. We're still working on our texting tool, so it'll be a little while longer before this team gets up and running.
+The Peer-to-Peer Texting Team will communcate with Brand New Congress volunteers via text message. We're still working on our texting tool, so it'll be a little while longer before this team gets up and running.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Texting Team:
 

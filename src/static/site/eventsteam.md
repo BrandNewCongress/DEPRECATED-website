@@ -6,14 +6,14 @@
     <meta content="brand, new, congress, bernie, sanders, political, revolution, elect, progressive, 2016, democrat" name="keywords">
     <meta content="Brand New Congress" name="author">
     <!--     Meta tags for Facebook   -->
-    <meta content="http://brandnewcongress.org/abteam" property="og:url">
+    <meta content="http://brandnewcongress.org/eventsteam" property="og:url">
     <meta content="website" property="og:type">
     <meta content="Brand New Congress" property="og:title">
     <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
     <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
     <!-- font-awesome-icon-font-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Brand New Congress | A/B Testing Team</title>
+    <title>Brand New Congress | Events Team</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
     <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
     <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
@@ -22,19 +22,24 @@
 
 <body>
 
-## Welcome to the A/B Testing Team page!
+## Welcome to the Events Team page!
 
-The A/B Testing Team is constantly conducting A/B tests of content on BrandNewCongress.org, in online ad campaigns and in mass emails to make it easier for new people interested in Brand New Congress to sign up and donate. We need a few different kinds of talents to combine on this team: people with a good design eye plus html/css abilities; good copywriters who don't need to be told exactly what to write; people with experience analyzing A/B tests who understand how the stats work (or who want to learn). You are: Someone with any of the skills just listed, who really gets a thrill out of making things grow.
+Members of the Events Team take responsibility for arranging tour stops for the BNC summer tour in one or more cities. You will reach out to grassroots leaders from the BNC list and local Facebook pages and groups of the Bernie and other movements to find hosts and venues for our tour stops. You will manage event listings on Facebook and our website, monitor and communicate with RSVPs, work with hosts to prepare them for their event. The team may develop specialized roles that only do one of these various functions, so don't hesitate to join if all that sounds a little intimidating.
+
+Our team is working with local volunteers around the country to organize our 100-city tour, by connecting with local Bernie grassroots leaders to find locations (usually just homes) and do publicity.
 
 If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
 We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
-## How to join the A/B Testing Team:
+## How to join the Events Team:
 
 BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
 
-This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then **email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)** and tell them you'd like to help the A/B Testing Team get started.
+If you'd like to join the Events Team, follow the steps below:
+1. Read all the information on the [front page](/home) of the site and read the [Frequently Asked Questions](/faq) page.
+2. Join a BNC orientation conference call. [The schedule is here](/call).
+3. If, after learning more about BNC and hearing about other teams, you'd still like to join this team, then please send us some details about your city [using this form](https://docs.google.com/forms/d/1aViZvPENrXa4Uq-a0UtLU84V_tyxKS35pIAZ8wT98L0/viewform).  We'll get back to you as soon as we can!
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 

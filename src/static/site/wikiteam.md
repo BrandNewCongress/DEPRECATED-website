@@ -24,13 +24,13 @@
 
 ## Welcome to the Wiki Team page!
 
-### The Wiki Team watches over the Brand New Congress wiki, constantly cleaning it up and reorganizing it. **You are:** Someone with experience editing Wiki's or who is excited to learn about them. (If you're curious, check out: [meatballwiki.org](http://meatballwiki.org/wiki/))
+The Wiki Team watches over the Brand New Congress wiki, constantly cleaning it up and reorganizing it. **You are:** Someone with experience editing Wiki's or who is excited to learn about them. (If you're curious, check out: [meatballwiki.org](http://meatballwiki.org/wiki/))
 
-### We're a volunteer organization that is stretched thin right now, so we apologize in advance if we are not able to get back to you. Please do be persistent and keep emailing in if you are someone who: Works well with others, has good web design/development skills and definitely has some regular time to commit to this project every week.
+We're a volunteer organization that is stretched thin right now, so we apologize in advance if we are not able to get back to you. Please do be persistent and keep emailing in if you are someone who: Works well with others, has good web design/development skills and definitely has some regular time to commit to this project every week.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Wiki Team:
 

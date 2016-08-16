@@ -24,9 +24,9 @@
 
 ## Welcome to the Call Team page!
 
-### Brand New Congress needs **an army of callers** to have one-on-one conversation with organizers, volunteers and activists to esure they have a path to becoming involved in electing a Brand New Congress.
+Brand New Congress needs **an army of callers** to have one-on-one conversation with organizers, volunteers and activists to esure they have a path to becoming involved in electing a Brand New Congress.
 
-### If you haven't attended an orientation call you can [sign up here](/call) or read more below.    
+If you haven't attended an orientation call you can [sign up here](/call) or read more below.    
 
 ## How to join the Call Team:
 

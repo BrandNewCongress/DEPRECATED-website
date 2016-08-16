@@ -24,11 +24,11 @@
 
 ## Welcome to the Online Advertizing Team page!
 
-### The Online Advertizing Team experiments with online ads on various platforms as a way of reaching new Brand New Congress supporters. **You are:** someone with experience buying and monitoring online ads and a fanatical drive to get the most out of every dollar spent. You have no desire to run ads just for the sake of it, and believe that the best approach is always to be authentic and direct about about an organization's mission.
+The Online Advertizing Team experiments with online ads on various platforms as a way of reaching new Brand New Congress supporters. **You are:** someone with experience buying and monitoring online ads and a fanatical drive to get the most out of every dollar spent. You have no desire to run ads just for the sake of it, and believe that the best approach is always to be authentic and direct about about an organization's mission.
 
-### If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
+If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-### We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
+We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
 ## How to join the Online Advertizing Team:
 

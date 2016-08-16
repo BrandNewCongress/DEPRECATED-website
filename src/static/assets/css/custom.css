@@ -5,6 +5,13 @@
     padding-top: 2.5em;
     padding-bottom: 2.5em;
 }
+.team-graphic {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+}
 .bs-callout {
     padding: 20px;
     margin: 20px 0;

@@ -6,14 +6,14 @@
     <meta content="brand, new, congress, bernie, sanders, political, revolution, elect, progressive, 2016, democrat" name="keywords">
     <meta content="Brand New Congress" name="author">
     <!--     Meta tags for Facebook   -->
-    <meta content="http://brandnewcongress.org/abteam" property="og:url">
+    <meta content="http://brandnewcongress.org/creativeteam" property="og:url">
     <meta content="website" property="og:type">
     <meta content="Brand New Congress" property="og:title">
     <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
     <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
     <!-- font-awesome-icon-font-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Brand New Congress | A/B Testing Team</title>
+    <title>Brand New Congress | Creative Team</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
     <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
     <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
@@ -22,19 +22,25 @@
 
 <body>
 
-## Welcome to the A/B Testing Team page!
+## Welcome to the Creative Team page!
 
-The A/B Testing Team is constantly conducting A/B tests of content on BrandNewCongress.org, in online ad campaigns and in mass emails to make it easier for new people interested in Brand New Congress to sign up and donate. We need a few different kinds of talents to combine on this team: people with a good design eye plus html/css abilities; good copywriters who don't need to be told exactly what to write; people with experience analyzing A/B tests who understand how the stats work (or who want to learn). You are: Someone with any of the skills just listed, who really gets a thrill out of making things grow.
+For most of the American people, Brand New Congress is an incredibly radical and relatively unknown idea — therefore, we need a special volunteer team to help us spread the word and get millions of Americans on board with our plan. The Creative Team will play a critical role in that effort by helping us to create graphics, videos and other creative material to share on social media. 
+
+This team has already gotten started, but we’re still looking for skilled, high-speed, low-ego volunteers who are excellent graphic designers, cinematographers and video editors. 
+
+The Creative Team will require lots of work on the part of all our volunteers — we’ll have to spend hours on everything we create before we share our work via social media.
+
+However, as long as you have an affinity for creative work and a fervor for the revolution, we’d be glad to have your help on our team. (Bonus points if you already have a library of videos or graphic designs you’ve created!)
 
 If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
 We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
 
-## How to join the A/B Testing Team:
+## How to join the Creative Team:
 
 BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
 
-This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then **email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)** and tell them you'd like to help the A/B Testing Team get started.
+If you’re interested, please fill out [this form](https://docs.google.com/forms/d/1DOxuqIWfPXrKjx6u0Cb94QGphbd2rCZrBEAcg8BLO0k/viewform). Just tell us a little bit about yourself and let us know why you’re interested in joining the BNC Creative Team. We’ll be sure to email you back as soon as we’re ready.  
 
 <img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 
