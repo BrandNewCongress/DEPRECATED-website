@@ -4,4 +4,4 @@ The candidate recruitment team is responsible for trying to find potential Brand
 
 ## How to join the Candidate Recruitment Team
 
-This team is just starting up and is not yet recruiting. If you are interested in joining this team when we are ready to take on more people, send an [e-mail us](mailto:us@brandnewcongress.org)
+This team is just starting up and is not yet recruiting. If you are interested in joining this team when we are ready to take on more people, send us an [e-mail](mailto:us@brandnewcongress.org)
