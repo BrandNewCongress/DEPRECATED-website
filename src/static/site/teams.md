@@ -1,27 +1,3 @@
-<head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Let's elect a Brand New Congress that works for all." name="description">
-    <meta content="brand, new, congress, bernie, sanders, political, revolution, elect, progressive, 2016, democrat" name="keywords">
-    <meta content="Brand New Congress" name="author">
-    <!--     Meta tags for Facebook   -->
-    <meta content="http://brandnewcongress.org/teams" property="og:url">
-    <meta content="website" property="og:type">
-    <meta content="Brand New Congress" property="og:title">
-    <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
-    <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
-    <!-- font-awesome-icon-font-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Brand New Congress | Teams</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
-    <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
-    <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/static-assets/css/custom.css">
-</head>
-
-<body>
-
 ## Join a volunteer team
 
 Brand New Congress is a volunteer movement that is structured in teams. Over the past few weeks, we've had a lot of growth and are now going to work to improve our processes and the quality of our work for a few weeks while generally pausing growth. However, we are taking applications for new team members and will begin on boarding again in a few weeks. We will not be able to add everyone who applies to a team. We are looking for people who can work well with others with a high level of professionalism, follow through, and good judgement. In the future, when we start ramping up local organizing and voter contact, there will be opportunities for anyone who wants to get started.
@@ -44,7 +20,7 @@ Answer questions and solving problems for supporters and volunteers who email us
 ### [Talent Scout Team](/talentteam)
 Spot future talent by listening in on volunteer orientation calls and other means.
 
-## Operations Teams 
+## Operations Teams
 
 ### [Conference Call Team](/conferencecallteam)
 Moderate conference calls for other teams &mdash; including big all-volunteer calls.
@@ -74,7 +50,7 @@ Track our progress on a set of metrics using analytics tools and plain old human
 ### [Dev Team](https://github.com/BrandNewCongress/welcome/blob/master/README.md)
 Enable our other teams to be more effective with new tools. Grow and maintain our online presence at brandnewcongress.org.
 
-### [Analytics Team](/abtesting)
+### [Analytics Team](/abteam)
 Increase the effectiveness of our online presence through A/B Testing and analytics.
 
 ## Issues Teams
@@ -88,10 +64,10 @@ The research team gathers and processes all types of information from ballot acc
 ## Communications Teams
 
 ### [Creative Team](/creativeteam)
-Spreading the word through graphics and video. 
+Spreading the word through graphics and video.
 
 ### [Social Media Team](/socialmediateam)
-Spreading the word across social media about Brand New Congress. 
+Spreading the word across social media about Brand New Congress.
 
 ### [Press Team](/pressteam)
 Conduct media trainings with BNC spokespeople, maintain relationships with journalists, distribute media requests to other team leaders.
@@ -111,7 +87,3 @@ Write, prepare, A/B test, send and monitor emails to our full email list.
 
 ### [Legal Team](/legalteam)
 Are you a lawyer who wants to learn some election law for the revolution?
-
-<img src="/static-assets/img/teamgraphic.png" class="team-graphic">
-
-</body>

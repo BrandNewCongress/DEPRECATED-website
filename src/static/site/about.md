@@ -1,32 +1,6 @@
-<head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Let's elect a Brand New Congress that works for all." name="description">
-    <meta content="brand, new, congress, bernie, sanders, political, revolution, elect, progressive, 2016, democrat" name="keywords">
-    <meta content="Brand New Congress" name="author">
-    <!--     Meta tags for Facebook   -->
-    <meta content="http://brandnewcongress.org/about" property="og:url">
-    <meta content="website" property="og:type">
-    <meta content="Brand New Congress" property="og:title">
-    <meta content="Let's elect a Brand New Congress that works for all." property="og:description">
-    <meta content="http://brandnewcongress.github.io/assets/img/bnc-fb-share-img.png" property="og:image">
-    <!-- font-awesome-icon-font-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Brand New Congress | About</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600,400italic' rel='stylesheet' type='text/css'>
-    <link href="/static-assets/css/toolkit-minimal.css" rel="stylesheet">
-    <link href="/static-assets/css/application-minimal.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/static-assets/css/custom.css">
-</head>
-
-<body>
-
 ## Who's proposing this?
 
 Right now, this is just an idea that some of us Bernie volunteers and former staff have been talking about with each other. We're all busy working for Bernie until he's in the White House. But we're proposing the campaign for a Brand New Congress as something to work on next. Only something as big and worthwhile as this can keep the revolution going&mdash;and it's the only way to give Bernie the ability to make real change from the White House. If you would like updates or to get involved, [please sign up](/home#sign-up) and one of us will be in touch.
-
-<img src="/static-assets/img/hdr-circles-map-988x316@2x.gif" class="circles-map">
 
 <a name="suad_abeeb"></a>
 <div class="col-lg-3 col-sm-12 col-xs-12">
@@ -407,6 +381,3 @@ We think so, and we need a congress that unequivocally agrees to these core prin
 <div class="col-lg-8 col-sm-12 col-xs-12">
     <p>This campaign season was the first one where I heard a candidate speaking to me about the issues I cared about, and because of that I threw myself into politics in a way I never had before. Brand New Congress gives us another opportunity to build on the momentum from the Bernie Sanders campaign, and finally stop the influence of big money in politics and the lack of representation in our government. <b>Nasim Thompson</b></p>
 </div>
-<div class="clearfix"></div>
-
-</body>
