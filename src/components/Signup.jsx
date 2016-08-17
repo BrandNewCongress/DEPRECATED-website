@@ -112,22 +112,29 @@ export default class Signup extends React.Component {
         >
           <Form.Field
             name='email'
+            type='email'
+            autoComplete='email'
             label='Email'
             fullWidth
           /><br />
           <Form.Field
             name='fullName'
+            type='text'
+            autoComplete='name'
             label='Full Name'
             fullWidth
           /><br />
           <Form.Field
             name='phone'
-            type='phone'
+            type='tel'
+            autoComplete='tel'
             label='Phone (Cell preferred)'
             fullWidth
           /><br />
           <Form.Field
             name='zip'
+            type='tel'
+            autoComplete='postal-code'
             label='Zip'
             fullWidth
           />
