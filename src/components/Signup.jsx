@@ -123,7 +123,7 @@ export default class Signup extends React.Component {
           <Form.Field
             name='phone'
             type='phone'
-            label='Cell Phone'
+            label='Phone (Cell preferred)'
             fullWidth
           /><br />
           <Form.Field

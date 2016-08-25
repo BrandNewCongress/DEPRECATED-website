@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === 'production') {
 
 export default wrap(async (req, res) => {
   const dataRequest = await axios.get('https://docs.google.com/spreadsheets/d/1KgT7FWC-ow-yLbVSe1jriImGFE_SGRiVdq9t9khuH_4/pub?gid=0&single=true&output=csv')
-  const today = moment(new Date()).subtract(1, 'day')
+  const today = moment(new Date()).subtract(2, 'days')
   const momFromDateString = (dateString) => moment(dateString, 'MM/DD/YYYY')
   const events = Baby.parse(dataRequest.data, { header: true })
   .data
