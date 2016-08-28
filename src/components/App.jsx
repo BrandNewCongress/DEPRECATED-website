@@ -13,8 +13,9 @@ import injectTapEventPlugin from 'react-tap-event-plugin'
 injectTapEventPlugin()
 
 Form.addInputTypes({
-  string: BNCTextField,
-  phone: BNCPhoneField
+  email: BNCTextField,
+  text: BNCTextField,
+  tel: BNCPhoneField
 })
 
 const styles = StyleSheet.create({
