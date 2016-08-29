@@ -73,8 +73,8 @@ export default class Signup extends React.Component {
   }
 
   formSchema = yup.object({
-    email: yup.string().required().email(),
-    fullName: yup.string().required(),
+    email: yup.string().transform((value) => value.replace(/\s/g, '')).required().email(),
+    fullName: yup.string().trim().required(),
     phone: yup.string().required().min(10),
     zip: yup.string().required()
   })
