@@ -1,13 +1,15 @@
 ## Welcome to the Data Management Team page!
 
-The Data Management Team keeps our the movement growing sustainably by keeping our database complete and well organized. Organizers throughout the movement send all kinds of data to the team, who then makes sure that data gets into our database in the right way. The team also regularly integrates various external data sources into our central db (for example, conference call attendees). You are: Someone who wants a consistent, well-definied way to contribute to the movement, and who has great attention to detail and great judgement about when to charge ahead and when to stop and ask if the way you're doing something is correct.
+The Data Management Team keeps our the movement growing sustainably by keeping our database complete and well organized. Organizers throughout the movement send all kinds of data to the team, who then makes sure that data gets into our database in the right way. The team also regularly integrates various external data sources into our database (for example, conference call attendees). You are: Someone who wants a consistent, well-defined way to contribute to the movement, who has great attention to detail, and great judgement about when to charge ahead and when to stop and ask if the way you're doing something is correct.
 
 If you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
-We really need you! Please attend an orientation call if you haven't already! And let the moderator know you want to help start this team.
-
 ## How to join the Data Management Team
 
-BNC Teams are joined by applying. We're looking for team players who work really well with others and have significant time each week to contribute. We are not on boarding new members right at this moment, but please apply if you want to get involved because we will begin growing our teams again soon!
+BNC Teams are joined by applying. We're looking for team players who pay attention to detail, and have at least 2 days each week to contribute. A basic proficiency with spreadsheets is a required skill for this role.
 
-This team hasn't gotten started yet. We're looking for leaders who would like to help get it started. If you're interested, your first step is to read the information on this page including the timeline below. Then **email the help desk at [us@brandnewcongress.org](mailto:us@brandnewcongress.org)** and tell them you'd like to help the Data Entry Team get started.
+If you'd like to join the Data Management Team, please follow the steps below:
+1. Participate in the initial BNC Orientation Call, if you haven't already. The schedule is [here](/call).
+2. Complete the Data Management Team Signup Form. [Click here to fill out the form.](https://docs.google.com/forms/d/e/1FAIpQLSeF6B2Doki_avE4Zml2OgUAZSQW6-T8a9Rf8tn3Z8RS-RS20A/viewform)
+3. After the team leader has reviewed your form, you will receive an email inviting you to a one-on-one training call with them.
+4. Once your training is complete, you'll receive an invitation to join the Data Management Slack channel, and start the important work of organizing Brand New Congress!
