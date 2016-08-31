@@ -1,10 +1,11 @@
 ## Welcome to the Local Organizing Team page!
 
-Our mission at BNC is to support local organizing teams that form across the country as we continue our 100-city tour. Our support will come in various ways:
+Our mission at BNC is to support the local organizing teams forming across the country. Our support will come in various forms:
 
-1. Call list of interested volunteers and local leaders from tour sign-ups to answer questions and walk through toolkit.
-1. Train local leaders and volunteers on how to set-up various types of events.
-1. Connection between the grassroots and national campaign to provide goals and allocate resources.
+1. Call list of interested local leaders from tour sign-ups to answer questions and walk through goals and first steps.
+2. Train local leaders and volunteers on how to use our toolkit.
+3. Connection between the grassroots and national campaign to provide goals and allocate resources.
+
 
 ## How to join the Local Organizing Team
 
