@@ -60,25 +60,26 @@ To get there, we plan to run an open-source, transparent campaign -- [you can re
 
 
 ## August 2016: Begin scaling across the organization
-* 40,000 total supporters
-* 10,000 total individual donors
-* Activate local teams in 20 districts
-* Create first draft of a more detailed platform
-* Create a system for tracking work done by local groups and showing exactly how well we are doing in every congressional district and what exactly every local team's goals are
-* Identify which congressional districts we need to focus efforts on to start building more support
-* Get press coverage through two significant outlets
-* Develop and execute strategies for significantly expanding our reach
-* Solidify all remaining organizational Groups and Teams
-* Identify and vet a total of 4 candidates
+* (done) 30,000 total supporters
+* (done) 8,000 total individual donors
+* (done) Activate local teams in 20 districts
+* (done) Get press coverage through two significant outlets
+* (done) Develop and execute strategies for significantly expanding our reach
+* (done) Solidify all remaining organizational Groups and Teams
+* (done) Identify and vet a total of 4 candidates
 * (done) Hire our first handful of full-time organizers
 * (done) Recruit a Lead Organizer to plan and execute a nation-wide day of simultaneous house parties in September to jumpstart multiple local organizing efforts
 
 ## September 2016
-* Do a day of simultaneous house parties to jumpstart multiple local organizing efforts
-    * Create a video explaining BNC to show at these house parties
-    * Create a total of 40 local teams in 40 congressional districts.
-* Identify and vet a total of 8 candidates
-* Launch texting tool for voter contact and start getting local groups access to voter files.
+* 50,000 total supporters
+* 9,000 individual donors
+* Create first draft of a more detailed platform
+* Host a national Livestream event 
+* Create a Board for the organization
+* Identify and vet a total of 6 candidates
+* Reach 45,000 likes on FB; 5,000 on twitter
+* Earn press coverage through at least one major media outlet
+* Solidify messaging across teams and organization (edited)
 
 ## October 2016
 * Local teams in 80 districts
