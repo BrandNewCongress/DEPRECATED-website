@@ -1,5 +1,4 @@
 import { Route } from 'react-router'
-import Tour from './containers/Tour'
 import Home from './components/Home'
 import Call from './components/Call'
 import App from './components/App'
@@ -9,7 +8,6 @@ import StaticSiteRenderer from './containers/StaticSiteRenderer'
 
 export default (staticSite) => {
   let childRoutes = [
-    <Route path='tour' component={Tour} />,
     <Route path='home' component={Home} />,
     <Route path='call' component={Call} />,
     <Route path='hostcall' component={HostCall} />
