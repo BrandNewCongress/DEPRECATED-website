@@ -1,3 +1,6 @@
+### [Attend an orientation call now to learn more about Brand New Congress and how to get involved!](/call)
+---
+
 # Join a volunteer team
 
 Brand New Congress is a volunteer movement that is structured in teams. Please apply to join a team by following the instructions on each team page. We are also constantly looking for people who have special skills (like design, past policy work experience, etc.).
@@ -5,8 +8,6 @@ Brand New Congress is a volunteer movement that is structured in teams. Please a
 If you feel you can contribute something different from what's needed in the teams below, feel free to e-mail in to [us@brandnewcongress.org](mailto:us@brandnewcongress.org) and let us know a bit about yourself and your past work.
 
 If you are interested in organizing locally, you can get to work right away by using our [local organizing toolkit](/work). You will be interfacing with the local organizing team to get work done.
-
-Also, if you haven't joined a general orientation call yet, please do! [Click here to join one.](/call)
 
 ### [Call Team](/callteam)
 Conduct one-on-one conversations with organizers, volunteers, and activists to ensure they have a path to becoming involved in electing a Brand New Congress.
