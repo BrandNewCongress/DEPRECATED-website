@@ -11,24 +11,35 @@ We know this will be difficult, but it will be easier to replace nearly all of C
 
 We’re looking for people from all walks of life and all fields of our economy and society, representing every community, who fit these THREE criteria:
 
-    They are working people with a track record of serving their communities in their jobs, neighborhoods, religious organizations, charities, etc...
-    We can tell from their life stories that they won't sell out in DC, because many of their life choices have put others in front of their self interest.
-    They agree with the BNC platform.
+1. They are working people with a track record of serving their communities in their jobs, neighborhoods, religious organizations, charities, etc...
+2. We can tell from their life stories that they won't sell out in DC, because many of their life choices have put others in front of their self interest.
+3. They agree with the BNC platform.
 
 Another way to put it is that we're looking for candidates who:
 
-    are good at what they do.
-    are proven servant-leaders to their communities, families, friends.
-    have consistently passed on opportunities to sell out, choosing instead to keep serving their people.
-    have, in general, never held or sought public office.
-    agree on the core of the Bernie economic, social justice, and climate change platform.
+* are good at what they do.
+* are proven servant-leaders to their communities, families, friends.
+* have consistently passed on opportunities to sell out, choosing instead to keep serving their people.
+* have, in general, never held or sought public office.
+* agree on the core of the Bernie economic, social justice, and climate change platform.
 
-Read more about the BNC candidates that we're looking for.
+The main idea behind BNC is that we're NOT going to run politicians. BNC candidates are people who actually do the work that keeps our country going: nurses, teachers, engineers, workers, moms and dads, social workers, veterans, law enforcement, first responders, managers and we could go on and on with this list -- but you get the idea!
+
+We’ve got very high standards for our candidates -- which makes finding them very difficult work! -- and which is why we really need YOUR help!
+
+We’re looking for people who are good, honest, selfless leaders in their communities, fields, workplaces or religious organizations -- people who are really good at what they do and are trusted by the people they serve. There are thousands of people like that in every district.
+
+But BNC candidates also need to be people who believe that America already has everything it needs to fix our economy, our healthcare system, our schools and our justice system -- and that we can do it by working hard as people together. Like the vast majority of Americans, we don’t believe in any right wing OR left wing ideological silver bullet that will magically fix our problems. So we’re ruling out anyone who for example believes that simply slashing government will solve everything -- and we’re ALSO ruling out anyone who believes that simply growing government will solve everything.
+
+Finally, we're looking for people who have the skills that would make them good candidates up against experienced incumbents. So they’ve got to be able to talk, and to develop a grasp of all the major issues affecting their district.
+
+We’re making a list of potential candidates for each district, and then we’re going to twist their arms and convince them to run! 
 
 ### Why don’t you want candidates who’ve served in office before?
 
 We’re not banning them, we’re just saying that “in general” we want people who’ve never held or sought office before. There are a lot of great people in office and seeking office. But we mainly want those people who would never think of running for office. We want people who live for others. Those people do not usually seek out the limelight of political office. We are going to need to drag them kicking and screaming into public office. The longer our list of awesome potential candidates gets, the more they will inspire each other to run. When they see that this is not a vanity project but a real chance to change everything, we'll get their hats in the ring. It'll take a lot of work, but that's how it should be.
-Don’t people need experience as legislators to work in Congress?
+
+### Don’t people need experience as legislators to work in Congress?
 
 No. Members of Congress should have experience staying true in the face of adversity and bribery. Our candidates will have that. Moreover, if we get enough seats, then we'll be rendering obsolete the game that's currently played in Congress. But seriously, this is not a valid concern. No one objects when a governor or big city mayor runs for Congress even though those jobs have nothing in common with legislating in Congress. And lots of “successful” Congress people have jumped in with no experience in public office at all, from jobs in banking, real estate and law for example.
 What is the Brand New Congress platform?
@@ -41,7 +52,8 @@ We are mostly grassroots leaders from the Bernie campaign and a few ex-staffers,
 Is there a formal organization behind this?
 
 Right now, a political action committee called Brand New Congress, is accepting contributions to support travel costs and to pay stipends for a handful of organizers. Zack Exley, a former Bernie staffer, is the treasurer of the PAC and works on Brand New Congress as a volunteer. Once we have our candidates, formal decision making and fund raising will flow through them, with the PAC probably being dissolved. We are required to have a PAC to accept funds and spend money toward electing federal candidates.
-What is a PAC?
+
+### What is a PAC?
 
 To comply with campaign finance law, we created the Brand New Congress political action committee. That is not a Super PAC, but a plain old “PAC” with full transparency and contribution limits. You can learn more about PACs at http://fec.gov
 
@@ -61,7 +73,8 @@ As soon as we get our first batch of candidates, then they will be the ones ulti
 ### Are you forming a third party?
 
 No, we’re not forming a third party. America seems to be sick and tired of parties. Maybe the solution isn’t to create a new one. Or maybe it is. Either way, we’re starting off by running candidates in the Democratic and Republican primaries, and then running independents where we lose. There are some similarities and differences between this idea and starting a third party. The big difference is that we are not trying to create a big bureaucracy behind our candidates. It’s just them. This will allow maximum agility which will be needed to win!
-Will you be supporting candidates in the 2016 election cycle?
+
+### Will you be supporting candidates in the 2016 election cycle?
 
 We’re happy to see so many “Berniecrats” running in 2016 and we want to be supportive, but we’re just getting started, so we don’t think we’ll have that much to offer 2016 candidates. We think the way to win is to start very early and plan a great campaign. That’s why we’re focusing on 2018.
 
@@ -73,10 +86,12 @@ We simply ask supporters on our website to pitch in if they can. So far we’ve 
 ### What do you need the money for?
 
 The money is being used primarily for travel costs for our launch tour of 100 cities. Eventually it will be used also to start paying full time organizers, though this will be a mostly volunteer-driven campaign just like Bernie was.
-Your donation page looks the same as Bernie's and other Democrats'. Do my donations go to the Democratic Party?
+
+### Your donation page looks the same as Bernie's and other Democrats'. Do my donations go to the Democratic Party?
 
 No, we just use the same payment processor as many other Democratic candidates. ActBlue is a private entity with no connection to any party. It’s a great service for accepting donations. That’s why we use them.
-Platform
+
+## Platform
 
 ### What is the BNC platform? What do you want to do once in office?
 
@@ -95,12 +110,12 @@ Brand New Congress is not bi-partisan or non-partisan, we're "post-partisan." Th
 
 The irony is that the core of liberal and Christian values are the same—at least in their ideals: Both cultures believe that they value human life, equality, freedom, peace, justice and progress. Those are not liberal or conservative values, they are American values. The problem is that each of the two of these cultures believes the other stands for the opposite of those stated values. For example, conservative Christians believe that liberal support for abortion rights means they do not value human life. And liberals believe that conservative opposition to abortion rights means they stand against freedom, and against equality for women.
 
-We believe that America is heading fast toward a consensus around so called "social" issues—a consensus that accepts:
+We believe that America is heading fast toward a consensus around so called "social" issues—-a consensus that accepts:
 
-    that laws should not be passed telling women what they can do with their bodies while working to reduce abortions through sex education, access to contraception, etc...
-    that gay and transgendered people should have all the same rights as everyone else.
-    that no one should have to produce a birth certificate to go to the bathroom.
-    that we can affirm American's right to own guns while passing common sense gun laws and massively funding violence prevention programs where needed.
+* that laws should not be passed telling women what they can do with their bodies while working to reduce abortions through sex education, access to contraception, etc...
+* that gay and transgendered people should have all the same rights as everyone else.
+* that no one should have to produce a birth certificate to go to the bathroom.
+* that we can affirm American's right to own guns while passing common sense gun laws and massively funding violence* prevention programs where needed.
 
 BNC candidates in conservative areas will to explain and demystify recent social changes in a compassionate and patient way to those who may feel threatened by them. We need to affirm that their most important concerns -- the value of human life and safety of all of our families -- are important to us all.
 
@@ -108,11 +123,11 @@ BNC candidates in conservative areas will to explain and demystify recent social
 
 America is in the middle of some radical social transitions on several important issues. On the whole, members of Congress are trailing behind their constituents in this transition. Brand New Congress candidates will be far ahead of the Democratic and Republican incumbents they are challenging. They will work with their constituents starting from where they are at, and talk through the issues with respect and compassion for those effected by them, as well as for those who are confused or scared by them.
 
-    All Brand New Congress candidates oppose any attempt to legislate what women can do with their bodies—though most of the Republican and many of the Democratic candidates also pledge to fight to reduce the number of abortions, for example by championing sex education and access to contraception.
-    They support gay and transgender people's right to live like everyone else, including the right to get married, and to access public facilities.
-    They support American's right to own guns, and also support common sense gun control laws and pledge to support violence prevention programs in afflicted communities.
-    They will be absolutely opposed to any kind of targeting of any groups such as Muslims or immigrants, and will instead work to protect all marginalized groups.
-    Their position on illegal immigration is that it has almost entirely been driven by American businesses who encourage it by actively driving illegal immigration and by hiring undocumented workers at sub-minimum wages. They are not much worried about immigration because we now have negative immigration from Mexico and once we start rebuilding the economy, we're going to need so much labor that immigration will no longer be thought of as a problem.
+* All Brand New Congress candidates oppose any attempt to legislate what women can do with their bodies—though most of the Republican and many of the Democratic candidates also pledge to fight to reduce the number of abortions, for example by championing sex education and access to contraception.
+* They support gay and transgender people's right to live like everyone else, including the right to get married, and to access public facilities.
+* They support American's right to own guns, and also support common sense gun control laws and pledge to support violence prevention programs in afflicted communities.
+* They will be absolutely opposed to any kind of targeting of any groups such as Muslims or immigrants, and will instead work to protect all marginalized groups.
+* Their position on illegal immigration is that it has almost entirely been driven by American businesses who encourage it* by actively driving illegal immigration and by hiring undocumented workers at sub-minimum wages. They are not much* worried about immigration because we now have negative immigration from Mexico and once we start rebuilding the economy,* we're going to need so much labor that immigration will no longer be thought of as a problem.
 
 ### So is this a bi-partisan alliance around some kind of centrist platform?
 
