@@ -42,7 +42,8 @@ We’re not banning them, we’re just saying that “in general” we want peop
 ### Don’t people need experience as legislators to work in Congress?
 
 No. Members of Congress should have experience staying true in the face of adversity and bribery. Our candidates will have that. Moreover, if we get enough seats, then we'll be rendering obsolete the game that's currently played in Congress. But seriously, this is not a valid concern. No one objects when a governor or big city mayor runs for Congress even though those jobs have nothing in common with legislating in Congress. And lots of “successful” Congress people have jumped in with no experience in public office at all, from jobs in banking, real estate and law for example.
-What is the Brand New Congress platform?
+
+### What is the Brand New Congress platform?
 
 Basically the core of Bernie’s platform on the economy, environment and criminal justice reform. But see below for more info on this.
 
