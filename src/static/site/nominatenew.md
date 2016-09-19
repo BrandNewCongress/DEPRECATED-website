@@ -22,7 +22,7 @@ The Brand New Congress is looking for candidates that meet the following three c
 
 - In conservative Christian districts, candidates must come from the conservative Christian culture! There are tons of people from that culture who support the BNC platform. To learn more, read about BNC for Conservative America.
 
--More than half of the people in America are women — more than half our candidates should be women too!
+- More than half of the people in America are women — more than half our candidates should be women too!
 We want our candidates to come from many different kinds of backgrounds and fields.
 
 ## Learn more: 
