@@ -34,10 +34,6 @@ app.get('/', wrap(async (req, res) => {
   res.redirect('/home')
 }))
 
-app.get('/nominate', wrap(async (req, res) => {
-  res.redirect('https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform')
-}))
-
 app.get('/work', wrap(async (req, res) => {
   res.redirect('https://docs.google.com/document/d/1Op0OaZNuykCJckSCn4vABDEr4VEdTrMeTsPCZFNSJo4')
 }))
