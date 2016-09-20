@@ -4,8 +4,9 @@ Thank you for helping Brand New Congress to recruit candidates! Please first lea
 
 It takes time to sift through all the nominations we're receiving. Please don't nominate Democrats for deep Republican districts, white people for majority person of color districts, or candidates who do not have the basic skills needed to run for office.
 
-Please read on and follow the links below to learn more about who we're looking for -- generally and in specific districts. **[Then use this form to make your nominations.](https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform)**
-
+Please read on and follow the links below to learn more about who we're looking for -- generally and in specific districts.
+**[Use this form to make your nominations.](https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform)**
+If you can't think of a candidate, please **[suggest a local connector who might like this idea and be able to help](https://docs.google.com/forms/d/e/1FAIpQLSceYguZI_gngXf7dLOXN6xUkLRNsYfn0b2v-aDEvZKPH-j1dQ/viewform).**
 The Brand New Congress is looking for candidates that meet the following three criteria:
 
 1. They are respected non-politicians with experience building and serving our communities.
