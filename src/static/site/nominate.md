@@ -1,6 +1,6 @@
 # How to nominate a candidate for Brand New Congress
 
-Thank you for helping the Brand New Congress to recruit candidates! Please first learn what we're looking for in candidates generally and in your district specifically by following the links below. Then nominate your candidate! Please do not nominate yourself. If you want to run and fit the criteria, ask friends who know you to nominate you. 
+Thank you for helping Brand New Congress to recruit candidates! Please first learn what we're looking for in candidates generally and in your district specifically by following the links below. Then nominate your candidate! Please do not nominate yourself. If you want to run and fit the criteria, ask friends who know you to nominate you. 
 
 It takes time to sift through all the nominations we're receiving. Please don't nominate Democrats for deep Republican districts, white people for majority person of color districts, or candidates who do not have the basic skills needed to run for office.
 
@@ -27,9 +27,9 @@ We want our candidates to come from many different kinds of backgrounds and fiel
 
 ## Learn more: 
 
-On our Wiki uou can learn more about:
-- [Who we're looking for]()
-- [How to find candidates]()
+On our Wiki you can learn more about:
+- [Who we're looking for](https://wiki.brandnewcongress.org/index.php?title=General_BNC_Candidate_Criteria)
+- [How to find candidates](https://wiki.brandnewcongress.org/index.php?title=How_to_Find_BNC_Candidates)
 
 ## Find out what we're looking for in your specific district:
 
