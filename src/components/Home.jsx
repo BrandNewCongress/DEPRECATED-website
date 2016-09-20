@@ -18,9 +18,10 @@ const styles = StyleSheet.create({
     position: 'relative'
   },
   alertBar: {
+    fontSize: 25,
     backgroundColor: theme.colors.white,
     marginTop: 15,
-    padding: 10,
+    padding: 30,
     textAlign: 'center',
     color: theme.colors.darkGreen,
     fontWeight: 400,
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
 const Home = () => (
   <div className={styles.container}>
     <div className={styles.alertBar}>
-      Tune in on September 20 for a live video event.  <a href="http://go.brandnewcongress.org/livestream" className={styles.link}>Attend or host a viewing party!</a>
+      Tune in TODAY for a live video event.  <a href='http://go.brandnewcongress.org/livestream' className={styles.link}>Attend a viewing party or watch it online!</a>
     </div>
     <div className={styles.signupContainer}>
       <Signup />
