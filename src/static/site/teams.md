@@ -9,6 +9,8 @@ If you feel you can contribute something different from what's needed in the tea
 
 If you are interested in organizing locally, you can get to work right away by using our [local organizing toolkit](/work). You will be interfacing with the local organizing team to get work done.
 
+If you're interested in our monthly milestones and goals, check out [our timeline](/timeline).
+
 ### [Call Team](/callteam)
 Conduct one-on-one conversations with organizers, volunteers, and activists to ensure they have a path to becoming involved in electing a Brand New Congress.
 

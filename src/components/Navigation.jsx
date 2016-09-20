@@ -170,9 +170,6 @@ const styles = StyleSheet.create({
 const navigationLinks = (
   <div className={styles.navArea}>
     <div className={styles.navItem}>
-      <Link className={styles.link} to='/goal'>The Goal</Link>
-    </div>
-    <div className={styles.navItem}>
       <Link className={styles.link} to='/plan'>The Plan</Link>
     </div>
     <div className={styles.navItem}>

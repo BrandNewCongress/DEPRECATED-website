@@ -1,130 +1,17 @@
-# The Plan
+# What is the Brand New Congress going to do?
+## Rebuild. Reform.
 
-We know [our goals](/goal) are incredibly ambitious and replacing all of Congress sounds nearly impossible. But we believe that the Bernie Sanders campaign proved that grassroots money and effort can be greater than that of billionaire backed opponents if it is properly focused and utilized. So we think this massive change is possible if we take the same model and apply it to  congressional races.
+We want to end the poverty and suffering of tens of millions of Americans, reverse the effects of climate change so the planet is still inhabitable in 100 years, end our policies that keep ruining the lives of millions abroad by destabilizing their countries, and restore our democracy to go back to representing all of the people instead of just monied interests. We believe these are dire issues and decades of undirected, incremental changes won't be enough.
 
-Our plan is to recruit and run 400+ candidates as a single, unified, presidential-style campaign. This allows us to:
+Once it has a majority, the Brand New Congress will take an approach to governing that hasn’t been tried in peacetime since the founding of the Republic — we are actually going to get stuff done! Instead of debating and horse trading, the BNC will enter office with a fully formed plan that America has elected themus to carry out. Though the details are not all complete yet, the basic values, principles and ideas of the plan are available below. It will take at least until the end of 2017 to work out all the details of the legislation the BNC will enact. Right now, [BNC’s Working Group]("https://wiki.brandnewcongress.org/index.php?title=Our_Team-Based_Organization") is responsible for leading this process. Once we have a critical mass of candidates, responsibility will shift to them.
 
-* Actually turn out millions more to vote in their midterm elections, which usually have extremely low turnout. One big campaign for a Brand New Congress will attract enough media attention, volunteers and grassroots donations to overwhelm those no-name, sold-out, unpopular incumbents.
+Once elected, the Brand New Congress will pass the whole plan into law on day one. What will we do if we don’t get a majority? We’ll keep fighting for a majority, and also stand up for the American people as best we can with the seats they give us. Click here to read about our strategies to fight for the American people and keep working toward a majority while we’re only a fraction of Congress.
 
-* Focus the grassroots energy and funding into one, big goal. It is possible to defeat incumbents backed by a few wealthy individuals if we have millions of people working together, but only if those millions are concentrated.
-
-* Gain huge economies of scale in advertising, direct mail, and staffing.
-
-* Use one constantly-improving campaign infrastructure as we move from election to election.
-
-* Have candidates without a lot of wealth and with no campaign experience run a sophisticated campaign by simply plugging into our well-oiled campaign machine.
-
-## How do we get there
-
-At a high level, we know we need to:
-
-* Develop a fully fleshed out platform.
-* Recruit [400+ candidates that are qualified to run](/faq#who-will-the-candidates-be).
-* Create a disciplined volunteer-led organization to do the work of winning.
-* Identify 100,000 supporters in each congressional district.
-* Get our supporters out to vote during congressional primaries.
-
-To get there, we plan to run an open-source, transparent campaign -- [you can read more about how, exactly, the campaign is structured here](/teams). Local grassroots groups will actually be our field program, and our actual plans and goals will be available for everyone to see ([and make suggestions to](https://github.com/BrandNewCongress/website/tree/master/src/static/site)) on this site. This is a living document, so this plan is going to be constantly fleshed out further.
-
-# Timeline
-
-## (done) April 2016: Launch
-
-* (done) Propose this idea to the Bernie movement.
-* (done) Get buy-in from the some of the hardest working volunteers in the Bernie movement.
-
-## (done) May 2016: Create basic organization
-
-* (done) Launch 100-city tour to start making contact with local supporters to see how they would like to help.
-* (done) Create our basic team infrastructure and begin onboarding team leaders to run our teams.
-
-## (done) June 2016: Solidify organization
-
-* (done) Formalize our national campaign's [team structure](/teams).
-* (done) Grow our list of supporters to 20,000
-* (done) Grow our list of donors to 5,000
-* (done) Make sure every team has at least one team leader
-* (done) Create one-month goals and an onboarding/application process for every team that tie into the organization's overall goals.
-
-## (done) July 2016: Begin creating local organizing infrastructure
-
-* (done) Focus the tour on making sure that each event creates one or more local groups who can get to work immediately.
-* (done) Identify and onboard 50 new people into our national campaign
-* (done) Create at least one local team in 5 districts. These local teams need to be  responsive and able to start gathering and submitting lists of local supporters, creating the fundamental of our local field program.  The idea is for these teams to be creating our local base of support while being supported by the national team to actually do the work.
-* (done) Create a toolkit for local organizers to use to start identifying local supporters of Brand New Congress
-* (done) Create a national team responsible for providing resources to and interfacing with local teams
-* Create a volunteer portal at brandnewcongress.org/work that provides all information necessary for anyone to get involved either locally or on a national team
-* (done) Identify and vet 2 candidates
-* (done)Create a candidate search team
-* (done) Begin a speaker team of people able to speak on behalf of BNC
-
-
-## August 2016: Begin scaling across the organization
-* (done) 30,000 total supporters
-* (done) 8,000 total individual donors
-* (done) Activate local teams in 20 districts
-* (done) Get press coverage through two significant outlets
-* (done) Develop and execute strategies for significantly expanding our reach
-* (done) Solidify all remaining organizational Groups and Teams
-* (done) Identify and vet a total of 4 candidates
-* (done) Hire our first handful of full-time organizers
-* (done) Recruit a Lead Organizer to plan and execute a nation-wide day of simultaneous house parties in September to jumpstart multiple local organizing efforts
-
-## September 2016
-* 50,000 total supporters
-* 9,000 individual donors
-* Create first draft of a more detailed platform
-* Host a national Livestream event 
-* Create a Board for the organization
-* Identify and vet a total of 6 candidates
-* Reach 45,000 likes on FB; 5,000 on twitter
-* Earn press coverage through at least one major media outlet
-* Solidify messaging across teams and organization (edited)
-
-## October 2016
-* Local teams in 80 districts
-* 200,000 supporters
-* 16 candidates
-
-## November 2016
-* Local teams in 100 districts
-* 300,000 supporters
-* 32 candidates.
-* National teams have 5 potential leaders each so volunteers can jump in and out without the whole organization relying too much on any single individual.
-* Identify which candidates we are not going to challenge
-
-## December 2016
-* 400,000 supporters
-* Not much else due to the holidays. Everyone get some rest!
-
-## January 2017
-* 500,000 supporters
-* 40 candidates.
-* Local teams in 200 districts
-* Launch a dialer for voter contact
-
-## February 2017
-* Local teams in 400 districts.
-* 50 candidates.
-
-## March 2017
-* Public announcement of our 50 first candidates
-* 1,000,000 supporters (announcement needs to generate enough press to double our supporter list)
-* Local teams in all 435 districts
-
-## April 2017
-* 100 candidates
-* Public announcement with our 100 candidates.
-* 2,000,000 supporters
-
-## May 2017
-* Public announcement with 200 candidates.
-* 4,000,000 supporters
-
-## June 2017
-* Public anouncement with 300 candidates
-* 6,000,000 supporters
-
-## July 2017
-* Public announcement with 400 candidates.
-* 10,000,000 supporters
+The BNC plan in a nutshell is:
+* **Rebuild the economy**: [Read the working draft of our economic plan](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit?usp=sharing).
+* **Make medicare available to all**:[Read the working draft of our economic plan for more details](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit?usp=sharing)
+* **Rethink the fundamental assumptions of our criminal justice system and move towards decarceration.** The current system unfairly targets people of color, fails to address this nation's huge problem with recidivism, and will be looked at by future generations as one of America's worst human rights violations of this era. We need to fundamentally change the way we think about criminal justice by switching to a rehabilitative system that spends its money on integrating offenders back into society and focuses on decarceration. We will be working with community leaders and other organizations to create a complete criminal and racial justice platform in the coming months.
+* **Say no to wars of choice**: no matter how hard a President pushes
+* **Get money out of politics once and for all**: This means getting rid of the revolving door between Wall Street and our government. It means repealing Citizens United. It means moving to a publicly financed, transparent system of campaign financing that amplifies small donations.
+* **Further the rights of people of color, women, and LGBTIQ people**: These are groups that have suffered for years through discriminatory abuses. We do not want to lose the progress we've made, and we know there is more to be done.
+* **Become a 100% renewable energy economy in 10 years**: [Read more in the working draft of our economic plan](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit?usp=sharing)

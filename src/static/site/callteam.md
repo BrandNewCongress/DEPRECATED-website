@@ -13,6 +13,6 @@ If you have one or more of the following skills, please join our team! We are go
 This team requires a commitment of at least 5 hours a week with an ideal average of 8-10. Regardless of your personal schedule, we have tasks that need to be completed during all hours of the day! We need to make phone calls 7 days per week between the hours of 9am-9pm. Most volunteer work involving our back-end systems can only take place outside of calling hours so night owls and early birds are welcome!
 
 ### How to apply
-1. Review the [BNC Goal](/goal) and [Frequently Asked Questions](/faq) page.
+1. Review the [BNC Plan](/plan) and [Frequently Asked Questions](/faq) page.
 1. Register for a [BNC orientation conference call](/call). In efforts to streamline your application process, you are welcome submit your Call Team application immediately after registering for the orientation.
 1. Please fill out our [Call Team Application](https://docs.google.com/forms/d/e/1FAIpQLSePyeKppo5Gk6nyxffc32fc5QTlE1YAvJF_YHnaLGhNZG_2Gw/viewform?c=0&w=1). One of our team leads will call you shortly to ask a few follow up questions. Thanks for applying!
