@@ -37,9 +37,6 @@ const styles = StyleSheet.create({
 
 const Home = () => (
   <div className={styles.container}>
-    <div className={styles.alertBar}>
-      Tune in TODAY for a live video event.  <a href='http://go.brandnewcongress.org/livestream' className={styles.link}>Attend a viewing party or watch it online!</a>
-    </div>
     <div className={styles.signupContainer}>
       <Signup />
     </div>
