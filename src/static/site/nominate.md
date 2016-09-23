@@ -7,6 +7,7 @@ It takes time to sift through all the nominations we're receiving. Please don't 
 Please read on and follow the links below to learn more about who we're looking for -- generally and in specific districts.
 - **[Use this form to make your nominations.](https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform)**
 - If you can't think of a candidate, please **[suggest a local connector who might like this idea and be able to help](https://docs.google.com/forms/d/e/1FAIpQLSceYguZI_gngXf7dLOXN6xUkLRNsYfn0b2v-aDEvZKPH-j1dQ/viewform).**
+- If you need help looking up your or your candidate's congressional district, [use this site](https://www.govtrack.us/congress/members).
 
 The Brand New Congress is looking for candidates that meet the following three criteria:
 
