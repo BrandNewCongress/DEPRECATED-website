@@ -11,7 +11,6 @@ Our mission at BNC is to support the local organizing teams forming across the c
 
 We are looking for task-oriented, high-energy, low-ego volunteers who are ready to take on a lot of responsibility and accountability right away. As we are still growing, potential team members should be comfortable working in fast-paced environments and open to change. To join, use the following steps:
 
-1. [Attend a general orientation conference call.](/call)
 1. [Fill out team application.](http://goo.gl/forms/NTrn394Xn3AREZGr2)
 1. Receive email/call to schedule a training call or google hangout.
 1. Sign Volunteer Guide and Data Agreement.
