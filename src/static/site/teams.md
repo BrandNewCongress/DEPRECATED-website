@@ -1,3 +1,7 @@
+## [We need your help getting candidates! Join a call to learn how](/call)
+
+------
+
 # Join a volunteer team
 
 Brand New Congress is a volunteer movement that is structured in teams. Please apply to join a team by following the instructions on each team page. We are also constantly looking for people who have special skills (like design, past policy work experience, etc.).
