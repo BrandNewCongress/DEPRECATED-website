@@ -48,7 +48,7 @@ export default () => (
     <a href='http://www.reddit.com/submit?url=http://brandnewcongress.org&title=Brand+New+Congress' title='Share on Reddit' target='_blank' className={styles.shareIcon}>
       <span className='fa fa-reddit-alien'></span>
     </a>
-    <a href='https://secure.actblue.com/contribute/page/brandnewcongress' target='_blank' className={styles.shareIcon}>
+    <a href='https://secure.actblue.com/contribute/page/bncsignup' target='_blank' className={styles.shareIcon}>
       <span className='fa fa-usd' aria-hidden='true'></span>
     </a>
     <div className={styles.highlight}>Brand New Congress

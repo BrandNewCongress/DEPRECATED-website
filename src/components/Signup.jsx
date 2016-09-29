@@ -106,7 +106,7 @@ export default class Signup extends React.Component {
             if (response.status !== 200) {
               this.setState({ error: true })
             } else {
-              location.href = 'https://secure.actblue.com/contribute/page/brandnewcongress'
+              location.href = 'https://secure.actblue.com/contribute/page/bncsignup'
             }
           }}
         >
