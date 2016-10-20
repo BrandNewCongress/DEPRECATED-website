@@ -54,6 +54,7 @@
     "topojson": "^1.6.26",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.0",
+    "webpack-manifest-plugin": "^1.1.0",
     "webpack-plugin-manifest": "^1.0.1",
     "yup": "^0.18.3"
   },
