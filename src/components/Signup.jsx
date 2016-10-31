@@ -35,12 +35,19 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
     color: theme.colors.purple
   },
+  secondaryHeaderBlack: {
+    ...theme.text.header,
+    paddingBottom: 20,
+    color: theme.colors.black
+  },
 
   body: {
     display: 'block',
     paddingBottom: 30,
     lineHeight: '1.5em'
   },
+
+
   contentContainer: theme.layouts.multiColumn.container,
   explanation: {
     ...theme.layouts.multiColumn.flexColumn,
@@ -59,6 +66,73 @@ const styles = StyleSheet.create({
       marginRight: 'auto',
       marginLeft: 'auto'
     }
+
+  },
+  extendedContentContainer: {
+    backgroundColor: theme.colors.white,
+    marginTop: 30,
+    border: `1px solid ${theme.colors.lightGray}`
+  },
+
+  pressContainer: {
+    ...theme.layouts.multiColumn.container
+  },
+  pressImageContainer: {
+    ...theme.layouts.multiColumn.container
+  },
+  pressTitle: {
+    ...theme.layouts.multiColumn.container
+  },
+  pressTitleColumn: {
+    ...theme.layouts.multiColumn.flexColumn,
+    paddingTop: 30,
+    marginRight: 50,
+    marginLeft: 30,
+    [onTablet]: {
+      marginLeft: 25,
+      marginRight: 25
+    }
+  },
+  pressVideos: {
+    marginLeft: 'auto',
+    marginRight: 'auto'
+  },
+  video1: {
+    float: 'left',
+    textAlign: 'center',
+    marginLeft: 30,
+    [onTablet]: {
+      marginLeft: 25,
+      marginRight: 25
+    }
+  },
+  caption: {
+    display: 'block',
+    fontWeight: 800
+  },
+  video2: {
+    float: 'left',
+    textAlign: 'center',
+    marginLeft: 30,
+    [onTablet]: {
+      marginLeft: 25,
+      marginRight: 25
+    }
+  },
+  logo: {
+    ...theme.layouts.multiColumn.flexColumn,
+    display: 'inline-block',
+    marginTop: 20,
+    textAlign: 'center',
+    [onTablet]: {
+      marginRight: 'auto',
+      marginLeft: 'auto'
+
+    }
+  },
+  pressImage: {
+    paddingRight: 50,
+    height: 50
   },
   line: {
     border: `solid 1px ${theme.colors.veryLightGray}`,
@@ -188,7 +262,79 @@ export default class Signup extends React.Component {
             autoHideDuration={10000}
             onRequestClose={this.handleRequestClose}
           />
+
         </div>
+        <div className={styles.extendedContentContainer}>
+
+            <div className={styles.pressTitle}>
+                <div className={styles.pressTitleColumn}>
+                <div className={styles.secondaryHeaderBlack}>
+                        Learn More
+                    </div>                              </div>
+
+            </div>
+            <div className={styles.pressContainer}>
+                <div className={styles.pressVideos}>
+
+                <div className={styles.video1}>
+                        <iframe width='356' height='200' src='https://www.youtube.com/embed/rvGtVu8gmtg' frameBorder='0' allowFullScreen>
+                        </iframe>
+                        <span className={styles.caption}>
+                            Rachel Maddow
+                        </span>
+
+                    </div>
+                    <div className={styles.video2}>
+                        <iframe src='https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FNowThisElection%2Fvideos%2F1255138781184276%2F&show_text=0' width='356' height='200' frameBorder='0' allowFullScreen='true'></iframe>
+                        <span className={styles.caption}>
+                            NowThis
+                        </span>
+                    </div>
+
+</div>
+            </div>
+            <div className={styles.pressImageContainer}>
+
+                <div className={styles.logo}>
+                    <a href='https://www.washingtonpost.com/opinions/the-sanders-movement-is-only-just-beginning/2016/08/09/228b8744-5d87-11e6-9d2f-b1a3564181a1_story.html?utm_term=.e2feb4ead733'>
+                        <img src='../images/washingtonPost.png' className={styles.pressImage} />
+                    </a>
+                    <a href='http://www.wsj.com/articles/sanders-supporters-seek-to-make-his-liberal-agenda-endure-1462485056' >
+                        <img src='../images/wallstreetjournal.png' className={styles.pressImage} />
+                    </a>
+
+                    <a href='http://www.slate.com/articles/news_and_politics/the_next_20/2016/09/ralph_nader_and_the_tragedy_of_voter_as_consumer_politics.html'>
+                        <img src='../images/slate.png' className={styles.pressImage} />
+                    </a>
+
+                    <a href='http://www.huffingtonpost.com/entry/bernie-sanders-congress_us_5720e608e4b0b49df6a9c933'>
+                        <img src='../images/thehuffingtonpost.png' className={styles.pressImage} />
+                    </a>
+
+                    <a href='https://www.thenation.com/article/is-brand-new-congress-the-future-of-progressive-politics'>
+                        <img src='../images/nation.png' className={styles.pressImage} />
+                    </a>
+
+                    <a href='https://www.wired.com/2016/05/bernie-wont-get-nomination-online-army-isnt-done/'>
+                        <img src='../images/wired.png' className={styles.pressImage} />
+                    </a>
+                    <a href='http://www.rollcall.com/news/politics/whats-next-sanders-backers-replace-entire-congress'>
+                        <img src='../images/rollcall.png' className={styles.pressImage} />
+                    </a>
+
+                    <a href='http://www.thedailybeast.com/articles/2016/05/02/where-does-the-bernie-sanders-movement-go-from-here.html'>
+                        <img src='../images/dailybeast.png' className={styles.pressImage} />
+                    </a>
+
+                    <a href='http://www.salon.com/2016/07/24/whats_next_for_the_bernie_sanders_revolution_meet_the_groups_keeping_up_his_fight_for_progressive_values/'>
+                        <img src='../images/salon.png' className={styles.pressImage} />
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
       </div>
     )
   }
