@@ -9,7 +9,7 @@ const MailgunSingleton = mailgunConstructor({
   apiKey: process.env.MAILGUN_KEY,
   domain: process.env.MAILGUN_DOMAIN
 })
-console.log(process.env.MAILGUN_KEY, process.env.MAILGUN_DOMAIN)
+
 const DefaultSender = 'Brand New Congress <us@brandnewcongress.org>'
 
 class Mail {

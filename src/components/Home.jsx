@@ -1,11 +1,12 @@
 import React from 'react'
 import Signup from './Signup'
+import Press from './Press'
 import { StyleSheet } from 'react-look'
 import { onTablet } from '../media-queries'
 import theme from '../theme'
 
 const styles = StyleSheet.create({
-  signupContainer: {
+  innerContainer: {
     width: '100%',
     height: '100%',
     paddingTop: 50,
@@ -37,8 +38,11 @@ const styles = StyleSheet.create({
 
 const Home = () => (
   <div className={styles.container}>
-    <div className={styles.signupContainer}>
+    <div className={styles.innerContainer}>
       <Signup />
+    </div>
+    <div className={styles.innerContainer}>
+      <Press />
     </div>
   </div>
 )
