@@ -33,7 +33,6 @@ const styles = StyleSheet.create({
       flexDirection: 'column'
     }
   },
-
   video: {
     display: 'flex',
     flex: 1,
@@ -122,47 +121,64 @@ export default () => (
         <div className={styles.logoRow}>
           <a href='http://www.slate.com/articles/news_and_politics/the_next_20/2016/09/ralph_nader_and_the_tragedy_of_voter_as_consumer_politics.html'>
             <img
-                alt='Slate'
-                src='../images/slate.png'
-                style={{
-                    ...inlineStyles.logo,
-                    height: 20
-                  }}  
-
+              alt='Slate'
+              src='../images/slate.png'
+              style={{
+                ...inlineStyles.logo,
+                height: 20
+              }}
             />
           </a>
-
           <a href='http://www.huffingtonpost.com/entry/bernie-sanders-congress_us_5720e608e4b0b49df6a9c933'>
             <img
-                src='../images/thehuffingtonpost.png'                
-                style={{
-                    ...inlineStyles.logo,
-                    height: 20
-                  }}  
+              alt='Huffington Post'
+              src='../images/thehuffingtonpost.png'
+              style={{
+                ...inlineStyles.logo,
+                height: 20
+              }}
             />
           </a>
 
           <a href='https://www.thenation.com/article/is-brand-new-congress-the-future-of-progressive-politics'>
-            <img src='../images/nation.png'
-                 style={{
-                     ...inlineStyles.logo,
-                     height: 20
-                   }}
+            <img
+              src='../images/nation.png'
+              alt='The Nation'
+              style={{
+                ...inlineStyles.logo,
+                height: 20
+              }}
             />
           </a>
           <a href='http://www.rollcall.com/news/politics/whats-next-sanders-backers-replace-entire-congress'>
-            <img src='../images/rollcall.png'                 
-                 style={{ ...inlineStyles.logo, height: 20 }}/>
+            <img
+              src='../images/rollcall.png'
+              alt='Rollcall'
+              style={{
+                ...inlineStyles.logo,
+                height: 20
+              }}
+            />
           </a>
-
           <a href='http://www.thedailybeast.com/articles/2016/05/02/where-does-the-bernie-sanders-movement-go-from-here.html'>
-            <img src='../images/dailybeast.png'
-                 style={{ ...inlineStyles.logo, height: 20 }}/>
+            <img
+              alt='Daily Beast'
+              src='../images/dailybeast.png'
+              style={{
+                ...inlineStyles.logo,
+                height: 20
+              }}
+            />
           </a>
-
           <a href='http://www.salon.com/2016/07/24/whats_next_for_the_bernie_sanders_revolution_meet_the_groups_keeping_up_his_fight_for_progressive_values/'>
-            <img src='../images/salon.png'
-                 style={{ ...inlineStyles.logo, height: 20 }}/>
+            <img
+              src='../images/salon.png'
+              alt='Salon'
+              style={{
+                ...inlineStyles.logo,
+                height: 20
+              }}
+            />
           </a>
         </div>
       </div>
