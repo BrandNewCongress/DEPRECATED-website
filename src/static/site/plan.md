@@ -1,7 +1,7 @@
 # What does Brand New Congress stand for?
 ___
 ## Good Jobs in Every Town for Everyone
-We need to work with business build new high tech, high paying industries here in America on a massive scale. We need to catch up to other industrialized countries by rebuilding our infrastructure and energy economy.
+We need to invest in new high tech, high paying industries here in America on a massive scale. We need to catch up to other industrialized countries by rebuilding our infrastructure and energy economy.
 ## Liberty and Justice for All
 We need to repair and reform all of our institutions from elections to social services to policing and the justice system. We the People are sick and tired of being targeted, abused, surveiled, micromanaged, nickled and dimed and belittled by our government.   
 
