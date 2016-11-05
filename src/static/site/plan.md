@@ -7,11 +7,11 @@ We need to repair and reform all of our institutions from elections to social se
 
 # How will BNC do all this?
 
-We can only carry out our plan if the American people give our candidates a sweeping majority in Congress and a partner in the White House. It will take at least until 2020 to achieve that. Until then, we'll be running a constant campaign across the whole country to win that majority (and eventually the White House!). In 2018, we'll use however many seats the American people give us to fight as hard as we possibly can for them and show them what we're capable of. We'll shine a light on corruption, act as a watchdog for the people inside the Capital, stop every bad bill we can, and win every part of our plan we possibly can.  
+We can only carry out our plan if the American people give our candidates a sweeping majority in Congress and a partner in the White House. It will take at least until 2020 to achieve that. Until then, we'll be running a constant campaign across the whole country to win that majority. In 2018, we'll use however many seats the American people give us to fight as hard as we possibly can for them and show them what we're capable of. We'll shine a light on corruption, act as a watchdog for the people inside the Capital, stop every bad bill and win every part of our plan that we can.  
 
-Once we have a majority, Brand New Congress will govern like America has never seen in peacetime: by actually getting stuff done! There will be no debating or horse trading -- because the BNC candidates all enter Congress already having agreed on the plan. We'll have all the legistlation written BEOFRE the 2018 election! It's what the American people will have elected us to pass -- and we will pass it on Day One. 
+Once we have a majority, Brand New Congress will govern like America has never seen in peacetime before: by actually getting stuff done! There will be no debating or horse trading -- because the BNC candidates all enter Congress already having agreed on the plan. We'll have all the legistlation written and published for review by the people BEOFRE the 2018 election! It's what the American people will have elected us to pass -- and we will pass it on Day One. 
 
-It will take at least until the end of 2017 to work out all the details of the legislation the BNC will enact. But the basic values, principles and ideas of the plan are available below. Right now, [BNC’s Working Group](https://wiki.brandnewcongress.org/index.php?title=Our_Team-Based_Organization) is responsible for leading this process. Once we have a critical mass of candidates, responsibility will shift to them.
+It will take at least until the end of 2017 to work out all the details of the legislation. But the basic values, principles and ideas of the BNC plan are available below. Right now, [BNC’s Working Group](https://wiki.brandnewcongress.org/index.php?title=Our_Team-Based_Organization) is responsible for leading this process. Once we have a critical mass of candidates, responsibility will shift to them.
 
 ------
 # The BNC Plan in a Nutshell
@@ -20,7 +20,7 @@ The BNC's plan calls for a mobilization on the scale of World War II -- one in w
 1. Rebuild and repair local communities -- starting with those that have been left the farthest behind.
 2. Repair our nation’s crumbling infrastructure -- starting in the most economically depressed regions of our country.
 3. Give small businesses the competitive edge in rebuilding America.
-4. Build the inevitable free and clean energy economy now.
+4. Build the inevitable free and clean energy economy NOW.
 5. Totally eliminate health care costs for American business.
 6. Build new high-wage, high tech industries that America is missing.
 Imagine every unemployed person in your community or city suddenly having work, struggling small businesses suddenly on a level playing field with big business, and big business suddenly having access to the same capital, infrastructure and other advantages currently available overseas. Imagine America in action again, here at home, making our living in the best way we know how.
@@ -29,8 +29,7 @@ Imagine every unemployed person in your community or city suddenly having work, 
 
 ## Liberty and Justice for All. 
 * **Get money out of politics once and for all**: This means getting rid of the revolving door between Wall Street and our government. It means repealing Citizens United. It means moving to a publicly financed, transparent system of campaign financing that amplifies small donations. And it means all BNC candidates pledging to never lobby Congress after they're out of office.
-* Give every government body new marching orders: "Your job is to serve the people -- no longer to target, abuse, surveil, micromanage, nickle and dime and belittle the people." We will back that up by removing government bureacrats who can't understand or won't comply with their new orders. And we will back it up by cutting out blatant and obvious waste, while providing ample funding and training to the agencies and staff that do the real work and that have been starved of support for decades. 
-* Support the cries for justice from all groups that have been targeted by the government including black people, small business owners, poor people, disabled people, immigrants, manufacturers and others! 
+* Give every government body new marching orders: "Your job is to serve the people -- no longer to target, abuse, surveil, micromanage, nickle and dime and belittle the people your were hired to serve." We will back that up by removing government bureacrats who can't understand or won't comply with their new orders. And we will back it up by cutting out blatant and obvious waste, while providing generous funding and training to the agencies and staff that do the real work and that have been starved of support for decades. 
+* Support the cries for justice from all groups that have been targeted by the government including Black people, small business owners, poor people, rural peopple, disabled people, immigrants, manufacturers and others! 
 * We support the demands of [the Movement for Black Lives](https://policy.m4bl.org/end-war-on-black-people/). Including an end to encarceration, community control over policing, and massive investment to rebuild Black communities and to provide education to Black people of all generations that have been visciously denied it by our government.
 * Overhaul the IRS and the tax code to stop targeting small business owners and working people who are just trying to make ends meet while turning a blind eye to tax evasion by mutli-billionaires and giant corporations. 
-* Stop sending Americans to serve in insane projects to overthrow and destabilize other countries.
