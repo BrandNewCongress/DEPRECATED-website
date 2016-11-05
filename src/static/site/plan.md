@@ -5,7 +5,7 @@ We need to work with business build new high tech, high paying industries here i
 ## Liberty and Justice for All. 
 We need to repair and reform all of our institutions from elections to social services to policing and the justice system. We the People are sick and tired of being targeted, abused, surveiled, micromanaged, nickled and dimed and belittled by our government.   
 
-# How will BNC do all this?
+## How will BNC do that?
 
 We can only carry out our plan if the American people give our candidates a sweeping majority in Congress and a partner in the White House. It will take at least until 2020 to achieve that. Until then, we'll be running a constant campaign across the whole country to win that majority. In 2018, we'll use however many seats the American people give us to fight as hard as we possibly can for them and show them what we're capable of. We'll shine a light on corruption, act as a watchdog for the people inside the Capital, stop every bad bill and win every part of our plan that we can.  
 
