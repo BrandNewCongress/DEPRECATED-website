@@ -1,9 +1,16 @@
-# What is the Brand New Congress going to do?
-## Rebuild. Reform.
+# What does Brand New Congress stand for?
+## Good Jobs in Every Town Available to Everyone
+We need to work with business build new high tech, high paying industries here in America on a massive scale. We need to catch up to other industrialized countries by rebuilding our infrastructure and energy economy.
+## Liberty and Justice for All. 
+We need to repair and reform all of our institutions from elections to social services to policing and the justice system. We the People are sick and tired of being targeted, abused, surveiled, micromanaged, nickled and dimed and belittled by our government.   
 
-Once it has a majority, the Brand New Congress will take an approach to governing that hasn’t been tried in peacetime since the founding of the Republic — we are actually going to get stuff done! Instead of debating and horse trading, the BNC will enter office with a fully formed plan that America has elected them to carry out. Though the details are not all complete yet, the basic values, principles and ideas of the plan are available below. It will take at least until the end of 2017 to work out all the details of the legislation the BNC will enact. Right now, [BNC’s Working Group](https://wiki.brandnewcongress.org/index.php?title=Our_Team-Based_Organization) is responsible for leading this process. Once we have a critical mass of candidates, responsibility will shift to them.
+# How will BNC do all this?
 
-Once elected, the Brand New Congress will pass the whole plan into law on day one. What will we do if we don’t get a majority? We’ll keep fighting for a majority, and also stand up for the American people as best we can with the seats they give us. 
+We can only carry out our plan if the American people give our candidates a sweeping majority in Congress and a partner in the White House. It will take at least until 2020 to achieve that. Until then, we'll be running a constant campaign across the whole country to win that majority (and eventually the White House!). In 2018, we'll use however many seats the American people give us to fight as hard as we possibly can for them and show them what we're capable of. We'll shine a light on corruption, act as a watchdog for the people inside the Capital, stop every bad bill we can, and win every part of our plan we possibly can.  
+
+Once we have a majority, Brand New Congress will govern like America has never seen in peacetime: by actually getting stuff done! There will be no debating or horse trading -- because the BNC candidates all enter Congress already having agreed on the plan. We'll have all the legistlation written BEOFRE the 2018 election! It's what the American people will have elected us to pass -- and we will pass it on Day One. 
+
+It will take at least until the end of 2017 to work out all the details of the legislation the BNC will enact. But the basic values, principles and ideas of the plan are available below. Right now, [BNC’s Working Group](https://wiki.brandnewcongress.org/index.php?title=Our_Team-Based_Organization) is responsible for leading this process. Once we have a critical mass of candidates, responsibility will shift to them.
 
 ------
 ## The BNC Plan in a Nutshell
