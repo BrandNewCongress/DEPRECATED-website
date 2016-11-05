@@ -1,5 +1,5 @@
 # What does Brand New Congress stand for?
-## Good Jobs in Every Town Available to Everyone
+## Good Jobs in Every Town for Everyone
 We need to work with business build new high tech, high paying industries here in America on a massive scale. We need to catch up to other industrialized countries by rebuilding our infrastructure and energy economy.
 ## Liberty and Justice for All. 
 We need to repair and reform all of our institutions from elections to social services to policing and the justice system. We the People are sick and tired of being targeted, abused, surveiled, micromanaged, nickled and dimed and belittled by our government.   
@@ -13,11 +13,23 @@ Once we have a majority, Brand New Congress will govern like America has never s
 It will take at least until the end of 2017 to work out all the details of the legislation the BNC will enact. But the basic values, principles and ideas of the plan are available below. Right now, [BNC’s Working Group](https://wiki.brandnewcongress.org/index.php?title=Our_Team-Based_Organization) is responsible for leading this process. Once we have a critical mass of candidates, responsibility will shift to them.
 
 ------
-## The BNC Plan in a Nutshell
-* **Rebuild the economy**: We want to end the poverty and suffering of tens of millions of Americans. [Read the working draft of our economic plan](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit?usp=sharing).
-* **Make medicare available to all**: [Read the working draft of our economic plan for more details](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit#heading=h.tdbse0vun2un)
-* **Rethink the fundamental assumptions of our criminal justice system and move towards decarceration.** The current system unfairly targets people of color, fails to address this nation's huge problem with recidivism, and will be looked at by future generations as one of America's worst human rights violations of this era. We need to fundamentally change the way we think about criminal justice by switching to a rehabilitative system that spends its money on integrating offenders back into society and focuses on decarceration. We will be working with community leaders and other organizations to create a complete criminal and racial justice platform in the coming months.
-* **Say no to wars of choice**: We want to stop ruining the lives of millions abroad by destabilizing countries.
-* **Get money out of politics once and for all**: This means getting rid of the revolving door between Wall Street and our government. It means repealing Citizens United. It means moving to a publicly financed, transparent system of campaign financing that amplifies small donations.
-* **Further the rights of people of color, women, and LGBTIQ people**: These are groups that have suffered for years through discriminatory abuses. We do not want to lose the progress we've made, and we know there is more to be done.
-* **Become a 100% renewable energy economy in 10 years**: Not just because we want to have an inhabitable planet in 100 years, but because the new economy is inevitable at this point. [Read more in the working draft of our economic plan](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit#heading=h.96f3l2s6tob6)
+# The BNC Plan in a Nutshell
+## Good Jobs in Every Town for Everyone
+The BNC's plan calls for a mobilization on the scale of World War II -- one in which every American is called upon to rebuild and repair our communities and our nation. This plan unleashes resources to neighborhoods, local and state governments, small and large businesses and innovators to:
+1. Rebuild and repair local communities -- starting with those that have been left the farthest behind.
+2. Repair our nation’s crumbling infrastructure -- starting in the most economically depressed regions of our country.
+3. Give small businesses the competitive edge in rebuilding America.
+4. Build the inevitable free and clean energy economy now.
+5. Totally eliminate health care costs for American business.
+6. Build new high-wage, high tech industries that America is missing.
+Imagine every unemployed person in your community or city suddenly having work, struggling small businesses suddenly on a level playing field with big business, and big business suddenly having access to the same capital, infrastructure and other advantages currently available overseas. Imagine America in action again, here at home, making our living in the best way we know how.
+
+[Read more about BNC's plan to rebuild the economy here.](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit?usp=sharing)
+
+## Liberty and Justice for All. 
+* **Get money out of politics once and for all**: This means getting rid of the revolving door between Wall Street and our government. It means repealing Citizens United. It means moving to a publicly financed, transparent system of campaign financing that amplifies small donations. And it means all BNC candidates pledging to never lobby Congress after they're out of office.
+* Give every government body new marching orders: "Your job is to serve the people -- no longer to target, abuse, surveil, micromanage, nickle and dime and belittle the people." We will back that up by removing government bureacrats who can't understand or won't comply with their new orders. And we will back it up by cutting out blatant and obvious waste, while providing ample funding and training to the agencies and staff that do the real work and that have been starved of support for decades. 
+* Support the cries for justice from all groups that have been targeted by the government including black people, small business owners, poor people, disabled people, immigrants, manufacturers and others! 
+* We support the demands of [the Movement for Black Lives](https://policy.m4bl.org/end-war-on-black-people/). Including an end to encarceration, community control over policing, and massive investment to rebuild Black communities and to provide education to Black people of all generations that have been visciously denied it by our government.
+* Overhaul the IRS and the tax code to stop targeting small business owners and working people who are just trying to make ends meet while turning a blind eye to tax evasion by mutli-billionaires and giant corporations. 
+* Stop sending Americans to serve in insane projects to overthrow and destabilize other countries.
