@@ -2,7 +2,7 @@
 ___
 ## Good Jobs in Every Town for Everyone
 We need to work with business build new high tech, high paying industries here in America on a massive scale. We need to catch up to other industrialized countries by rebuilding our infrastructure and energy economy.
-## Liberty and Justice for All. 
+## Liberty and Justice for All
 We need to repair and reform all of our institutions from elections to social services to policing and the justice system. We the People are sick and tired of being targeted, abused, surveiled, micromanaged, nickled and dimed and belittled by our government.   
 
 ## How will BNC do that?
@@ -15,7 +15,7 @@ It will take at least until the end of 2017 to work out all the details of the l
 
 ------
 # The BNC Plan in a Nutshell
-## Good Jobs in Every Town for Everyone.
+## Good Jobs in Every Town for Everyone
 The BNC's plan calls for a mobilization on the scale of World War II -- one in which every American is called upon to rebuild and repair our communities and our nation. This plan unleashes resources to neighborhoods, local and state governments, small and large businesses and innovators to:
 1. Rebuild and repair local communities -- starting with those that have been left the farthest behind.
 2. Repair our nation’s crumbling infrastructure -- starting in the most economically depressed regions of our country.
@@ -27,7 +27,7 @@ Imagine every unemployed person in your community or city suddenly having work, 
 
 [Read more about BNC's plan to rebuild the economy here.](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit?usp=sharing)
 
-## Liberty and Justice for All. 
+## Liberty and Justice for All
 * **Get money out of politics once and for all**: This means getting rid of the revolving door between Wall Street and our government. It means repealing Citizens United. It means moving to a publicly financed, transparent system of campaign financing that amplifies small donations. And it means all BNC candidates pledging to never lobby Congress after they're out of office.
 * **Give every government body new marching orders**: "Your job is to serve the people -- no longer to target, abuse, surveil, micromanage, nickle and dime and belittle the people your were hired to serve." We will back that up by removing government bureacrats who can't understand or won't comply with their new orders. And we will back it up by cutting out blatant and obvious waste, while providing generous funding and training to the agencies and staff that do the real work and that have been starved of support for decades. 
 * **Support the cries for justice from all groups** that have been targeted by the government including Black people, small business owners, poor people, rural peopple, disabled people, immigrants, manufacturers and others! 
