@@ -40,7 +40,7 @@ We're a group of people who are sick and tired of divisive partisan politics and
 
 <a name="mary_nishimuta"></a>
 <div class="col-lg-3 col-sm-12 col-xs-12">
-    <img src="/static-assets/img/endorsers/sara_first.jpeg" class="thumbnail img-responsive">
+    <img src="/static-assets/img/endorsers/mary_nishimuta.jpeg" class="thumbnail img-responsive">
 </div>
 <div class="col-lg-8 col-sm-12 col-xs-12">
     <p>coming soon. <b>Mary Nishimuta</b></p>
