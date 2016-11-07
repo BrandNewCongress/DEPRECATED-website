@@ -4,7 +4,7 @@ We're a group of people who are sick and tired of divisive partisan politics and
 
 <a name="alex_rojas"></a>
 <div class="col-lg-3 col-sm-12 col-xs-12">
-    <img src="/static-assets/img/endorsers/IMG_2899.jpg" class="thumbnail img-responsive">
+    <img src="/static-assets/img/endorsers/alex_rojas.jpg" class="thumbnail img-responsive">
 </div>
 <div class="col-lg-8 col-sm-12 col-xs-12">
     <p>My name is Alexandra Rojas and I am a Working Group member of Brand New Congress who lives out in Fullerton, CA. I believe in BNC because I don’t believe I have to choose a cause or an issue I am most passionate about. We are investing our time, energy, and resources in the American people — not our broken system. <b>Alex Rojas</b></p>
