@@ -31,7 +31,7 @@ We're a group of people who are sick and tired of divisive partisan politics and
 
 <a name="isra_allison"></a>
 <div class="col-lg-3 col-sm-12 col-xs-12">
-   <img src="/static-assets/img/endorsers/carlos_condarco.jpg" class="thumbnail img-responsive">
+   <img src="/static-assets/img/endorsers/isra_allison.jpg" class="thumbnail img-responsive">
 </div>
 <div class="col-lg-8 col-sm-12 col-xs-12">
     <p>My name is Isra Allison, and I am a Working Group member of Brand New Congress who lives in Charlotte, NC. I believe in Brand New Congress because the American people deserve a chance to vote for honest and non-corrupt candidates full of integrity. I support the Brand New Congress plan because it calls for bold action to take back our democracy with a slate of candidates who not only look like their communities but they also represent the needs and rights of the people rather than that of corporate interest.  <b>Isra Allison</b></p>
