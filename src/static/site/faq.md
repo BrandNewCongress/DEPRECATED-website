@@ -48,11 +48,14 @@ No. Members of Congress should have experience staying true in the face of adver
 Basically the core of Bernie’s platform on the economy, environment and criminal justice reform. But see below for more info on this.
 
 ### Who’s behind this?
+We are mostly grassroots leaders from the Bernie campaign and a few ex-staffers, most of whom began as grassroots leaders for Bernie. We have been talking about this idea for a while, and decided the time was right to launch it. 
 
-We are mostly grassroots leaders from the Bernie campaign and a few ex-staffers, most of whom began as grassroots leaders for Bernie. We have been talking about this idea for a while, and decided the time was right to launch it.
-Is there a formal organization behind this?
+### Is there a formal organization behind this?
+An independent political action committee called Brand New Congress is accepting contributions to fund travel, operating, and staff costs for a handful of organizers. Brand New Congress is led by a group of nine staff and volunteers called the working group. The treasurer of the PAC is a volunteer and former Bernie staffer, Zack Exley. We are required to have a PAC to accept funds and spend money toward electing federal candidates. PACs have a maximum contribution limit of $5,000 and must report all donations and expenditures. Once we have our candidates, formal decision making and fund raising will flow through them, with the PAC probably being dissolved.  
 
-Right now, a political action committee called Brand New Congress, is accepting contributions to support travel costs and to pay stipends for a handful of organizers. Zack Exley, a former Bernie staffer, is the treasurer of the PAC and works on Brand New Congress as a volunteer. Once we have our candidates, formal decision making and fund raising will flow through them, with the PAC probably being dissolved. We are required to have a PAC to accept funds and spend money toward electing federal candidates.
+Our candidates are going to run in a single, unified campaign. The logistics, staffing, bookkeeping, media buys and so on will be handled by an entity called Brand New Campaign. The law does not allow tax exempt non-profits like 501c3s, c4s or PACs to exist primarily to provide services to campaigns. Therefore, Brand New Campaign is an LLC partnership whose operating agreement states that it exists not to make a profit, but solely to support a new generation of leaders running for office. 
+
+Saikat Chakrabarti is the owner and steward of Brand New Campaign and works as a volunteer and is taking no compensation from Brand New Campaign (or Brand New Congress). We are already developing Brand New Campaign’s capacities. Brand New Congress contracts with Brand New Campaign to provide staff, research and recruitment of candidates, travel support and more. In the future, Brand New Campaign will grow its in-house capacities and subcontract with outside firms to handle everything from research and field organization to ad production and social media. Brand New Campaign spending reports can be viewed [here](https://docs.google.com/spreadsheets/d/10fb5bWERgwYvfz_VDEiicM6em9_l7SSq6k0oYS-0aAY/edit?usp=sharing)
 
 ### What is a PAC?
 
