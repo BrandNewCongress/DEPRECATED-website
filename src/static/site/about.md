@@ -1,6 +1,6 @@
 ## Who's proposing this?
 
-We're a group of people who got tired of partisan politics we were seeing in the news. We see the potential in our country, and we just want to see us living up to it. If our current congress won't come up with a plan for solving them, we thought we would. Read our [Plan](/plan) to find out more. If you'd like updates or to get involved, [please sign up](/home#sign-up) and someone from Brand New Congress will be in touch.
+We're a group of people who got tired of the partisan politics we were seeing in the news. We saw the potential in our country, and we just wanted to see everyone having access and living up to that potential. If our current congress won't come up with a plan for moving our country forward, we thought we will. Read our [Plan](/plan) to find out more. If you'd like updates or to get involved, [please sign up](/home#sign-up) and someone from Brand New Congress will be in touch.
 
 <a name="alex_rojas"></a>
 <div class="col-lg-3 col-sm-12 col-xs-12">
