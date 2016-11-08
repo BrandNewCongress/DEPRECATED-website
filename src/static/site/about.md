@@ -25,7 +25,7 @@ We're a group of people who are sick and tired of divisive partisan politics and
    <img src="/static-assets/img/endorsers/haley_zink.jpg" class="thumbnail img-responsive">
 </div>
 <div class="col-lg-8 col-sm-12 col-xs-12">
-    <p>I'm Haley Zink and I'm a college student from the Midwest with a strong belief in the fight for a better world. As a member of the BNC working group, I enjoy talking to people, giving speeches, and above all working towards governmental representation that we can be proud of. I started getting involved in all of this from the 2016 presidential campaign as a full time volunteer, meeting some of the people I know work alongside here at BNC. Brand New Congress is the thing that drives me every day, but more than that -- it makes me believe that a better future is possible. <b>Haley Zink</b></p>
+    <p>I'm Haley Zink and I'm a college student from the Midwest with a strong belief in the fight for a better world. As a member of the BNC working group, I enjoy talking to people, giving speeches, and above all working towards governmental representation that we can be proud of. I started getting involved in all of this from the 2016 presidential campaign as a full time volunteer, meeting some of the people I now work alongside here at BNC. Brand New Congress is the thing that drives me every day, but more than that -- it makes me believe that a better future is possible. <b>Haley Zink</b></p>
 </div>
 <div class="clearfix"></div>
 
@@ -43,7 +43,7 @@ We're a group of people who are sick and tired of divisive partisan politics and
     <img src="/static-assets/img/endorsers/mary_nishimuta.jpg" class="thumbnail img-responsive">
 </div>
 <div class="col-lg-8 col-sm-12 col-xs-12">
-    <p>coming soon. <b>Mary Nishimuta</b></p>
+    <p>Coming soon! <b>Mary Nishimuta</b></p>
 </div>
 <div class="clearfix"></div>
 
