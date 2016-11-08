@@ -43,7 +43,7 @@ We're a group of people who got tired of the partisan politics we were seeing in
     <img src="/static-assets/img/endorsers/mary_nishimuta.jpg" class="thumbnail img-responsive">
 </div>
 <div class="col-lg-8 col-sm-12 col-xs-12">
-    <p>Coming soon! <b>Mary Nishimuta</b></p>
+    <p>As an engineer by profession, I am on the constant look-out for practical solutions for seemingly impossible problems. Brand New Congress is an elegant solution to fix the corrupting influence of lobbyists and corporations, the massive income inequality, our growing healthcare costs with diminishing returns, the realities of climate change, and systemic racial injustice. This engineer is working hard for a Brand New Congress -- the practical solution to take our democracy back and get America back on track again. <b>Mary Nishimuta</b></p>
 </div>
 <div class="clearfix"></div>
 
