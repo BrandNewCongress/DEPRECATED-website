@@ -1,6 +1,6 @@
 ## Who's proposing this?
 
-We're a group of people who got tired of the partisan politics we were seeing in the news. We saw the problems we were facing together as a nation, and we just wanted them solved. If our current congress won't come up with a plan for moving our country forward, we will. Then we'll present that option to the American people for a vote during the 2018 mid-term elections. Find out more by reading our [Plan](/plan). If you'd like updates or to get involved, [please sign up](/home#sign-up) and someone from Brand New Congress will be in touch. 
+We're a group of people who got tired of the partisan politics we were seeing in the news. We saw the problems we were facing as a nation, and we just wanted them solved. If our current congress won't come up with a plan for moving our country forward, we will. Then we'll present that option to the American people for a vote during the 2018 mid-term elections. Find out more by reading our [Plan](/plan). If you'd like updates or to get involved, [please sign up](/home#sign-up) and someone from Brand New Congress will be in touch. 
 
 <a name="alex_rojas"></a>
 <div class="col-lg-3 col-sm-12 col-xs-12">
