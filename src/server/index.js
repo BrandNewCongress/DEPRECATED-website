@@ -40,15 +40,10 @@ app.get('/work', wrap(async (req, res) => {
 
 app.post('/signup', wrap(async (req, res) => {
   const body = req.body
-  const nameParts = body.fullName.split(/\s+/)
-  const firstName = nameParts.shift()
-  const lastName = nameParts.join(' ')
+  console.log(body.zip)
   const requestBody = {
     person: {
       email1: body.email,
-      phone: body.phone,
-      first_name: firstName,
-      last_name: lastName,
       primary_address: {
         zip: body.zip
       }
@@ -60,7 +55,7 @@ app.post('/signup', wrap(async (req, res) => {
     .post(`https://${process.env.NATIONBUILDER_SLUG}.nationbuilder.com/api/v1/people?access_token=${process.env.NATIONBUILDER_TOKEN}`, requestBody, { headers: { Accept: 'application/json', 'Content-Type': 'application/json' }, validateStatus: () => true })
 
   if (response && (response.status === 201 || response.status === 409)) {
-    await mail.sendEmailTemplate(body.email, 'Thanks for signing up. This is what you can do now.', 'signup', { name: firstName })
+    await mail.sendEmailTemplate(body.email, 'Thanks for signing up. This is what you can do now.', 'signup', { name: 'Friend'  })
     res.sendStatus(200)
   } else {
     res.sendStatus(400)
