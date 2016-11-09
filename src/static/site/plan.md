@@ -1,6 +1,6 @@
 # What does Brand New Congress stand for?
 ___
-## Good Work for All
+## Good Jobs for Everyone
 We will invest in new high-tech, high-paying industries here in America on a massive scale. We will catch America up to other industrialized countries by rebuilding our infrastructure and energy system. We will take Wall Street out of the drivers seat of the economy and put the American people back in control. 
 ## Liberty and Justice for All
 Everyone from small business owners to rural Americans to African Americans, Latinos and Native Americans have something in common: the distinct feeling that their government is against them -- and even preying upon their communities, way of life and means of making a living. We will repair and reform all of our institutions from social services and regulatory agencies to elections, policing and our entire justice system. We the People are sick and tired of being targeted, abused, surveiled, micromanaged, nickled and dimed and belittled by our government.   
