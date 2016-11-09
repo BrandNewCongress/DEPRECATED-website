@@ -3,6 +3,7 @@ export default function renderIndex(html, css, assetMap, store) {
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta property="og:image" content="https://brandnewcongress.org/images/logo-horizontal.png" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brand New Congress</title>
