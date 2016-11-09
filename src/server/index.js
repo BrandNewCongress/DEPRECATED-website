@@ -40,11 +40,10 @@ app.get('/work', wrap(async (req, res) => {
 
 app.post('/signup', wrap(async (req, res) => {
   const body = req.body
-  console.log(body.zip)
   const requestBody = {
     person: {
       email1: body.email,
-      primary_address: {
+      mailing_address: {
         zip: body.zip
       }
     }
