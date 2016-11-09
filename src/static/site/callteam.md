@@ -14,4 +14,4 @@ This team requires a commitment of at least 5 hours a week with an ideal average
 
 ### How to apply
 1. Thoroughly read the [BNC Plan](/plan) and [Frequently Asked Questions](/faq) page.
-1. Please fill out our [Call Team Application](https://docs.google.com/forms/d/e/1FAIpQLSePyeKppo5Gk6nyxffc32fc5QTlE1YAvJF_YHnaLGhNZG_2Gw/viewform?c=0&w=1). One of our team leads will call you shortly to ask a few follow up questions. Thanks for applying!
+1. Please fill out our [Call Team Application](https://docs.google.com/forms/d/e/1FAIpQLSeSW15RBbSN0wkAsYVnrIwiu_q3t5FHc8FHEXLvIEgXoLPpxQ/viewform). One of our team leads will call you shortly to ask a few follow up questions. Thanks for applying!
