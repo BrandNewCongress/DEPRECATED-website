@@ -4,6 +4,9 @@ export default function renderIndex(html, css, assetMap, store) {
 <html lang="en">
   <head>
     <meta property="og:image" content="https://brandnewcongress.org/images/bnc-logo.png" />
+    <meta property="og:title" content="https://brandnewcongress.org" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Brand New Congress is a plan to recruit and run 400+ candidates for Congress in 2018." />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brand New Congress</title>
