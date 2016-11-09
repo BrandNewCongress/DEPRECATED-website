@@ -117,14 +117,14 @@ export default class Signup extends React.Component {
             name='fullName'
             type='text'
             autoComplete='name'
-            label='Full Name'
+            label='Name'
             fullWidth
           /><br />
           <Form.Field
             name='phone'
             type='tel'
             autoComplete='tel'
-            label='Phone (Cell preferred)'
+            label='Phone'
             fullWidth
           /><br />
           <Form.Field
