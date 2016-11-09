@@ -90,7 +90,7 @@ export default class Signup extends React.Component {
         }}
       >
         <div id='sign-up' className={styles.formHeader}>
-          <span className={styles.bold}>Add your name:</span> I'm not giving up! I will support candidates of integrity for 2018 who pledge to rebuild the economy and fix our broken system.
+          <span className={styles.bold}>Add your name:</span> I am not giving up! I will support candidates of integrity for 2018 who pledge to rebuild the economy and fix our broken system.
         </div>
         <BNCForm
           schema={this.formSchema}
