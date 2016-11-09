@@ -158,16 +158,16 @@ export default class Signup extends React.Component {
       <div className={styles.container}>
         <div className={styles.contentContainer}>
           <div className={styles.explanation}>
-            <div className={styles.header}>Congress is broken.
+            <div className={styles.header}>Welcome to the resistance.
             </div>
             <div className={styles.body}>
-            80% of Americans agree. Its decisions are driven by a handful of wealthy individuals, it is incapable of working together to enact real change, and its members spend too much time dialing for dollars.
+              We had a two party system. That system let the people down so badly that a reality TV star mopped the floor with BOTH parties while turning America against itself. Now it’s truly time that We the People take back our government.
             </div>
             <div className={styles.secondaryHeader}>
-            Let's fix it.
+              We're here to take back the country.
             </div>
             <div className={styles.body}>
-            We need <span className={styles.bold}>an honest, accountable Congress</span>, but trying to win each congressional seat one-by-one is impossible.  So let's replace Congress all at once. Our plan is to recruit and run 400+ candidates as a single, unified campaign with a single plan. By giving the people an option for big, tangible change, we plan to generate the same enthusiasm, volunteerism, voter turnout, and grassroots donations as Bernie's presidential campaign. <span className={styles.leadIn}>Let's elect a Brand New Congress that works for the people.</span>
+              We’re recruiting and running 400+ candidates as a single, unified campaign for Congress in 2018. They will pass a radical and practical plan to get everyone good jobs, get incomes rising again and rid our government of corruption. Americans are hungry to rebuild their country together with everyone from every community, region, race and culture. <span className={styles.leadIn}>Step 1 is electing a Brand New Congress in 2018.</span>
             </div>
           </div>
           <div className={styles.form}>
