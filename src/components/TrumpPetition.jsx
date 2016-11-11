@@ -66,7 +66,7 @@ export default class TrumpPetition extends React.Component {
   renderContent() {
     return (
       <div>
-        <div className={styles.body}>President-elect Trump, your words during your campaign have sparked an outbreak of hate crimes across the country -- against Muslims, people of color, immigrants, women, LGBTQ people and disabled people. Since your election victory, these crimes have spiraled out of control with perpetrators often explicitly committing the crimes in your name, citing your example. Call on those committing these crimes to stop in an emergency press conference.</div>
+        <div className={styles.body}>President-elect Trump, your words during your campaign have sparked an outbreak of hate crimes across the country -- against Muslims, people of color, immigrants, women, LGBTQ people and disabled people. Since your election victory, these crimes have spiraled out of control with perpetrators often explicitly committing the crimes in your name, citing your example.</div>
         <div className={styles.body}>For the sake of human life, recognize what’s at stake. Look at the pain and suffering caused just within the first 48-hours of your America <a href="https://twitter.com/ShaunKing" className={styles.link}>on this twitter feed</a>. Whether you would like to admit it or not, your campaign has incited violence against fellow Americans.</div>
       </div>
     )
