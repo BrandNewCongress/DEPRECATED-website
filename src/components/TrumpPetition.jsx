@@ -51,7 +51,7 @@ export default class TrumpPetition extends React.Component {
     return (
       <div className={styles.container}>
         <div className={styles.content}>
-          <div className={styles.header}>President-elect Trump: Tell your supporters to stop committing hate crimes</div>
+          <div className={styles.header}>President-elect Trump: Tell those committing hate crimes in your name to stop</div>
           <div className={styles.innerContainer}>
             <Signup
               content={this.renderContent()}
@@ -66,7 +66,7 @@ export default class TrumpPetition extends React.Component {
   renderContent() {
     return (
       <div>
-        <div className={styles.body}>Mr. Trump, you have done so much harm to our country before you’ve even moved into the White House. Your campaign and your words have sparked an outbreak of hate crimes across the country -- against Muslims, people of color, immigrants, women, LGBTQ people and disabled people. Since your election victory, these crimes have spiraled out of control -- with perpetrators often explicitly committing the crimes in your name, citing your example. If you have any decency, call on your supporters in an emergency press conference to stop committing these crimes. </div>
+        <div className={styles.body}>President-elect Trump, your words during your campaign have sparked an outbreak of hate crimes across the country -- against Muslims, people of color, immigrants, women, LGBTQ people and disabled people. Since your election victory, these crimes have spiraled out of control with perpetrators often explicitly committing the crimes in your name, citing your example. Call on those committing these crimes to stop in an emergency press conference.</div>
         <div className={styles.body}>For the sake of human life, recognize what’s at stake. Look at the pain and suffering caused just within the first 48-hours of your America <a href="https://twitter.com/ShaunKing" className={styles.link}>on this twitter feed</a>. Whether you would like to admit it or not, your campaign has incited violence against fellow Americans.</div>
       </div>
     )
@@ -74,7 +74,7 @@ export default class TrumpPetition extends React.Component {
 
   renderPledge() {
     return (
-      <div>I want Donald Trump to denounce the hate crimes being committed by his supporters</div>
+      <div>Whether or not I voted for Donald Trump, I want Donald Trump to denounce the hate crimes being committed in his name</div>
     )
   }
 }
