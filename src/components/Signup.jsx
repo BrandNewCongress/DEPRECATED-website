@@ -57,7 +57,7 @@ export default class Signup extends React.Component {
   state = {
     sending: false,
     error: false,
-    submitted: true
+    submitted: false
   }
 
   formSchema = yup.object({
@@ -71,10 +71,6 @@ export default class Signup extends React.Component {
     this.setState({
       error: false
     })
-  }
-
-  renderDonateForm() {
-    
   }
 
   renderForm() {
@@ -97,7 +93,11 @@ export default class Signup extends React.Component {
             if (response.status !== 200) {
               this.setState({ error: true })
             } else {
-              this.setState({ submitted: true })
+              if (this.props.thankYouBody) {
+                this.setState({ submitted: true })
+              } else {
+                location.href = 'https://secure.actblue.com/contribute/page/bncsignup'
+              }
             }
           }}
         >
