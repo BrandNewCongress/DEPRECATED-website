@@ -23,8 +23,8 @@ const defaultFont = 'Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif'
 
 const text = {
   link: {
-    fontWeight: 400,
-    color: colors.darkGray,
+    fontWeight: 600,
+    color: colors.orange,
     textDecoration: 'none',
     borderBottom: `1px solid ${colors.purple}`,
     cursor: 'pointer',
@@ -72,8 +72,19 @@ const text = {
     },
     fontFamily: defaultFont,
     color: colors.darkGray
+  },
+  shareIcon: {
+    border: 'none',
+    fontSize: '3em',
+    color: colors.darkGray,
+    ':hover': {
+      color: colors.orange
+    },
+    paddingRight: 20,
+    paddingLeft: 20
   }
 }
+
 
 const singleColumnLayout = {
   maxWidth: 1024,

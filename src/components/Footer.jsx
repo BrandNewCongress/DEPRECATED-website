@@ -10,16 +10,7 @@ const styles = StyleSheet.create({
     paddingTop: 20
   },
   link: { ...theme.text.link },
-  shareIcon: {
-    border: 'none',
-    fontSize: '3em',
-    color: theme.colors.darkGray,
-    ':hover': {
-      color: theme.colors.orange
-    },
-    paddingRight: 20,
-    paddingLeft: 20
-  },
+  shareIcon: { ...theme.text.shareIcon },
   copyright: {
     fontSize: '0.5em',
     paddingBottom: 20

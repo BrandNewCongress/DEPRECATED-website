@@ -2,7 +2,8 @@ import React from 'react'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
 import Signup from './Signup'
-import { onTablet } from '../media-queries'
+import { onTablet, onMobile } from '../media-queries'
+import { Link } from 'react-router'
 
 const styles = StyleSheet.create({
   content: {
@@ -24,9 +25,12 @@ const styles = StyleSheet.create({
     paddingBottom: 30
   },
   body: {
-    display: 'block',
-    paddingBottom: 30,
-    lineHeight: '1.5em'
+    ...theme.text.body,
+    paddingBottom: 20
+  },
+  centeredBody: {
+    ...theme.text.body,
+    textAlign: 'center'
   },
   header: {
     ...theme.text.header,
@@ -39,30 +43,33 @@ const styles = StyleSheet.create({
     width: '80%',
     borderBottom: `1px solid ${theme.colors.lightGray}`
   },
+  bold: {
+    fontWeight: 800
+  },
+  buttonText: {
+    marginLeft: 15,
+    [onMobile]: {
+      display: 'none'
+    }
+  },
+  button: {
+    ...theme.text.button,
+    marginBottom: 20,
+    marginRight: 20,
+    textDecoration: 'none',
+    paddingBottom: 5,
+    paddingTop: 5,
+    lineHeight: '1.5em',
+    [onMobile]: {
+      display: 'block'
+    }
+  },
   link: {
-    ...theme.text.link,
-    color: theme.colors.orange,
-    fontWeight: 600
+    ...theme.text.link
   }
 })
 
 export default class TrumpPetition extends React.Component {
-  render() {
-    return (
-      <div className={styles.container}>
-        <div className={styles.content}>
-          <div className={styles.header}>President-elect Trump: Tell those committing hate crimes in your name to stop</div>
-          <div className={styles.innerContainer}>
-            <Signup
-              content={this.renderContent()}
-              pledge={this.renderPledge()}
-            />
-          </div>
-        </div>
-      </div>
-    )
-  }
-
   renderContent() {
     return (
       <div>
@@ -74,7 +81,53 @@ export default class TrumpPetition extends React.Component {
 
   renderPledge() {
     return (
-      <div>Whether or not I voted for Donald Trump, I want Donald Trump to denounce the hate crimes being committed in his name</div>
+      <div>Whether or not I voted for Donald Trump, <span className={styles.bold}>I want Donald Trump to denounce the hate crimes being committed in his name</span></div>
+    )
+  }
+
+  renderThankYouBody() {
+    return (
+      <div>
+        <div className={styles.body}>
+          This is a petition by Brand New Congress. Brand New Congress is an effort to rebuild our economy and rid our government of corruption by recruiting and running 400+ extraordinary ordinary Americans for Congress in 2018. To learn more about us, <Link className={styles.link} to='/home'>visit our homepage</Link>.
+        </div>
+        <div className={styles.body}>
+          Brand New Congress is fighting the establishment and we are powered by donations and social media shares from people like you. We are not backed by billionaires. And WE are not billionaires! Please consider donating even $3 so we can continue pushing for radical change, and please tell others about this petition to put pressure on Donald Trump now before things get out of hand.
+        </div>
+        <div className={styles.centeredBody}>
+          <a className={styles.button} href='http://www.facebook.com/sharer/sharer.php?u=https://brandnewcongress.org/petitions/trump-denounce-hate&title=President-elect+Trump:+Tell+those+committing+hate+crimes+in+your+name+to+stop' target='_blank'>
+            <span className='fa fa-facebook' />
+            <span className={styles.buttonText}>Share on Facebook</span>
+          </a>
+          <a className={styles.button} href='http://twitter.com/intent/tweet?status=President-elect+Trump:+Tell+those+committing+hate+crimes+in+your+name+to+stop: https://brandnewcongress.org/petitions/trump-denounce-hate' target='_blank'>
+            <span className='fa fa-twitter' />
+            <span className={styles.buttonText}>Share on Twitter</span>
+          </a>
+          <a href='https://secure.actblue.com/contribute/page/bncsignup' target='_blank' className={styles.button}>
+            <span className='fa fa-usd' />
+            <span className={styles.buttonText}>Donate</span>
+          </a>
+        </div>
+      </div>
+    )
+  }
+
+  render() {
+    return (
+      <div className={styles.container}>
+        <div className={styles.content}>
+          <div className={styles.header}>President-elect Trump: Tell those committing hate crimes in your name to stop</div>
+          <div className={styles.innerContainer}>
+            <Signup
+              content={this.renderContent()}
+              pledge={this.renderPledge()}
+              submitLabel='Add your name'
+              thankYouHeader='Thank you for your pledge.'
+              thankYouBody={this.renderThankYouBody()}
+            />
+          </div>
+        </div>
+      </div>
     )
   }
 }

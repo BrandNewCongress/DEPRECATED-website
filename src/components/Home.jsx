@@ -48,9 +48,8 @@ const styles = StyleSheet.create({
     color: theme.colors.purple
   },
   body: {
-    display: 'block',
-    paddingBottom: 30,
-    lineHeight: '1.5em'
+    ...theme.text.body,
+    paddingBottom: 20
   }
 })
 

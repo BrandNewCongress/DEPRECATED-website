@@ -10,6 +10,15 @@ import axios from 'axios'
 import Snackbar from 'material-ui/Snackbar'
 
 const styles = StyleSheet.create({
+  header: {
+    ...theme.text.header,
+    paddingBottom: 30,
+    color: theme.colors.orange
+  },
+  body: {
+    ...theme.text.body,
+    paddingBottom: 20
+  },
   container: {
     width: '100%'
   },
@@ -47,7 +56,8 @@ export default class Signup extends React.Component {
 
   state = {
     sending: false,
-    error: false
+    error: false,
+    submitted: true
   }
 
   formSchema = yup.object({
@@ -61,7 +71,11 @@ export default class Signup extends React.Component {
     this.setState({
       error: false
     })
-  };
+  }
+
+  renderDonateForm() {
+    
+  }
 
   renderForm() {
     return (
@@ -83,7 +97,7 @@ export default class Signup extends React.Component {
             if (response.status !== 200) {
               this.setState({ error: true })
             } else {
-              location.href = 'https://secure.actblue.com/contribute/page/bncsignup'
+              this.setState({ submitted: true })
             }
           }}
         >
@@ -104,7 +118,7 @@ export default class Signup extends React.Component {
           <Form.Button
             name='submit'
             type='submit'
-            label='Count Me In!'
+            label={this.props.submitLabel || 'Count Me In!'}
             disabled={this.state.sending}
             style={{
               marginTop: 15,
@@ -120,7 +134,24 @@ export default class Signup extends React.Component {
     )
   }
 
-  render() {
+  renderPostSignup() {
+    return (
+      <div className={styles.container}>
+        <div className={styles.contentContainer}>
+          <div className={styles.explanation}>
+            <div className={styles.header}>
+              {this.props.thankYouHeader || 'Thank you for signing up!'}
+            </div>
+            <div className={styles.body}>
+              {this.props.thankYouBody}
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  renderSignup() {
     return (
       <div className={styles.container}>
         <div className={styles.contentContainer}>
@@ -144,5 +175,9 @@ export default class Signup extends React.Component {
         </div>
       </div>
     )
+  }
+
+  render() {
+    return this.state.submitted ? this.renderPostSignup() : this.renderSignup()
   }
 }
