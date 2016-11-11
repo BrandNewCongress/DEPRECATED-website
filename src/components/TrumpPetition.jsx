@@ -38,6 +38,11 @@ const styles = StyleSheet.create({
     marginRight: 'auto',
     width: '80%',
     borderBottom: `1px solid ${theme.colors.lightGray}`
+  },
+  link: {
+    ...theme.text.link,
+    color: theme.colors.orange,
+    fontWeight: 600
   }
 })
 
@@ -60,9 +65,9 @@ export default class TrumpPetition extends React.Component {
 
   renderContent() {
     return (
-      <div>        
+      <div>
         <div className={styles.body}>Mr. Trump, you have done so much harm to our country before you’ve even moved into the White House. Your campaign and your words have sparked an outbreak of hate crimes across the country -- against Muslims, people of color, immigrants, women, LGBTQ people and disabled people. Since your election victory, these crimes have spiraled out of control -- with perpetrators often explicitly committing the crimes in your name, citing your example. If you have any decency, call on your supporters in an emergency press conference to stop committing these crimes. </div>
-        <div className={styles.body}>For the sake of human life, recognize what’s at stake. Look at the pain and suffering caused just within the first 48-hours of your America -- https://twitter.com/ShaunKing. Whether you would like to admit it or not, your campaign has incited violence against fellow Americans.</div>
+        <div className={styles.body}>For the sake of human life, recognize what’s at stake. Look at the pain and suffering caused just within the first 48-hours of your America <a href="https://twitter.com/ShaunKing" className={styles.link}>on this twitter feed</a>. Whether you would like to admit it or not, your campaign has incited violence against fellow Americans.</div>
       </div>
     )
   }
