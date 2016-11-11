@@ -92,7 +92,7 @@ export default class TrumpPetition extends React.Component {
           This is a petition by Brand New Congress. Brand New Congress is an effort to rebuild our economy and rid our government of corruption by recruiting and running 400+ extraordinary ordinary Americans for Congress in 2018. To learn more about us, <Link className={styles.link} to='/home'>visit our homepage</Link>.
         </div>
         <div className={styles.body}>
-          Brand New Congress is fighting the establishment and we are powered by donations and social media shares from people like you. We are not backed by billionaires. And WE are not billionaires! Please consider donating even $3 so we can continue pushing for radical change, and please tell others about this petition to put pressure on Donald Trump now before things get out of hand.
+          Brand New Congress is fighting the establishment and we are powered by donations and social media shares from people like you. We are not backed by billionaires. And WE are not billionaires! Please consider <a href='https://secure.actblue.com/contribute/page/bncsignup' className={styles.link} target='_blank'>donating even $3</a> so we can continue pushing for radical change, and please tell others about this petition to put pressure on Donald Trump now before things get out of hand.
         </div>
         <div className={styles.centeredBody}>
           <a className={styles.button} href='http://www.facebook.com/sharer/sharer.php?u=https://brandnewcongress.org/petitions/trump-denounce-hate&title=President-elect+Trump:+Tell+those+committing+hate+crimes+in+your+name+to+stop' target='_blank'>
