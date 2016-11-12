@@ -124,6 +124,7 @@ export default class TrumpPetition extends React.Component {
               submitLabel='Add your name'
               thankYouHeader='Thank you for your pledge.'
               thankYouBody={this.renderThankYouBody()}
+              showName
             />
           </div>
         </div>

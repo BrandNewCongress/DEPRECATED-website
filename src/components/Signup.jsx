@@ -61,6 +61,8 @@ export default class Signup extends React.Component {
   }
 
   formSchema = yup.object({
+    fullName: yup.string(),
+    phone: yup.string(),
     email: yup.string().transform((value) => value.replace(/\s/g, ''))
               .required()
               .email(),
@@ -108,9 +110,21 @@ export default class Signup extends React.Component {
             label='Email'
             fullWidth
           /><br />
+          {this.props.showName ? <div><Form.Field
+            name='fullName'
+            type='text'
+            label='Name'
+            fullWidth
+          /><br /></div> : '' }
+          {this.props.showPhone ? <div><Form.Field
+            name='phone'
+            type='tel'
+            label='Phone'
+            fullWidth
+          /><br /></div> : ''}
           <Form.Field
             name='zip'
-            type='tel'
+            type='text'
             autoComplete='postal-code'
             label='Zip'
             fullWidth

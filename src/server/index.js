@@ -40,8 +40,22 @@ app.get('/work', wrap(async (req, res) => {
 
 app.post('/signup', wrap(async (req, res) => {
   const body = req.body
+  let nameParts = null
+  let firstName = null
+  let lastName = null
+  const phone = body.hasOwnProperty('phone') ? body.phone : null
+  if (body.hasOwnProperty('fullName')) {
+    nameParts = body.fullName.split(/\s+/)
+  }
+  if (nameParts) {
+    firstName = nameParts.shift()
+    lastName = nameParts.join(' ')
+  }
   const requestBody = {
     person: {
+      phone,
+      first_name: firstName,
+      last_name: lastName,
       email1: body.email,
       mailing_address: {
         zip: body.zip
