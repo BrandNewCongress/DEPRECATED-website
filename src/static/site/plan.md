@@ -1,7 +1,7 @@
 # The BNC Plan in a Nutshell
 -----
 ## Create Good Jobs for Everyone Ready to Work by Rebuilding America's Means of Making a Living
-The BNC's plan calls for a mobilization on the scale of World War II -- one in which every American is called upon to rebuild and repair our communities and our nation. 
+The BNC's plan calls for a mobilization on the scale of World War II – one in which every American is called upon to rebuild and repair our communities and our nation. 
 
 Imagine every unemployed person in your community or city suddenly having work, struggling small businesses suddenly on a level playing field with big business, and all businesses suddenly having access to the same capital, infrastructure and other advantages currently available to them overseas. 
 
