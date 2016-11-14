@@ -1,23 +1,5 @@
-# What does Brand New Congress stand for?
-___
-## A Good Job for Everyone Ready to Work
-We've got to do whatever it takes and spend whatever it costs to rebuild America's means of making a living. We will invest in new high-tech, high-paying industries on a massive scale. We will catch America up to other industrialized countries by rebuilding our infrastructure and energy system. We will take Wall Street out of the driver’s seat of the economy and put the American people back in control. 
-## Liberty and Justice for All
-Everyone from small business owners and rural Americans to African Americans, Latinos and Native Americans have something in common: the distinct feeling that their government is against them -- and even preying upon their communities, way of life and means of making a living. We will repair and reform all of our institutions from social services and regulatory agencies to elections, policing and our entire justice system. We the People are sick and tired of being targeted, abused, surveilled, micromanaged, nickled and dimed and belittled by our government.   
-
-## How will BNC do that?
-
-We can only carry out our plan if the American people give our candidates a sweeping majority in Congress and a partner in the White House. It will take at least until 2020 to achieve that. Until then, we'll be running a constant campaign across the whole country to win that majority. In 2018, we'll use however many seats the American people give us to fight as hard as we possibly can for them and show them what we're capable of. We'll shine a light on corruption, act as a watchdog for the people inside the Capital, stop every bad bill and win every part of our plan that we can.  
-
-
-Once we have a majority, Brand New Congress will govern like America has never seen in peacetime before: by actually getting stuff done! There will be no debating or horse trading -- because the BNC candidates all enter Congress already having agreed on the plan. We'll have all the legislation written and published for review by the people BEFORE the 2018 election! It's what the American people will have elected us to pass -- and we will pass it on Day One. 
-
-
-It will take at least until the end of 2017 to work out all the details of the legislation. But the basic values, principles and ideas of the BNC plan are available below. Right now, [BNC’s Working Group](https://wiki.brandnewcongress.org/index.php?title=Our_Team-Based_Organization) is responsible for leading this process. Once we have a critical mass of candidates, responsibility will shift to them.
-
-
-------
 # The BNC Plan in a Nutshell
+-----
 ## Create Good Jobs for Everyone Ready to Work by Rebuilding America's Means of Making a Living
 The BNC's plan calls for a mobilization on the scale of World War II -- one in which every American is called upon to rebuild and repair our communities and our nation. 
 
@@ -41,3 +23,12 @@ The Brand New Congress plan will:
 * **We will give every government body new marching orders**: "Your job is to serve the people -- no longer to target, abuse, surveil, micromanage, nickle and dime and belittle the people you were hired to serve." We will back that up by removing government bureaucrats who can't understand or won't comply with their new orders. And we will back it up by cutting out blatant and obvious waste, while providing generous funding and training to the agencies and staff that do the real work and that have been starved of support for decades. 
 * **We will support the demands for justice from all groups that have been targeted by government:** Today just about everyone in America feels targeted by government at some level. What's sad is that they also feel pitted against each other. It's time for the American people to make common cause and see that the cries for justice by all Americans are connected including Black people, small business owners, Native Americans, low income people, rural people, immigrants, disabled people, foster children, Latinos, manufacturers who want to build in America, small town governments, and we could go on and on with this list! 
 * **Overhaul the IRS and the tax code** to stop targeting small business owners and working people who are just trying to make ends meet while turning a blind eye to tax evasion by multi-billionaires and giant corporations. 
+
+-----
+## How will BNC do that?
+
+We can only carry out our plan if the American people give our candidates a sweeping majority in Congress and a partner in the White House. It will take at least until 2020 to achieve that. Until then, we'll be running a constant campaign across the whole country to win that majority. In 2018, we'll use however many seats the American people give us to fight as hard as we possibly can for them and show them what we're capable of. We'll shine a light on corruption, act as a watchdog for the people inside the Capital, stop every bad bill and win every part of our plan that we can.  
+
+Once we have a majority, Brand New Congress will govern like America has never seen in peacetime before: by actually getting stuff done! There will be no debating or horse trading -- because the BNC candidates all enter Congress already having agreed on the plan. We'll have all the legislation written and published for review by the people BEFORE the 2018 election! It's what the American people will have elected us to pass -- and we will pass it on Day One. 
+
+It will take at least until the end of 2017 to work out all the details of the legislation. But the basic values, principles and ideas of the BNC plan are available below. Right now, [BNC’s Working Group](https://wiki.brandnewcongress.org/index.php?title=Our_Team-Based_Organization) is responsible for leading this process. Once we have a critical mass of candidates, responsibility will shift to them.
