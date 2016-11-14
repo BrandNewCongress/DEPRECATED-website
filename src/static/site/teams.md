@@ -1,12 +1,9 @@
 ## [We need your help getting candidates! Join a call to learn how](/call)
 
 ------
+We need your help! Here are some things youcan do right now:
 
-# Put your skills to work
-
-The revolution needs you! [Tell us about your skills, talents, and interests.] (https://goo.gl/forms/CGeULYdVgKTnW72D2) We'll keep the information you submit on file and when the time and need arises, you will be on our list of people to contact for that project/need. Thanks for offering to pitch in.
-
-# Help us find candidates
+# Help find candidates
 Right now we are laser focused on putting together our slate of candidates. The more people we have involved in this process, the better. Here are three things you can do right now to get started with helping us to find candidates:
 
 1. [Join a candidate nomination orientation conference call] (brandnewcongress.org/call) to get a nuanced understanding of the BNC candidate criteria.
@@ -14,6 +11,10 @@ Right now we are laser focused on putting together our slate of candidates. The 
 2. Search for potential candidates. [Here is a guide with tips] (https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing)
 
 3. [Submit] (brandnewcongress.org/nominate) those nominations! This really does help!
+
+# Put your skills to work
+
+The revolution needs you! [Tell us about your skills, talents, and interests.] (https://goo.gl/forms/CGeULYdVgKTnW72D2) We'll keep the information you submit on file and when the time and need arises, you will be on our list of people to contact for that project/need. Thanks for offering to pitch in.
 
 # Organize locally 
 
