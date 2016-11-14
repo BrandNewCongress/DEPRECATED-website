@@ -1,9 +1,9 @@
 ## [We need your help getting candidates! Join a call to learn how](/call)
 
 ------
-We need your help! Here are some things youcan do right now:
+We need your help! Here are some things you can do right now to get started:
 
-# Help find candidates
+# Help us find candidates
 Right now we are laser focused on putting together our slate of candidates. The more people we have involved in this process, the better. Here are three things you can do right now to get started with helping us to find candidates:
 
 1. [Join a candidate nomination orientation conference call] (brandnewcongress.org/call) to get a nuanced understanding of the BNC candidate criteria.
