@@ -4,9 +4,9 @@
 
 ## How to nominate a candidate for Brand New Congress
 Thank you for helping Brand New Congress to recruit candidates! Please first learn what we're looking for in candidates generally and in your district specifically by following the links below. Then nominate your candidate! 
-- [Use this form to make your nominations.] (https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform)
-- If you can't think of a candidate, please [suggest a local connector who might like this idea and be able to help.](https://docs.google.com/forms/d/e/1FAIpQLSceYguZI_gngXf7dLOXN6xUkLRNsYfn0b2v-aDEvZKPH-j1dQ/viewform)
-- [Use this site to find your or your candidate's congressional district.](https://www.govtrack.us/congress/members)
+* [Use this form to make your nominations.] (https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform)
+* If you can't think of a candidate, please [suggest a local connector who might like this idea and be able to help.](https://docs.google.com/forms/d/e/1FAIpQLSceYguZI_gngXf7dLOXN6xUkLRNsYfn0b2v-aDEvZKPH-j1dQ/viewform)
+* [Use this site to find your or your candidate's congressional district.](https://www.govtrack.us/congress/members)
 
 ## Types of candidates we are looking for
 
@@ -16,31 +16,31 @@ The Brand New Congress is looking for candidates that meet the following three c
 3. They are people with skills to be a good candidate and congressperson.
 
 ## A few other things….
-- In general, we’re looking for people who have never held or even sought public office.
-- Do not nominate yourself. Ask others to nominate you.
-- Please be patient as we evaluate the nominations we receive. Our nomination process will be open until we announce our slate of candidates. 
-- Candidates do NOT need to want to run. First, we'll find the good people want to run, then we'll start drafting them to run.
-- We want to elect as many working and middle class people and people of color as possible. Working people and people of color are dramatically underrepresented in Congress today!
-- More than half of the people in America are women — more than half our candidates should be women too! 
+* In general, we’re looking for people who have never held or even sought public office.
+* Do not nominate yourself. Ask others to nominate you.
+* Please be patient as we evaluate the nominations we receive. Our nomination process will be open until we announce our slate of candidates. 
+* Candidates do NOT need to want to run. First, we'll find the good people want to run, then we'll start drafting them to run.
+* We want to elect as many working and middle class people and people of color as possible. Working people and people of color are dramatically underrepresented in Congress today!
+* More than half of the people in America are women — more than half our candidates should be women too! 
 
 ## Types of districts we’ll be running in
 
 The Brand New Congress will be running in over 400 districts across America - blue, red, and purple. Here are some things to note about the types of districts we’ll be running in:
-- Do not nominate Democrats for Republican districts.
-- Do not nominate white people for majority person of color districts 
-- In conservative Christian districts, candidates must come from the conservative Christian culture! There are tons of Christians who share and practice values of progressive social and economic justice.  
-- In Democratic districts, candidates must come from a democratic, progressive background! That does not necessarily mean activists or organizers who have worked on political campaigns. 
+* Do not nominate Democrats for Republican districts.
+* Do not nominate white people for majority person of color districts 
+* In conservative Christian districts, candidates must come from the conservative Christian culture! There are tons of Christians who share and practice values of progressive social and economic justice.  
+* In Democratic districts, candidates must come from a democratic, progressive background! That does not necessarily mean activists or organizers who have worked on political campaigns. 
 
 ## Getting ready for the candidate search
 Our main focus right now is building our slate of BNC candidates, which means that the best way to help us out is continuing to nominate and research potential candidates! Please take the following steps to get started volunteering:
-- [Sign up for a candidate nomination call](/call) to learn more about our candidate search, ask questions, solicit feedback, and report back updates from your research experience!
-- [Use this guide as you are researching](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing). Each person looking for candidates will find their own personal flow of how to best work, we are not a machine -- we are a fluid body of skilled searching humans. This being said, having starting points for research and guidelines means we are all working smart. This document goes over some thoughts on the candidate search process, how to track district searches so we don’t double up on efforts, how to search smart and what tools to use that will help you along the way. If you have tips for how to improve this guide, send them to us@brandnewcongress.org.
+* [Sign up for a candidate nomination call](/call) to learn more about our candidate search, ask questions, solicit feedback, and report back updates from your research experience!
+* [Use this guide as you are researching](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing). Each person looking for candidates will find their own personal flow of how to best work, we are not a machine -- we are a fluid body of skilled searching humans. This being said, having starting points for research and guidelines means we are all working smart. This document goes over some thoughts on the candidate search process, how to track district searches so we don’t double up on efforts, how to search smart and what tools to use that will help you along the way. If you have tips for how to improve this guide, send them to us@brandnewcongress.org.
 
 ## Learn more:
 
 On our Wiki you can learn more about:
-- [Who we're looking for](https://wiki.brandnewcongress.org/index.php?title=General_BNC_Candidate_Criteria)
-- [How to find candidates](https://wiki.brandnewcongress.org/index.php?title=How_to_Find_BNC_Candidates)
+* [Who we're looking for](https://wiki.brandnewcongress.org/index.php?title=General_BNC_Candidate_Criteria)
+* [How to find candidates](https://wiki.brandnewcongress.org/index.php?title=How_to_Find_BNC_Candidates)
 
 ## Find out what we're looking for in your specific district:
 
