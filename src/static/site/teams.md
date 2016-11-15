@@ -10,7 +10,7 @@ Right now we are laser focused on putting together our slate of candidates. The 
 
 2. Search for potential candidates. [Here is a guide with tips](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing)
 
-3. [Submit](brandnewcongress.org/nominate) those nominations! This really does help!
+3. [Submit](https://brandnewcongress.org/nominate) those nominations! This really does help!
 
 # Put your skills to work
 
