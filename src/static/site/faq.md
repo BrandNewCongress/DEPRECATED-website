@@ -117,7 +117,7 @@ The irony is that the core of liberal and Christian values are the same—at lea
 We believe that America is heading fast toward a consensus around so called "social" issues—-a consensus that accepts:
 
 * that laws should not be passed telling women what they can do with their bodies while working to reduce abortions through sex education, access to contraception, etc...
-* that gay and transgendered people should have all the same rights as everyone else.
+* that lesbian, gay, bisexual, and transgender people should have all the same rights as everyone else.
 * that no one should have to produce a birth certificate to go to the bathroom.
 * that we can affirm American's right to own guns while passing common sense gun laws and massively funding violence* prevention programs where needed.
 
