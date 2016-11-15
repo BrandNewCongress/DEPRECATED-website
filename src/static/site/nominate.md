@@ -4,7 +4,7 @@
 
 ## How to nominate a candidate for Brand New Congress
 Thank you for helping Brand New Congress to recruit candidates! Please first learn what we're looking for in candidates generally and in your district specifically by following the links below. Then nominate your candidate! 
-* [Use this form to make your nominations.] (https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform)
+* [Use this form to make your nominations.](https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform)
 * If you can't think of a candidate, please [suggest a local connector](https://docs.google.com/forms/d/e/1FAIpQLSceYguZI_gngXf7dLOXN6xUkLRNsYfn0b2v-aDEvZKPH-j1dQ/viewform) who might like this idea and be able to help.
 * [Use this site to find your or your candidate's congressional district.](https://www.govtrack.us/congress/members)
 
