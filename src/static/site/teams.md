@@ -6,9 +6,9 @@ We need your help! Here are some things you can do right now to get started:
 ## Help us find candidates
 Right now we are laser focused on putting together our slate of candidates. The more people we have involved in this process, the better. Here are three things you can do right now to get started with helping us to find candidates:
 
-1. [Join a BNC candidate nomination orientation call](/call) to get a nuanced understanding of the BNC candidate criteria.
-2. Search for potential candidates. [Here is a guide with tips](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing)
-3. [Submit](https://brandnewcongress.org/nominate) those nominations! This really does help!
+1. [Join a BNC candidate nomination orientation call](/call) to get an understanding of the types of candidates we are looking for.
+2. [Use this guide to help us search for candidates](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing)
+3. [Submit candidate nominations!](https://brandnewcongress.org/nominate) This is essential!
 
 ## Put your skills to work
 
