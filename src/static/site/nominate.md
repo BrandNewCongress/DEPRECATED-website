@@ -11,6 +11,7 @@ Thank you for helping Brand New Congress to recruit candidates! Please first lea
 ## Types of candidates we are looking for
 
 The Brand New Congress is looking for candidates that meet the following three criteria:
+
 1. They are respected non-politicians with experience building and serving our communities.
 2. They are non-dogmatic, optimistic people who believe the American people can build our country by working together.
 3. They are people with skills to be a good candidate and congressperson.
