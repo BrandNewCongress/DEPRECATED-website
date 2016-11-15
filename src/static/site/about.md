@@ -70,6 +70,6 @@ We're a group of people who got tired of the partisan politics we were seeing in
     <img src="/static-assets/img/endorsers/zack_exley.jpg" class="thumbnail img-responsive">
 </div>
 <div class="col-lg-8 col-sm-12 col-xs-12">
-    <p>This is not a radical idea. It's simply how we were supposed to use our democracy. It's what some of the first American Revolutionaries told us we should do: have another revolution every time things got this out of wack. Lucky for us, they gave us a democracy. As rigged as our elections are right now, there's no better way to take back our contry than to rally the people and win strong majorities in elections. Let's do it! <b>Zack Exley</b></p>
+    <p>This is not a radical idea. It's simply how we were supposed to use our democracy. It's what some of the first American Revolutionaries told us we should do: have another revolution every time things got this out of wack. Lucky for us, they gave us a democracy. As rigged as our elections are right now, there's no better way to take back our country than to rally the people and win strong majorities in elections. Let's do it! <b>Zack Exley</b></p>
 </div>
 <div class="clearfix"></div>
