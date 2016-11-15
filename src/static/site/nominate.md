@@ -4,9 +4,9 @@
 
 ## How to nominate a candidate for Brand New Congress
 Thank you for helping Brand New Congress to recruit candidates! Please first learn what we're looking for in candidates generally and in your district specifically by following the links below. Then nominate your candidate! 
-- **[Use this form to make your nominations] (https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform)**
-- If you can't think of a candidate, please **[use this form to suggest a local connector who might like this idea and be able to help](https://docs.google.com/forms/d/e/1FAIpQLSceYguZI_gngXf7dLOXN6xUkLRNsYfn0b2v-aDEvZKPH-j1dQ/viewform)**
-- If you need help looking up your or your candidate's congressional district, **[use this site to find people's congressional districts](https://www.govtrack.us/congress/members)**
+- [Use this form to make your nominations] (https://docs.google.com/forms/d/e/1FAIpQLSclkdh8B0SBJqoEFJA2XZ1B2eOz_QxDEZPFyO6NOOy5Vc6BLg/viewform)
+- If you can't think of a candidate, please [use this form to suggest a local connector who might like this idea and be able to help](https://docs.google.com/forms/d/e/1FAIpQLSceYguZI_gngXf7dLOXN6xUkLRNsYfn0b2v-aDEvZKPH-j1dQ/viewform)
+- [Use this site to find your or your candidate's congressional district](https://www.govtrack.us/congress/members)
 
 # Types of candidates we are looking for
 
@@ -33,8 +33,8 @@ The Brand New Congress will be running in over 400 districts across America - bl
 
 # Getting ready for the candidate search
 Our main focus right now is building our slate of BNC candidates, which means that the best way to help us out is continuing to nominate and research potential candidates! Please take the following steps to get started volunteering:
-- **[Sign up for a candidate nomination call](/call)** to learn more about our candidate search, ask questions, solicit feedback, and report back updates from your research experience!
-- **[Use this guide as you are researching](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing)**. Each person looking for candidates will find their own personal flow of how to best work, we are not a machine -- we are a fluid body of skilled searching humans. This being said, having starting points for research and guidelines means we are all working smart. This document goes over some thoughts on the candidate search process, how to track district searches so we don’t double up on efforts, how to search smart and what tools to use that will help you along the way. If you have tips for how to improve this guide, send them to us@brandnewcongress.org.
+- [Sign up for a candidate nomination call](/call) to learn more about our candidate search, ask questions, solicit feedback, and report back updates from your research experience!
+- [Use this guide as you are researching](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing). Each person looking for candidates will find their own personal flow of how to best work, we are not a machine -- we are a fluid body of skilled searching humans. This being said, having starting points for research and guidelines means we are all working smart. This document goes over some thoughts on the candidate search process, how to track district searches so we don’t double up on efforts, how to search smart and what tools to use that will help you along the way. If you have tips for how to improve this guide, send them to us@brandnewcongress.org.
 
 ## Learn more:
 
