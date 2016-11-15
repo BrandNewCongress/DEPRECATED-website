@@ -34,7 +34,7 @@ The Brand New Congress will be running in over 400 districts across America - bl
 
 ## Getting ready for the candidate search
 Our main focus right now is building our slate of BNC candidates, which means that the best way to help us out is continuing to nominate and research potential candidates! Please take the following steps to get started volunteering:
-* [Sign up for a candidate nomination call](/call) to learn more about our candidate search, ask questions, solicit feedback, and report back updates from your research experience!
+* [Sign up for a candidate nomination orientation call](/call) to learn more about our candidate search, ask questions, solicit feedback, and report back updates from your research experience!
 * [Use this guide on candidate search best practices](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing). Each person looking for candidates will find their own personal flow of how to best work. This document goes over some thoughts on the candidate search process, how to track district searches so we don’t double up on efforts, how to search smart and what tools to use that will help you along the way. If you have suggestions for how to improve this guide or tips we shuold add, please send them to us@brandnewcongress.org.
 
 ## Learn more:
