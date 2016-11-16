@@ -20,7 +20,7 @@ The Brand New Congress is looking for candidates that meet the following three c
 * In general, we’re looking for people who have never held or even sought public office.
 * Do not nominate yourself. Ask others to nominate you.
 * Please be patient as we evaluate the nominations we receive. Our nomination process will be open until we announce our slate of candidates. 
-* Candidates do NOT need to want to run. First, we'll find the good people want to run, then we'll start drafting them to run.
+* Candidates do NOT need to want to run. First, we'll find the good people we want to run, then we'll start drafting them to run.
 * We want to elect as many working and middle class people and people of color as possible. Working people and people of color are dramatically underrepresented in Congress today!
 * More than half of the people in America are women — more than half our candidates should be women too! 
 
