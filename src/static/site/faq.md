@@ -5,7 +5,7 @@
 It’s a plan to accomplish sweeping political and criminal justice reform while rebuilding the American economy and getting to 100% renewable energy in a very short time—in other words, Bernie’s plan! We’re recruiting working people with track records of integrity and service in their communities, workplaces and families to run for Congress behind Bernie’s plan—and we’re going to run them in one unified, national campaign to replace almost all of Congress in one fell swoop.
 Isn’t it impossible to defeat 400 incumbents in Congress in one cycle?
 
-We know this will be difficult, but it will be easier to replace nearly all of Congress than to replace a single incumbent, and here's why: Few voters pay attention to their local congressional elections, especially in midterms. One big campaign for a Brand New Congress will attract enough media attention, volunteers and grassroots donations to overwhelm those no-name, sold-out, unpopular incumbents. Skeptical? Try walking your block and asking people who their Congress person is. Ask them if they'd like a Brand New Congress made up of non-politicians. Send your results to us@brandnewcongress.org
+We know this will be difficult, but it will be easier to replace nearly all of Congress than to replace a single incumbent, and here's why: Few voters pay attention to their local congressional elections, especially in midterms. One big campaign for a Brand New Congress will attract enough media attention, volunteers and grassroots donations to overwhelm those no-name, sold-out, unpopular incumbents. Skeptical? Try walking your block and asking people who their Congress person is. Ask them if they'd like a Brand New Congress made up of non-politicians. Send your results to [us@brandnewcongress.org](us@brandnewcongress.org).
 
 ## Who will the candidates be?
 
@@ -33,7 +33,7 @@ But BNC candidates also need to be people who believe that America already has e
 
 Finally, we're looking for people who have the skills that would make them good candidates up against experienced incumbents. So they’ve got to be able to talk, and to develop a grasp of all the major issues affecting their district.
 
-We’re making a list of potential candidates for each district, and then we’re going to twist their arms and convince them to run! 
+We’re making a list of potential candidates for each district, and then we’re going to twist their arms and convince them to run!
 
 ### Why don’t you want candidates who’ve served in office before?
 
@@ -48,18 +48,18 @@ No. Members of Congress should have experience staying true in the face of adver
 Basically the core of Bernie’s platform on the economy, environment and criminal justice reform. But see below for more info on this.
 
 ### Who’s behind this?
-We are mostly grassroots leaders from the Bernie campaign and a few ex-staffers, most of whom began as grassroots leaders for Bernie. We have been talking about this idea for a while, and decided the time was right to launch it. 
+We are mostly grassroots leaders from the Bernie campaign and a few ex-staffers, most of whom began as grassroots leaders for Bernie. We have been talking about this idea for a while, and decided the time was right to launch it.
 
 ### Is there a formal organization behind this?
 An independent political action committee called Brand New Congress is accepting contributions to fund travel, operating, and staff costs for a handful of organizers. Brand New Congress is led by a group of nine staff and volunteers called the working group. The treasurer of the PAC is a volunteer and former Bernie staffer, Zack Exley. We are required to have a PAC to accept funds and spend money toward electing federal candidates. PACs have a maximum contribution limit of $5,000 and must report all donations and expenditures. Once we have our candidates, formal decision making and fund raising will flow through them, with the PAC probably being dissolved.  
 
-Our candidates are going to run in a single, unified campaign. The logistics, staffing, bookkeeping, media buys and so on will be handled by an entity called Brand New Campaign. The law does not allow tax exempt non-profits like 501c3s, c4s or PACs to exist primarily to provide services to campaigns. Therefore, Brand New Campaign is an LLC partnership whose operating agreement states that it exists not to make a profit, but solely to support a new generation of leaders running for office. 
+Our candidates are going to run in a single, unified campaign. The logistics, staffing, bookkeeping, media buys and so on will be handled by an entity called Brand New Campaign. The law does not allow tax exempt non-profits like 501c3s, c4s or PACs to exist primarily to provide services to campaigns. Therefore, Brand New Campaign is an LLC partnership whose operating agreement states that it exists not to make a profit, but solely to support a new generation of leaders running for office.
 
-Saikat Chakrabarti is the owner and steward of Brand New Campaign and works as a volunteer and is taking no compensation from Brand New Campaign (or Brand New Congress). We are already developing Brand New Campaign’s capacities. Brand New Congress contracts with Brand New Campaign to provide staff, research and recruitment of candidates, travel support and more. In the future, Brand New Campaign will grow its in-house capacities and subcontract with outside firms to handle everything from research and field organization to ad production and social media. Brand New Campaign spending reports can be viewed [here](https://docs.google.com/spreadsheets/d/10fb5bWERgwYvfz_VDEiicM6em9_l7SSq6k0oYS-0aAY/edit?usp=sharing)
+Saikat Chakrabarti is the owner and steward of Brand New Campaign and works as a volunteer and is taking no compensation from Brand New Campaign (or Brand New Congress). We are already developing Brand New Campaign’s capacities. Brand New Congress contracts with Brand New Campaign to provide staff, research and recruitment of candidates, travel support and more. In the future, Brand New Campaign will grow its in-house capacities and subcontract with outside firms to handle everything from research and field organization to ad production and social media. Brand New Campaign spending reports can be viewed [here](https://docs.google.com/spreadsheets/d/10fb5bWERgwYvfz_VDEiicM6em9_l7SSq6k0oYS-0aAY/edit?usp=sharing).
 
 ### What is a PAC?
 
-To comply with campaign finance law, we created the Brand New Congress political action committee. That is not a Super PAC, but a plain old “PAC” with full transparency and contribution limits. You can learn more about PACs at http://fec.gov
+To comply with campaign finance law, we created the Brand New Congress political action committee. That is not a Super PAC, but a plain old “PAC” with full transparency and contribution limits. You can learn more about PACs at [http://fec.gov](http://fec.gov).
 
 
 ### Does Brand New Congress have staff? Are you hiring?
@@ -151,4 +151,4 @@ Brand New Congress is not bi-partisan or non-partisan, we're "post-partisan." Th
 
 The irony is that the core of liberal and Christian values are the same—at least in their ideals: Both cultures believe that they value human life, equality, freedom, peace, justice and progress. The problem is that each of the two of these cultures believes the other stands for the opposite of those stated values. For example, conservative Christians believe that liberal support for abortion rights means they do not value human life. And liberals believe that conservative opposition to abortion rights means they stand against freedom, and against equality for women.
 
-If your question wasn't answered here, please ask it in an email to us@brandnewcongress.org. Thanks for reading! 
+If your question wasn't answered here, please ask it in an email to us@brandnewcongress.org. Thanks for reading!
