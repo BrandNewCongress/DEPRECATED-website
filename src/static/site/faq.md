@@ -123,12 +123,12 @@ We believe that America is heading fast toward a consensus around so called "soc
 
 BNC candidates in conservative areas will to explain and demystify recent social changes in a compassionate and patient way to those who may feel threatened by them. We need to affirm that their most important concerns -- the value of human life and safety of all of our families -- are important to us all.
 
-### What about "social" issues like abortion and transgender rights that sharply divide the parties?
+### What about "social" issues like abortion and LGBTQIA rights that sharply divide the parties?
 
 America is in the middle of some radical social transitions on several important issues. On the whole, members of Congress are trailing behind their constituents in this transition. Brand New Congress candidates will be far ahead of the Democratic and Republican incumbents they are challenging. They will work with their constituents starting from where they are at, and talk through the issues with respect and compassion for those effected by them, as well as for those who are confused or scared by them.
 
 * All Brand New Congress candidates oppose any attempt to legislate what women can do with their bodies—though most of the Republican and many of the Democratic candidates also pledge to fight to reduce the number of abortions, for example by championing sex education and access to contraception.
-* They support gay and transgender people's right to live like everyone else, including the right to get married, and to access public facilities.
+* They support people's right to live like everyone else, regardless of sexual orientation or gender identity, including the right to get married, and to access public facilities.
 * They support American's right to own guns, and also support common sense gun control laws and pledge to support violence prevention programs in afflicted communities.
 * They will be absolutely opposed to any kind of targeting of any groups such as Muslims or immigrants, and will instead work to protect all marginalized groups.
 * Their position on illegal immigration is that it has almost entirely been driven by American businesses who encourage it* by actively driving illegal immigration and by hiring undocumented workers at sub-minimum wages. They are not much* worried about immigration because we now have negative immigration from Mexico and once we start rebuilding the economy,* we're going to need so much labor that immigration will no longer be thought of as a problem.
