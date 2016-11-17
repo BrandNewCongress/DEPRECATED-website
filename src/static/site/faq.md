@@ -78,10 +78,6 @@ As soon as we get our first batch of candidates, then they will be the ones ulti
 
 No, we’re not forming a third party. America seems to be sick and tired of parties. Maybe the solution isn’t to create a new one. Or maybe it is. Either way, we’re starting off by running candidates in the Democratic and Republican primaries, and then running independents where we lose. There are some similarities and differences between this idea and starting a third party. The big difference is that we are not trying to create a big bureaucracy behind our candidates. It’s just them. This will allow maximum agility which will be needed to win!
 
-### Will you be supporting candidates in the 2016 election cycle?
-
-We’re happy to see so many “Berniecrats” running in 2016 and we want to be supportive, but we’re just getting started, so we don’t think we’ll have that much to offer 2016 candidates. We think the way to win is to start very early and plan a great campaign. That’s why we’re focusing on 2018.
-
 ## Money and donations
 ### How is Brand New Congress funded?
 
