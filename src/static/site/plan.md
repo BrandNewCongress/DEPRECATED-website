@@ -5,7 +5,7 @@ The BNC's plan calls for a mobilization on the scale of World War II – one in 
 
 Imagine every unemployed person in your community or city suddenly having work, struggling small businesses suddenly on a level playing field with big business, and all businesses suddenly having access to the same capital, infrastructure and other advantages currently available to them overseas. 
 
-If the government can spend trillions of dollars to subsidize the failures of Wall Street and perpetual war, it can spend that kind of money on Main Steet, investing in our communities and our future. 
+If the government can spend trillions of dollars to subsidize the failures of Wall Street and perpetual war, it can spend that kind of money on Main Street, investing in our communities and our future. 
 
 The Brand New Congress plan will:
 
