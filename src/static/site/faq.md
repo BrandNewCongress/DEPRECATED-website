@@ -68,7 +68,7 @@ Nearly all of the work on this campaign is done by volunteers, just like it was 
 
 ### What about good candidates already in Congress? Are you going to run against them?
 
-We won’t run against candidates that fully support the Brand New Congress platform. Plenty of members of Congress already do—for example, the members who endorsed Bernie. And we expect that as the campaign becomes stronger, more and more members of Congress will endorse our platform. In those cases, our candidates may drop out. We’ll have to decided on a case by case basis.
+We won’t run against candidates that fully support the Brand New Congress platform. Plenty of members of Congress already do—for example, the members who endorsed Bernie. And we expect that as the campaign becomes stronger, more and more members of Congress will endorse our platform. In those cases, our candidates may drop out. We’ll have to decide on a case by case basis.
 
 ### Who makes the decisions for Brand New Congress? For example, who chooses the candidates?
 
