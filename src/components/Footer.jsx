@@ -53,7 +53,8 @@ export default () => (
     </div>
     <div className={styles.copyright}>
       Copyright ©2016 Brand New Congress.<br />
-      All rights reserved.
+      All rights reserved.<br />
+      Paid for by Brand New Congress, brandnewcongress.org, not authorized by any candidate or candidate's committee.
     </div>
   </div>
 )
