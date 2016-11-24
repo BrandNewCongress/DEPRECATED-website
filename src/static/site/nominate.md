@@ -8,38 +8,40 @@ Thank you for helping Brand New Congress to recruit candidates! Please first lea
 * If you can't think of a candidate, please [suggest a local connector](https://docs.google.com/forms/d/e/1FAIpQLSceYguZI_gngXf7dLOXN6xUkLRNsYfn0b2v-aDEvZKPH-j1dQ/viewform) who might like this idea and be able to help.
 * [Use this site to find your or your candidate's congressional district.](https://www.govtrack.us/congress/members)
 
-## Types of candidates we are looking for
-The Brand New Congress is looking for candidates that fit these criteria:
+## Getting ready for the candidate search
+Our main focus right now is building our slate of BNC candidates, which means that the best way to help us out is continuing to nominate and research potential candidates! Please take the following steps to get started volunteering:
+* [Sign up for a candidate nomination orientation call](/call) to learn more about our candidate search, ask questions, solicit feedback, and report back updates from your research experience!
+* [Use this guide on candidate search best practices](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing). Each person looking for candidates will find their own personal flow of how to best work. This document goes over some thoughts on the candidate search process, how to track district searches so we don’t double up on efforts, how to search smart and what tools to use that will help you along the way. If you have suggestions for how to improve this guide or tips we shuold add, please send them to us@brandnewcongress.org.
+
+## What we're looking for in a candidate
+We’re looking for people from all walks of life and all fields of our economy and society, representing every community, who fit these criteria:
 
 * They are respected working people with a track record of serving their communities in their jobs, neighborhoods, religious organizations, charities, etc.
 * We can tell from their life stories that they won't sell out in DC, because many of their life choices have put others in front of their self interest.
-* They agree with the BNC platform.
-* They are non-dogmatic, optimistic people who believe the American people can build our country by working together.
+* They agree with the BNC platform. They need to believe that America already has everything it needs to fix our economy, our healthcare system, our schools and our justice system -- and that we can just do it if we have the political will.
+* They are non-dogmatic, optimistic people who believe the American people can build our country by working together. They do not believe in any left wing or right wing silver bullet such as simply slashing government or simply growing government will solve all our problems.
+* They do not have any disdain or condescension for any group of Americans and have a high level of empathy.
 * They are good at what they do.
 * They are trusted by the people they currently serve
-* They have, in general, never held or sought public office.
+* They have, in general, never held or sought public office, though this is not a hard and fast rule.
 * They are someone involved in doing work that actually keeps our country going: nurses, teachers, engineers, workers, moms and dads, social workers, veterans, law enforcement, first responders, managers and we could go on and on with this list
-* They have the skills that would make them good candidates up against experienced incumbents -- they’ve got to be able to talk, and to develop a grasp of all the major issues affecting their district.
+* They have the skills that would make them good candidates against experienced incumbents -- they’ve got to be able to talk, and to develop a grasp of all the major issues affecting their district.
+* They are a good fit for their district
 
-### A few other things….
+### A few other things...
 * Do not nominate yourself. Ask others to nominate you.
 * Please be patient as we evaluate the nominations we receive. Our nomination process will be open until we announce our slate of candidates. 
 * Candidates do NOT need to want to run. First, we'll find the good people we want to run, then we'll start drafting them to run.
 * We want to elect as many working and middle class people and people of color as possible. Working people and people of color are dramatically underrepresented in Congress today!
 * More than half of the people in America are women — more than half our candidates should be women too! 
 
-### Types of districts we’ll be running in
+### Tips to check that the candidate is a good fit for their district
 
 The Brand New Congress will be running in over 400 districts across America - blue, red, and purple. Here are some things to note about the types of districts we’ll be running in:
 * Do not nominate Democrats for Republican districts.
 * Do not nominate white people for majority person of color districts 
 * In conservative Christian districts, candidates must come from the conservative Christian culture! There are tons of Christians who share and practice values of progressive social and economic justice.  
 * In Democratic districts, candidates must come from a democratic, progressive background! That does not necessarily mean activists or organizers who have worked on political campaigns. 
-
-## Getting ready for the candidate search
-Our main focus right now is building our slate of BNC candidates, which means that the best way to help us out is continuing to nominate and research potential candidates! Please take the following steps to get started volunteering:
-* [Sign up for a candidate nomination orientation call](/call) to learn more about our candidate search, ask questions, solicit feedback, and report back updates from your research experience!
-* [Use this guide on candidate search best practices](https://docs.google.com/document/d/1_Aob44aXGpc6OVOxzLNMSW-9_Hs7m5nghKYBGoeuUlE/edit?usp=sharing). Each person looking for candidates will find their own personal flow of how to best work. This document goes over some thoughts on the candidate search process, how to track district searches so we don’t double up on efforts, how to search smart and what tools to use that will help you along the way. If you have suggestions for how to improve this guide or tips we shuold add, please send them to us@brandnewcongress.org.
 
 ## Find out what we're looking for in your specific district:
 If you have insights or corrections you think should be made to one of our wiki pages, please email them to us@brandnewcongress.org.

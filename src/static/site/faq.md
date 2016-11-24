@@ -10,23 +10,7 @@ We know this will be difficult, but it will be easier to replace nearly all of C
 
 ### Who will the candidates be?
 
-We’re looking for people from all walks of life and all fields of our economy and society, representing every community, who fit these criteria:
-
-* They are working people with a track record of serving their communities in their jobs, neighborhoods, religious organizations, charities, etc.
-* We can tell from their life stories that they won't sell out in DC, because many of their life choices have put others in front of their self interest.
-* They agree with the BNC platform.
-* They are good at what they do.
-* They are non-dogmatic, optimistic people who believe the American people can build our country by working together.
-* They are trusted by the people they currently serve
-* They have, in general, never held or sought public office.
-* They are someone involved in doing work that actually keeps our country going: nurses, teachers, engineers, workers, moms and dads, social workers, veterans, law enforcement, first responders, managers and we could go on and on with this list
-* They have the skills that would make them good candidates up against experienced incumbents -- they’ve got to be able to talk, and to develop a grasp of all the major issues affecting their district.
-
-BNC candidates also need to be people who believe that America already has everything it needs to fix our economy, our healthcare system, our schools and our justice system -- and that we can do it by working hard as people together. Like the vast majority of Americans, we don’t believe in any right wing OR left wing ideological silver bullet that will magically fix our problems. So we’re ruling out anyone who for example believes that simply slashing government will solve everything -- and we’re ALSO ruling out anyone who believes that simply growing government will solve everything.
-
-We also want to elect as many working and middle class people and people of color as possible. Working people and people of color are dramatically underrepresented in Congress today! We also intend to have more than half our candidates be women as more than half of the people in this country are women.
-
-We’ve got very high standards for our candidates -- which makes finding them very difficult work -- and which is why we really need YOUR help! We need you to submit [nominations of candidates in your district](/nominate)! Right now, we’re making a list of potential candidates for each district, and then we’re going to run a draft campaign to convince them to run.
+Please check out the detailed description of who we are looking for on our [candidate nomination guide](/nominate), and please help us find these people - we need you to submit [nominations of candidates in your district](/nominate)! Right now, we’re making a list of potential candidates for each district, and then we’re going to run a draft campaign to convince them to run.
 
 ### What is the Brand New Congress platform?
 
