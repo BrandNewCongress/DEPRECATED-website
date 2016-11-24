@@ -18,9 +18,9 @@ It will take at least until the end of 2017 to work out all the details of the l
 
 We believe there are obvious solutions to America's biggest problems that the vast majority of Americans would fight for if they were put on the table in a national election. But we don't hear about those solutions because the current bi-partisan establishment agrees 100% on bad trade deals, massive bank bailouts, and supporting the take over of our economy by the financial industry. It also agrees on mass incarceration, allowing the ultrawealthy to have undue influence in our politics, and inaction against an out-of-control "justice" system. It uses partisan bickering over taxes and spending to cover up its consensus on those things that really matter and to pretend that Americans are pitted against each other in partisan grid lock.
 
-##We intend to:
+## We intend to:
 
-### Create good jobs for everyone ready to work by rebuilding America's means of making a living
+## Create good jobs for everyone ready to work by rebuilding America's means of making a living
 The BNC's plan calls for a mobilization on the scale of World War II – one in which every American is called upon to rebuild and repair our communities and our nation. 
 
 Imagine every unemployed person in your community or city suddenly having well-paid work, struggling small businesses suddenly on a level playing field with big business, and all businesses suddenly having access to the same capital, infrastructure and other advantages currently available to them overseas. 
@@ -38,7 +38,7 @@ The Brand New Congress plan will:
 
 [Read more about BNC's plan to rebuild the economy here.](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit?usp=sharing)
 
-### Create a society with liberty and justice for all
+## Create a society with liberty and justice for all
 * **We will get money out of politics once and for all**: This means getting rid of the revolving door between Wall Street and our government. It means repealing Citizens United. It means moving to a publicly financed, transparent system of campaign financing that amplifies small donations. And it means all BNC candidates pledging to never lobby Congress after they're out of office.
 * **We will give every government body new marching orders**: "Your job is to serve the people -- no longer to target, abuse, surveil, micromanage, nickle and dime and belittle the people you were hired to serve." We will back that up by removing government bureaucrats who can't understand or won't comply with their new orders. And we will back it up by cutting out blatant and obvious waste, while providing generous funding and training to the agencies and staff that do the real work and that have been starved of support for decades. 
 * **We will support the demands for justice from all groups that have been targeted by government:** Today just about everyone in America feels targeted by government at some level. What's sad is that they also feel pitted against each other. It's time for the American people to make common cause and see that the cries for justice by all Americans are connected including Black people, small business owners, Native Americans, low income people, rural people, immigrants, disabled people, foster children, Latinos, manufacturers who want to build in America, small town governments, and we could go on and on with this list! 
