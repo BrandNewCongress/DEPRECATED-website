@@ -1,6 +1,8 @@
-## Who's proposing this?
+## Who's behind this?
 
-We're a group of people who got tired of the partisan politics we were seeing in the news. We saw the problems we were facing as a nation, and we just wanted to see solutions. If our current congress wasn't going to do it, we decided we will. Then we'll present that solution to the American people for a vote during the 2018 mid-term elections. Find out more by reading our [Plan](/plan). If you'd like updates or to get involved, [please sign up](/home#sign-up) and someone from Brand New Congress will be in touch. 
+Brand New Congress was originally started by a group of volunteers and staffers from the Bernie Sanders presidential campaign. But we are not just comprised of people from the Bernie Sanders campaign, and we intend to be a big tent for anyone who is tired of partisan politics and wants to just accomplish the big tasks necessary to actually change this country for the better. We don't want to play politics - we see the major problems our nation is facing, and we just want to see solutions. If our current Congress isn't going to do it, then we must. To know more about what we're proposing, check out our [plan](/plan). If you'd like updates or to get involved, [please sign up](/home#sign-up) and someone from Brand New Congress will be in touch. 
+
+Currently, Brand New Congress consists of dozens of volunteers and staff working together. A working group of 8 volunteers and staff led by Nasim, Corbin and Saikat, has been created to lead the effort and drive the overall strategy. Their profiles are listed below:
 
 <a name="alex_rojas"></a>
 <div class="col-lg-3 col-sm-12 col-xs-12">
