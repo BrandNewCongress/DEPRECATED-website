@@ -27,7 +27,7 @@ The Brand New Congress plan will:
 -----
 ## How will BNC do that?
 
-We can only carry out our plan if the American people give our candidates a sweeping majority in Congress and a partner in the White House. It will take at least until 2020 to achieve that. Until then, we'll be running a constant campaign across the whole country to win that majority. In 2018, we'll use however many seats the American people give us to fight as hard as we possibly can for them and show them what we're capable of. We'll shine a light on corruption, act as a watchdog for the people inside the Capital, stop every bad bill and win every part of our plan that we can.  
+We can only carry out our plan if the American people give our candidates a sweeping majority in Congress and a partner in the White House. It will take at least until 2020 to achieve that. Until then, we'll be running a constant campaign across the whole country to win that majority. In 2018, we'll use however many seats the American people give us to fight as hard as we possibly can for them and show them what we're capable of. We'll shine a light on corruption, act as a watchdog for the people inside the Capitol, stop every bad bill and win every part of our plan that we can.  
 
 Once we have a majority, Brand New Congress will govern like America has never seen in peacetime before: by actually getting stuff done! There will be no debating or horse trading -- because the BNC candidates all enter Congress already having agreed on the plan. We'll have all the legislation written and published for review by the people BEFORE the 2018 election! It's what the American people will have elected us to pass -- and we will pass it on Day One. 
 
