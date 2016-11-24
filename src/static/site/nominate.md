@@ -16,7 +16,7 @@ Our main focus right now is building our slate of BNC candidates, which means th
 ## What we're looking for in a candidate
 We’re looking for people from all walks of life and all fields of our economy and society, representing every community, who fit these criteria:
 
-* They are respected working people with a track record of serving their communities in their jobs, neighborhoods, religious organizations, charities, etc.
+* They are respected in their communities with a track record of service in their jobs, neighborhoods, religious organizations, charities, etc.
 * We can tell from their life stories that they won't sell out in DC, because many of their life choices have put others in front of their self interest.
 * They agree with the BNC platform. They need to believe that America already has everything it needs to fix our economy, our healthcare system, our schools and our justice system -- and that we can just do it if we have the political will.
 * They are non-dogmatic, optimistic people who believe the American people can build our country by working together. They do not believe in any left wing or right wing silver bullet such as simply slashing government or simply growing government will solve all our problems.
@@ -24,7 +24,7 @@ We’re looking for people from all walks of life and all fields of our economy 
 * They are good at what they do.
 * They are trusted by the people they currently serve
 * They have, in general, never held or sought public office, though this is not a hard and fast rule.
-* They are someone involved in doing work that actually keeps our country going: nurses, teachers, engineers, workers, moms and dads, social workers, veterans, law enforcement, first responders, managers and we could go on and on with this list
+* They are ideally someone involved in doing work that actually keeps our country going: nurses, teachers, engineers, workers, moms and dads, social workers, veterans, law enforcement, first responders, managers and we could go on and on with this list
 * They have the skills that would make them good candidates against experienced incumbents -- they’ve got to be able to talk, and to develop a grasp of all the major issues affecting their district.
 * They are a good fit for their district
 
