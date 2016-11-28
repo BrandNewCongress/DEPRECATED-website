@@ -40,13 +40,13 @@ export default class ConferenceCallsList extends React.Component {
     }
     return (
       <ul>
-        {this.state.conferenceCalls.map((call) => {
+        {this.state.conferenceCalls.map((call, index) => {
           const freeSlots = this.props.maxSignups - call.currentSignups
           if (freeSlots < 1) {
             return null
           }
           return (
-            <li>
+            <li key={index}>
               <a
                 className={styles.link}
                 href={call.registrationLink}
