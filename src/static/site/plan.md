@@ -22,7 +22,7 @@ The Brand New Congress plan will:
 * **We will give every government body new marching orders**: "Your job is to serve the people -- no longer to target, abuse, surveil, micromanage, nickle and dime and belittle the people you were hired to serve." We will back that up by removing government bureaucrats who can't understand or won't comply with their new orders. And we will back it up by cutting out blatant and obvious waste, while providing generous funding and training to the agencies and staff that do the real work and that have been starved of support for decades. 
 * **We will support the demands for justice from all groups that have been targeted by government:** Today just about everyone in America feels targeted by government at some level. What stops us from undoing this is that they also feel pitted against each other. It's time for the American people to make common cause and see that the cries for justice by all Americans are heard. And we mean everyone: Black people, small business owners, Native Americans, low income people, rural people, immigrants, disabled people, foster children, Latinos, manufacturers who want to build in America, small towns and , and we could go on and on with this list! 
 * **We will overhaul the IRS and the tax code** to stop targeting small business owners and working people who are just trying to make ends meet while turning a blind eye to tax evasion by multi-billionaires and giant corporations. 
-----------
+
 # The Brand New Congress strategy
 ## How can a campaign this big succeed?
 
