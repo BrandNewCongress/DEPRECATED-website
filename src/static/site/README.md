@@ -9,7 +9,7 @@ To edit an existing page:
 1. Click into the page here and then click the pencil icon at the top right corner of the page.
 2. After making your edits, scroll down, give your edit a name and a description of what you did.
 3. Click "Propose this file change".
-4. This will lead you to a screen showing the difference between what existed and what you propesed.  Click "Create pull request" to confirm the proposed change.
+4. This will lead you to a screen showing the difference between what existed and what you proposed.  Click "Create pull request" to confirm the proposed change.
 5. Click "Create pull request" once more with any additional information you'd like to provide.
 6. Your "pull request" will show up on [the website pull requests page](https://github.com/BrandNewCongress/website/pulls).
 
