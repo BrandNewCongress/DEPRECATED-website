@@ -11,7 +11,7 @@ The Brand New Congress plan will:
 1. Invest trillions of dollars to rebuild and repair towns, cities and rural areas that politicians have allowed to disintegrate for half a century.
 2. Spend exactly what it will take to repair our nation’s broken infrastructure – which is $3.6 trillion according to the American Society of Civil Engineers.
 3. Put small business on the same playing field as big business by rewriting the tax code and revamping government regulations across the board.
-4. Build the inevitable renewable energy economy now, creating tens of millions of good high-tech jobs and saving people many trillions of dollars – because energy from the wind and sun is much cheaper in the long run.
+4. Build the inevitable cheap, renewable energy economy now, creating tens of millions of good high-tech jobs and saving people many trillions of dollars – because energy from the wind and sun is much cheaper in the long run.
 5. Solve the healthcare mess once and for all by making Medicare available to anyone who wants it, and letting insurance companies fend for themselves in a truly free market.
 6. Invest in new-tech industries that will provide millions of high wage jobs – just like all successful industrialized countries are doing right now.
 
