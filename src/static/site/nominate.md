@@ -1,4 +1,7 @@
 ## [Join a call to learn about how you can help us find candidates to run for Congress in 2018!](/call)
+<div style="width:100%;text-align:center;margin-top:10px;margin-bottom:10px">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OdF7_GeaVso" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ------
 
