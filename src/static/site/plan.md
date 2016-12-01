@@ -8,20 +8,23 @@ If the government can spend trillions of dollars to subsidize the failures of Wa
 
 The Brand New Congress plan will:
 
-1. Invest trillions of dollars to rebuild and repair towns, cities and rural areas that politicians have allowed to disintegrate for half a century.
-2. Spend exactly what it will take to repair our nation’s broken infrastructure – which is $3.6 trillion according to the American Society of Civil Engineers.
-3. Put small business on the same playing field as big business by rewriting the tax code and revamping government regulations across the board.
-4. Build the inevitable cheap, renewable energy economy now, creating tens of millions of good high-tech jobs and saving people many trillions of dollars – because energy from the wind and sun is much cheaper in the long run.
-5. Solve the healthcare mess once and for all by making Medicare available to anyone who wants it, and letting insurance companies fend for themselves in a truly free market.
-6. Invest in new-tech industries that will provide millions of high wage jobs – just like all successful industrialized countries are doing right now.
+* **Invest trillions of dollars in new industries** that will provide millions of high wage jobs – just like all successful industrialized countries are doing right now.
+* **Invest trillions of dollars to rebuild and repair towns**, cities and rural areas that politicians have allowed to disintegrate for half a century.
+* **Spend exactly what it will take to repair our nation’s broken infrastructure** – which is $3.6 trillion according to the American Society of Civil Engineers.
+* **Build the inevitable cheap, renewable energy economy now**, creating tens of millions of good high-tech jobs and saving people many trillions of dollars – because energy from the wind and sun is much cheaper in the long run.
+* **Overhaul the IRS and the tax code so that small businesses are on the same playing field as big business** and so that multi-billionaires and large corporations can no longer evade paying the billions in taxes they should owe.
+* **Solve the healthcare mess once and for all by making Medicare available to anyone who wants it**, and letting insurance companies fend for themselves in a truly free market.
+* **Provide free college education and technical training** so that Americans have access to the training they need to get the job they want in this new economy.
 
 [Read more about BNC's plan to rebuild the economy here.](https://docs.google.com/document/d/1sCFs5hqitbXBBqXxU6NULDyvydXqm-ALOqW21dv9P9k/edit?usp=sharing)
 
 ## 2. Liberty and justice for all
 * **We will get money out of politics once and for all**: This means getting rid of the revolving door between Wall Street and our government. It means repealing Citizens United. It means moving to a publicly financed, transparent system of campaign financing that amplifies small donations. And it means all BNC candidates pledging to never lobby Congress after they're out of office.
+* **We will support the demands for justice from all groups that have been targeted by government:** Today just about everyone in America feels targeted by government at some level. What stops us from undoing this is that they also feel pitted against each other. It's time for the American people to make common cause and see that the cries for justice by all Americans are heard. And we mean everyone: Black people, small business owners, Native Americans, low income people, rural people, immigrants, disabled people, foster children, Latinos, manufacturers who want to build in America, small towns, and we could go on and on with this list! 
+* **We will reform our electoral system to create a more perfect democracy**: This will include removing the electoral college, implementing ranked choice voting, creating a holiday on election day, improving the actual mechanics of voting to make it easy to vote and make electoral fraud impossible.
+* **We will refocus our criminal justice system on reducing the number incarcerated**: Our current system simply can't work. Too many people leaving the prison system get no fair shot at getting back into society, so they wind up back in jail. We want to end the school-to-prison pipeline, provide training, education and jobs to prevent repeat offenders, and reduce our total prison population drastically.
+* **We will say no to wars of choice**: Let's stop destabilizing other countries and focus on fixing our own.
 * **We will give every government body new marching orders**: "Your job is to serve the people -- no longer to target, abuse, surveil, micromanage, nickle and dime and belittle the people you were hired to serve." We will back that up by removing government bureaucrats who can't understand or won't comply with their new orders. And we will back it up by cutting out blatant and obvious waste, while providing generous funding and training to the agencies and staff that do the real work and that have been starved of support for decades. 
-* **We will support the demands for justice from all groups that have been targeted by government:** Today just about everyone in America feels targeted by government at some level. What stops us from undoing this is that they also feel pitted against each other. It's time for the American people to make common cause and see that the cries for justice by all Americans are heard. And we mean everyone: Black people, small business owners, Native Americans, low income people, rural people, immigrants, disabled people, foster children, Latinos, manufacturers who want to build in America, small towns and , and we could go on and on with this list! 
-* **We will overhaul the IRS and the tax code** to stop targeting small business owners and working people who are just trying to make ends meet while turning a blind eye to tax evasion by multi-billionaires and giant corporations. 
 
 # The Brand New Congress strategy
 ## How can a campaign this big succeed?
