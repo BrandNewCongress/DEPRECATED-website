@@ -98,7 +98,7 @@ export default class Signup extends React.Component {
               if (this.props.thankYouBody) {
                 this.setState({ submitted: true })
               } else {
-                location.href = 'https://secure.actblue.com/contribute/page/bncsignup'
+                location.href = 'https://secure.actblue.com/contribute/page/bncdec'
               }
             }
           }}

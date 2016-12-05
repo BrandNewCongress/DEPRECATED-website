@@ -244,12 +244,12 @@ export default class Navigation extends Component {
                 secondary
                 label='Contribute'
                 onTouchTap={() => {
-                  window.open('https://secure.actblue.com/contribute/page/bncsignup')
+                  window.open('https://secure.actblue.com/contribute/page/bncdec')
                 }}
               />
             </div>
             <div
-              onClick={() => window.open('https://secure.actblue.com/contribute/page/bncsignup', '_blank')}
+              onClick={() => window.open('https://secure.actblue.com/contribute/page/bncdec', '_blank')}
               className={styles.mobileContributeButton}
             >
               Donate
