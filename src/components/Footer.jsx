@@ -36,7 +36,7 @@ export default () => (
     <a href='http://www.facebook.com/sharer/sharer.php?u=http://brandnewcongress.org&title=Brand+New+Congress' title='Share on Facebook' className={styles.shareIcon}>
       <span className='fa fa-facebook'></span>
     </a>
-    <a href='http://www.reddit.com/submit?url=http://brandnewcongress.org&title=Brand+New+Congress' title='Share on Reddit' target='_blank' className={styles.shareIcon}>
+    <a href='https://www.reddit.com/submit?url=https://brandnewcongress.org/home&title=Brand%20New%20Congress' title='Share on Reddit' target='_blank' className={styles.shareIcon}>
       <span className='fa fa-reddit-alien'></span>
     </a>
     <a href='https://secure.actblue.com/contribute/page/bncdec' target='_blank' className={styles.shareIcon}>
