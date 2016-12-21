@@ -10,7 +10,7 @@ const MailgunSingleton = mailgunConstructor({
   domain: process.env.MAILGUN_DOMAIN
 })
 
-const DefaultSender = 'Brand New Congress <us@brandnewcongress.org>'
+const DefaultSender = 'Brand New Congress <us@notifications.brandnewcongress.org>'
 
 class Mail {
   async sendEmail(data) {
