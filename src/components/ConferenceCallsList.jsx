@@ -20,9 +20,9 @@ export default class ConferenceCallsList extends React.Component {
   }
 
   async componentDidMount() {
-    const calls = await axios.get('https://bnc-website.herokuapp.com/maestro/upcomingConferences', {
+    const calls = await axios.get('https://api.brandnewcongress.org/conference-calls/upcoming', {
       params: {
-        nameContains: this.props.nameFilter
+        name: this.props.nameContains
       }
     })
     this.setState({ conferenceCalls: calls.data.conferences })
