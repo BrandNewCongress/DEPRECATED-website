@@ -8,6 +8,7 @@ import Form from 'react-formal'
 import { StyleSheet } from 'react-look'
 import theme from '../theme'
 import BNCPhoneField from '../components/forms/BNCPhoneField'
+import BNCSelectField from '../components/forms/BNCSelectField'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 
 injectTapEventPlugin()
@@ -15,7 +16,9 @@ injectTapEventPlugin()
 Form.addInputTypes({
   email: BNCTextField,
   text: BNCTextField,
-  tel: BNCPhoneField
+  string: BNCTextField,
+  tel: BNCPhoneField,
+  select: BNCSelectField
 })
 
 const styles = StyleSheet.create({
