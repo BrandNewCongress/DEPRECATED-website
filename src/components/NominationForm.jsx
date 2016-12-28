@@ -529,8 +529,8 @@ export default class NominationForm extends React.Component {
                   <Form.Field
                     name='runForOffice'
                     fixedLabel='Has the nominee run for office before?'
+                    label='Nominee has run for office'
                     type='select'
-                    value='Not Sure'
                     choices={[{
                       label: 'Yes',
                       value: 'Yes'
@@ -541,6 +541,7 @@ export default class NominationForm extends React.Component {
                       label: 'Not Sure',
                       value: 'Not Sure'
                     }]}
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field

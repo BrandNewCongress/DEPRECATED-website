@@ -25,7 +25,7 @@ export default class BNCSelectField extends BNCFormField {
         {this.fixedLabel()}
         <SelectField 
           value={this.props.value} 
-          floatingLabelText={this.props.label}
+          floatingLabelText={this.floatingLabelText()}
           {...this.props}
           onChange={this.handleChange}
         >
