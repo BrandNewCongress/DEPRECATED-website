@@ -317,7 +317,12 @@ export default class NominationForm extends React.Component {
     nomineePhone: yup.string(),
     nomineeCity: yup.string().required(),
     nomineeState: yup.string().required(),
-    nomineeDistrict: yup.string(),
+    nomineeDistrict: yup.string()
+      .test({
+        name: 'is-number',
+        message: '${path} should be entered as a number only',
+        test: (val) => val.match(/^[0-9]*$/) || val.match(/^AL$/)
+      }),
     nomineeFacebook: yup.string()
       .test({
         name: 'is-facebook-link',
@@ -341,7 +346,7 @@ export default class NominationForm extends React.Component {
     work: yup.string().required(),
     publicSpeaking: yup.string().required(),
     politicalViews: yup.string().required(),
-    runForOffice: yup.bool().required(),
+    runForOffice: yup.string().required(),
     officeRunResults: yup.string(),
     otherInfo: yup.string(),
     districtInfo: yup.string(),
@@ -393,6 +398,13 @@ export default class NominationForm extends React.Component {
             schema={this.formSchema}
             onSubmit={async (formValues) => {
               this.setState({ sending: true })
+              const valuesToSubmit = {
+                ...formValues,
+                source: formValues.source || 'BNC Website Submission',
+                sourceDetails: formValues.sourceDetails || '',
+                sourceTeam: formValues.sourceTeam || 'America',
+                submitterEmail: formValues.submitterEmail || formValues.nominaterEmail
+              }
               const response = await axios.post(`${window.BNC_API_URL}/nominations`, formValues)
               this.setState({ sending: false })
               if (response.status !== 200) {
@@ -410,19 +422,25 @@ export default class NominationForm extends React.Component {
                   </div>
                   <Form.Field
                     name='nominatorName'
+                    fixedLabel='Your Name'
                     label='Your Name'
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nominatorEmail'
                     type='email'
+                    fixedLabel='Your Email'
                     label='Your Email'
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nominatorPhone'
                     type='tel'
+                    fixedLabel='Your Phone'
                     label='Your Phone'
+                    hideLabel
                     fullWidth
                   /><br />
                 </div>
@@ -432,51 +450,70 @@ export default class NominationForm extends React.Component {
                   </div>
                   <Form.Field
                     name='nomineeName'
+                    fixedLabel="Nominee's Name"
                     label="Nominee's Name"
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nomineeEmail'
                     type='email'
+                    fixedLabel="Nominee's Email"
                     label="Nominee's Email"
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nomineePhone'
                     type='tel'
+                    fixedLabel="Nominee's Phone"
                     label="Nominee's Phone"
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nomineeCity'
+                    fixedLabel="Nominee's City"
                     label="Nominee's City"
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nomineeState'
                     type='select'
+                    fixedLabel="Nominee's State"
                     label="Nominee's State"
                     choices={states}
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nomineeDistrict'
-                    label="Nominee's District."
+                    fixedLabel="Nominee's Congressional District"
+                    label="Nominee's District"
+                    hintText="A number or 'AL' for at-large"
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nomineeFacebook'
+                    fixedLabel="Nominee's Facebook"
                     label="Nominee's Facebook"
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nomineeLinkedIn'
+                    fixedLabel="Nominee's LinkedIn"
                     label="Nominee's LinkedIn"
+                    hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nomineeTwitter'
+                    fixedLabel="Nominee's Twitter"
                     label="Nominee's Twitter"
+                    hideLabel
                     fullWidth
                   /><br />
                 </div>
