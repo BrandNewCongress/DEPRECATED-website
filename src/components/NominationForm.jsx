@@ -261,7 +261,7 @@ const styles = StyleSheet.create({
     ...theme.text.header,
     fontSize: 18,
     color: theme.colors.orange,
-    paddingBottom: 0
+    marginBottom: 10
   },
   formDescription: {
     ...theme.text.body,
