@@ -7,6 +7,234 @@ import theme from '../theme'
 import { onTablet } from '../media-queries'
 import RaisedButton from 'material-ui/RaisedButton'
 import Snackbar from 'material-ui/Snackbar'
+import axios from 'axios'
+
+const states = [
+  {
+    'label': 'Alabama',
+    'value': 'Alabama',
+  },
+  {
+    'label': 'Alaska',
+    'value': 'Alaska',
+  },
+  {
+    'label': 'American Samoa',
+    'value': 'American Samoa',
+  },
+  {
+    'label': 'Arizona',
+    'value': 'Arizona',
+  },
+  {
+    'label': 'Arkansas',
+    'value': 'Arkansas',
+  },
+  {
+    'label': 'California',
+    'value': 'California',
+  },
+  {
+    'label': 'Colorado',
+    'value': 'Colorado',
+  },
+  {
+    'label': 'Connecticut',
+    'value': 'Connecticut',
+  },
+  {
+    'label': 'Delaware',
+    'value': 'Delaware',
+  },
+  {
+    'label': 'District Of Columbia',
+    'value': 'District Of Columbia',
+  },
+  {
+    'label': 'Florida',
+    'value': 'Florida',
+  },
+  {
+    'label': 'Georgia',
+    'value': 'Georgia',
+  },
+  {
+    'label': 'Guam',
+    'value': 'Guam',
+  },
+  {
+    'label': 'Hawaii',
+    'value': 'Hawaii',
+  },
+  {
+    'label': 'Idaho',
+    'value': 'Idaho',
+  },
+  {
+    'label': 'Illinois',
+    'value': 'Illinois',
+  },
+  {
+    'label': 'Indiana',
+    'value': 'Indiana',
+  },
+  {
+    'label': 'Iowa',
+    'value': 'Iowa',
+  },
+  {
+    'label': 'Kansas',
+    'value': 'Kansas',
+  },
+  {
+    'label': 'Kentucky',
+    'value': 'Kentucky',
+  },
+  {
+    'label': 'Louisiana',
+    'value': 'Louisiana',
+  },
+  {
+    'label': 'Maine',
+    'value': 'Maine',
+  },
+  {
+    'label': 'Maryland',
+    'value': 'Maryland',
+  },
+  {
+    'label': 'Massachusetts',
+    'value': 'Massachusetts',
+  },
+  {
+    'label': 'Michigan',
+    'value': 'Michigan',
+  },
+  {
+    'label': 'Minnesota',
+    'value': 'Minnesota',
+  },
+  {
+    'label': 'Mississippi',
+    'value': 'Mississippi',
+  },
+  {
+    'label': 'Missouri',
+    'value': 'Missouri',
+  },
+  {
+    'label': 'Montana',
+    'value': 'Montana',
+  },
+  {
+    'label': 'Nebraska',
+    'value': 'Nebraska',
+  },
+  {
+    'label': 'Nevada',
+    'value': 'Nevada',
+  },
+  {
+    'label': 'New Hampshire',
+    'value': 'New Hampshire',
+  },
+  {
+    'label': 'New Jersey',
+    'value': 'New Jersey',
+  },
+  {
+    'label': 'New Mexico',
+    'value': 'New Mexico',
+  },
+  {
+    'label': 'New York',
+    'value': 'New York',
+  },
+  {
+    'label': 'North Carolina',
+    'value': 'North Carolina',
+  },
+  {
+    'label': 'North Dakota',
+    'value': 'North Dakota',
+  },
+  {
+    'label': 'Northern Mariana Islands',
+    'value': 'Northern Mariana Islands',
+  },
+  {
+    'label': 'Ohio',
+    'value': 'Ohio',
+  },
+  {
+    'label': 'Oklahoma',
+    'value': 'Oklahoma',
+  },
+  {
+    'label': 'Oregon',
+    'value': 'Oregon',
+  },
+  {
+    'label': 'Pennsylvania',
+    'value': 'Pennsylvania',
+  },
+  {
+    'label': 'Puerto Rico',
+    'value': 'Puerto Rico',
+  },
+  {
+    'label': 'Rhode Island',
+    'value': 'Rhode Island',
+  },
+  {
+    'label': 'South Carolina',
+    'value': 'South Carolina',
+  },
+  {
+    'label': 'South Dakota',
+    'value': 'South Dakota',
+  },
+  {
+    'label': 'Tennessee',
+    'value': 'Tennessee',
+  },
+  {
+    'label': 'Texas',
+    'value': 'Texas',
+  },
+  {
+    'label': 'Utah',
+    'value': 'Utah',
+  },
+  {
+    'label': 'Vermont',
+    'value': 'Vermont',
+  },
+  {
+    'label': 'Virgin Islands',
+    'value': 'Virgin Islands',
+  },
+  {
+    'label': 'Virginia',
+    'value': 'Virginia',
+  },
+  {
+    'label': 'Washington',
+    'value': 'Washington',
+  },
+  {
+    'label': 'West Virginia',
+    'value': 'West Virginia',
+  },
+  {
+    'label': 'Wisconsin',
+    'value': 'Wisconsin',
+  },
+  {
+    'label': 'Wyoming',
+    'value': 'Wyoming',
+  }
+]
 
 const styles = StyleSheet.create({
   container: {
@@ -18,6 +246,10 @@ const styles = StyleSheet.create({
     },
     marginLeft: 'auto',
     marginRight: 'auto'
+  },
+  buttonContainer: {
+    marginLeft: 10,
+    display: 'inline-block'
   },
   formBlock: {
     borderRadius: 5,
@@ -86,9 +318,24 @@ export default class NominationForm extends React.Component {
     nomineeCity: yup.string().required(),
     nomineeState: yup.string().required(),
     nomineeDistrict: yup.string(),
-    nomineeFacebook: yup.string(),
-    nomineeLinkedIn: yup.string(),
-    nomineeTwitter: yup.string(),
+    nomineeFacebook: yup.string()
+      .test({
+        name: 'is-facebook-link',
+        message: '${path} is not a valid Facebook link',
+        test: (val) => !val || !!val.match(/facebook.com/)
+      }),
+    nomineeLinkedIn: yup.string()
+      .test({
+        name: 'is-linkedin-link',
+        message: '${path} is not a valid LinkedIn link',
+        test: (val) => !val || !!val.match(/linkedin.com/)
+      }),
+    nomineeTwitter: yup.string()
+      .test({
+        name: 'is-twitter-link',
+        message: '${path}is not a valid Twitter link',
+        test: (val) => !val || !!val.match(/twitter.com/)
+      }),
     relationship: yup.string().required(),
     leadership: yup.string().required(),
     work: yup.string().required(),
@@ -117,11 +364,14 @@ export default class NominationForm extends React.Component {
 
   renderPostSubmission() {
     return (
-      <div>
-        Thank you for submitting your nomination! We review every nomination we get. 
-        <RaisedButton
-          label='Submit another!'
-        />
+      <div className={styles.container}>
+        Thank you for submitting your nomination! We review every nomination we get.
+        <div className={styles.buttonContainer}>
+          <RaisedButton
+            label='Submit another!'
+            onTouchTap={() => { this.setState({ submitted: false }) }}
+          />
+        </div>
       </div>
     )
   }
@@ -143,6 +393,13 @@ export default class NominationForm extends React.Component {
             schema={this.formSchema}
             onSubmit={async (formValues) => {
               this.setState({ sending: true })
+              const response = await axios.post(`${window.BNC_API_URL}/nominations`, formValues)
+              this.setState({ sending: false })
+              if (response.status !== 200) {
+                this.setState({ error: true })
+              } else {
+                this.setState({ submitted: true })
+              }
             }}
           >
             <div className={styles.formSectionsContainer}>
@@ -171,7 +428,7 @@ export default class NominationForm extends React.Component {
                 </div>
                 <div className={styles.formBlock}>
                   <div className={styles.formBlockHeader}>
-                    About Your Nominee - Basics
+                    About The Nominee - Basics
                   </div>
                   <Form.Field
                     name='nomineeName'
@@ -179,7 +436,7 @@ export default class NominationForm extends React.Component {
                     fullWidth
                   /><br />
                   <Form.Field
-                    name='nomineePhone'
+                    name='nomineeEmail'
                     type='email'
                     label="Nominee's Email"
                     fullWidth
@@ -197,12 +454,14 @@ export default class NominationForm extends React.Component {
                   /><br />
                   <Form.Field
                     name='nomineeState'
+                    type='select'
                     label="Nominee's State"
+                    choices={states}
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nomineeDistrict'
-                    label="Nominee's District"
+                    label="Nominee's District."
                     fullWidth
                   /><br />
                   <Form.Field
@@ -225,7 +484,7 @@ export default class NominationForm extends React.Component {
               <div className={styles.formSection}>
                 <div className={styles.formBlock}>
                   <div className={styles.formBlockHeader}>
-                    About Your Nominee - Details
+                    About The Nominee - Details
                   </div>
                   <Form.Field
                     name='relationship'
@@ -271,6 +530,7 @@ export default class NominationForm extends React.Component {
                     name='runForOffice'
                     fixedLabel='Has the nominee run for office before?'
                     type='select'
+                    value='Not Sure'
                     choices={[{
                       label: 'Yes',
                       value: 'Yes'

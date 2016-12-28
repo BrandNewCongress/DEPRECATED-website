@@ -57,6 +57,7 @@ export default function renderIndex(html, css, assetMap, store) {
     <div id="mount">${html}</div>
     <script>
       window.INITIAL_STATE = ${JSON.stringify(store.getState())}
+      window.BNC_API_URL = "${process.env.BNC_API_URL}"
     </script>
     <script src="/assets/${assetMap['bundle.js']}"></script>
   </body>

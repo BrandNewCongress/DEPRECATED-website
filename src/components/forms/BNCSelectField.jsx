@@ -5,14 +5,18 @@ import BNCFormField from './BNCFormField'
 
 export default class BNCSelectField extends BNCFormField {
   createMenuItems() {
-    return this.props.choices.map(({ value, label }) => (
+    return this.props.choices.map(({ value, label }, index) => (
         <MenuItem
           value={value}
-          key={value}
+          key={index}
           primaryText={label}
           label={label}
         />
       ))
+  }
+
+  handleChange = (event, index, value) => {
+    this.props.onChange(value)
   }
 
   render() {
@@ -22,10 +26,8 @@ export default class BNCSelectField extends BNCFormField {
         <SelectField 
           value={this.props.value} 
           floatingLabelText={this.props.label}
-          onChange={(event, index, value) => {
-            this.props.onChange(value)
-          }}
           {...this.props}
+          onChange={this.handleChange}
         >
           {this.createMenuItems()}
         </SelectField>
