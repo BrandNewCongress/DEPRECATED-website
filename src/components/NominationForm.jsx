@@ -320,7 +320,7 @@ export default class NominationForm extends React.Component {
       .test({
         name: 'is-number',
         message: "${path} should be entered as a number only. Leave blank if you don't know.",
-        test: (val) => val.match(/^[0-9]*$/) || val.match(/^AL$/)
+        test: (val) => !val || val.match(/^[0-9]*$/) || val.match(/^AL$/)
       }),
     nomineeFacebook: yup.string(),
     nomineeLinkedIn: yup.string(),
@@ -353,6 +353,82 @@ export default class NominationForm extends React.Component {
     })
   }
 
+  renderSubmitterSection() {
+    if (this.props.internal) {
+      return (
+        <div className={styles.formBlock}>
+          <div className={styles.formBlockHeader}>
+            About You (The Submitter)
+          </div>
+          <div className={styles.formSectionsContainer}>
+            <div className={styles.formSection}>
+              <Form.Field
+                name='source'
+                label='Source'
+                fixedLabel='Source'
+                type='select'
+                choices={[{
+                  label: 'Nominator Call',
+                  value: 'Nominator Call'
+                }, {
+                  label: 'Research',
+                  value: 'Research'
+                }, {
+                  label: 'Personal Contact',
+                  value: 'Personal Contact'
+                }]}
+                hideLabel
+                fullWidth
+              />
+              <Form.Field
+                name='sourceDetails'
+                label='Source Details'
+                fixedLabel='Source Details'
+                hideLabel
+                multiLine
+                fullWidth
+              />
+            </div>
+            <div className={styles.formSection}>
+              <Form.Field
+                name='sourceTeamName'
+                label='* Your Team'
+                fixedLabel='Your Team'
+                type='select'
+                choices={[{
+                  label: 'BNC Staff',
+                  value: 'BNC Staff'
+                }, {
+                  label: 'Call Team',
+                  value: 'Call Team'
+                }, {
+                  label: 'Help Desk',
+                  value: 'Help Desk'
+                }, {
+                  label: 'Research Team',
+                  value: 'Research Team'
+                }, {
+                  label: 'No Team',
+                  value: 'No Team'
+                }]}
+                hideLabel
+                fullWidth
+              />
+              <Form.Field
+                name='submitterEmail'
+                label='Your Email'
+                fixedLabel='Your Email'
+                hideLabel
+                fullWidth
+              />     
+            </div>
+          </div>
+        </div>
+      )
+    }
+    return ''
+  }
+
   renderPostSubmission() {
     return (
       <div className={styles.container}>
@@ -368,29 +444,20 @@ export default class NominationForm extends React.Component {
   }
 
   renderNominationForm() {
+    let nominator = 'Your'
+    if (this.props.internal) {
+      nominator = 'Nominator\'s'
+    }
     return (
       <div className={styles.container}>
         <div className={styles.formHeader}>
           Nominate a Candidate
-        </div>
-        <div className={styles.formDescription}>
-          If this is your first time here, please read the information <a href='https://brandnewcongress.org/nominate'>on the nomination guide</a> before making your nomination. Please only nominate people who fit BNC's criteria.  Please do not nominate yourself. If you fit the criteria, please get someone else to nominate you!
-        </div>
-        <div className={styles.formDescription}>
-          We’ve got very high standards for our candidates, which makes finding them very difficult work! That's why we really need YOUR help!
         </div>
         <div className={styles.formContainer}>
           <BNCForm
             schema={this.formSchema}
             onSubmit={async (formValues) => {
               this.setState({ sending: true })
-              const valuesToSubmit = {
-                ...formValues,
-                source: formValues.source || 'BNC Website Submission',
-                sourceDetails: formValues.sourceDetails || '',
-                sourceTeamName: formValues.sourceTeam || 'America',
-                submitterEmail: formValues.submitterEmail || formValues.nominaterEmail
-              }
               const response = await axios.post(`${window.BNC_API_URL}/nominations`, formValues)
               this.setState({ sending: false })
               if (response.status !== 200) {
@@ -400,32 +467,33 @@ export default class NominationForm extends React.Component {
               }
             }}
           >
+            {this.renderSubmitterSection()}
             <div className={styles.formSectionsContainer}>
               <div className={styles.formSection}>
                 <div className={styles.formBlock}>
                   <div className={styles.formBlockHeader}>
-                    About You
+                    {`About ${this.props.internal ? 'The Nominator' : 'You'}`}
                   </div>
                   <Form.Field
                     name='nominatorName'
-                    fixedLabel='Your Name'
-                    label='Your Name'
+                    fixedLabel={`* ${nominator} Name`}
+                    label={`${nominator} Name`}
                     hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nominatorEmail'
                     type='email'
-                    fixedLabel='Your Email'
-                    label='Your Email'
+                    fixedLabel={`* ${nominator} Email`}
+                    label={`${nominator} Email'`}
                     hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='nominatorPhone'
                     type='tel'
-                    fixedLabel='Your Phone'
-                    label='Your Phone'
+                    fixedLabel={`* ${nominator} Phone`}
+                    label={`${nominator} Phone`}
                     hideLabel
                     fullWidth
                   /><br />
@@ -436,8 +504,32 @@ export default class NominationForm extends React.Component {
                   </div>
                   <Form.Field
                     name='nomineeName'
-                    fixedLabel="Nominee's Name"
+                    fixedLabel="* Nominee's Name"
                     label="Nominee's Name"
+                    hideLabel
+                    fullWidth
+                  /><br />
+                  <Form.Field
+                    name='nomineeCity'
+                    fixedLabel="* Nominee's City"
+                    label="Nominee's City"
+                    hideLabel
+                    fullWidth
+                  /><br />
+                  <Form.Field
+                    name='nomineeState'
+                    type='select'
+                    fixedLabel="* Nominee's State"
+                    label="Nominee's State"
+                    choices={states}
+                    hideLabel
+                    fullWidth
+                  /><br />
+                  <Form.Field
+                    name='nomineeDistrict'
+                    fixedLabel="Nominee's Congressional District"
+                    label="Nominee's District"
+                    hintText="A number or 'AL' for at-large"
                     hideLabel
                     fullWidth
                   /><br />
@@ -454,30 +546,6 @@ export default class NominationForm extends React.Component {
                     type='tel'
                     fixedLabel="Nominee's Phone"
                     label="Nominee's Phone"
-                    hideLabel
-                    fullWidth
-                  /><br />
-                  <Form.Field
-                    name='nomineeCity'
-                    fixedLabel="Nominee's City"
-                    label="Nominee's City"
-                    hideLabel
-                    fullWidth
-                  /><br />
-                  <Form.Field
-                    name='nomineeState'
-                    type='select'
-                    fixedLabel="Nominee's State"
-                    label="Nominee's State"
-                    choices={states}
-                    hideLabel
-                    fullWidth
-                  /><br />
-                  <Form.Field
-                    name='nomineeDistrict'
-                    fixedLabel="Nominee's Congressional District"
-                    label="Nominee's District"
-                    hintText="A number or 'AL' for at-large"
                     hideLabel
                     fullWidth
                   /><br />
@@ -515,15 +583,15 @@ export default class NominationForm extends React.Component {
                   <Form.Field
                     name='relationship'
                     multiLine
-                    fixedLabel='How do you know the nominee/how did you meet?'
-                    label='Your relationship to the nominee'
+                    fixedLabel='* How do you know the nominee/how did you meet?'
+                    label={`${nominator} relationship to the nominee`}
                     hideLabel
                     fullWidth
                   /><br />
                   <Form.Field
                     name='leadership'
                     multiLine
-                    fixedLabel='How has the nominee served or been a leader in their community? Please give us at least one specific example of how the nominee has sought to help others, led others, or tried to make the world a better place.'
+                    fixedLabel='* How has the nominee served or been a leader in their community? Please give us at least one specific example of how the nominee has sought to help others, led others, or tried to make the world a better place.'
                     label="Nominee's service record"
                     hideLabel
                     fullWidth
@@ -531,7 +599,7 @@ export default class NominationForm extends React.Component {
                   <Form.Field
                     name='work'
                     multiLine
-                    fixedLabel="What is the nominee's current and previous occupations?"
+                    fixedLabel="* What is the nominee's current and previous occupations?"
                     label="Nominee's career"
                     hideLabel
                     fullWidth
@@ -539,7 +607,7 @@ export default class NominationForm extends React.Component {
                   <Form.Field
                     name='publicSpeaking'
                     multiLine
-                    fixedLabel='Is the nominee good at public speaking? Please give us at least one specific example of how the nominee has sought to help others, led others, or tried to make the world a better place.'
+                    fixedLabel='* Is the nominee good at public speaking? Please give us at least one specific example of how the nominee has sought to help others, led others, or tried to make the world a better place.'
                     label="Nominee's public speaking"                    
                     hideLabel
                     fullWidth
@@ -547,7 +615,7 @@ export default class NominationForm extends React.Component {
                   <Form.Field
                     name='politicalViews'
                     multiLine
-                    fixedLabel="What are the nominee's political views? Do you think they would support the BNC plan?"
+                    fixedLabel="* What are the nominee's political views? Do you think they would support the BNC plan?"
                     label="Nominee's political views"
                     hideLabel
                     fullWidth
@@ -555,7 +623,7 @@ export default class NominationForm extends React.Component {
                   <Form.Field
                     name='politicalParty'
                     multiLine
-                    fixedLabel='What, if any, party is the nominee registered for or consistently vote for?'
+                    fixedLabel='* What, if any, party is the nominee registered for or consistently vote for?'
                     type='select'
                     choices={[{
                       label: 'Democrat',
@@ -579,7 +647,7 @@ export default class NominationForm extends React.Component {
                   /><br />
                   <Form.Field
                     name='runForOffice'
-                    fixedLabel='Has the nominee run for office before?'
+                    fixedLabel='* Has the nominee run for office before?'
                     label='Nominee has run for office'
                     type='select'
                     choices={[{
@@ -652,6 +720,6 @@ export default class NominationForm extends React.Component {
   }
 
   render() {
-    return this.state.submitted ? this.renderPostSubmission() : this.renderNominationForm()  
+    return this.state.submitted ? this.renderPostSubmission() : this.renderNominationForm()
   }
 }
