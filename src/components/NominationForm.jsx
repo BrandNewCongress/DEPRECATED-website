@@ -405,8 +405,8 @@ export default class NominationForm extends React.Component {
                   label: 'Help Desk',
                   value: 'Help Desk'
                 }, {
-                  label: 'Research Team',
-                  value: 'Research Team'
+                  label: 'Candidate Research Team',
+                  value: 'Candidate Research Team'
                 }, {
                   label: 'No Team',
                   value: 'No Team'
