@@ -306,7 +306,6 @@ export default class NominationForm extends React.Component {
     nominatorName: yup.string()
       .required(),
     nominatorEmail: yup.string()
-      .transform((value) => value.replace(/\s/g, ''))
       .required()
       .email(),
     nominatorPhone: yup.string()
@@ -320,37 +319,24 @@ export default class NominationForm extends React.Component {
     nomineeDistrict: yup.string()
       .test({
         name: 'is-number',
-        message: '${path} should be entered as a number only',
+        message: "${path} should be entered as a number only. Leave blank if you don't know.",
         test: (val) => val.match(/^[0-9]*$/) || val.match(/^AL$/)
       }),
-    nomineeFacebook: yup.string()
-      .test({
-        name: 'is-facebook-link',
-        message: '${path} is not a valid Facebook link',
-        test: (val) => !val || !!val.match(/facebook.com/)
-      }),
-    nomineeLinkedIn: yup.string()
-      .test({
-        name: 'is-linkedin-link',
-        message: '${path} is not a valid LinkedIn link',
-        test: (val) => !val || !!val.match(/linkedin.com/)
-      }),
-    nomineeTwitter: yup.string()
-      .test({
-        name: 'is-twitter-link',
-        message: '${path}is not a valid Twitter link',
-        test: (val) => !val || !!val.match(/twitter.com/)
-      }),
+    nomineeFacebook: yup.string(),
+    nomineeLinkedIn: yup.string(),
+    nomineeTwitter: yup.string(),
     relationship: yup.string().required(),
     leadership: yup.string().required(),
     work: yup.string().required(),
     publicSpeaking: yup.string().required(),
     politicalViews: yup.string().required(),
+    politicalParty: yup.string().required(),
     runForOffice: yup.string().required(),
     officeRunResults: yup.string(),
     otherInfo: yup.string(),
     districtInfo: yup.string(),
     source: yup.string(),
+    sourceDetails: yup.string(),
     sourceTeamName: yup.string(),
     submitterEmail: yup.string().email()
   })
@@ -402,7 +388,7 @@ export default class NominationForm extends React.Component {
                 ...formValues,
                 source: formValues.source || 'BNC Website Submission',
                 sourceDetails: formValues.sourceDetails || '',
-                sourceTeam: formValues.sourceTeam || 'America',
+                sourceTeamName: formValues.sourceTeam || 'America',
                 submitterEmail: formValues.submitterEmail || formValues.nominaterEmail
               }
               const response = await axios.post(`${window.BNC_API_URL}/nominations`, formValues)
@@ -499,6 +485,7 @@ export default class NominationForm extends React.Component {
                     name='nomineeFacebook'
                     fixedLabel="Nominee's Facebook"
                     label="Nominee's Facebook"
+                    hintText="E.g. 'http://facebook.com/gwashington'"
                     hideLabel
                     fullWidth
                   /><br />
@@ -506,6 +493,7 @@ export default class NominationForm extends React.Component {
                     name='nomineeLinkedIn'
                     fixedLabel="Nominee's LinkedIn"
                     label="Nominee's LinkedIn"
+                    hintText="E.g. 'http://linkedin.com/in/george-washington'"
                     hideLabel
                     fullWidth
                   /><br />
@@ -513,6 +501,7 @@ export default class NominationForm extends React.Component {
                     name='nomineeTwitter'
                     fixedLabel="Nominee's Twitter"
                     label="Nominee's Twitter"
+                    hintText="E.g. 'http://twitter.com/gwashington'"
                     hideLabel
                     fullWidth
                   /><br />
@@ -558,8 +547,33 @@ export default class NominationForm extends React.Component {
                   <Form.Field
                     name='politicalViews'
                     multiLine
-                    fixedLabel="What are the nominee's political views? Do you think they would support the BNC plan? Do they identify with any political party?"
+                    fixedLabel="What are the nominee's political views? Do you think they would support the BNC plan?"
                     label="Nominee's political views"
+                    hideLabel
+                    fullWidth
+                  /><br />
+                  <Form.Field
+                    name='politicalParty'
+                    multiLine
+                    fixedLabel="Does the nominee identify with a political party? Has he/she consistently voted for one party?"
+                    type='select'
+                    choices={[{
+                      label: 'Democrat',
+                      value: 'Democrat'
+                    }, {
+                      label: 'Republican',
+                      value: 'Republican'
+                    }, {
+                      label: 'Green',
+                      value: 'Green'
+                    }, {
+                      label: 'Independent',
+                      value: 'Independent'
+                    }, {
+                      label: 'Unknown'
+                      value: 'Unknown'
+                    }]}
+                    label="Nominee's political party"
                     hideLabel
                     fullWidth
                   /><br />
@@ -575,8 +589,8 @@ export default class NominationForm extends React.Component {
                       label: 'No',
                       value: 'No'
                     }, {
-                      label: 'Not Sure',
-                      value: 'Not Sure'
+                      label: 'Unknown',
+                      value: 'Unknown'
                     }]}
                     hideLabel
                     fullWidth
