@@ -555,7 +555,7 @@ export default class NominationForm extends React.Component {
                   <Form.Field
                     name='politicalParty'
                     multiLine
-                    fixedLabel="Does the nominee identify with a political party? Has he/she consistently voted for one party?"
+                    fixedLabel='What, if any, party is the nominee registered for or consistently vote for?'
                     type='select'
                     choices={[{
                       label: 'Democrat',
