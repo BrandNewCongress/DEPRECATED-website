@@ -553,7 +553,7 @@ export default class NominationForm extends React.Component {
                     name='nomineeFacebook'
                     fixedLabel="Nominee's Facebook"
                     label="Nominee's Facebook"
-                    hintText="E.g. 'http://facebook.com/gwashington'"
+                    hintText="E.g. 'facebook.com/gwashington'"
                     hideLabel
                     fullWidth
                   /><br />
@@ -561,7 +561,7 @@ export default class NominationForm extends React.Component {
                     name='nomineeLinkedIn'
                     fixedLabel="Nominee's LinkedIn"
                     label="Nominee's LinkedIn"
-                    hintText="E.g. 'http://linkedin.com/in/george-washington'"
+                    hintText="E.g. 'linkedin.com/in/george-washington'"
                     hideLabel
                     fullWidth
                   /><br />
@@ -569,7 +569,7 @@ export default class NominationForm extends React.Component {
                     name='nomineeTwitter'
                     fixedLabel="Nominee's Twitter"
                     label="Nominee's Twitter"
-                    hintText="E.g. 'http://twitter.com/gwashington'"
+                    hintText="E.g. 'twitter.com/gwashington'"
                     hideLabel
                     fullWidth
                   /><br />
