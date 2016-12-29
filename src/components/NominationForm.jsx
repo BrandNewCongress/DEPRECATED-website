@@ -570,7 +570,7 @@ export default class NominationForm extends React.Component {
                       label: 'Independent',
                       value: 'Independent'
                     }, {
-                      label: 'Unknown'
+                      label: 'Unknown',
                       value: 'Unknown'
                     }]}
                     label="Nominee's political party"
