@@ -1,3 +1,5 @@
+# THIS REPOSITORY IS DEPRECATED. LATEST BNC WEBSITE IS NOW HOSTED ON SITETHEORY WITH CODE HOSTED ON [https://github.com/BrandNewCongress/website](https://github.com/BrandNewCongress/website)
+
 # Brand New Congress Website!
 
 This is the project hosting the [Brand New Congress](http://brandnewcongress.org)
